@@ -11,18 +11,10 @@ class SpinBottleModel: ObservableObject {
     @Published var isAnimating: Bool = false
     
     func spinBottle() {
-//        if !isAnimating {
-//            isAnimating.toggle()
-//        }
-      
         hasGameStarted = true
         rand = Double.random(in: 1...540)
         spinDegrees += 1260.0 + rand
         newAngle = getAngle(angle: spinDegrees)
-//        DispatchQueue.main.asyncAfter(deadline: .now() + 3.7) {
-//            self.isAnimating.toggle()
-//        }
-//
     }
     
     func getAngle(angle: Double) -> Double {

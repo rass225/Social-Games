@@ -31,17 +31,22 @@
 		C050609527FF421A00C35785 /* HorseraceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C050609427FF421A00C35785 /* HorseraceUITestsLaunchTests.swift */; };
 		C05060A227FF43EB00C35785 /* GameSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05060A127FF43EB00C35785 /* GameSetup.swift */; };
 		C05060A427FF465700C35785 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05060A327FF465700C35785 /* Modifiers.swift */; };
-		C05060B327FF50D600C35785 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05060B227FF50D600C35785 /* Enums.swift */; };
-		C05060B527FF55B800C35785 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05060B427FF55B800C35785 /* Extensions.swift */; };
+		C05060B527FF55B800C35785 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05060B427FF55B800C35785 /* View.swift */; };
 		C05060B727FF970400C35785 /* HorseRaceSuits.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05060B627FF970400C35785 /* HorseRaceSuits.swift */; };
 		C08848A7282A3F990074EC97 /* ChooserRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08848A6282A3F990074EC97 /* ChooserRules.swift */; };
-		C08848E4282C52350074EC97 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08848E3282C52350074EC97 /* MainView.swift */; };
 		C0884926282C5A900074EC97 /* SwiftUIVisualEffects in Frameworks */ = {isa = PBXBuildFile; productRef = C0884925282C5A900074EC97 /* SwiftUIVisualEffects */; };
 		C0884928282CF7F40074EC97 /* DefaultBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0884927282CF7F40074EC97 /* DefaultBackground.swift */; };
 		C09D900B28339191000E0B04 /* Suits.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09D900A28339191000E0B04 /* Suits.swift */; };
 		C09D900D28339227000E0B04 /* Rank.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09D900C28339227000E0B04 /* Rank.swift */; };
 		C09D900F2833923E000E0B04 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09D900E2833923E000E0B04 /* Size.swift */; };
 		C09D90112833924F000E0B04 /* Games.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09D90102833924F000E0B04 /* Games.swift */; };
+		C09D9013283393CD000E0B04 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09D9012283393CD000E0B04 /* Images.swift */; };
+		C09D90152833941F000E0B04 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09D90142833941F000E0B04 /* Fonts.swift */; };
+		C09D901728339447000E0B04 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09D901628339447000E0B04 /* Colors.swift */; };
+		C09D90192833946A000E0B04 /* Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09D90182833946A000E0B04 /* Gradients.swift */; };
+		C09D901C2833952F000E0B04 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09D901B2833952F000E0B04 /* UIColor.swift */; };
+		C09D901E28339561000E0B04 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09D901D28339561000E0B04 /* Color.swift */; };
+		C09D90202833972F000E0B04 /* EnvironmentValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09D901F2833972F000E0B04 /* EnvironmentValues.swift */; };
 		C0A9EE2A27FFEB9400E69993 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A9EE2927FFEB9400E69993 /* Constants.swift */; };
 		C0A9EE2E27FFEF3400E69993 /* HorceRaceGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A9EE2D27FFEF3400E69993 /* HorceRaceGame.swift */; };
 		C0A9EE312801394F00E69993 /* HorceRaceSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A9EE302801394F00E69993 /* HorceRaceSubviews.swift */; };
@@ -128,16 +133,21 @@
 		C050609427FF421A00C35785 /* HorseraceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorseraceUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C05060A127FF43EB00C35785 /* GameSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSetup.swift; sourceTree = "<group>"; };
 		C05060A327FF465700C35785 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
-		C05060B227FF50D600C35785 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
-		C05060B427FF55B800C35785 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C05060B427FF55B800C35785 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		C05060B627FF970400C35785 /* HorseRaceSuits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorseRaceSuits.swift; sourceTree = "<group>"; };
 		C08848A6282A3F990074EC97 /* ChooserRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooserRules.swift; sourceTree = "<group>"; };
-		C08848E3282C52350074EC97 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		C0884927282CF7F40074EC97 /* DefaultBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultBackground.swift; sourceTree = "<group>"; };
 		C09D900A28339191000E0B04 /* Suits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Suits.swift; sourceTree = "<group>"; };
 		C09D900C28339227000E0B04 /* Rank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rank.swift; sourceTree = "<group>"; };
 		C09D900E2833923E000E0B04 /* Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
 		C09D90102833924F000E0B04 /* Games.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Games.swift; sourceTree = "<group>"; };
+		C09D9012283393CD000E0B04 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		C09D90142833941F000E0B04 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		C09D901628339447000E0B04 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		C09D90182833946A000E0B04 /* Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradients.swift; sourceTree = "<group>"; };
+		C09D901B2833952F000E0B04 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		C09D901D28339561000E0B04 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		C09D901F2833972F000E0B04 /* EnvironmentValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentValues.swift; sourceTree = "<group>"; };
 		C0A9EE2927FFEB9400E69993 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C0A9EE2D27FFEF3400E69993 /* HorceRaceGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorceRaceGame.swift; sourceTree = "<group>"; };
 		C0A9EE302801394F00E69993 /* HorceRaceSubviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorceRaceSubviews.swift; sourceTree = "<group>"; };
@@ -219,11 +229,10 @@
 		C044B80C2808849B00A112C2 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				C09D901A2833951A000E0B04 /* Extensions */,
 				C09D900928339160000E0B04 /* Enumerations */,
-				C05060B227FF50D600C35785 /* Enums.swift */,
 				C0A9EE2927FFEB9400E69993 /* Constants.swift */,
 				C05060A327FF465700C35785 /* Modifiers.swift */,
-				C05060B427FF55B800C35785 /* Extensions.swift */,
 				C0365549281EF09B00CB8D00 /* Appearance.swift */,
 			);
 			path = Utilities;
@@ -277,7 +286,6 @@
 				C0A9EE322803941100E69993 /* AppState.swift */,
 				C036554B281EFC0100CB8D00 /* GameState.swift */,
 				C050607927FF421900C35785 /* ContentView.swift */,
-				C08848E3282C52350074EC97 /* MainView.swift */,
 				C0ACBBDF281313D0005D223D /* Rules */,
 				C044B80D280884BD00A112C2 /* CustomViews */,
 				C044B80C2808849B00A112C2 /* Utilities */,
@@ -330,8 +338,23 @@
 				C09D900C28339227000E0B04 /* Rank.swift */,
 				C09D900E2833923E000E0B04 /* Size.swift */,
 				C09D90102833924F000E0B04 /* Games.swift */,
+				C09D9012283393CD000E0B04 /* Images.swift */,
+				C09D90142833941F000E0B04 /* Fonts.swift */,
+				C09D901628339447000E0B04 /* Colors.swift */,
+				C09D90182833946A000E0B04 /* Gradients.swift */,
 			);
 			path = Enumerations;
+			sourceTree = "<group>";
+		};
+		C09D901A2833951A000E0B04 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C05060B427FF55B800C35785 /* View.swift */,
+				C09D901B2833952F000E0B04 /* UIColor.swift */,
+				C09D901D28339561000E0B04 /* Color.swift */,
+				C09D901F2833972F000E0B04 /* EnvironmentValues.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		C0A9EE2C27FFEF2100E69993 /* Game */ = {
@@ -604,7 +627,10 @@
 				C044B80A280789F500A112C2 /* KingsCupSubviews.swift in Sources */,
 				C0E77760281646AA007CE89F /* ChooserGame.swift in Sources */,
 				C0884928282CF7F40074EC97 /* DefaultBackground.swift in Sources */,
+				C09D90192833946A000E0B04 /* Gradients.swift in Sources */,
 				C0A9EE312801394F00E69993 /* HorceRaceSubviews.swift in Sources */,
+				C09D90202833972F000E0B04 /* EnvironmentValues.swift in Sources */,
+				C09D901C2833952F000E0B04 /* UIColor.swift in Sources */,
 				C0045D3F2824A35900A6331E /* SpinBottleRule.swift in Sources */,
 				C0C759D1281887AF00AB1C96 /* WheelShapes.swift in Sources */,
 				C0C759CD2818619100AB1C96 /* WheelSubviews.swift in Sources */,
@@ -617,6 +643,7 @@
 				C05060A227FF43EB00C35785 /* GameSetup.swift in Sources */,
 				C0365546281E1FE000CB8D00 /* SpinBottleGame.swift in Sources */,
 				C0C759CF2818878700AB1C96 /* WheelModel.swift in Sources */,
+				C09D901E28339561000E0B04 /* Color.swift in Sources */,
 				C0ACBBE3281313E2005D223D /* RuleObjects.swift in Sources */,
 				C036554C281EFC0100CB8D00 /* GameState.swift in Sources */,
 				C09D900F2833923E000E0B04 /* Size.swift in Sources */,
@@ -626,8 +653,9 @@
 				C0E7776E2817705A007CE89F /* MainMenuMenuButton.swift in Sources */,
 				C0E77768281709FB007CE89F /* RouletteSubviews.swift in Sources */,
 				C0F1BA4F2820440A00DBD862 /* ChooserSubviews.swift in Sources */,
-				C05060B527FF55B800C35785 /* Extensions.swift in Sources */,
+				C05060B527FF55B800C35785 /* View.swift in Sources */,
 				C0ACBBEE2813ABBD005D223D /* Burger.swift in Sources */,
+				C09D901728339447000E0B04 /* Colors.swift in Sources */,
 				C0D9C727281A4EAA009B5001 /* WheelComponents.swift in Sources */,
 				C0D9C72F281A5E6B009B5001 /* TitleLabel.swift in Sources */,
 				C044B81B280D080E00A112C2 /* HorseRaceRules.swift in Sources */,
@@ -649,16 +677,16 @@
 				C036553F281B734A00CB8D00 /* TruthOrDareModel.swift in Sources */,
 				C0F03D9C280672E6002CBB88 /* KingsCupShapes.swift in Sources */,
 				C0ACBBE528131CD9005D223D /* RuleView.swift in Sources */,
+				C09D90152833941F000E0B04 /* Fonts.swift in Sources */,
 				C0E7776A28176F42007CE89F /* RulesMenuButton.swift in Sources */,
 				C0D9C729281A4FAD009B5001 /* WheelRules.swift in Sources */,
 				C0BFE7F028121960008BDBD1 /* TruthOrDareRules.swift in Sources */,
 				C0ACBBE828134FEC005D223D /* NeverHaveIEverGame.swift in Sources */,
 				C044B8112808997A00A112C2 /* CardBack.swift in Sources */,
+				C09D9013283393CD000E0B04 /* Images.swift in Sources */,
 				C0D9C72B281A51BA009B5001 /* HorseRaceModel.swift in Sources */,
 				C0E7776C28176F84007CE89F /* MenuLabel.swift in Sources */,
 				C044B81328089C9E00A112C2 /* MainButton.swift in Sources */,
-				C05060B327FF50D600C35785 /* Enums.swift in Sources */,
-				C08848E4282C52350074EC97 /* MainView.swift in Sources */,
 				C0D9C72D281A5789009B5001 /* NeverEverModel.swift in Sources */,
 				C0E77765281700F6007CE89F /* RouletteGame.swift in Sources */,
 			);
@@ -817,7 +845,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 12;
 				DEVELOPMENT_ASSET_PATHS = "\"Horserace/Preview Content\"";
 				DEVELOPMENT_TEAM = Q6B2DLVPJB;
 				ENABLE_PREVIEWS = YES;
@@ -851,7 +879,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 12;
 				DEVELOPMENT_ASSET_PATHS = "\"Horserace/Preview Content\"";
 				DEVELOPMENT_TEAM = Q6B2DLVPJB;
 				ENABLE_PREVIEWS = YES;

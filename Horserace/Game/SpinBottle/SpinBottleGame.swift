@@ -17,12 +17,10 @@ struct SpinBottleGame: View {
                 VStack{
                     RoundedRectangle(cornerSize: CGSize(width: 20, height: 20)).fill(.regularMaterial)
                         .mask{
-                            Image("Bottle")
+                            Images.bottle
                                 .resizable()
                                 .aspectRatio(contentMode: .fit)
                                 .frame(maxHeight: size.width)
-                                
-                
                         }
                         .shadow(color: Color.black.opacity(0.4), radius: 10, x: 0, y: 10)
                         .rotationEffect(Angle(degrees: model.spinDegrees))
@@ -48,10 +46,7 @@ struct SpinBottleGame: View {
                 }
                 .padding(.top, 40)
                 .maxWidth()
-
-            }
-            .padding(.horizontal)
-           
+            }.padding(.horizontal)
         }
         .navigationModifier(game: .spinBottle)
         .gameViewModifier(game: .spinBottle)

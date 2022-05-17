@@ -45,7 +45,7 @@ struct PyramidGame: View {
     var body: some View {
         VStack(spacing: 16){
             PlayersBoard(currentPlayer: $currentPlayer, players: players)
-                .padding(.bottom)
+                .padding(.bottom, 32)
             
             
             
@@ -152,8 +152,6 @@ struct PyramidGame: View {
                         .cornerRadius(8)
                         .opacity(mainLabelOpacity)
                 }
-                
-                
             }
             .padding(.bottom, 24)
             .padding(.bottom, 16)
@@ -229,8 +227,6 @@ struct PyramidGame: View {
             }
             changeBase(index: index)
         }
-        
-        
     }
     
     func isFaceCard(deck: Deck) -> Bool {
@@ -302,8 +298,8 @@ struct PyramidGame: View {
             firstBaseThird.front = 90
             firstBaseFourth.front = 90
             firstBaseFifth.front = 90
-            
         }
+        
         withAnimation(Animation.easeInOut(duration: 0.4).delay(0.4)){
             fifthBase.back = 0
             fourthBaseSecond.back = 0
@@ -323,7 +319,6 @@ struct PyramidGame: View {
             firstBaseFourth.back = 0
             firstBaseFifth.back = 0
         }
-        
     }
     
     func changeBase(index: Int) {
@@ -372,7 +367,6 @@ struct PyramidGame: View {
                 substituteIndex += 1
                 print(substituteIndex)
             }
-            
         } else {
             let cardsOnTable = deck.prefix(upTo: 15)
             let cardInDeck = deck.suffix(from: 15)
@@ -424,6 +418,5 @@ struct PyramidGame: View {
             fourthBaseOpacity = 0.6
             fifthBaseOpacity = 1
         }
-        
     }
 }

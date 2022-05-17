@@ -15,16 +15,13 @@ struct ContentView: View {
             .navigationBarHidden(true)
         }.accentColor(.white)
     }
-    
-    //    init() {
-    //        UINavigationBar.changeAppearance(clear: true)
-    //    }
+
     
     var content: some View {
         GeometryReader { geometry in
             //                let size = (geometry.size.width / 2) - 8
             let size = geometry.size
-            ScrollView{
+            ScrollView(showsIndicators: false){
                 VStack(spacing: 24){
                     HStack(spacing: 24){
                         GameView(.pyramid, size: size, willPulse: true)
@@ -62,12 +59,6 @@ struct ContentView: View {
                 .padding(.bottom, 32)
             }
         }
-        //        .toolbar{
-        //            ToolbarItem(placement: .principal) {
-        //                Text("Sip It")
-        //                    .font(Fonts.title3)
-        //            }
-        //        }
         .navigationBarTitleDisplayMode(.inline)
         .alert(isPresented: $showingAlert) {
             Alert(title: Text("Coming Soon"), message: Text(alertMessage), dismissButton: .default(Text("Done")))

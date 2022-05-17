@@ -31,7 +31,6 @@ class NFingerGestureRecognizer: UIGestureRecognizer {
                 submitTouches()
                 tappedCallback(touchViews, false)
             }
-            
         }
     }
     
@@ -50,7 +49,6 @@ class NFingerGestureRecognizer: UIGestureRecognizer {
             if shouldStartCountdown() {
                 startCountdown()
             }
-            
             if touchViews.isEmpty {
                 hasWinner = false
             }

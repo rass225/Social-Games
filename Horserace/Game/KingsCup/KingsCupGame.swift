@@ -76,8 +76,6 @@ struct KingsCupGame: View {
                 .foregroundColor(Colors.text)
                 .font(.footnote)
                 .opacity(gameStatus == .game ? 1 : 0)
-//                Text("Next player is \(nextPlayer())")
-                    
                 Button(action: {
                     mainButton()
                 }) {

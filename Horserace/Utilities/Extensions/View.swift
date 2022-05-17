@@ -43,41 +43,12 @@ extension View {
                 isDisabled.wrappedValue.toggle()
             }
     }
-}
-
-extension UIColor {
-  convenience init(light: UIColor, dark: UIColor) {
-    self.init { traitCollection in
-      switch traitCollection.userInterfaceStyle {
-      case .light, .unspecified:
-        return light
-      case .dark:
-        return dark
-      @unknown default:
-        return light
-      }
+    
+    func blurEffectStyle(_ style: UIBlurEffect.Style) -> some View {
+        environment(\.blurEffectStyle, style)
     }
-  }
-}
-
-extension Color {
-  init(light: Color, dark: Color) {
-    self.init(UIColor(light: UIColor(light), dark: UIColor(dark)))
-  }
-}
-
-extension UINavigationBar {
-    static func changeAppearance(clear: Bool) {
-        let appearance = UINavigationBarAppearance()
-        
-        if clear {
-            appearance.configureWithTransparentBackground()
-        } else {
-            appearance.configureWithDefaultBackground()
-        }
-        
-        UINavigationBar.appearance().standardAppearance = appearance
-        UINavigationBar.appearance().compactAppearance = appearance
-        UINavigationBar.appearance().scrollEdgeAppearance = appearance
+    
+    func blurEffect() -> some View {
+        ModifiedContent(content: self, modifier: BlurEffectModifier())
     }
 }

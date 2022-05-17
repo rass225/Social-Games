@@ -24,12 +24,18 @@ extension KingsCupGame {
                         showGameOver.toggle()
                     }) {
                         MainButton(label: "Restart")
+                            .overlay(
+                                RoundedRectangle(cornerRadius: 16).stroke(Colors.mainColor, lineWidth: 1)
+                            )
                     }.buttonStyle(PlainButtonStyle())
                     Button(action: {
                         showGameOver.toggle()
                         appState.toMainMenu(withDelay: true)
                     }) {
                         MainButton(label: "Main Menu")
+                            .overlay(
+                                RoundedRectangle(cornerRadius: 16).stroke(Colors.mainColor, lineWidth: 1)
+                            )
                     }.buttonStyle(PlainButtonStyle())
                 }
             }
@@ -55,9 +61,6 @@ extension KingsCupGame {
                         
                 }
                 .clipShape(CupShape())
-                
-                
-                
                 .onAppear {
                     DispatchQueue.main.async {
                         withAnimation(.linear(duration: 2).repeatForever(autoreverses: false)) {

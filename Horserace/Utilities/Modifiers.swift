@@ -1,45 +1,6 @@
 import Foundation
 import SwiftUI
 
-struct GameButtonModifier: ViewModifier {
-    @Environment(\.colorScheme) var colorScheme
-    let color: Color
-    
-    init(game: Games) {
-        let appearance = Appearance()
-        color = appearance.color(game)
-    }
-    func body(content: Content) -> some View {
-        switch colorScheme {
-        case .light:
-            content
-                .background(Material.ultraThinMaterial)
-                .cornerRadius(16)
-            //                .shadow(color: Color.gray.opacity(1), radius: 3, x: 0, y: 0)
-        case .dark:
-            content
-                .background(.white.opacity(0.3))
-                .cornerRadius(16)
-        @unknown default:
-            content
-                .background(color)
-                .cornerRadius(16)
-                .shadow(color: Color.gray.opacity(1), radius: 3, x: 0, y: 0)
-            
-        }
-    }
-}
-
-struct GameSymbolModifier: ViewModifier {
-    let game: Games
-    private let appearance = Appearance()
-    
-    func body(content: Content) -> some View {
-        content
-            .foregroundColor(appearance.color(game))
-    }
-}
-
 struct GameButtonStyle: ButtonStyle {
     func makeBody(configuration: Self.Configuration) -> some View {
         configuration.label
@@ -55,6 +16,41 @@ struct MainButtonModifier: ViewModifier {
             .background(BlurEffect())
             .mask(RoundedRectangle(cornerRadius: 16, style: .continuous))
             .overlay(RoundedRectangle(cornerRadius: 16, style: .continuous).stroke(lineWidth: 0.5).fill(Colors.buttonBorder))
-//            .shadow(color: Colors.darkShadow, radius: 15, x: 0, y: 10)
+    }
+}
+
+struct BlurEffectModifier: ViewModifier {
+    public init() {}
+    
+    public func body(content: Content) -> some View {
+        content
+            .overlay(_BlurVisualEffectViewRepresentable())
+    }
+}
+
+
+
+struct _BlurVisualEffectViewRepresentable: UIViewRepresentable {
+    func makeUIView(context: Context) -> UIVisualEffectView {
+        UIVisualEffectView(effect: UIBlurEffect(style: context.environment.blurEffectStyle))
+    }
+    
+    func updateUIView(_ uiView: UIVisualEffectView, context: Context) {
+        uiView.effect = UIBlurEffect(style: context.environment.blurEffectStyle)
+    }
+}
+
+
+
+
+struct BlurEffectStyleKey: EnvironmentKey {
+    static var defaultValue: UIBlurEffect.Style = .systemThinMaterial // (Per the human-interface guidelines.)
+}
+
+public struct BlurEffect: View {
+    public init() {}
+    
+    public var body: some View {
+        _BlurVisualEffectViewRepresentable()
     }
 }

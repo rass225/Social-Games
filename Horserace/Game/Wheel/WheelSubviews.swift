@@ -34,11 +34,7 @@ public struct FortuneWheel: View {
                 .overlay(alignment: .center) {
                     SpinWheelBolt()
                 }
-            
-            
-            
         }
-        
     }
 }
 
@@ -72,8 +68,6 @@ struct SpinWheelCell: Shape {
     }
 }
 
-
-@available(iOS 13.0, *)
 struct SpinWheelPointer: View {
     var body: some View {
         Triangle().frame(width: 50, height: 50)
@@ -84,7 +78,6 @@ struct SpinWheelPointer: View {
     }
 }
 
-@available(iOS 13.0, *)
 struct SpinWheelBolt: View {
     @EnvironmentObject var game: Game
     var body: some View {
@@ -99,7 +92,6 @@ struct SpinWheelBolt: View {
     }
 }
 
-@available(iOS 13.0, *)
 struct SpinWheelView: View {
     
     var data: [Double]

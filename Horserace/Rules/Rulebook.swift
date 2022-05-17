@@ -70,6 +70,4 @@ struct RuleBook {
         ChooserRule(image: Images.Nr.two, title: "Setup", rule: "Each player touches and holds one finger on the screen"),
         ChooserRule(image: Images.Nr.three, title: "Game", rule: "When everyone is locked in, the loser's finger will be the only one lit up")
     ]
-    let neverHaveIEver = ""
-    let truthOrDare = ""
 }

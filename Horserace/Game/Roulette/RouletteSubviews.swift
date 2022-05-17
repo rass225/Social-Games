@@ -3,15 +3,12 @@ import SwiftUI
 extension RouletteGame {
     
     struct BetView: View {
-        @EnvironmentObject var game: Game
         let bet: RouletteModel.BetType
         @Binding var placedBet: RouletteModel.BetType
-        @Binding var isAnimating: Bool
         
         var body: some View {
             Button(action: {
                 placedBet = bet
-                isAnimating = true
             }) {
                 Text(bet.rawValue)
                     .font(.subheadline.weight(.regular))
@@ -25,15 +22,12 @@ extension RouletteGame {
     }
     
     struct BetImageView: View {
-        @EnvironmentObject var game: Game
         let bet: RouletteModel.BetType
         @Binding var placedBet: RouletteModel.BetType
-        @Binding var isAnimating: Bool
         
         var body: some View {
             Button(action: {
                 placedBet = bet
-                isAnimating = true
             }) {
                 Image(systemName: "diamond.fill")
                     .foregroundColor(bet == .red ? .red : .black)
@@ -50,28 +44,28 @@ extension RouletteGame {
     var betBoard: some View {
         VStack(spacing: 0){
             HStack(spacing: 0){
-                BetView(bet: .firstQ, placedBet: $model.placedBet, isAnimating: $model.isAnimating)
+                BetView(bet: .firstQ, placedBet: $model.placedBet)
                 Divider().background(.ultraThickMaterial)
-                BetView(bet: .secondQ, placedBet: $model.placedBet, isAnimating: $model.isAnimating)
+                BetView(bet: .secondQ, placedBet: $model.placedBet)
                 Divider().background(.ultraThickMaterial)
-                BetView(bet: .thirdQ, placedBet: $model.placedBet, isAnimating: $model.isAnimating)
+                BetView(bet: .thirdQ, placedBet: $model.placedBet)
             }
             Divider().background(.ultraThickMaterial)
             HStack(spacing: 0){
                 Group{
-                    BetView(bet: .firstHalf, placedBet: $model.placedBet, isAnimating: $model.isAnimating)
+                    BetView(bet: .firstHalf, placedBet: $model.placedBet)
                     Divider().background(.ultraThickMaterial)
-                    BetView(bet: .even, placedBet: $model.placedBet, isAnimating: $model.isAnimating)
+                    BetView(bet: .even, placedBet: $model.placedBet)
                     Divider().background(.ultraThickMaterial)
-                    BetImageView(bet: .red, placedBet: $model.placedBet, isAnimating: $model.isAnimating)
+                    BetImageView(bet: .red, placedBet: $model.placedBet)
                 }
                 Group{
                     Divider().background(.ultraThickMaterial)
-                    BetImageView(bet: .black, placedBet: $model.placedBet, isAnimating: $model.isAnimating)
+                    BetImageView(bet: .black, placedBet: $model.placedBet)
                     Divider().background(.ultraThickMaterial)
-                    BetView(bet: .odd, placedBet: $model.placedBet, isAnimating: $model.isAnimating)
+                    BetView(bet: .odd, placedBet: $model.placedBet)
                     Divider().background(.ultraThickMaterial)
-                    BetView(bet: .secondHalf, placedBet: $model.placedBet, isAnimating: $model.isAnimating)
+                    BetView(bet: .secondHalf, placedBet: $model.placedBet)
                 }
                 
             }
@@ -119,22 +113,31 @@ extension RouletteGame {
                         }
                     }
                     .opacity(model.placedBet == .none ? 0.3 : 1)
-                    .animation(.linear(duration: 1), value: model.placedBet)
+                    .animation(.linear(duration: 0.5), value: model.placedBet)
                     .overlay{
-                        Text(model.title)
-                            .font(.title3.weight(.regular))
-                            .foregroundColor(Colors.text)
-                            .padding(.horizontal)
-                            .padding(.vertical, 8)
-                            .background(.ultraThinMaterial)
-                            .cornerRadius(8)
-                            .opacity(model.isAnimating ? 0 : 1)
+                        if !model.isAnimating && model.placedBet != .none && model.status == .roulette {
+                            Text(model.title)
+                                .font(.title3.weight(.regular))
+                                .foregroundColor(Colors.text)
+                                .padding(.horizontal)
+                                .padding(.vertical, 8)
+                                .background(.ultraThinMaterial)
+                                .cornerRadius(8)
+                        } else if model.placedBet == .none && !model.isAnimating {
+                            Text(model.title)
+                                .font(.title3.weight(.regular))
+                                .foregroundColor(Colors.text)
+                                .padding(.horizontal)
+                                .padding(.vertical, 8)
+                                .background(.ultraThinMaterial)
+                                .cornerRadius(8)
+                        }
+                        
+//                            .opacity(model.isAnimating || model.placedBet != .none ? 0 : 1)
                     }
                 Spacer()
             }
         }
         .padding(.horizontal, 24)
     }
-    
-
 }

@@ -25,8 +25,6 @@ class RouletteModel: ObservableObject {
         setMainButtonLabel()
     }
     
-    
-    
     struct Sector: Equatable {
         let number: Int
         let color: Color

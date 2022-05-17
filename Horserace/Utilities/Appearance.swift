@@ -3,18 +3,6 @@ import SwiftUI
 struct Appearance {
     func color(_ game: Games) -> Color {
         switch game {
-//        case .horseRace: return .blue
-//        case .kingsCup: return .teal
-//        case .truthDare: return .cyan
-//        case .neverHaveIEver: return .indigo
-//        case .pyramid: return .green
-//        case .spinBottle: return .mint
-//        case .whosMostLikely: return .pink
-//        case .higherLower: return .purple
-//        case .chooser: return .red
-//        case .explain: return .orange
-//        case .roulette: return .brown
-//        case .wheel: return .orange
         case .horseRace: return Colors.mainColor
         case .kingsCup: return Colors.mainColor
         case .truthDare: return Colors.mainColor

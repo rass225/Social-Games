@@ -18,7 +18,6 @@ struct RouletteGame: View {
                
             betBoard
             
-
             switch model.status {
             case .notStarted:
                 Button(action: {
@@ -44,8 +43,6 @@ struct RouletteGame: View {
                 .disabled(model.isAnimating == true)
                 .opacity(model.isAnimating ? 0.5 : 1)
             }
-            
-            
         }
         .navigationModifier(game: .roulette)
         .gameViewModifier(game: game.game)
@@ -64,9 +61,5 @@ struct RouletteGame: View {
             RuleView(isOpen: $isRulesOpen)
         }
     }
-    
-   
-    
-    
 }
 

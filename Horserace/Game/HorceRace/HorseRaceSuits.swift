@@ -69,10 +69,7 @@ struct HorseRaceSuits: View {
         }
         .padding()
         .background(
-            ZStack{
-                DefaultBackground()
-                GameIconBackground(game: game.game)
-            }
+            DefaultBackground()
         )
         .navigationBarTitleDisplayMode(.inline)
         .toolbar{
