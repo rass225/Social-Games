@@ -8,7 +8,11 @@ struct MainMenuMenuButton: View {
         Button(action: {
             appState.toMainMenu(withDelay: withDelay)
         }) {
-            MenuLabel(type: .mainMenu)
+            Images.mainMenu
+                .symbolRenderingMode(.palette)
+                .foregroundStyle(Colors.text, .thinMaterial)
+                
+                .font(.title)
         }
     }
 }

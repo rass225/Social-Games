@@ -9,7 +9,7 @@ struct HorseRaceSuits: View {
         GridItem(.flexible(maximum: .infinity), spacing: 16),
         GridItem(.flexible(maximum: .infinity), spacing: 16)
     ]
-   
+    @State var isRulesOpened: Bool = false
     @State var playerSuits: [HorseRacePlayers] = []
     @State var toGame: Bool = false
     
@@ -73,7 +73,13 @@ struct HorseRaceSuits: View {
         )
         .navigationBarTitleDisplayMode(.inline)
         .toolbar{
+            ToolbarItem(placement: .navigationBarTrailing) {
+                RulesMenuButton(isOpen: $isRulesOpened)
+            }
             GameTitle(game: .horseRace)
+        }
+        .sheet(isPresented: $isRulesOpened) {
+            RuleView(isOpen: $isRulesOpened)
         }
         .onAppear{
             for item in players {

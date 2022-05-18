@@ -83,7 +83,7 @@ struct WheelComponents: View {
         .navigationTitle(Text(Games.wheel.rawValue))
         .toolbar{
             ToolbarItem(placement: .navigationBarTrailing) {
-                RulesButton(isRulesOpened: $isRulesOpened)
+                RulesMenuButton(isOpen: $isRulesOpened)
             }
         }
         .sheet(isPresented: $isRulesOpened) {

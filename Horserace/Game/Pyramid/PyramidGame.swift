@@ -163,18 +163,23 @@ struct PyramidGame: View {
             RuleView(isOpen: $isRulesOpen)
         }
         .toolbar{
+            ToolbarItem(placement: .navigationBarLeading) {
+                MainMenuMenuButton()
+            }
+            
             ToolbarItem(placement: .navigationBarTrailing) {
-                Menu(content: {
-                    RulesMenuButton(isOpen: $isRulesOpen)
-                    Button(action: {
-                        restart()
-                    }) {
-                        MenuLabel(type: .restart)
-                    }
-                    MainMenuMenuButton()
-                }, label: {
-                    Burger()
-                })
+                Button(action: {
+                    restart()
+                }) {
+                    Images.restartFill
+                        .symbolRenderingMode(.palette)
+                        .foregroundStyle(Colors.text, .thinMaterial)
+                        
+                        .font(.title)
+                }
+            }
+            ToolbarItem(placement: .navigationBarTrailing) {
+                RulesMenuButton(isOpen: $isRulesOpen)
             }
             GameTitle(game: .pyramid)
         }

@@ -8,7 +8,11 @@ struct RulesMenuButton: View {
         Button(action: {
             isOpen.toggle()
         }) {
-            MenuLabel(type: .rules)
+            Images.rulesCircleFill
+                .symbolRenderingMode(.palette)
+                .foregroundStyle(Colors.text, .thinMaterial)
+                
+                .font(.title)
         }
     }
 }

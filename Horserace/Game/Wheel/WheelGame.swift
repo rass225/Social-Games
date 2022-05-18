@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct WheelGame: View {
+    @Environment(\.presentationMode) var presentationMode
     let players: [String]
     let components: [String]
     @State var currentPlayer: Int = 0
@@ -24,19 +25,29 @@ struct WheelGame: View {
             .padding(.horizontal)
         }
         .maxWidth()
-        .navigationBarTitleDisplayMode(.inline)
-        .navigationTitle(Text(Games.wheel.rawValue))
+        .navigationModifier(game: .wheel)
         .gameViewModifier(game: .wheel)
         .toolbar{
+            ToolbarItem(placement: .navigationBarLeading) {
+                MainMenuMenuButton()
+            }
             ToolbarItem(placement: .navigationBarTrailing) {
-                Menu(content: {
-                    RulesMenuButton(isOpen: $isRulesOpen)
-                    MainMenuMenuButton()
-                }, label: {
-                    Burger()
-                })
+                Button(action: {
+                    presentationMode.wrappedValue.dismiss()
+                }) {
+                    Images.edit
+                        .symbolRenderingMode(.palette)
+                        .foregroundStyle(Colors.text, .thinMaterial)
+                        .font(.title)
+                }
+            }
+            ToolbarItem(placement: .navigationBarTrailing) {
+                RulesMenuButton(isOpen: $isRulesOpen)
             }
             GameTitle(game: .wheel)
+        }
+        .sheet(isPresented: $isRulesOpen) {
+            RuleView(isOpen: $isRulesOpen)
         }
     }
     

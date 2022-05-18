@@ -9,7 +9,7 @@ struct Burger: View {
             .symbolRenderingMode(.palette)
             .foregroundStyle(Colors.text, .thinMaterial)
             
-            .font(.title2)
+            .font(.title)
 //            .overlay(Circle().stroke(lineWidth: 1).fill(Colors.buttonBorder))
     }
 }

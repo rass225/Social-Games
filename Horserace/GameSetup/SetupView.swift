@@ -151,11 +151,11 @@ struct SetupView: View {
         .navigationBarTitleDisplayMode(.inline)
         .toolbar{
             ToolbarItem(placement: .navigationBarTrailing) {
-                RulesButton(isRulesOpened: $isRulesOpened)
+                RulesMenuButton(isOpen: $isRulesOpened)
             }
             ToolbarItem(placement: .principal) {
                 game.title
-                    .font(.headline.weight(.regular))
+                    .font(.headline.weight(.medium))
                     .foregroundColor(Colors.text)
             }
         }

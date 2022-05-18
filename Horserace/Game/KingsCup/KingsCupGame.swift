@@ -98,18 +98,23 @@ struct KingsCupGame: View {
             gameOver 
         }
         .toolbar{
+            ToolbarItem(placement: .navigationBarLeading) {
+                MainMenuMenuButton()
+            }
+            
             ToolbarItem(placement: .navigationBarTrailing) {
-                Menu(content: {
-                    RulesMenuButton(isOpen: $isRulesOpen)
-                    Button(action: {
-                        restartGame()
-                    }) {
-                        MenuLabel(type: .restart)
-                    }
-                    MainMenuMenuButton()
-                }, label: {
-                    Burger()
-                })
+                Button(action: {
+                    restartGame()
+                }) {
+                    Images.restartFill
+                        .symbolRenderingMode(.palette)
+                        .foregroundStyle(Colors.text, .thinMaterial)
+                        
+                        .font(.title)
+                }
+            }
+            ToolbarItem(placement: .navigationBarTrailing) {
+                RulesMenuButton(isOpen: $isRulesOpen)
             }
             GameTitle(game: .kingsCup)
         }

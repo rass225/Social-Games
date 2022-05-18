@@ -54,20 +54,20 @@ struct ChooserGame: View {
         .navigationBarBackButtonHidden(true)
         .ignoresSafeArea()
         .toolbar{
+            ToolbarItem(placement: .navigationBarLeading) {
+                MainMenuMenuButton()
+                    .disabled(points.isEmpty ? false : true)
+                    .opacity(points.isEmpty ? 1 : 0)
+            }
             ToolbarItem(placement: .navigationBarTrailing) {
-                Menu(content: {
-                    RulesMenuButton(isOpen: $isRulesOpen)
-                    MainMenuMenuButton()
-                }, label: {
-                    Burger()
-                })
-                .disabled(points.isEmpty ? false : true)
-                .opacity(points.isEmpty ? 1 : 0)
+                RulesMenuButton(isOpen: $isRulesOpen)
+                    .disabled(points.isEmpty ? false : true)
+                    .opacity(points.isEmpty ? 1 : 0)
             }
             ToolbarItem(placement: .principal) {
                 if points.isEmpty {
                     Text("Chooser")
-                        .font(.headline.weight(.regular))
+                        .font(.headline.weight(.medium))
                         .foregroundColor(Colors.text)
                 }
                 
@@ -103,8 +103,8 @@ struct ChooserGame: View {
         
         var body: some View {
             Circle()
-                .strokeBorder(Colors.mainColor.opacity(0.3), lineWidth: 1)
-                .background(Circle().fill(.ultraThinMaterial))
+                .strokeBorder(Colors.mainColor.opacity(0.5), lineWidth: 1)
+                .background(Circle().fill(.regularMaterial))
                 .frame(width: size.width / 2.7, height: size.width / 2.7, alignment: .center)
                
                 .scaleEffect(isOuterPulsing ? 1 : 1.1)

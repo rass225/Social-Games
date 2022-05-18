@@ -22,6 +22,7 @@ struct ContentView: View {
             //                let size = (geometry.size.width / 2) - 8
             let size = geometry.size
             ScrollView(showsIndicators: false){
+               
                 VStack(spacing: 24){
                     HStack(spacing: 24){
                         GameView(.pyramid, size: size, willPulse: true)
@@ -143,8 +144,6 @@ struct ContentView: View {
                                     .padding()
                             }
                         }
-                    
-                    
                 }
                 .maxHeight()
                 .frame(maxWidth: .infinity)
@@ -152,7 +151,7 @@ struct ContentView: View {
                 
                 .overlay(alignment: .top) {
                     Text(game.rawValue)
-                        .font(Font.headline.weight(.medium))
+                        .font(.headline.weight(.medium))
                         .foregroundColor(Colors.text)
                         .padding(.top, 16)
                 }
@@ -164,4 +163,104 @@ struct ContentView: View {
             }.buttonStyle(GameButtonStyle())
         }
     }
+    
+    private struct NewGameView: View {
+        let appearance = Appearance()
+        let size: CGSize
+        let game: Games
+        let tilt: Angle
+        let willPulse: Bool
+        let willRotete: Bool
+        let image: Image
+        @State var isPulsing: Bool = false
+        @State var isRotating: Bool = false
+        @State var rotationAngle: Angle = Angle(degrees: 0)
+        
+        var hasQuestionMark: Bool = false
+        var foreverAnimation: Animation {
+            Animation.linear(duration: 12.0)
+                .repeatForever(autoreverses: false)
+        }
+        var pulseAnimation: Animation {
+            Animation.linear(duration: 1.5)
+                .repeatForever(autoreverses: true)
+        }
+        
+        init(
+            _ game: Games,
+            size: CGSize,
+            tilt: Double = 0,
+            willRotate: Bool = false,
+            willPulse: Bool = false
+            
+        ) {
+            self.size = size
+            self.game = game
+            self.tilt = Angle(degrees: tilt)
+            self.willRotete = willRotate
+            self.willPulse = willPulse
+            switch game {
+            case .truthDare, .neverHaveIEver, .whosMostLikely:
+                hasQuestionMark = true
+            default:
+                break
+            }
+            switch game {
+            case .horseRace:
+                image = Images.horseBig
+            case .kingsCup:
+                image = Images.edit
+            case .truthDare:
+                image = Images.edit
+            case .neverHaveIEver:
+                image = Images.edit
+            case .pyramid:
+                image = Images.pyramidBig
+            case .spinBottle:
+                image = Images.edit
+            case .whosMostLikely:
+                image = Images.edit
+            case .higherLower:
+                image = Images.edit
+            case .chooser:
+                image = Images.edit
+            case .explain:
+                image = Images.edit
+            case .roulette:
+                image = Images.edit
+            case .wheel:
+                image = Images.edit
+            }
+        }
+        
+        var body: some View {
+            NavigationLink(destination: GameSetup(game: game)) {
+                VStack{
+                    Spacer()
+                    HStack{
+                        appearance.icon(game)
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 24, height: 24, alignment: .center)
+                        appearance.title(game)
+                            .font(.title3).bold()
+                    }
+                    .maxWidth(alignment: .leading)
+                    .padding()
+                    .background(.ultraThinMaterial)
+                }
+                .frame(maxWidth: .infinity)
+                .frame(idealHeight: size.width / 1.5, maxHeight: size.width / 1.5)
+                .background(
+                    image
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                )
+                .clipShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
+                .shadow(color: Colors.darkShadow, radius: 15, x: 0, y: 10)
+            }.buttonStyle(GameButtonStyle())
+        }
+    }
 }
+
+

@@ -8,7 +8,7 @@ struct GameTitle: ToolbarContent {
     var body: some ToolbarContent {
         ToolbarItem(placement: .principal) {
             appearance.title(game)
-                .font(.headline.weight(.regular))
+                .font(.headline.weight(.medium))
                 .foregroundColor(Colors.text)
         }
     }

@@ -47,13 +47,11 @@ struct RouletteGame: View {
         .navigationModifier(game: .roulette)
         .gameViewModifier(game: game.game)
         .toolbar{
+            ToolbarItem(placement: .navigationBarLeading) {
+                MainMenuMenuButton()
+            }
             ToolbarItem(placement: .navigationBarTrailing) {
-                Menu(content: {
-                    RulesMenuButton(isOpen: $isRulesOpen)
-                    MainMenuMenuButton()
-                }, label: {
-                    Burger()
-                })
+                RulesMenuButton(isOpen: $isRulesOpen)
             }
             GameTitle(game: .roulette)
         }

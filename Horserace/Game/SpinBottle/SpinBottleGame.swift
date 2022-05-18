@@ -51,16 +51,14 @@ struct SpinBottleGame: View {
         .navigationModifier(game: .spinBottle)
         .gameViewModifier(game: .spinBottle)
         .toolbar{
-            ToolbarItem(placement: .navigationBarTrailing) {
-                Menu(content: {
-                    RulesMenuButton(isOpen: $isRulesOpen)
-                    MainMenuMenuButton()
-                }, label: {
-                    Burger()
-                })
-                .disabled(model.isAnimating ? true : false)
-                .opacity(model.isAnimating ? 0 : 1)
+            ToolbarItem(placement: .navigationBarLeading) {
+                MainMenuMenuButton()
             }
+            
+            ToolbarItem(placement: .navigationBarTrailing) {
+                RulesMenuButton(isOpen: $isRulesOpen)
+            }
+           
             GameTitle(game: .spinBottle)
         }
         .sheet(isPresented: $isRulesOpen) {
