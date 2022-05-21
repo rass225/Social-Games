@@ -21,7 +21,9 @@ extension View {
     
     func gameViewModifier(game: Games) -> some View {
         return self
-            .padding()
+            .padding(.horizontal, 20)
+            .padding(.bottom)
+            .padding(.top)
             .background(DefaultBackground())
     }
     
@@ -37,7 +39,7 @@ extension View {
     
     func isGameDisabled(_ isDisabled: Binding<Bool>) -> some View {
         return self
-            .opacity(0.5)
+            .opacity(0.2)
             .disabled(true)
             .onTapGesture {
                 isDisabled.wrappedValue.toggle()

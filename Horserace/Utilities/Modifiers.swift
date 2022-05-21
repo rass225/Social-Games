@@ -4,18 +4,8 @@ import SwiftUI
 struct GameButtonStyle: ButtonStyle {
     func makeBody(configuration: Self.Configuration) -> some View {
         configuration.label
-            .scaleEffect(configuration.isPressed ? 0.6 : 1.0)
+            .scaleEffect(configuration.isPressed ? 0.7 : 1.0)
             .animation(.default, value: configuration.isPressed)
-    }
-}
-
-struct MainButtonModifier: ViewModifier {
-    
-    func body(content: Content) -> some View {
-        content
-            .background(BlurEffect())
-            .mask(RoundedRectangle(cornerRadius: 16, style: .continuous))
-            .overlay(RoundedRectangle(cornerRadius: 16, style: .continuous).stroke(lineWidth: 0.5).fill(Colors.buttonBorder))
     }
 }
 
@@ -28,8 +18,6 @@ struct BlurEffectModifier: ViewModifier {
     }
 }
 
-
-
 struct _BlurVisualEffectViewRepresentable: UIViewRepresentable {
     func makeUIView(context: Context) -> UIVisualEffectView {
         UIVisualEffectView(effect: UIBlurEffect(style: context.environment.blurEffectStyle))
@@ -40,11 +28,8 @@ struct _BlurVisualEffectViewRepresentable: UIViewRepresentable {
     }
 }
 
-
-
-
 struct BlurEffectStyleKey: EnvironmentKey {
-    static var defaultValue: UIBlurEffect.Style = .systemThinMaterial // (Per the human-interface guidelines.)
+    static var defaultValue: UIBlurEffect.Style = .systemThickMaterial // (Per the human-interface guidelines.)
 }
 
 public struct BlurEffect: View {

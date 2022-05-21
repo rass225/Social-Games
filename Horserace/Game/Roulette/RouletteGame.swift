@@ -12,7 +12,7 @@ struct RouletteGame: View {
 
     var body: some View {
         VStack {
-            PlayersBoard(currentPlayer: $model.currentPlayer, players: model.players)
+            PlayersBoard(currentPlayer: $model.currentPlayer, hasPlayersShuffled: $model.hasPlayersShuffled, players: model.players)
                 
             rouletteTable
                

@@ -4,6 +4,7 @@ import SwiftUI
 extension HorceRaceGame {
     
     struct Finishline: View {
+        @EnvironmentObject var game: Game
         let size: CGSize
         var body: some View {
             VStack{
@@ -24,26 +25,31 @@ extension HorceRaceGame {
         var finishline1: some View {
             VStack(spacing: 0) {
                 Rectangle()
+                    .fill(game.game.gradient)
                     .frame(width: 5, height: 5)
-                    .foregroundColor(.black)
+                    
+//                    .foregroundColor(game.game.background[0])
                 Rectangle()
                     .frame(width: 5, height: 5)
-                    .foregroundColor(.white)
+                    .foregroundColor(.clear)
+                Rectangle()
+                    .fill(game.game.gradient)
+                    .frame(width: 5, height: 5)
+//                    .foregroundColor(game.game.background[0])
                 Rectangle()
                     .frame(width: 5, height: 5)
-                    .foregroundColor(.black)
+                    .foregroundColor(.clear)
+                Rectangle()
+                    .fill(game.game.gradient)
+                    .frame(width: 5, height: 5)
+//                    .foregroundColor(game.game.background[0])
                 Rectangle()
                     .frame(width: 5, height: 5)
-                    .foregroundColor(.white)
+                    .foregroundColor(.clear)
                 Rectangle()
+                    .fill(game.game.gradient)
                     .frame(width: 5, height: 5)
-                    .foregroundColor(.black)
-                Rectangle()
-                    .frame(width: 5, height: 5)
-                    .foregroundColor(.white)
-                Rectangle()
-                    .frame(width: 5, height: 5)
-                    .foregroundColor(.black)
+//                    .foregroundColor(game.game.background[0])
             }
         }
         
@@ -51,25 +57,28 @@ extension HorceRaceGame {
             VStack(spacing: 0) {
                 Rectangle()
                     .frame(width: 5, height: 5)
-                    .foregroundColor(.white)
+                    .foregroundColor(.clear)
+                Rectangle()
+                    .fill(game.game.gradient)
+                    .frame(width: 5, height: 5)
+//                    .foregroundColor(game.game.background[0])
                 Rectangle()
                     .frame(width: 5, height: 5)
-                    .foregroundColor(.black)
+                    .foregroundColor(.clear)
+                Rectangle()
+                    .fill(game.game.gradient)
+                    .frame(width: 5, height: 5)
+//                    .foregroundColor(game.game.background[0])
                 Rectangle()
                     .frame(width: 5, height: 5)
-                    .foregroundColor(.white)
+                    .foregroundColor(.clear)
+                Rectangle()
+                    .fill(game.game.gradient)
+                    .frame(width: 5, height: 5)
+//                    .foregroundColor(game.game.background[0])
                 Rectangle()
                     .frame(width: 5, height: 5)
-                    .foregroundColor(.black)
-                Rectangle()
-                    .frame(width: 5, height: 5)
-                    .foregroundColor(.white)
-                Rectangle()
-                    .frame(width: 5, height: 5)
-                    .foregroundColor(.black)
-                Rectangle()
-                    .frame(width: 5, height: 5)
-                    .foregroundColor(.white)
+                    .foregroundColor(.clear)
             }
         }
     }
@@ -98,10 +107,9 @@ extension HorceRaceGame {
                     }.padding(.vertical, 8)
                 }
             }
-            
         }
         .padding(8)
-        .background(.ultraThinMaterial)
+        .background(.thickMaterial)
         .mask(RoundedRectangle(cornerRadius: 16, style: .continuous))
         .padding(.vertical, 8)
     }
@@ -112,40 +120,16 @@ extension HorceRaceGame {
                 let size = geometry.size
                 
                 Text("Game Over")
-                    .foregroundColor(.blue)
+                    .foregroundColor(Colors.text)
                     .font(Fonts.largeTitle)
                     .offset(x: 0, y: size.height / 6)
                     .frame(maxWidth: .infinity, alignment: .center)
                 VStack{
-                    
-                    switch model.winnerSuit {
-                    case .heart:
-                        Images.heart
-                            .resizable()
-                            .aspectRatio(contentMode: .fit)
-                            .frame(width: 75, height: 75)
-                            .foregroundColor(.red)
-                    case .diamond:
-                        Images.diamond
-                            .resizable()
-                            .aspectRatio(contentMode: .fit)
-                            .frame(width: 75, height: 75)
-                            .foregroundColor(.red)
-                    case .spades:
-                        Images.spade
-                            .resizable()
-                            .aspectRatio(contentMode: .fit)
-                            .frame(width: 75, height: 75)
-                            .foregroundColor(.black)
-                    case .clubs:
-                        Images.club
-                            .resizable()
-                            .aspectRatio(contentMode: .fit)
-                            .frame(width: 75, height: 75)
-                            .foregroundColor(.black)
-                    default:
-                        EmptyView()
-                    }
+                    model.winnerSuit?.image
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 75, height: 75)
+                        .foregroundColor(model.winnerSuit?.color)
                 }
                 .frame(maxWidth: .infinity, alignment: .center)
                 .offset(x: 0, y: size.height / 4)
@@ -162,7 +146,6 @@ extension HorceRaceGame {
                             }
                         }
                     }
-                    
                     .frame(maxWidth: .infinity, alignment: .center)
                     .offset(x: 0, y: size.height / 2)
                 } else {
@@ -170,7 +153,6 @@ extension HorceRaceGame {
                         Text("No winners this game")
                             .font(Fonts.title)
                     }
-                    
                     .frame(maxWidth: .infinity, alignment: .center)
                     .offset(x: 0, y: size.height / 2)
                 }
@@ -181,18 +163,13 @@ extension HorceRaceGame {
                         model.restart()
                     }) {
                         MainButton(label: "Restart")
-                            .overlay(
-                                RoundedRectangle(cornerRadius: 16).stroke(Colors.mainColor, lineWidth: 1)
-                            )
                     }.buttonStyle(PlainButtonStyle())
                     Button(action: {
                         model.isThereAWinner.toggle()
                         appState.toMainMenu(withDelay: true)
                     }) {
                         MainButton(label: "Main Menu")
-                            .overlay(
-                                RoundedRectangle(cornerRadius: 16).stroke(Colors.mainColor, lineWidth: 1)
-                            )
+                            
                     }.buttonStyle(PlainButtonStyle())
                 }
             }

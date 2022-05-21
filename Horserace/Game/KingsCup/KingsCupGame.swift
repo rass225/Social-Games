@@ -7,7 +7,7 @@ struct KingsCupGame: View {
         case game
         case gameOver
     }
-    
+    @EnvironmentObject var game: Game
     @EnvironmentObject var appState: AppState
     @State private var deck = Constant.deck.shuffled()
     @State private var isDiamondKingPicked: Bool = false
@@ -108,7 +108,7 @@ struct KingsCupGame: View {
                 }) {
                     Images.restartFill
                         .symbolRenderingMode(.palette)
-                        .foregroundStyle(Colors.text, .thinMaterial)
+                        .foregroundStyle(.white, LinearGradient(gradient: Gradient(colors: game.game.background), startPoint: .bottom, endPoint: .top))
                         
                         .font(.title)
                 }

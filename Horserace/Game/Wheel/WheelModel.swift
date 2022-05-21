@@ -1,7 +1,6 @@
 import Foundation
 import SwiftUI
 
-@available(iOS 13.0, *)
 class FortuneWheelViewModel: ObservableObject {
     
     var titles: [String]

@@ -15,14 +15,14 @@ struct SpinBottleGame: View {
             GeometryReader { geo in
                 let size = geo.size
                 VStack{
-                    RoundedRectangle(cornerSize: CGSize(width: 20, height: 20)).fill(.regularMaterial)
+                    RoundedRectangle(cornerRadius: 16).fill(game.game.gradient)
                         .mask{
                             Images.bottle
                                 .resizable()
                                 .aspectRatio(contentMode: .fit)
                                 .frame(maxHeight: size.width)
                         }
-                        .shadow(color: Color.black.opacity(0.4), radius: 10, x: 0, y: 10)
+                        .shadow(color: Color.black.opacity(0.4), radius: 10, x: 0, y: 0)
                         .rotationEffect(Angle(degrees: model.spinDegrees))
                         .animation(Animation.easeOut(duration: 4.0)
                             .repeatCount(1, autoreverses: false), value: model.spinDegrees)

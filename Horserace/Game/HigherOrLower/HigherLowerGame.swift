@@ -11,7 +11,7 @@ struct HigherLowerGame: View {
     
     var body: some View {
         VStack{
-            PlayersBoard(currentPlayer: $model.currentPlayer, players: model.players)
+            PlayersBoard(currentPlayer: $model.currentPlayer, hasPlayersShuffled: $model.hasPlayersShuffled, players: model.players)
             
             GeometryReader { geo in
                 let size = geo.size
@@ -55,11 +55,11 @@ struct HigherLowerGame: View {
                     Button(action: {
 //                        model.restart()
                     }) {
-                        MenuLabel(type: .restart)
+                        Text("Was Menu label")
                     }
                     MainMenuMenuButton()
                 }, label: {
-                    Burger()
+                    Text("Was Burger")
                 })
             }
             GameTitle(game: .higherLower)

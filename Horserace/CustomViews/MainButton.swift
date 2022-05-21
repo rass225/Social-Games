@@ -8,9 +8,14 @@ struct MainButton: View {
     var body : some View {
         Text(label)
             .font(Fonts.title3)
-            .foregroundColor(Colors.text)
+            .foregroundColor(.white)
             .maxWidth()
             .padding(.vertical)
-            .modifier(MainButtonModifier())
+            .background(game.game.gradient)
+            .mask(RoundedRectangle(cornerRadius: 16, style: .continuous))
+            .overlay(RoundedRectangle(cornerRadius: 16, style: .continuous)
+                .stroke(lineWidth: 0.5)
+                .fill(Colors.buttonBorder)
+            )
     }
 }

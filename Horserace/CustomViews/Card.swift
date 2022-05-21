@@ -8,12 +8,11 @@ struct Card: View {
     let geometry: CGSize
     
     var body: some View {
-        suitImage()
-           
-//        .font(suitFont())
+        suit.image
+            .resizable()
             .aspectRatio(contentMode: .fit)
             .frame(height: height() / 3)
-        .foregroundColor(suitColor())
+            .foregroundColor(suit.color)
         .frame(width: width(), height: height())
         .overlay(alignment: .topLeading) {
             Text(rank.rawValue)
@@ -31,10 +30,9 @@ struct Card: View {
                 .rotationEffect(Angle(degrees: 180))
         }
         .background(
-            Color.white
+            LinearGradient(gradient: Gradient(colors: [.init(red: 0.85, green: 0.85, blue: 0.85), .white, .white]), startPoint: .bottom, endPoint: .top)
                 .cornerRadius(5)
                 .shadow(color: .black.opacity(0.2), radius: 2, x: 0, y: 0)
-            
         )
     }
     
@@ -63,15 +61,6 @@ struct Card: View {
         case .clubs: return AnyView(Images.club.resizable())
         }
         
-    }
-    
-    func suitColor() -> Color {
-        switch suit {
-        case .heart: return .red
-        case .diamond: return .red
-        case .spades: return .black
-        case .clubs: return .black
-        }
     }
     
     func rankFont() -> Font {

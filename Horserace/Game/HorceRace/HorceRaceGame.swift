@@ -3,6 +3,7 @@ import SwiftUI
 struct HorceRaceGame: View {
     
     @EnvironmentObject var appState: AppState
+    @EnvironmentObject var game: Game
     @ObservedObject var model: HorseRaceModel
     @State var isRulesOpen: Bool = false
     
@@ -41,19 +42,14 @@ struct HorceRaceGame: View {
                     }
                     FullCard(card: $model.deck[4], rotation: $model.fifthBase, size: .small, geo: size)
                         .offset(x: 0, y: -geometry.size.height / 100 * 75)
-                        .padding(.trailing, 8)
                     FullCard(card: $model.deck[3], rotation: $model.fourthBase, size: .small, geo: size)
                         .offset(x: 0, y: -geometry.size.height / 100 * 60)
-                        .padding(.trailing, 8)
                     FullCard(card: $model.deck[2], rotation: $model.thirdBase, size: .small, geo: size)
                         .offset(x: 0, y: -geometry.size.height / 100 * 45)
-                        .padding(.trailing, 8)
                     FullCard(card: $model.deck[1], rotation: $model.secondBase, size: .small, geo: size)
                         .offset(x: 0, y: -geometry.size.height / 100 * 30)
-                        .padding(.trailing, 8)
                     FullCard(card: $model.deck[0], rotation: $model.firstBase, size: .small, geo: size)
                         .offset(x: 0, y: -geometry.size.height / 100 * 15)
-                        .padding(.trailing, 8)
                    
                     
                     ZStack{
@@ -67,7 +63,7 @@ struct HorceRaceGame: View {
                         case .game:
                             Card(suit: model.deck[model.deckIndex].suit, rank: model.deck[model.deckIndex].rank, size: .small, geometry: size)
                         }
-                    }.padding(.trailing, 8)
+                    }
                 }
             }
             
@@ -94,7 +90,7 @@ struct HorceRaceGame: View {
                 }) {
                     Images.restartFill
                         .symbolRenderingMode(.palette)
-                        .foregroundStyle(Colors.text, .thinMaterial)
+                        .foregroundStyle(.white, LinearGradient(gradient: Gradient(colors: game.game.background), startPoint: .bottom, endPoint: .top))
                         
                         .font(.title)
                 }

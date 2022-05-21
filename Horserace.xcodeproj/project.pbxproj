@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		C0045D3F2824A35900A6331E /* SpinBottleRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0045D3E2824A35900A6331E /* SpinBottleRule.swift */; };
+		C009A54D2837BA03008C0355 /* PartialSheet in Frameworks */ = {isa = PBXBuildFile; productRef = C009A54C2837BA03008C0355 /* PartialSheet */; };
 		C00E05B8282EACFA0014CA8F /* GameTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00E05B7282EACFA0014CA8F /* GameTitle.swift */; };
 		C036553F281B734A00CB8D00 /* TruthOrDareModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C036553E281B734A00CB8D00 /* TruthOrDareModel.swift */; };
 		C0365541281C73D700CB8D00 /* RouletteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0365540281C73D700CB8D00 /* RouletteModel.swift */; };
 		C0365543281CECCE00CB8D00 /* FullCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0365542281CECCE00CB8D00 /* FullCard.swift */; };
 		C0365546281E1FE000CB8D00 /* SpinBottleGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0365545281E1FE000CB8D00 /* SpinBottleGame.swift */; };
 		C0365548281E1FEA00CB8D00 /* SpinBottleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0365547281E1FEA00CB8D00 /* SpinBottleModel.swift */; };
-		C036554A281EF09B00CB8D00 /* Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0365549281EF09B00CB8D00 /* Appearance.swift */; };
 		C036554C281EFC0100CB8D00 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C036554B281EFC0100CB8D00 /* GameState.swift */; };
 		C044B80A280789F500A112C2 /* KingsCupSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C044B809280789F500A112C2 /* KingsCupSubviews.swift */; };
 		C044B80F280884CB00A112C2 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C044B80E280884CB00A112C2 /* Card.swift */; };
@@ -59,9 +59,7 @@
 		C0ACBBE528131CD9005D223D /* RuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ACBBE428131CD9005D223D /* RuleView.swift */; };
 		C0ACBBE828134FEC005D223D /* NeverHaveIEverGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ACBBE728134FEC005D223D /* NeverHaveIEverGame.swift */; };
 		C0ACBBEC2813AACE005D223D /* NeverHaveIEverRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ACBBEB2813AACE005D223D /* NeverHaveIEverRules.swift */; };
-		C0ACBBEE2813ABBD005D223D /* Burger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ACBBED2813ABBD005D223D /* Burger.swift */; };
 		C0ACBBF12813B400005D223D /* PyramidGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ACBBF02813B400005D223D /* PyramidGame.swift */; };
-		C0B6A5D3280F905000A60A2A /* RulesButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B6A5D2280F905000A60A2A /* RulesButton.swift */; };
 		C0BFE7F028121960008BDBD1 /* TruthOrDareRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BFE7EF28121960008BDBD1 /* TruthOrDareRules.swift */; };
 		C0C759CB28185FCF00AB1C96 /* WheelGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C759CA28185FCF00AB1C96 /* WheelGame.swift */; };
 		C0C759CD2818619100AB1C96 /* WheelSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C759CC2818619100AB1C96 /* WheelSubviews.swift */; };
@@ -77,7 +75,6 @@
 		C0E77765281700F6007CE89F /* RouletteGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E77764281700F6007CE89F /* RouletteGame.swift */; };
 		C0E77768281709FB007CE89F /* RouletteSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E77767281709FB007CE89F /* RouletteSubviews.swift */; };
 		C0E7776A28176F42007CE89F /* RulesMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E7776928176F42007CE89F /* RulesMenuButton.swift */; };
-		C0E7776C28176F84007CE89F /* MenuLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E7776B28176F84007CE89F /* MenuLabel.swift */; };
 		C0E7776E2817705A007CE89F /* MainMenuMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E7776D2817705A007CE89F /* MainMenuMenuButton.swift */; };
 		C0E777702817A978007CE89F /* PyramidRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E7776F2817A978007CE89F /* PyramidRules.swift */; };
 		C0E777722817AB8C007CE89F /* RouletteRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E777712817AB8C007CE89F /* RouletteRules.swift */; };
@@ -113,7 +110,6 @@
 		C0365542281CECCE00CB8D00 /* FullCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullCard.swift; sourceTree = "<group>"; };
 		C0365545281E1FE000CB8D00 /* SpinBottleGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinBottleGame.swift; sourceTree = "<group>"; };
 		C0365547281E1FEA00CB8D00 /* SpinBottleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinBottleModel.swift; sourceTree = "<group>"; };
-		C0365549281EF09B00CB8D00 /* Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appearance.swift; sourceTree = "<group>"; };
 		C036554B281EFC0100CB8D00 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 		C044B809280789F500A112C2 /* KingsCupSubviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingsCupSubviews.swift; sourceTree = "<group>"; };
 		C044B80E280884CB00A112C2 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
@@ -161,9 +157,7 @@
 		C0ACBBE428131CD9005D223D /* RuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleView.swift; sourceTree = "<group>"; };
 		C0ACBBE728134FEC005D223D /* NeverHaveIEverGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeverHaveIEverGame.swift; sourceTree = "<group>"; };
 		C0ACBBEB2813AACE005D223D /* NeverHaveIEverRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeverHaveIEverRules.swift; sourceTree = "<group>"; };
-		C0ACBBED2813ABBD005D223D /* Burger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Burger.swift; sourceTree = "<group>"; };
 		C0ACBBF02813B400005D223D /* PyramidGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PyramidGame.swift; sourceTree = "<group>"; };
-		C0B6A5D2280F905000A60A2A /* RulesButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesButton.swift; sourceTree = "<group>"; };
 		C0BFE7EF28121960008BDBD1 /* TruthOrDareRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruthOrDareRules.swift; sourceTree = "<group>"; };
 		C0C759CA28185FCF00AB1C96 /* WheelGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelGame.swift; sourceTree = "<group>"; };
 		C0C759CC2818619100AB1C96 /* WheelSubviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelSubviews.swift; sourceTree = "<group>"; };
@@ -179,7 +173,6 @@
 		C0E77764281700F6007CE89F /* RouletteGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouletteGame.swift; sourceTree = "<group>"; };
 		C0E77767281709FB007CE89F /* RouletteSubviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouletteSubviews.swift; sourceTree = "<group>"; };
 		C0E7776928176F42007CE89F /* RulesMenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesMenuButton.swift; sourceTree = "<group>"; };
-		C0E7776B28176F84007CE89F /* MenuLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuLabel.swift; sourceTree = "<group>"; };
 		C0E7776D2817705A007CE89F /* MainMenuMenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuMenuButton.swift; sourceTree = "<group>"; };
 		C0E7776F2817A978007CE89F /* PyramidRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PyramidRules.swift; sourceTree = "<group>"; };
 		C0E777712817AB8C007CE89F /* RouletteRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouletteRules.swift; sourceTree = "<group>"; };
@@ -195,6 +188,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C009A54D2837BA03008C0355 /* PartialSheet in Frameworks */,
 				C0884926282C5A900074EC97 /* SwiftUIVisualEffects in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -233,7 +227,6 @@
 				C09D900928339160000E0B04 /* Enumerations */,
 				C0A9EE2927FFEB9400E69993 /* Constants.swift */,
 				C05060A327FF465700C35785 /* Modifiers.swift */,
-				C0365549281EF09B00CB8D00 /* Appearance.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -244,13 +237,10 @@
 				C044B80E280884CB00A112C2 /* Card.swift */,
 				C044B8102808997A00A112C2 /* CardBack.swift */,
 				C044B81228089C9E00A112C2 /* MainButton.swift */,
-				C0B6A5D2280F905000A60A2A /* RulesButton.swift */,
 				C0ACBBD92813054A005D223D /* PlayersBoard.swift */,
-				C0ACBBED2813ABBD005D223D /* Burger.swift */,
 				C0E7776928176F42007CE89F /* RulesMenuButton.swift */,
 				C00E05B7282EACFA0014CA8F /* GameTitle.swift */,
 				C0E7776D2817705A007CE89F /* MainMenuMenuButton.swift */,
-				C0E7776B28176F84007CE89F /* MenuLabel.swift */,
 				C0D9C72E281A5E6B009B5001 /* TitleLabel.swift */,
 				C0365542281CECCE00CB8D00 /* FullCard.swift */,
 				C0884927282CF7F40074EC97 /* DefaultBackground.swift */,
@@ -498,6 +488,7 @@
 			name = Horserace;
 			packageProductDependencies = (
 				C0884925282C5A900074EC97 /* SwiftUIVisualEffects */,
+				C009A54C2837BA03008C0355 /* PartialSheet */,
 			);
 			productName = Horserace;
 			productReference = C050607427FF421900C35785 /* Horserace.app */;
@@ -573,6 +564,7 @@
 			mainGroup = C050606B27FF421900C35785;
 			packageReferences = (
 				C0884924282C5A900074EC97 /* XCRemoteSwiftPackageReference "swiftui-visual-effects" */,
+				C009A54B2837BA03008C0355 /* XCRemoteSwiftPackageReference "PartialSheet" */,
 			);
 			productRefGroup = C050607527FF421900C35785 /* Products */;
 			projectDirPath = "";
@@ -654,12 +646,10 @@
 				C0E77768281709FB007CE89F /* RouletteSubviews.swift in Sources */,
 				C0F1BA4F2820440A00DBD862 /* ChooserSubviews.swift in Sources */,
 				C05060B527FF55B800C35785 /* View.swift in Sources */,
-				C0ACBBEE2813ABBD005D223D /* Burger.swift in Sources */,
 				C09D901728339447000E0B04 /* Colors.swift in Sources */,
 				C0D9C727281A4EAA009B5001 /* WheelComponents.swift in Sources */,
 				C0D9C72F281A5E6B009B5001 /* TitleLabel.swift in Sources */,
 				C044B81B280D080E00A112C2 /* HorseRaceRules.swift in Sources */,
-				C0B6A5D3280F905000A60A2A /* RulesButton.swift in Sources */,
 				C0E777722817AB8C007CE89F /* RouletteRules.swift in Sources */,
 				C00E05B8282EACFA0014CA8F /* GameTitle.swift in Sources */,
 				C0ACBBDA2813054A005D223D /* PlayersBoard.swift in Sources */,
@@ -673,7 +663,6 @@
 				C0365541281C73D700CB8D00 /* RouletteModel.swift in Sources */,
 				C0ACBBE1281313D9005D223D /* Rulebook.swift in Sources */,
 				C0E777702817A978007CE89F /* PyramidRules.swift in Sources */,
-				C036554A281EF09B00CB8D00 /* Appearance.swift in Sources */,
 				C036553F281B734A00CB8D00 /* TruthOrDareModel.swift in Sources */,
 				C0F03D9C280672E6002CBB88 /* KingsCupShapes.swift in Sources */,
 				C0ACBBE528131CD9005D223D /* RuleView.swift in Sources */,
@@ -685,7 +674,6 @@
 				C044B8112808997A00A112C2 /* CardBack.swift in Sources */,
 				C09D9013283393CD000E0B04 /* Images.swift in Sources */,
 				C0D9C72B281A51BA009B5001 /* HorseRaceModel.swift in Sources */,
-				C0E7776C28176F84007CE89F /* MenuLabel.swift in Sources */,
 				C044B81328089C9E00A112C2 /* MainButton.swift in Sources */,
 				C0D9C72D281A5789009B5001 /* NeverEverModel.swift in Sources */,
 				C0E77765281700F6007CE89F /* RouletteGame.swift in Sources */,
@@ -845,7 +833,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 13;
+				CURRENT_PROJECT_VERSION = 14;
 				DEVELOPMENT_ASSET_PATHS = "\"Horserace/Preview Content\"";
 				DEVELOPMENT_TEAM = Q6B2DLVPJB;
 				ENABLE_PREVIEWS = YES;
@@ -879,7 +867,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 13;
+				CURRENT_PROJECT_VERSION = 14;
 				DEVELOPMENT_ASSET_PATHS = "\"Horserace/Preview Content\"";
 				DEVELOPMENT_TEAM = Q6B2DLVPJB;
 				ENABLE_PREVIEWS = YES;
@@ -1025,6 +1013,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		C009A54B2837BA03008C0355 /* XCRemoteSwiftPackageReference "PartialSheet" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AndreaMiotto/PartialSheet";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
 		C0884924282C5A900074EC97 /* XCRemoteSwiftPackageReference "swiftui-visual-effects" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/lucasbrown/swiftui-visual-effects";
@@ -1036,6 +1032,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		C009A54C2837BA03008C0355 /* PartialSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C009A54B2837BA03008C0355 /* XCRemoteSwiftPackageReference "PartialSheet" */;
+			productName = PartialSheet;
+		};
 		C0884925282C5A900074EC97 /* SwiftUIVisualEffects */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = C0884924282C5A900074EC97 /* XCRemoteSwiftPackageReference "swiftui-visual-effects" */;

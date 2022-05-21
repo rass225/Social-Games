@@ -4,14 +4,14 @@ struct TruthOrDareGame: View {
     
     @ObservedObject var model: TruthOrDareModel
     @State var isRulesOpen: Bool = false
-    
+    @State var hasPlayersShuffled: Bool = false
     init(players: [String]) {
         self.model = TruthOrDareModel(players: players)
     }
     
     var body: some View {
         VStack{
-            PlayersBoard(currentPlayer: $model.currentPlayer, players: model.players)
+            PlayersBoard(currentPlayer: $model.currentPlayer, hasPlayersShuffled: $hasPlayersShuffled, players: model.players)
             
             VStack(alignment: .center, spacing: 0){
                 TitleLabel(label: model.title)
@@ -68,11 +68,11 @@ struct TruthOrDareGame: View {
                     Button(action: {
                         model.restart()
                     }) {
-                        MenuLabel(type: .restart)
+                        Text("Was Menu label")
                     }
                     MainMenuMenuButton()
                 }, label: {
-                    Burger()
+                    Text("Was Burger")
                 })
             }
         }

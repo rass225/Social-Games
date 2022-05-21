@@ -36,7 +36,7 @@ struct CardBack: View {
        
         .frame(width: width(), height: height())
         .background(
-            Color.white
+            LinearGradient(gradient: Gradient(colors: [.init(red: 0.8, green: 0.8, blue: 0.8), .white, .white]), startPoint: .bottom, endPoint: .top)
                 .cornerRadius(5)
                 .shadow(color: .black.opacity(0.2), radius: 2, x: 0, y: 0)
             

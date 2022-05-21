@@ -110,11 +110,10 @@ struct SetupView: View {
                             }
                             .padding(.horizontal)
                             .padding(.vertical, 12)
-                            .background(BlurEffect().opacity(focusField == .player1 ? 0.4 : 1))
+                            .background(BlurEffect().opacity(focusField == .player6 ? 0.4 : 1))
                             .mask(RoundedRectangle(cornerRadius: 16, style: .continuous))
                             .overlay(RoundedRectangle(cornerRadius: 16, style: .continuous).stroke(lineWidth: 0.5).fill(Colors.buttonBorder))
                             .focused($focusField, equals: .player6)
-                            .opacity(focusField == .player6 ? 0.4 : 1)
                             .overlay(Remove(player: $revealPlayer6), alignment: .trailing)
                     }
                 }
@@ -133,9 +132,6 @@ struct SetupView: View {
                     }.padding(.top)
                 }
             }
-            
-            
-//            Spacer()
             Button(action: {
                 finalizePlayers()
             }) {
@@ -149,18 +145,15 @@ struct SetupView: View {
         }
         .padding(.bottom, 20)
         .navigationBarTitleDisplayMode(.inline)
+        .navigationBarBackButtonHidden(true)
         .toolbar{
             ToolbarItem(placement: .navigationBarTrailing) {
                 RulesMenuButton(isOpen: $isRulesOpened)
             }
-            ToolbarItem(placement: .principal) {
-                game.title
-                    .font(.headline.weight(.medium))
-                    .foregroundColor(Colors.text)
+            GameTitle(game: game.game)
+            ToolbarItem(placement: .navigationBarLeading) {
+                BackButton()
             }
-        }
-        .onAppear{
-            print("Game mode: \(game.game.rawValue)")
         }
     }
     

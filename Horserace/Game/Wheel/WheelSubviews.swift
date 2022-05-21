@@ -69,9 +69,10 @@ struct SpinWheelCell: Shape {
 }
 
 struct SpinWheelPointer: View {
+    @EnvironmentObject var game: Game
     var body: some View {
         Triangle().frame(width: 50, height: 50)
-            .foregroundColor(.red)
+            .foregroundColor(game.game.background[0])
             .cornerRadius(24)
             .rotationEffect(.init(degrees: 180))
             .shadow(color: .black.opacity(0.4), radius: 5, x: 0.0, y: 1.0)
@@ -83,10 +84,10 @@ struct SpinWheelBolt: View {
     var body: some View {
         ZStack {
             Circle().frame(width: 28, height: 28)
-                .foregroundColor(game.color)
+                .foregroundColor(game.game.color)
                 .shadow(color: .black.opacity(0.3), radius: 3, x: 0.0, y: 1.0)
             Circle().frame(width: 18, height: 18)
-                .foregroundColor(game.color)
+                .foregroundColor(game.game.color)
                 .shadow(color: .black.opacity(0.3), radius: 3, x: 0.0, y: 1.0)
         }
     }
@@ -98,6 +99,26 @@ struct SpinWheelView: View {
     var labels: [String]
     let size: CGSize
     
+    let gradientPairs: [[Color]] = [
+        Colors.Backgrounds.theme1,
+        Colors.Backgrounds.theme10,
+        Colors.Backgrounds.theme4,
+        Colors.Backgrounds.theme7,
+        Colors.Backgrounds.theme8,
+        Colors.Backgrounds.theme2,
+        Colors.Backgrounds.theme6,
+        Colors.Backgrounds.theme9,
+        Colors.Backgrounds.theme3,
+        
+        Colors.Backgrounds.theme5,
+        
+        
+        
+        
+        
+    ]
+    
+    
     private let colors: [Color] = [Colors.blue, Colors.teal, Colors.cyan, Colors.mint, Colors.green, Colors.yellow, Colors.orange, Colors.red, Colors.purple, Colors.indigo]
     private let sliceOffset: Double = -.pi / 2
     
@@ -105,7 +126,10 @@ struct SpinWheelView: View {
         ZStack(alignment: .center) {
             ForEach(data.indices, id: \.self) { index in
                 SpinWheelCell(startAngle: startAngle(for: index), endAngle: endAngle(for: index))
-                    .fill(colors[index % colors.count])
+                    .fill(RadialGradient(gradient: Gradient(colors: gradientPairs[index]), center: .center, startRadius: 25, endRadius: 200))
+//                    .fill(LinearGradient(gradient: Gradient(colors: gradientPairs[index]), startPoint: .center, endPoint: .init(x: 0.5, y: 0)))
+//                    .fill(colors[index % colors.count])
+//                    .opacity(index == 0 ? 1 : 0)
                 Text(labels[index])
                     .foregroundColor(Color.white)
                     .font(.body.weight(.regular))
@@ -121,6 +145,32 @@ struct SpinWheelView: View {
         let singleSliceDegree = 360 / data.count
         let halgSingleSlice = singleSliceDegree / 2
         return Double(halgSingleSlice + (index * singleSliceDegree))
+    }
+    
+    func gradientAngle(index: Int) -> UnitPoint {
+        let angle: Double = labelRotation(index: index) - 90
+        switch angle {
+        case 0...45:
+            return .topTrailing
+        case 46...90:
+            return .trailing
+        case 91...135:
+            return .trailing
+        case 136...180:
+            return .bottomTrailing
+        case 181...225:
+            return .bottomLeading
+            
+        case 226...270:
+            print("")
+            return .bottom
+        case 271...315:
+            return .bottom
+        case 316...360:
+            return .topLeading
+        default:
+            return .center
+        }
     }
     
     private func startAngle(for index: Int) -> Double {

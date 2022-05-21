@@ -28,29 +28,32 @@ struct HorseRaceSuits: View {
                             Button(action: {
                                 playerSuits[index].suit = .heart
                             }) {
-                                Images.heart.foregroundColor(.red.opacity(playerSuits[index].suit == .heart ? 1 : 0.5))
+                                Images.heart
+                                    .foregroundColor(.red.opacity(playerSuits[index].suit == .heart ? 1 : 0.4))
                             }
                             Button(action: {
                                 playerSuits[index].suit = .diamond
                             }) {
-                                Images.diamond.foregroundColor(.red.opacity(playerSuits[index].suit == .diamond ? 1 : 0.5))
+                                Images.diamond
+                                    .foregroundColor(.red.opacity(playerSuits[index].suit == .diamond ? 1 : 0.4))
                             }
                             Button(action: {
                                 playerSuits[index].suit = .clubs
                             }) {
-                                Images.club.foregroundColor(.black.opacity(playerSuits[index].suit == .clubs ? 1 : 0.5))
+                                Images.club
+                                    .foregroundColor(.black.opacity(playerSuits[index].suit == .clubs ? 1 : 0.4))
                             }
                             Button(action: {
                                 playerSuits[index].suit = .spades
                             }) {
-                                Images.spade.foregroundColor(.black.opacity(playerSuits[index].suit == .spades ? 1 : 0.5))
+                                Images.spade
+                                    .foregroundColor(.black.opacity(playerSuits[index].suit == .spades ? 1 : 0.4))
                             }
                         }
                         .padding(.vertical, 12)
                         .font(.title)
-                        
                     }
-                    .background(Material.thinMaterial)
+                    .background(game.game.gradient)
                     .cornerRadius(16)
                 }
             }
@@ -72,9 +75,13 @@ struct HorseRaceSuits: View {
             DefaultBackground()
         )
         .navigationBarTitleDisplayMode(.inline)
+        .navigationBarBackButtonHidden(true)
         .toolbar{
             ToolbarItem(placement: .navigationBarTrailing) {
                 RulesMenuButton(isOpen: $isRulesOpened)
+            }
+            ToolbarItem(placement: .navigationBarLeading) {
+                BackButton()
             }
             GameTitle(game: .horseRace)
         }
@@ -92,9 +99,9 @@ struct HorseRaceSuits: View {
         let label: String
         var body: some View {
             Text(label)
-                .padding(.vertical, 8)
+                .padding(.vertical, 12)
                 .font(.headline.weight(.regular))
-                .foregroundColor(Colors.text)
+                .foregroundColor(Color.white)
         }
     }
     

@@ -9,7 +9,7 @@ extension KingsCupGame {
                 let size = geometry.size
                 
                 Text("Game over")
-                    .foregroundColor(.teal)
+                    .foregroundColor(Colors.text)
                     .font(Fonts.largeTitle)
                     .offset(x: 0, y: size.height / 6)
                     .maxWidth()
@@ -24,18 +24,12 @@ extension KingsCupGame {
                         showGameOver.toggle()
                     }) {
                         MainButton(label: "Restart")
-                            .overlay(
-                                RoundedRectangle(cornerRadius: 16).stroke(Colors.mainColor, lineWidth: 1)
-                            )
                     }.buttonStyle(PlainButtonStyle())
                     Button(action: {
                         showGameOver.toggle()
                         appState.toMainMenu(withDelay: true)
                     }) {
                         MainButton(label: "Main Menu")
-                            .overlay(
-                                RoundedRectangle(cornerRadius: 16).stroke(Colors.mainColor, lineWidth: 1)
-                            )
                     }.buttonStyle(PlainButtonStyle())
                 }
             }
@@ -47,20 +41,22 @@ extension KingsCupGame {
     
     struct CircleWaveView: View {
         
+        @EnvironmentObject var game: Game
         @State private var waveOffset = Angle(degrees: 0)
         var percent: Double
         
         var body: some View {
             Wave(offset: Angle(degrees: waveOffset.degrees))
-                .fill(.thickMaterial)
+                .fill(LinearGradient(gradient: Gradient(colors: [game.game.background[0], game.game.color]), startPoint: .center, endPoint: .top))
                 .offset(x: 0, y: 100 - (100 * percent))
                 .animation(.easeOut(duration: 2), value: percent)
+                .clipShape(CupShape())
                 .overlay{
                     CupShape()
-                        .stroke(.thickMaterial, style: StrokeStyle(lineWidth: 10, lineCap: .round, lineJoin: .round))
+                        .stroke(game.game.gradient, style: StrokeStyle(lineWidth: 6, lineCap: .square, lineJoin: .round))
                         
                 }
-                .clipShape(CupShape())
+                
                 .onAppear {
                     DispatchQueue.main.async {
                         withAnimation(.linear(duration: 2).repeatForever(autoreverses: false)) {
@@ -79,10 +75,11 @@ extension KingsCupGame {
         var body: some View {
             VStack(alignment: .leading, spacing: 12){
                 Text(title)
-                    .foregroundColor(Colors.reverseText)
+                    .foregroundColor(Colors.text)
                     .font(Fonts.title)
                 Text(rule)
                     .font(.subheadline.weight(.regular))
+                    .foregroundColor(Colors.grayText)
             }
             .maxWidth(alignment: .leading)
             .padding(.horizontal, 8)

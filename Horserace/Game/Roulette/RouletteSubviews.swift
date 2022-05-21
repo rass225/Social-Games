@@ -3,6 +3,7 @@ import SwiftUI
 extension RouletteGame {
     
     struct BetView: View {
+        @EnvironmentObject var game: Game
         let bet: RouletteModel.BetType
         @Binding var placedBet: RouletteModel.BetType
         
@@ -12,16 +13,17 @@ extension RouletteGame {
             }) {
                 Text(bet.rawValue)
                     .font(.subheadline.weight(.regular))
-                    .foregroundColor(bet == placedBet ? Colors.reverseText : Colors.text)
+                    .foregroundColor(bet == placedBet ? Color.black : Color.white)
                     .maxWidth()
                     .frame(height: 50)
-                    .background(bet == placedBet ? Colors.mainColor : .clear)
+                    .background(bet == placedBet ? game.game.color : .clear)
                 
             }
         }
     }
     
     struct BetImageView: View {
+        @EnvironmentObject var game: Game
         let bet: RouletteModel.BetType
         @Binding var placedBet: RouletteModel.BetType
         
@@ -34,7 +36,7 @@ extension RouletteGame {
                     .font(.title)
                     .maxWidth()
                     .frame(height: 50)
-                    .background(bet == placedBet ? Colors.mainColor : Color.clear)
+                    .background(bet == placedBet ? game.game.color : .clear)
             }
         }
     }
@@ -71,7 +73,15 @@ extension RouletteGame {
             }
         }
         .frame(height: 100)
-        .modifier(MainButtonModifier())
+        .background(LinearGradient(gradient: Gradient(colors: game.game.background), startPoint: .bottom, endPoint: .top))
+        .mask(RoundedRectangle(cornerRadius: 16, style: .continuous))
+        .overlay(
+            RoundedRectangle(cornerRadius: 16, style: .continuous)
+                .stroke(lineWidth: 1)
+                .fill(LinearGradient(gradient: Gradient(colors: game.game.background), startPoint: .bottom, endPoint: .top))
+                .opacity(model.status == .notStarted ? 0 : 1)
+                .opacity(model.status == .roulette ? 0.5 : 1)
+        )
         .opacity(model.status == .notStarted ? 0 : 1)
         .opacity(model.status == .roulette ? 0.5 : 1)
         .animation(.linear(duration: 0.5), value: model.status)
@@ -84,7 +94,7 @@ extension RouletteGame {
     var landingIndicator: some View {
         Image(systemName: "arrowtriangle.down.fill")
             .font(.title3.weight(.light))
-            .foregroundColor(game.color)
+            .foregroundColor(game.game.background[0])
             .opacity(model.status == .roulette ? 1 : 0)
     }
     
@@ -99,8 +109,7 @@ extension RouletteGame {
                     .scaledToFit()
                     .rotationEffect(Angle(degrees: model.spinDegrees))
                     .frame(maxWidth: size.height / 1.1, alignment: .top)
-                    .animation(Animation.easeOut(duration: 5.0)
-                        .repeatCount(1, autoreverses: false), value: model.spinDegrees)
+                    .animation(Animation.easeOut(duration: 5.0).repeatCount(1, autoreverses: false), value: model.spinDegrees)
                     .maxWidth()
                     .overlay(alignment: .topTrailing) {
                         if let sector = model.landingSector {

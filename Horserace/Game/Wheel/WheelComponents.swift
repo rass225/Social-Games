@@ -81,7 +81,11 @@ struct WheelComponents: View {
         .background(DefaultBackground())
         .navigationBarTitleDisplayMode(.inline)
         .navigationTitle(Text(Games.wheel.rawValue))
+        .navigationBarBackButtonHidden(true)
         .toolbar{
+            ToolbarItem(placement: .navigationBarLeading) {
+                BackButton()
+            }
             ToolbarItem(placement: .navigationBarTrailing) {
                 RulesMenuButton(isOpen: $isRulesOpened)
             }

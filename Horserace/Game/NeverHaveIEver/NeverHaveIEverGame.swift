@@ -4,14 +4,14 @@ struct NeverHaveIEverGame: View {
     
     @ObservedObject var model: NeverEverModel
     @State var isRulesOpen: Bool = false
-    
+    @State var hasPlayersShuffled: Bool = false
     init(players: [String]) {
         self.model = NeverEverModel(players: players)
     }
     
     var body: some View {
         VStack(spacing: 32){
-            PlayersBoard(currentPlayer: $model.currentPlayer, players: model.players)
+            PlayersBoard(currentPlayer: $model.currentPlayer, hasPlayersShuffled: $hasPlayersShuffled, players: model.players)
             TitleLabel(label: model.currentTitle)
             Text(model.currentStatement)
                 .font(.title2.weight(.regular))
@@ -33,7 +33,7 @@ struct NeverHaveIEverGame: View {
                     RulesMenuButton(isOpen: $isRulesOpen)
                     MainMenuMenuButton()
                 }, label: {
-                    Burger()
+                    Text("Was Burger")
                 })
             }
         }

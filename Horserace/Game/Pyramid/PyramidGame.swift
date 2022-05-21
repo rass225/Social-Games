@@ -11,6 +11,7 @@ struct PyramidGame: View {
     }
     
     @EnvironmentObject var appState: AppState
+    @EnvironmentObject var game: Game
     @State private var currentPlayer: Int = 0
     @State var isRulesOpen: Bool = false
     
@@ -41,12 +42,13 @@ struct PyramidGame: View {
     @State private var thirdBaseOpacity: Double = 0.45
     @State private var fourthBaseOpacity: Double = 0.3
     @State private var fifthBaseOpacity: Double = 0.1
+    @State private var hasPlayersShuffled: Bool = false
     
     var body: some View {
         VStack(spacing: 16){
-            PlayersBoard(currentPlayer: $currentPlayer, players: players)
+            PlayersBoard(currentPlayer: $currentPlayer, hasPlayersShuffled: $hasPlayersShuffled, players: players)
                 .padding(.bottom, 32)
-            
+                .padding(.horizontal, 20)
             
             
             GeometryReader { geometry in
@@ -157,7 +159,10 @@ struct PyramidGame: View {
             .padding(.bottom, 16)
             .padding(.horizontal)
         }
-        .gameViewModifier(game: .pyramid)
+//        .padding(.horizontal, 20)
+        .padding(.bottom)
+        .padding(.top, 20)
+        .background(DefaultBackground())
         .navigationModifier(game: .pyramid)
         .sheet(isPresented: $isRulesOpen) {
             RuleView(isOpen: $isRulesOpen)
@@ -173,8 +178,7 @@ struct PyramidGame: View {
                 }) {
                     Images.restartFill
                         .symbolRenderingMode(.palette)
-                        .foregroundStyle(Colors.text, .thinMaterial)
-                        
+                        .foregroundStyle(.white, game.game.gradient)
                         .font(.title)
                 }
             }
@@ -198,6 +202,9 @@ struct PyramidGame: View {
     }
     
     func gameLogic(index: Int) {
+        if !hasPlayersShuffled {
+            hasPlayersShuffled = false
+        }
         flipFaceUp(index: index)
         addToPath(index: index)
         

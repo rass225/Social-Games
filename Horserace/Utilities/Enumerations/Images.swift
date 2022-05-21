@@ -29,6 +29,7 @@ enum Images {
     static let roulette = Image("Roulette")
     static let wheel = Image(systemName: "gearshape.fill")
     static let edit = Image(systemName: "pencil.circle.fill")
+    static let shuffle = Image(systemName: "shuffle.circle.fill")
     
     enum Nr {
         static let one = Image(systemName: "1.circle")

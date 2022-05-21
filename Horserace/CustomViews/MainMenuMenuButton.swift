@@ -3,6 +3,7 @@ import SwiftUI
 struct MainMenuMenuButton: View {
     
     @EnvironmentObject var appState: AppState
+    @EnvironmentObject var game: Game
     var withDelay: Bool = false
     var body: some View {
         Button(action: {
@@ -10,7 +11,7 @@ struct MainMenuMenuButton: View {
         }) {
             Images.mainMenu
                 .symbolRenderingMode(.palette)
-                .foregroundStyle(Colors.text, .thinMaterial)
+                .foregroundStyle(.white, game.game.gradient)
                 
                 .font(.title)
         }

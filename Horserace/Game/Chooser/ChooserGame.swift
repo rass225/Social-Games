@@ -50,7 +50,7 @@ struct ChooserGame: View {
         .maxHeight()
         .gameViewModifier(game: game.game)
         .navigationBarTitleDisplayMode(.inline)
-        .navigationTitle(points.isEmpty ? game.title : Text(""))
+        .navigationTitle(points.isEmpty ? game.game.title : Text(""))
         .navigationBarBackButtonHidden(true)
         .ignoresSafeArea()
         .toolbar{
@@ -92,7 +92,7 @@ struct ChooserGame: View {
     }
     
     private struct TouchMarker: View {
-        
+        @EnvironmentObject var game: Game
         let size: CGSize
         var innerPulseAnimation: Animation = Animation.linear(duration: 0.75).repeatForever(autoreverses: true)
         var outerPulseAnimation: Animation = Animation.linear(duration: 0.75).repeatForever(autoreverses: true)
@@ -103,15 +103,15 @@ struct ChooserGame: View {
         
         var body: some View {
             Circle()
-                .strokeBorder(Colors.mainColor.opacity(0.5), lineWidth: 1)
-                .background(Circle().fill(.regularMaterial))
+                .strokeBorder(game.game.color.opacity(0.5), lineWidth: 1)
+                .background(Circle().fill(game.game.gradient))
                 .frame(width: size.width / 2.7, height: size.width / 2.7, alignment: .center)
                
                 .scaleEffect(isOuterPulsing ? 1 : 1.1)
                 .animation(outerPulseAnimation, value: isOuterPulsing)
                 .overlay{
                     Circle()
-                        .fill(Colors.mainColor)
+                        .fill(game.game.color)
                         .frame(width: size.width / 3.5, height: size.width / 3.5, alignment: .center)
                         .blur(radius: 15)
                         .scaleEffect(isInnerPulsing ? 0.7 : 1)

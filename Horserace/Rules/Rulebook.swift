@@ -16,19 +16,19 @@ struct RuleBook {
     ]
     
     let kingsCup: [KingsCupRules] = [
-        KingsCupRules(deck: Deck(suit: .diamond, rank: .ace, icon: Images.diamond), title: "Waterfall", rule: "Everyone drinks, staring with you. A player can end drinking when the previous player does"),
-        KingsCupRules(deck: Deck(suit: .heart, rank: .two, icon: Images.heart), title: "You", rule: "Pick someone to take a drink"),
-        KingsCupRules(deck: Deck(suit: .clubs, rank: .three, icon: Images.club), title: "Me", rule: "Take a drink"),
-        KingsCupRules(deck: Deck(suit: .spades, rank: .four, icon: Images.spade), title: "Whores", rule: "Ladies take a drink"),
-        KingsCupRules(deck: Deck(suit: .diamond, rank: .five, icon: Images.diamond), title: "Drive", rule: "XXXXXX"),
-        KingsCupRules(deck: Deck(suit: .heart, rank: .six, icon: Images.heart), title: "Dicks", rule: "Gentlemen drink"),
-        KingsCupRules(deck: Deck(suit: .spades, rank: .seven, icon: Images.spade), title: "Heaven", rule: "Put your fingers up in the air. last one drinks"),
-        KingsCupRules(deck: Deck(suit: .clubs, rank: .eight, icon: Images.club), title: "Mate", rule: "Find a buddy, who drinks every time you drink throughout the game"),
-        KingsCupRules(deck: Deck(suit: .diamond, rank: .nine, icon: Images.diamond), title: "Rhyme", rule: "Pick a word, others must rhyme it or drink"),
-        KingsCupRules(deck: Deck(suit: .heart, rank: .ten, icon: Images.heart), title: "Categories", rule: "Pick a category, others need to say things in the category, or drink"),
-        KingsCupRules(deck: Deck(suit: .clubs, rank: .jack, icon: Images.club), title: "Rule", rule: "Make a rule that lasts the entire game"),
-        KingsCupRules(deck: Deck(suit: .spades, rank: .queen, icon: Images.spade), title: "Question Master", rule: "Ask questions. Who answers, drinks. Who responses with a questions, makes you drink. Effect lasts until a new queen is drawn."),
-        KingsCupRules(deck: Deck(suit: .diamond, rank: .king, icon: Images.diamond), title: "Pour to the cup", rule: "The person, who picks the last king, drinks the mix. Game over!")
+        KingsCupRules(deck: Deck(suit: .diamond, rank: .ace), title: "Waterfall", rule: "Everyone drinks, staring with you. A player can end drinking when the previous player does"),
+        KingsCupRules(deck: Deck(suit: .heart, rank: .two), title: "You", rule: "Pick someone to take a drink"),
+        KingsCupRules(deck: Deck(suit: .clubs, rank: .three), title: "Me", rule: "Take a drink"),
+        KingsCupRules(deck: Deck(suit: .spades, rank: .four), title: "Whores", rule: "Ladies take a drink"),
+        KingsCupRules(deck: Deck(suit: .diamond, rank: .five), title: "Slap", rule: "Last person to slap the table drinks"),
+        KingsCupRules(deck: Deck(suit: .heart, rank: .six), title: "Dicks", rule: "Gentlemen drink"),
+        KingsCupRules(deck: Deck(suit: .spades, rank: .seven), title: "Heaven", rule: "Put your fingers up in the air. last one drinks"),
+        KingsCupRules(deck: Deck(suit: .clubs, rank: .eight), title: "Mate", rule: "Find a buddy, who drinks every time you drink throughout the game"),
+        KingsCupRules(deck: Deck(suit: .diamond, rank: .nine), title: "Rhyme", rule: "Pick a word, others must rhyme it or drink"),
+        KingsCupRules(deck: Deck(suit: .heart, rank: .ten), title: "Categories", rule: "Pick a category, others need to say things in the category, or drink"),
+        KingsCupRules(deck: Deck(suit: .clubs, rank: .jack), title: "Rule", rule: "Make a rule that lasts the entire game"),
+        KingsCupRules(deck: Deck(suit: .spades, rank: .queen), title: "Question Master", rule: "Ask questions. Who answers, drinks. Who responses with a questions, makes you drink. Effect lasts until a new queen is drawn."),
+        KingsCupRules(deck: Deck(suit: .diamond, rank: .king), title: "Pour to the cup", rule: "Pour a little bit of your drink into the king's cup. The person, who picks the last king, drinks the mix. Game over!")
     ]
     
     let pyramid: [PyramidRule] = [

@@ -1,14 +1,16 @@
 import SwiftUI
 
 struct WheelGame: View {
+    @EnvironmentObject var game: Game
     @Environment(\.presentationMode) var presentationMode
     let players: [String]
     let components: [String]
     @State var currentPlayer: Int = 0
     @State var isRulesOpen: Bool = false
+    @State var hasPlayersShuffled: Bool = false
     var body: some View {
         VStack(spacing: 0){
-            PlayersBoard(currentPlayer: $currentPlayer, players: players)
+            PlayersBoard(currentPlayer: $currentPlayer, hasPlayersShuffled: $hasPlayersShuffled, players: players)
                 .padding(.bottom, 32)
             GeometryReader { geo in
                 let size = geo.size
@@ -20,7 +22,6 @@ struct WheelGame: View {
                     Spacer()
                     Spacer()
                 }
-                
             }
             .padding(.horizontal)
         }
@@ -37,7 +38,7 @@ struct WheelGame: View {
                 }) {
                     Images.edit
                         .symbolRenderingMode(.palette)
-                        .foregroundStyle(Colors.text, .thinMaterial)
+                        .foregroundStyle(.white, game.game.gradient)
                         .font(.title)
                 }
             }

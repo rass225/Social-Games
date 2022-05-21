@@ -38,13 +38,13 @@ struct RuleView: View {
                 }
             }
             .background(Colors.background)
-            .navigationBarTitle(game.title, displayMode: .inline)
+            .navigationBarTitle(game.game.title, displayMode: .inline)
             .navigationBarItems(trailing: Button(action: {
                 self.isOpen = false
             }) {
                 Text("Done")
                     .font(.body.weight(.semibold))
-                    .foregroundColor(game.color)
+                    .foregroundColor(game.game.background[1])
             })
         }
     }

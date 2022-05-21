@@ -5,15 +5,9 @@ import UIKit
 class Game: ObservableObject {
     
     @Published var game: Games
-    @Published var color: Color
-    @Published var title: Text
-    
-    private let appearance = Appearance()
     
     init(game: Games) {
         self.game = game
-        self.color = appearance.color(game)
-        self.title = appearance.title(game)
     }
 }
 
@@ -50,7 +44,6 @@ public struct VisualEffectBlurView<Content: View>: UIViewRepresentable {
     public func updateUIView(_ view: UIViewType, context: Context) {
         guard let view = view as? UIHostingVisualEffectBlurView<Content> else {
             assertionFailure()
-
             return
         }
 
@@ -71,12 +64,10 @@ extension VisualEffectBlurView where Content == EmptyView {
 }
 
 extension VisualEffectBlurView {
-    /// Sets the intensity of the blur effect.
     public func intensity(_ intensity: Double) -> Self {
         then({ $0.intensity = intensity })
     }
 
-    /// Sets the transparency of this view.
     public func opacity(_ opacity: Double) -> Self {
         then({ $0.opacity = opacity })
     }
@@ -101,20 +92,14 @@ class UIHostingVisualEffectBlurView<Content: View>: UIView {
 
     var blurStyle: UIBlurEffect.Style {
         didSet {
-            guard blurStyle != oldValue else {
-                return
-            }
-
+            guard blurStyle != oldValue else { return }
             updateBlurAndVibrancyEffect()
         }
     }
 
     var vibrancyStyle: UIVibrancyEffectStyle? {
         didSet {
-            guard vibrancyStyle != oldValue else {
-                return
-            }
-
+            guard vibrancyStyle != oldValue else { return }
             updateBlurAndVibrancyEffect()
         }
     }
@@ -123,10 +108,7 @@ class UIHostingVisualEffectBlurView<Content: View>: UIView {
         didSet {
             DispatchQueue.asyncOnMainIfNecessary {
                 if let animator = self.blurEffectAnimator {
-                    guard animator.fractionComplete != CGFloat(self.intensity) else {
-                        return
-                    }
-
+                    guard animator.fractionComplete != CGFloat(self.intensity) else { return }
                     animator.fractionComplete = CGFloat(self.intensity)
                 }
             }
@@ -168,9 +150,7 @@ class UIHostingVisualEffectBlurView<Content: View>: UIView {
     private func updateBlurAndVibrancyEffect() {
         blurView.effect = nil
         vibrancyView.effect = nil
-
         blurEffectAnimator = UIViewPropertyAnimator(duration: 1, curve: .linear)
-
         blurEffectAnimator?.stopAnimation(true)
 
         let blurEffect = UIBlurEffect(style: blurStyle)
@@ -215,8 +195,7 @@ extension View {
 
         return result
     }
-
-    /// Returns a type-erased version of `self`.
+    
     @inlinable
     public func eraseToAnyView() -> AnyView {
         return .init(self)

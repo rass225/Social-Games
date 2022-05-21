@@ -19,24 +19,16 @@ struct GameSetup: View {
             case .kingsCup: SetupView()
             case .pyramid: SetupView()//SetupView(game: .pyramid)
             case .higherLower: SetupView()
-            case .chooser:
-                ChooserGame()
-                    .background(
-                        ZStack{
-                            DefaultBackground()
-                            GameIconBackground(game: gameObject.game)
-                           
-                                
-                        }
-                       
-                    )
-            case .explain:
-                Text("Maintenance")
+            case .chooser: ChooserGame()
+            case .explain: Text("Maintenance")
             case .roulette: SetupView()
             case .wheel: SetupView()
             }
         }
         .background(DefaultBackground())
         .environmentObject(gameObject)
+        .onAppear{
+            print("Game mode: \(gameObject.game.rawValue)")
+        }
     }
 }
