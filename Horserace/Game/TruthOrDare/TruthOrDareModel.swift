@@ -14,16 +14,26 @@ class TruthOrDareModel: ObservableObject {
         case dare
     }
     
+    enum TruthOrDareTier {
+        case one
+        case two
+        case three
+    }
+    
     let players: [String]
+    let tier: TruthOrDareTier
     
     @Published var status: GameStatus = .notStarted
     @Published var truthOrDare: TruthOrDare = .truth
     @Published var currentPlayer: Int = 10
     @Published var label: String = ""
     @Published var title: String = ""
+    @Published var truthCollection: [Truth] = []
+    @Published var dareCollection: [Dare] = []
     
     private var currentTruthIndex: Int = 0
     private var currentDareIndex: Int = 0
+    
     private var testTruth: [String] = [
         "Do you like basketball?",
         "Do you like cheese?",
@@ -39,9 +49,11 @@ class TruthOrDareModel: ObservableObject {
     ]
     
     
-    init(players: [String]) {
+    init(players: [String], tier: TruthOrDareTier) {
         self.players = players
+        self.tier = tier
         titleHandler()
+        
     }
     
     func restart() {
@@ -100,6 +112,30 @@ class TruthOrDareModel: ObservableObject {
                 title = "Dare"
             }
             
+        }
+    }
+    
+    func fetchTruth(tier: JSONClient.Client = .TruthTierOne) {
+        let client = JSONClient()
+        client.fetch(client: tier) { (response: Result<[Truth], Error>) in
+            switch response {
+            case .success(let success):
+                print(success)
+            case .failure(let failure):
+                print(failure)
+            }
+        }
+    }
+    
+    func fetchDare(tier: JSONClient.Client = .DareTierOne) {
+        let client = JSONClient()
+        client.fetch(client: tier) { (response: Result<[Dare], Error>) in
+            switch response {
+            case .success(let success):
+                print(success)
+            case .failure(let failure):
+                print(failure)
+            }
         }
     }
 }

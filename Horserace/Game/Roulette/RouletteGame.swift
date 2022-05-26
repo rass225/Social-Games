@@ -48,12 +48,14 @@ struct RouletteGame: View {
         .gameViewModifier(game: game.game)
         .toolbar{
             ToolbarItem(placement: .navigationBarLeading) {
-                MainMenuMenuButton()
+                HomeButton()
             }
             ToolbarItem(placement: .navigationBarTrailing) {
-                RulesMenuButton(isOpen: $isRulesOpen)
+                RulesButton(isOpen: $isRulesOpen)
             }
-            GameTitle(game: .roulette)
+            ToolbarItem(placement: .principal) {
+                GameTitle()
+            }
         }
         .sheet(isPresented: $isRulesOpen) {
             RuleView(isOpen: $isRulesOpen)

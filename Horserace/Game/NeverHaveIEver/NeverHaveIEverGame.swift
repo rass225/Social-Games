@@ -30,8 +30,8 @@ struct NeverHaveIEverGame: View {
         .toolbar{
             ToolbarItem(placement: .navigationBarTrailing) {
                 Menu(content: {
-                    RulesMenuButton(isOpen: $isRulesOpen)
-                    MainMenuMenuButton()
+                    RulesButton(isOpen: $isRulesOpen)
+                    HomeButton()
                 }, label: {
                     Text("Was Burger")
                 })

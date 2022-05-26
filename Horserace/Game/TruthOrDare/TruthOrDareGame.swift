@@ -6,7 +6,7 @@ struct TruthOrDareGame: View {
     @State var isRulesOpen: Bool = false
     @State var hasPlayersShuffled: Bool = false
     init(players: [String]) {
-        self.model = TruthOrDareModel(players: players)
+        self.model = TruthOrDareModel(players: players, tier: .one)
     }
     
     var body: some View {
@@ -64,13 +64,13 @@ struct TruthOrDareGame: View {
         .toolbar{
             ToolbarItem(placement: .navigationBarTrailing) {
                 Menu(content: {
-                    RulesMenuButton(isOpen: $isRulesOpen)
+                    RulesButton(isOpen: $isRulesOpen)
                     Button(action: {
                         model.restart()
                     }) {
                         Text("Was Menu label")
                     }
-                    MainMenuMenuButton()
+                    HomeButton()
                 }, label: {
                     Text("Was Burger")
                 })
@@ -78,6 +78,9 @@ struct TruthOrDareGame: View {
         }
         .sheet(isPresented: $isRulesOpen) {
             RuleView(isOpen: $isRulesOpen)
+        }
+        .onAppear{
+            model.fetchTruth()
         }
     }
 }

@@ -1,18 +1,18 @@
+import Foundation
 import SwiftUI
 
-struct MainMenuMenuButton: View {
+struct BackButton: View {
     
-    @EnvironmentObject var appState: AppState
     @EnvironmentObject var game: Game
-    var withDelay: Bool = false
+    @Environment(\.dismiss) var dismiss
+    
     var body: some View {
         Button(action: {
-            appState.toMainMenu(withDelay: withDelay)
+            dismiss()
         }) {
-            Images.mainMenu
+            Images.back
                 .symbolRenderingMode(.palette)
                 .foregroundStyle(.white, game.game.gradient)
-                
                 .font(.title)
         }
     }

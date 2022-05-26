@@ -70,7 +70,9 @@ struct HorseRaceSuits: View {
             .disabled(allSet() ? false : true)
             .buttonStyle(PlainButtonStyle())
         }
-        .padding()
+        .padding(.horizontal, 20)
+        .padding(.vertical)
+        .padding(.top)
         .background(
             DefaultBackground()
         )
@@ -78,12 +80,14 @@ struct HorseRaceSuits: View {
         .navigationBarBackButtonHidden(true)
         .toolbar{
             ToolbarItem(placement: .navigationBarTrailing) {
-                RulesMenuButton(isOpen: $isRulesOpened)
+                RulesButton(isOpen: $isRulesOpened)
             }
             ToolbarItem(placement: .navigationBarLeading) {
                 BackButton()
             }
-            GameTitle(game: .horseRace)
+            ToolbarItem(placement: .principal) {
+                GameTitle()
+            }
         }
         .sheet(isPresented: $isRulesOpened) {
             RuleView(isOpen: $isRulesOpened)

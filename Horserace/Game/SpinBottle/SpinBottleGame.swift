@@ -3,63 +3,54 @@ import SwiftUI
 struct SpinBottleGame: View {
     
     @EnvironmentObject var game: Game
-    @ObservedObject var model: SpinBottleModel
+    @StateObject var model = SpinBottleModel()
     @State var isRulesOpen: Bool = false
     
-    init() {
-        model = SpinBottleModel()
-    }
+    private let spinAnimation: Animation = Animation.easeOut(duration: 4.0)
     
     var body: some View {
         VStack{
             GeometryReader { geo in
                 let size = geo.size
-                VStack{
-                    RoundedRectangle(cornerRadius: 16).fill(game.game.gradient)
-                        .mask{
-                            Images.bottle
-                                .resizable()
-                                .aspectRatio(contentMode: .fit)
-                                .frame(maxHeight: size.width)
-                        }
-                        .shadow(color: Color.black.opacity(0.4), radius: 10, x: 0, y: 0)
-                        .rotationEffect(Angle(degrees: model.spinDegrees))
-                        .animation(Animation.easeOut(duration: 4.0)
-                            .repeatCount(1, autoreverses: false), value: model.spinDegrees)
-                        .onTapGesture {
-                            model.spinBottle()
-                        }
-                }
-                .maxHeight()
-                .maxWidth()
-                VStack{
-                    if !model.hasGameStarted {
-                        Text("Tap to spin")
-                            .font(.title3.weight(.regular))
-                            .foregroundColor(Colors.text)
-                            .padding(.horizontal)
-                            .padding(.vertical, 8)
-                            .background(.ultraThinMaterial)
-                            .cornerRadius(8)
+                RoundedRectangle(cornerRadius: 16)
+                    .fill(game.game.gradient)
+                    .mask{
+                        Images.bottle
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(maxHeight: size.width)
                     }
-                    Spacer()
-                }
-                .padding(.top, 40)
-                .maxWidth()
+                    .shadow(color: Color.black.opacity(0.4), radius: 10, x: 0, y: 0)
+                    .rotationEffect(Angle(degrees: model.spinDegrees))
+                    .animation(spinAnimation, value: model.spinDegrees)
+                    .overlay{
+                        if !model.hasGameStarted {
+                            Text("Tap to spin")
+                                .font(.title3.weight(.regular))
+                                .foregroundColor(Colors.text)
+                                .padding(.horizontal)
+                                .padding(.vertical, 8)
+                                .background(.ultraThinMaterial)
+                                .cornerRadius(8)
+                        }
+                    }
+                    .onTapGesture {
+                        model.spinBottle()
+                    }
             }.padding(.horizontal)
         }
         .navigationModifier(game: .spinBottle)
         .gameViewModifier(game: .spinBottle)
         .toolbar{
             ToolbarItem(placement: .navigationBarLeading) {
-                MainMenuMenuButton()
+                HomeButton()
             }
-            
             ToolbarItem(placement: .navigationBarTrailing) {
-                RulesMenuButton(isOpen: $isRulesOpen)
+                RulesButton(isOpen: $isRulesOpen)
             }
-           
-            GameTitle(game: .spinBottle)
+            ToolbarItem(placement: .principal) {
+                GameTitle()
+            }
         }
         .sheet(isPresented: $isRulesOpen) {
             RuleView(isOpen: $isRulesOpen)

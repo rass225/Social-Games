@@ -43,14 +43,13 @@ struct PyramidGame: View {
     @State private var fourthBaseOpacity: Double = 0.3
     @State private var fifthBaseOpacity: Double = 0.1
     @State private var hasPlayersShuffled: Bool = false
+    private let flipAnimation: Animation = .linear(duration: 1)
     
     var body: some View {
         VStack(spacing: 16){
             PlayersBoard(currentPlayer: $currentPlayer, hasPlayersShuffled: $hasPlayersShuffled, players: players)
                 .padding(.bottom, 32)
                 .padding(.horizontal, 20)
-            
-            
             GeometryReader { geometry in
                 let size = geometry.size
                 VStack(spacing: 12){
@@ -60,7 +59,7 @@ struct PyramidGame: View {
                             .onTapGesture {  gameLogic(index: 0) }
                             .disabled(currentBase == .fifth ? false : true)
                             .opacity(fifthBaseOpacity)
-                            .animation(.linear(duration: 1), value: fifthBaseOpacity)
+                            .animation(flipAnimation, value: fifthBaseOpacity)
                     }
                     HStack(spacing: 16){
                         FullCard(card: $deck[1], rotation: $fourthBaseFirst, size: .medium, geo: size)
@@ -72,73 +71,73 @@ struct PyramidGame: View {
                             .onTapGesture {  gameLogic(index: 2) }
                             .disabled(currentBase == .fourth ? false : true)
                             .opacity(fourthBaseOpacity)
-                            .animation(.linear(duration: 1), value: fourthBaseOpacity)
+                            .animation(flipAnimation, value: fourthBaseOpacity)
                     }
                     HStack(spacing: 16){
                         FullCard(card: $deck[3], rotation: $thirdBaseFirst, size: .medium, geo: size)
                             .onTapGesture { gameLogic(index: 3) }
                             .disabled(currentBase == .third ? false : true)
                             .opacity(thirdBaseOpacity)
-                            .animation(.linear(duration: 1), value: thirdBaseOpacity)
+                            .animation(flipAnimation, value: thirdBaseOpacity)
                         FullCard(card: $deck[4], rotation: $thirdBaseSecond, size: .medium, geo: size)
                             .onTapGesture { gameLogic(index: 4) }
                             .disabled(currentBase == .third ? false : true)
                             .opacity(thirdBaseOpacity)
-                            .animation(.linear(duration: 1), value: thirdBaseOpacity)
+                            .animation(flipAnimation, value: thirdBaseOpacity)
                         FullCard(card: $deck[5], rotation: $thirdBaseThird, size: .medium, geo: size)
                             .onTapGesture { gameLogic(index: 5) }
                             .disabled(currentBase == .third ? false : true)
                             .opacity(thirdBaseOpacity)
-                            .animation(.linear(duration: 1), value: thirdBaseOpacity)
+                            .animation(flipAnimation, value: thirdBaseOpacity)
                     }
                     HStack(spacing: 16){
                         FullCard(card: $deck[6], rotation: $secondBaseFirst, size: .medium, geo: size)
                             .onTapGesture { gameLogic(index: 6) }
                             .disabled(currentBase == .second ? false : true)
                             .opacity(secondBaseOpacity)
-                            .animation(.linear(duration: 1), value: secondBaseOpacity)
+                            .animation(flipAnimation, value: secondBaseOpacity)
                         FullCard(card: $deck[7], rotation: $secondBaseSecond, size: .medium, geo: size)
                             .onTapGesture { gameLogic(index: 7) }
                             .disabled(currentBase == .second ? false : true)
                             .opacity(secondBaseOpacity)
-                            .animation(.linear(duration: 1), value: secondBaseOpacity)
+                            .animation(flipAnimation, value: secondBaseOpacity)
                         FullCard(card: $deck[8], rotation: $secondBaseThird, size: .medium, geo: size)
                             .onTapGesture { gameLogic(index: 8) }
                             .disabled(currentBase == .second ? false : true)
                             .opacity(secondBaseOpacity)
-                            .animation(.linear(duration: 1), value: secondBaseOpacity)
+                            .animation(flipAnimation, value: secondBaseOpacity)
                         FullCard(card: $deck[9], rotation: $secondBaseFourth, size: .medium, geo: size)
                             .onTapGesture { gameLogic(index: 9) }
                             .disabled(currentBase == .second ? false : true)
                             .opacity(secondBaseOpacity)
-                            .animation(.linear(duration: 1), value: secondBaseOpacity)
+                            .animation(flipAnimation, value: secondBaseOpacity)
                     }
                     HStack(spacing: 16){
                         FullCard(card: $deck[10], rotation: $firstBasefirst, size: .medium, geo: size)
                             .onTapGesture { gameLogic(index: 10) }
                             .disabled(currentBase == .first ? false : true)
                             .opacity(firstBaseOpacity)
-                            .animation(.linear(duration: 1), value: firstBaseOpacity)
+                            .animation(flipAnimation, value: firstBaseOpacity)
                         FullCard(card: $deck[11], rotation: $firstBaseSecond, size: .medium, geo: size)
                             .onTapGesture { gameLogic(index: 11) }
                             .disabled(currentBase == .first ? false : true)
                             .opacity(firstBaseOpacity)
-                            .animation(.linear(duration: 1), value: firstBaseOpacity)
+                            .animation(flipAnimation, value: firstBaseOpacity)
                         FullCard(card: $deck[12], rotation: $firstBaseThird, size: .medium, geo: size)
                             .onTapGesture { gameLogic(index: 12) }
                             .disabled(currentBase == .first ? false : true)
                             .opacity(firstBaseOpacity)
-                            .animation(.linear(duration: 1), value: firstBaseOpacity)
+                            .animation(flipAnimation, value: firstBaseOpacity)
                         FullCard(card: $deck[13], rotation: $firstBaseFourth, size: .medium, geo: size)
                             .onTapGesture { gameLogic(index: 13) }
                             .disabled(currentBase == .first ? false : true)
                             .opacity(firstBaseOpacity)
-                            .animation(.linear(duration: 1), value: firstBaseOpacity)
+                            .animation(flipAnimation, value: firstBaseOpacity)
                         FullCard(card: $deck[14], rotation: $firstBaseFifth, size: .medium, geo: size)
                             .onTapGesture { gameLogic(index: 14) }
                             .disabled(currentBase == .first ? false : true)
                             .opacity(firstBaseOpacity)
-                            .animation(.linear(duration: 1), value: firstBaseOpacity)
+                            .animation(flipAnimation, value: firstBaseOpacity)
                     }
                     Spacer()
                 }
@@ -169,23 +168,21 @@ struct PyramidGame: View {
         }
         .toolbar{
             ToolbarItem(placement: .navigationBarLeading) {
-                MainMenuMenuButton()
+                HomeButton()
             }
-            
             ToolbarItem(placement: .navigationBarTrailing) {
                 Button(action: {
                     restart()
                 }) {
-                    Images.restartFill
-                        .symbolRenderingMode(.palette)
-                        .foregroundStyle(.white, game.game.gradient)
-                        .font(.title)
+                    RestartButton()
                 }
             }
             ToolbarItem(placement: .navigationBarTrailing) {
-                RulesMenuButton(isOpen: $isRulesOpen)
+                RulesButton(isOpen: $isRulesOpen)
             }
-            GameTitle(game: .pyramid)
+            ToolbarItem(placement: .principal) {
+                GameTitle()
+            }
         }
     }
     

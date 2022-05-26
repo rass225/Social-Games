@@ -51,18 +51,20 @@ struct HigherLowerGame: View {
         .toolbar{
             ToolbarItem(placement: .navigationBarTrailing) {
                 Menu(content: {
-                    RulesMenuButton(isOpen: $isRulesOpen)
+                    RulesButton(isOpen: $isRulesOpen)
                     Button(action: {
 //                        model.restart()
                     }) {
                         Text("Was Menu label")
                     }
-                    MainMenuMenuButton()
+                    HomeButton()
                 }, label: {
                     Text("Was Burger")
                 })
             }
-            GameTitle(game: .higherLower)
+            ToolbarItem(placement: .principal) {
+                GameTitle()
+            }
         }
         .sheet(isPresented: $isRulesOpen) {
             RuleView(isOpen: $isRulesOpen)

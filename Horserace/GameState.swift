@@ -11,14 +11,11 @@ class Game: ObservableObject {
     }
 }
 
-
 public struct VisualEffectBlurView<Content: View>: UIViewRepresentable {
     public typealias UIViewType = UIView
-
     private let blurStyle: UIBlurEffect.Style
     private let vibrancyStyle: UIVibrancyEffectStyle?
     private let content: Content
-
     private var intensity: Double = 1.0
     private var opacity: Double = 1.0
 
@@ -185,14 +182,11 @@ extension DispatchQueue {
     }
 }
 
-
 extension View {
     @inlinable
     public func then(_ body: (inout Self) -> Void) -> Self {
         var result = self
-
         body(&result)
-
         return result
     }
     

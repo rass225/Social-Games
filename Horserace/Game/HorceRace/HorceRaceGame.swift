@@ -81,24 +81,21 @@ struct HorceRaceGame: View {
         .navigationModifier(game: .horseRace)
         .toolbar{
             ToolbarItem(placement: .navigationBarLeading) {
-                MainMenuMenuButton()
+                HomeButton()
             }
-            
             ToolbarItem(placement: .navigationBarTrailing) {
                 Button(action: {
                     model.restart()
                 }) {
-                    Images.restartFill
-                        .symbolRenderingMode(.palette)
-                        .foregroundStyle(.white, LinearGradient(gradient: Gradient(colors: game.game.background), startPoint: .bottom, endPoint: .top))
-                        
-                        .font(.title)
+                    RestartButton()
                 }
             }
             ToolbarItem(placement: .navigationBarTrailing) {
-                RulesMenuButton(isOpen: $isRulesOpen)
+                RulesButton(isOpen: $isRulesOpen)
             }
-            GameTitle(game: .horseRace)
+            ToolbarItem(placement: .principal) {
+                GameTitle()
+            }
         }
         .sheet(isPresented: $model.isThereAWinner) {
             gameOver

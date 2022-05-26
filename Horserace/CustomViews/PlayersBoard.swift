@@ -36,7 +36,7 @@ struct PlayersBoard: View {
             .mask(RoundedRectangle(cornerRadius: 16, style: .continuous))
             .shadow(color: Colors.darkShadow2, radius: 5, x: 0, y: 8)
             
-            if !hasPlayersShuffled {
+            if !hasPlayersShuffled && players.count > 1 {
                 Button(action: {
                     players.shuffle()
                     hasPlayersShuffled.toggle()

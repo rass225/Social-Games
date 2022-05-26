@@ -31,7 +31,7 @@ extension RouletteGame {
             Button(action: {
                 placedBet = bet
             }) {
-                Image(systemName: "diamond.fill")
+                Images.diamondFill
                     .foregroundColor(bet == .red ? .red : .black)
                     .font(.title)
                     .maxWidth()
@@ -47,38 +47,37 @@ extension RouletteGame {
         VStack(spacing: 0){
             HStack(spacing: 0){
                 BetView(bet: .firstQ, placedBet: $model.placedBet)
-                Divider().background(.ultraThickMaterial)
+                divider
                 BetView(bet: .secondQ, placedBet: $model.placedBet)
-                Divider().background(.ultraThickMaterial)
+                divider
                 BetView(bet: .thirdQ, placedBet: $model.placedBet)
             }
-            Divider().background(.ultraThickMaterial)
+            divider
             HStack(spacing: 0){
                 Group{
                     BetView(bet: .firstHalf, placedBet: $model.placedBet)
-                    Divider().background(.ultraThickMaterial)
+                    divider
                     BetView(bet: .even, placedBet: $model.placedBet)
-                    Divider().background(.ultraThickMaterial)
+                    divider
                     BetImageView(bet: .red, placedBet: $model.placedBet)
                 }
                 Group{
-                    Divider().background(.ultraThickMaterial)
+                    divider
                     BetImageView(bet: .black, placedBet: $model.placedBet)
-                    Divider().background(.ultraThickMaterial)
+                    divider
                     BetView(bet: .odd, placedBet: $model.placedBet)
-                    Divider().background(.ultraThickMaterial)
+                    divider
                     BetView(bet: .secondHalf, placedBet: $model.placedBet)
                 }
-                
             }
         }
         .frame(height: 100)
-        .background(LinearGradient(gradient: Gradient(colors: game.game.background), startPoint: .bottom, endPoint: .top))
+        .background(game.game.gradient)
         .mask(RoundedRectangle(cornerRadius: 16, style: .continuous))
         .overlay(
             RoundedRectangle(cornerRadius: 16, style: .continuous)
                 .stroke(lineWidth: 1)
-                .fill(LinearGradient(gradient: Gradient(colors: game.game.background), startPoint: .bottom, endPoint: .top))
+                .fill(game.game.gradient)
                 .opacity(model.status == .notStarted ? 0 : 1)
                 .opacity(model.status == .roulette ? 0.5 : 1)
         )
@@ -90,9 +89,12 @@ extension RouletteGame {
         .padding(.bottom)
         
     }
+    var divider: some View {
+        Divider().background(.ultraThickMaterial)
+    }
     
     var landingIndicator: some View {
-        Image(systemName: "arrowtriangle.down.fill")
+        Images.landingIndicator
             .font(.title3.weight(.light))
             .foregroundColor(game.game.background[0])
             .opacity(model.status == .roulette ? 1 : 0)
@@ -104,7 +106,7 @@ extension RouletteGame {
             VStack(spacing: 0){
                 Spacer()
                 landingIndicator
-                Image("RouletteTable")
+                Images.rouletteTable
                     .resizable()
                     .scaledToFit()
                     .rotationEffect(Angle(degrees: model.spinDegrees))

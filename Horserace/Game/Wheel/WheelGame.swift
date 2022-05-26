@@ -11,7 +11,6 @@ struct WheelGame: View {
     var body: some View {
         VStack(spacing: 0){
             PlayersBoard(currentPlayer: $currentPlayer, hasPlayersShuffled: $hasPlayersShuffled, players: players)
-                .padding(.bottom, 32)
             GeometryReader { geo in
                 let size = geo.size
                 VStack{
@@ -20,32 +19,24 @@ struct WheelGame: View {
                         incrementPlayer()
                     })
                     Spacer()
-                    Spacer()
                 }
-            }
-            .padding(.horizontal)
+            }.padding(.horizontal)
         }
-        .maxWidth()
         .navigationModifier(game: .wheel)
         .gameViewModifier(game: .wheel)
         .toolbar{
             ToolbarItem(placement: .navigationBarLeading) {
-                MainMenuMenuButton()
+                HomeButton()
             }
             ToolbarItem(placement: .navigationBarTrailing) {
-                Button(action: {
-                    presentationMode.wrappedValue.dismiss()
-                }) {
-                    Images.edit
-                        .symbolRenderingMode(.palette)
-                        .foregroundStyle(.white, game.game.gradient)
-                        .font(.title)
-                }
+                EditButton()
             }
             ToolbarItem(placement: .navigationBarTrailing) {
-                RulesMenuButton(isOpen: $isRulesOpen)
+                RulesButton(isOpen: $isRulesOpen)
             }
-            GameTitle(game: .wheel)
+            ToolbarItem(placement: .principal) {
+                GameTitle()
+            }
         }
         .sheet(isPresented: $isRulesOpen) {
             RuleView(isOpen: $isRulesOpen)

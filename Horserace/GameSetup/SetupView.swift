@@ -117,7 +117,7 @@ struct SetupView: View {
                             .overlay(Remove(player: $revealPlayer6), alignment: .trailing)
                     }
                 }
-                .padding(.horizontal)
+                .padding(.horizontal, 20)
                 .padding(.top, 20)
                 .foregroundColor(Colors.text)
                 
@@ -128,7 +128,7 @@ struct SetupView: View {
                             addPlayer()
                         }
                     }) {
-                        newPlayerButtonLabel
+                        AddButton()
                     }.padding(.top)
                 }
             }
@@ -138,7 +138,7 @@ struct SetupView: View {
                 MainButton(label: "Next")
             }
             .buttonStyle(PlainButtonStyle())
-            .padding(.horizontal)
+            .padding(.horizontal, 20)
         }
         .sheet(isPresented: $isRulesOpened) {
             RuleView(isOpen: $isRulesOpened)
@@ -148,9 +148,11 @@ struct SetupView: View {
         .navigationBarBackButtonHidden(true)
         .toolbar{
             ToolbarItem(placement: .navigationBarTrailing) {
-                RulesMenuButton(isOpen: $isRulesOpened)
+                RulesButton(isOpen: $isRulesOpened)
             }
-            GameTitle(game: game.game)
+            ToolbarItem(placement: .principal) {
+                GameTitle()
+            }
             ToolbarItem(placement: .navigationBarLeading) {
                 BackButton()
             }
@@ -166,22 +168,9 @@ struct SetupView: View {
                     player.toggle()
                 }
             }) {
-                Image(systemName: "minus.circle.fill")
-                    .symbolRenderingMode(.palette)
-                    .foregroundStyle(.white, Colors.red)
-                    .font(.title2)
-                    .padding(8)
+                RemoveButton()
             }
         }
-    }
-    
-    var newPlayerButtonLabel: some View {
-        Image(systemName: "plus.circle.fill")
-            .resizable()
-            .frame(width: 50, height: 50)
-            .font(.body.weight(.light))
-            .symbolRenderingMode(.palette)
-            .foregroundStyle(.white, Colors.green)
     }
     
     func areMaxPlayers() -> Bool {

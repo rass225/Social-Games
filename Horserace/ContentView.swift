@@ -5,6 +5,7 @@ struct ContentView: View {
     @State var showingAlert = false
     @State var alertMessage = "This game is being developed and will be released in the coming weeks"
     @State var spacing: Double = 20
+    
     var body: some View {
         NavigationView{
             ZStack{
@@ -14,7 +15,6 @@ struct ContentView: View {
             .navigationBarHidden(true)
         }.accentColor(.white)
     }
-
     
     var content: some View {
         GeometryReader { geometry in
@@ -32,7 +32,6 @@ struct ContentView: View {
                         }
                         .padding(.horizontal, spacing)
                         .padding(.bottom, spacing)
-                        
                     }
                 }.padding(.top, spacing)
                 VStack(alignment: .leading, spacing: 12) {
@@ -45,7 +44,6 @@ struct ContentView: View {
                         }
                         .padding(.horizontal, spacing)
                         .padding(.bottom, spacing)
-                        
                     }
                 }
                 VStack(alignment: .leading, spacing: 12) {
@@ -73,7 +71,6 @@ struct ContentView: View {
                         }
                         .padding(.horizontal, spacing)
                         .padding(.bottom, spacing)
-                        
                     }
                 }
             }
@@ -93,7 +90,6 @@ struct ContentView: View {
                 .padding(.horizontal, spacing)
         }
     }
-    
     
     private struct NewGameView: View {
         let size: CGSize
@@ -122,7 +118,6 @@ struct ContentView: View {
             tilt: Double = 0,
             willRotate: Bool = false,
             willPulse: Bool = false
-            
         ) {
             self.size = size
             self.game = game
@@ -139,82 +134,88 @@ struct ContentView: View {
         
         var body: some View {
             NavigationLink(destination: GameSetup(game: game)) {
-                ZStack(alignment: .trailing){
-                    game.icon
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(maxWidth: size.width / 2)
-                        .frame(maxHeight: size.width / 2)
-                        .foregroundColor(.white.opacity(0.1))
-                        
-                        .rotationEffect(tilt)
-                        .rotationEffect(Angle(degrees: isRotating ? 360.0 : 0.0))
-                        .scaleEffect(isPulsing ? 0.90 : 1)
-                        .animation(foreverAnimation, value: isRotating)
-                        .animation(pulseAnimation, value: isPulsing)
-                        .offset(x: size.width / 8, y: size.width / 9)
-                    
-                        
-                        .onAppear{
-                            DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
-                                if willRotete {
-                                    self.isRotating = true
-                                }
-                                if willPulse {
-                                    self.isPulsing = true
-                                }
-                            }
-                        }
-                        
-                }
-                .maxHeight()
-                .frame(idealWidth: size.width / 1.75, maxWidth: size.width / 1.75)
-                .frame(idealHeight: size.width / 2.2, maxHeight: size.width / 2.2)
-                .overlay(alignment: .bottomLeading) {
-                        Text(game.rawValue)
-                            .font(.title2.weight(.semibold))
-                            .foregroundColor(Color.white)
-                            .tracking(0.5)
-                            .padding(.vertical, 24)
-                            .padding(.horizontal)
-                            .maxWidth(alignment: .leading)
-                }
-                .overlay(alignment: .topLeading) {
-                    game.icon
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(maxWidth: size.width / 12)
-                        .frame(maxHeight: size.width / 12)
-                        .foregroundColor(game.color)
-                        .rotationEffect(tilt)
-                        .scaleEffect(isPulsing ? 0.92 : 1)
-                        .animation(pulseAnimation, value: isPulsing)
-                        .padding(16)
-                        .overlay{
-                            if hasQuestionMark {
-                                Image(systemName: "questionmark")
-                                    .font(.body.weight(.bold))
-                                    .foregroundColor(.white)
-                                    
-                            }
-                        }
-                        .padding(.bottom, 24)
-                }
-                .background(
-                    ZStack{
-                        game.gradient
-//                        LinearGradient(gradient: Gradient(colors: [.black.opacity(0.9), .black.opacity(0.0)]), startPoint: .bottom, endPoint: .top)
-                        LinearGradient(stops: [
-                            .init(color: .clear, location: 0),
-                            .init(color: .clear, location: 0.4),
-                            .init(color: .black.opacity(0.8), location: 1)
-                        ], startPoint: .top, endPoint: .bottom)
+                game.icon
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(maxWidth: size.width / 2, maxHeight: size.width / 2)
+                    .foregroundColor(.white.opacity(0.1))
+                    .rotationEffect(tilt)
+                    .rotationEffect(Angle(degrees: isRotating ? 360.0 : 0.0))
+                    .scaleEffect(isPulsing ? 0.90 : 1)
+                    .animation(foreverAnimation, value: isRotating)
+                    .animation(pulseAnimation, value: isPulsing)
+                    .offset(x: size.width / 8, y: size.width / 9)
+                    .frame(idealWidth: size.width / 1.75, maxWidth: size.width / 1.75)
+                    .frame(idealHeight: size.width / 2.2, maxHeight: size.width / 2.2)
+                    .background(background)
+                    .mask(RoundedRectangle(cornerRadius: 24, style: .continuous))
+                    .shadow(color: Colors.darkShadow, radius: 5, x: 0, y: 8)
+                    .overlay(alignment: .bottomLeading) {
+                        gameTitle
                     }
-                )
-                .mask(RoundedRectangle(cornerRadius: 24, style: .continuous))
-                .overlay(RoundedRectangle(cornerRadius: 24, style: .continuous).stroke(lineWidth: 0.5).fill(Colors.buttonBorder))
-                .shadow(color: Colors.darkShadow, radius: 5, x: 0, y: 8)
+                    .overlay(alignment: .topLeading) {
+                        gameIcon
+                    }
+                    .onAppear{
+                        startAnimation()
+                    }
             }.buttonStyle(GameButtonStyle())
+        }
+        
+        var gameTitle: some View {
+            game.title
+                .font(.title2.weight(.semibold))
+                .foregroundColor(.white)
+                .tracking(0.5)
+                .padding(.vertical, 24)
+                .padding(.horizontal)
+                .maxWidth(alignment: .leading)
+        }
+        
+        var gameIcon: some View {
+            game.icon
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(maxWidth: size.width / 12)
+                .frame(maxHeight: size.width / 12)
+                .foregroundColor(game.color)
+                .rotationEffect(tilt)
+                .scaleEffect(isPulsing ? 0.92 : 1)
+                .animation(pulseAnimation, value: isPulsing)
+                .padding(16)
+                .overlay{
+                    if hasQuestionMark {
+                        questionMark
+                    }
+                }
+        }
+        
+        var background: some View {
+            ZStack{
+                game.gradient
+                LinearGradient(stops: [
+                    .init(color: .clear, location: 0),
+                    .init(color: .clear, location: 0.4),
+                    .init(color: .black.opacity(0.8), location: 1)
+                ], startPoint: .top, endPoint: .bottom)
+            }
+        }
+        
+        var questionMark: some View {
+            Images.questionMark
+                .font(.body.weight(.bold))
+                .foregroundColor(.white)
+        }
+        
+        func startAnimation() {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+                if willRotete {
+                    self.isRotating = true
+                }
+                if willPulse {
+                    self.isPulsing = true
+                }
+            }
         }
     }
 }

@@ -48,7 +48,7 @@ struct WheelComponents: View {
                                 Button(action: {
                                     removeAt(index: index)
                                 }) {
-                                    Remove()
+                                    RemoveButton()
                                 }
                                     .disabled(index < 2)
                                     .opacity(index < 2 ? 0 : 1)
@@ -59,11 +59,12 @@ struct WheelComponents: View {
                         Button(action: {
                             addComponent()
                         }) {
-                            addLabel
+                            AddButton()
                         }.padding(.top)
                     }
                 }
-                .padding()
+                .padding(.horizontal, 20)
+                .padding(.vertical)
                 .padding(.top)
             }
             
@@ -73,7 +74,7 @@ struct WheelComponents: View {
                 MainButton(label: "Next")
             }
             .buttonStyle(PlainButtonStyle())
-            .padding(.horizontal)
+            .padding(.horizontal, 20)
             .padding(.top, 8)
             .padding(.bottom)
         }
@@ -87,30 +88,11 @@ struct WheelComponents: View {
                 BackButton()
             }
             ToolbarItem(placement: .navigationBarTrailing) {
-                RulesMenuButton(isOpen: $isRulesOpened)
+                RulesButton(isOpen: $isRulesOpened)
             }
         }
         .sheet(isPresented: $isRulesOpened) {
             RuleView(isOpen: $isRulesOpened)
-        }
-    }
-    
-    var addLabel: some View {
-        Image(systemName: "plus.circle.fill")
-            .resizable()
-            .frame(width: 50, height: 50)
-            .font(.body.weight(.light))
-            .symbolRenderingMode(.palette)
-            .foregroundStyle(.white, Colors.green)
-    }
-    
-    private struct Remove: View {
-        var body : some View {
-            Image(systemName: "minus.circle.fill")
-                .symbolRenderingMode(.palette)
-                .foregroundStyle(.white, Colors.red)
-                .font(.title2)
-                .padding(8)
         }
     }
     

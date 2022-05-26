@@ -7,18 +7,14 @@ struct ChooserGame: View {
     @State var points: [UITouch:CGPoint] = [:]
     @State var touchColors: Gradient = Gradients.chooserCircle
     @State var state: GameState = .idle
+    @State var hasWinner = false
     
     public enum GameState {
         case idle
         case choosing
         case winner
     }
-    
-    @State var hasWinner = false
-    
-    
-    
-    
+
     var body: some View {
         ZStack {
             if points.isEmpty {
@@ -44,7 +40,6 @@ struct ChooserGame: View {
                         .position(x: values[index].x, y: values[index].y)
                 }
             }
-            
         }
         .maxWidth()
         .maxHeight()
@@ -55,20 +50,18 @@ struct ChooserGame: View {
         .ignoresSafeArea()
         .toolbar{
             ToolbarItem(placement: .navigationBarLeading) {
-                MainMenuMenuButton()
+                HomeButton()
                     .disabled(points.isEmpty ? false : true)
                     .opacity(points.isEmpty ? 1 : 0)
             }
             ToolbarItem(placement: .navigationBarTrailing) {
-                RulesMenuButton(isOpen: $isRulesOpen)
+                RulesButton(isOpen: $isRulesOpen)
                     .disabled(points.isEmpty ? false : true)
                     .opacity(points.isEmpty ? 1 : 0)
             }
             ToolbarItem(placement: .principal) {
                 if points.isEmpty {
-                    Text("Chooser")
-                        .font(.headline.weight(.medium))
-                        .foregroundColor(Colors.text)
+                    GameTitle()
                 }
                 
             }
@@ -78,24 +71,11 @@ struct ChooserGame: View {
         }
     }
     
-    func chooser() -> [CGPoint] {
-        let values = points.map {$0.value}
-        if values.count > 1 {
-            startCountdown()
-        }
-        
-        return values
-    }
-    
-    private func startCountdown() {
-        
-    }
-    
     private struct TouchMarker: View {
         @EnvironmentObject var game: Game
         let size: CGSize
-        var innerPulseAnimation: Animation = Animation.linear(duration: 0.75).repeatForever(autoreverses: true)
-        var outerPulseAnimation: Animation = Animation.linear(duration: 0.75).repeatForever(autoreverses: true)
+        var innerPulseAnimation: Animation = Animation.easeInOut(duration: 0.75).repeatForever(autoreverses: true)
+        var outerPulseAnimation: Animation = Animation.easeInOut(duration: 0.75).repeatForever(autoreverses: true)
     
         @State var isInnerPulsing: Bool = false
         @State var isOuterPulsing: Bool = false
@@ -125,14 +105,5 @@ struct ChooserGame: View {
                         }
                 }
         }
-        
-        
     }
 }
-
-struct ChooserGame_Previews: PreviewProvider {
-    static var previews: some View {
-        ChooserGame()
-    }
-}
-

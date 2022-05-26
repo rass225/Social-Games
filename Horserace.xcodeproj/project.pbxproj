@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C0045D3F2824A35900A6331E /* SpinBottleRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0045D3E2824A35900A6331E /* SpinBottleRule.swift */; };
-		C009A54D2837BA03008C0355 /* PartialSheet in Frameworks */ = {isa = PBXBuildFile; productRef = C009A54C2837BA03008C0355 /* PartialSheet */; };
 		C00E05B8282EACFA0014CA8F /* GameTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00E05B7282EACFA0014CA8F /* GameTitle.swift */; };
+		C00FA407283AD4B3006240FE /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00FA406283AD4B3006240FE /* Shape.swift */; };
 		C036553F281B734A00CB8D00 /* TruthOrDareModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C036553E281B734A00CB8D00 /* TruthOrDareModel.swift */; };
 		C0365541281C73D700CB8D00 /* RouletteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0365540281C73D700CB8D00 /* RouletteModel.swift */; };
 		C0365543281CECCE00CB8D00 /* FullCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0365542281CECCE00CB8D00 /* FullCard.swift */; };
@@ -36,6 +36,14 @@
 		C08848A7282A3F990074EC97 /* ChooserRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08848A6282A3F990074EC97 /* ChooserRules.swift */; };
 		C0884926282C5A900074EC97 /* SwiftUIVisualEffects in Frameworks */ = {isa = PBXBuildFile; productRef = C0884925282C5A900074EC97 /* SwiftUIVisualEffects */; };
 		C0884928282CF7F40074EC97 /* DefaultBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0884927282CF7F40074EC97 /* DefaultBackground.swift */; };
+		C0889DD228395FCD009015DB /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0889DD128395FCD009015DB /* UINavigationController.swift */; };
+		C0889DD528398611009015DB /* TruthTierOne.json in Resources */ = {isa = PBXBuildFile; fileRef = C0889DD428398611009015DB /* TruthTierOne.json */; };
+		C0889DD7283987BA009015DB /* TruthTierTwo.json in Resources */ = {isa = PBXBuildFile; fileRef = C0889DD6283987BA009015DB /* TruthTierTwo.json */; };
+		C0889DD9283989E3009015DB /* TruthTierThree.json in Resources */ = {isa = PBXBuildFile; fileRef = C0889DD8283989E3009015DB /* TruthTierThree.json */; };
+		C0889DDC28398AFF009015DB /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0889DDB28398AFF009015DB /* APIClient.swift */; };
+		C0889DDE28398B07009015DB /* JSONClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0889DDD28398B07009015DB /* JSONClient.swift */; };
+		C0889DE028398D24009015DB /* TruthOrDareObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0889DDF28398D24009015DB /* TruthOrDareObjects.swift */; };
+		C0889DE22839951C009015DB /* TruthOrDareTiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0889DE12839951C009015DB /* TruthOrDareTiers.swift */; };
 		C09D900B28339191000E0B04 /* Suits.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09D900A28339191000E0B04 /* Suits.swift */; };
 		C09D900D28339227000E0B04 /* Rank.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09D900C28339227000E0B04 /* Rank.swift */; };
 		C09D900F2833923E000E0B04 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09D900E2833923E000E0B04 /* Size.swift */; };
@@ -60,6 +68,11 @@
 		C0ACBBE828134FEC005D223D /* NeverHaveIEverGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ACBBE728134FEC005D223D /* NeverHaveIEverGame.swift */; };
 		C0ACBBEC2813AACE005D223D /* NeverHaveIEverRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ACBBEB2813AACE005D223D /* NeverHaveIEverRules.swift */; };
 		C0ACBBF12813B400005D223D /* PyramidGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ACBBF02813B400005D223D /* PyramidGame.swift */; };
+		C0BFC1EA2838F7D70079A6A1 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BFC1E92838F7D70079A6A1 /* BackButton.swift */; };
+		C0BFC1EC2838F8B30079A6A1 /* EditButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BFC1EB2838F8B30079A6A1 /* EditButton.swift */; };
+		C0BFC1EF2838F9C20079A6A1 /* RestartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BFC1EE2838F9C20079A6A1 /* RestartButton.swift */; };
+		C0BFC1F128390C010079A6A1 /* AddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BFC1F028390C010079A6A1 /* AddButton.swift */; };
+		C0BFC1F328390C650079A6A1 /* RemoveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BFC1F228390C650079A6A1 /* RemoveButton.swift */; };
 		C0BFE7F028121960008BDBD1 /* TruthOrDareRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BFE7EF28121960008BDBD1 /* TruthOrDareRules.swift */; };
 		C0C759CB28185FCF00AB1C96 /* WheelGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C759CA28185FCF00AB1C96 /* WheelGame.swift */; };
 		C0C759CD2818619100AB1C96 /* WheelSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C759CC2818619100AB1C96 /* WheelSubviews.swift */; };
@@ -74,8 +87,8 @@
 		C0E777632816F6ED007CE89F /* HigherLowerGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E777622816F6ED007CE89F /* HigherLowerGame.swift */; };
 		C0E77765281700F6007CE89F /* RouletteGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E77764281700F6007CE89F /* RouletteGame.swift */; };
 		C0E77768281709FB007CE89F /* RouletteSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E77767281709FB007CE89F /* RouletteSubviews.swift */; };
-		C0E7776A28176F42007CE89F /* RulesMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E7776928176F42007CE89F /* RulesMenuButton.swift */; };
-		C0E7776E2817705A007CE89F /* MainMenuMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E7776D2817705A007CE89F /* MainMenuMenuButton.swift */; };
+		C0E7776A28176F42007CE89F /* RulesButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E7776928176F42007CE89F /* RulesButton.swift */; };
+		C0E7776E2817705A007CE89F /* HomeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E7776D2817705A007CE89F /* HomeButton.swift */; };
 		C0E777702817A978007CE89F /* PyramidRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E7776F2817A978007CE89F /* PyramidRules.swift */; };
 		C0E777722817AB8C007CE89F /* RouletteRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E777712817AB8C007CE89F /* RouletteRules.swift */; };
 		C0F03D9828062EB5002CBB88 /* KingsCupGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F03D9728062EB5002CBB88 /* KingsCupGame.swift */; };
@@ -105,6 +118,7 @@
 /* Begin PBXFileReference section */
 		C0045D3E2824A35900A6331E /* SpinBottleRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinBottleRule.swift; sourceTree = "<group>"; };
 		C00E05B7282EACFA0014CA8F /* GameTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTitle.swift; sourceTree = "<group>"; };
+		C00FA406283AD4B3006240FE /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 		C036553E281B734A00CB8D00 /* TruthOrDareModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruthOrDareModel.swift; sourceTree = "<group>"; };
 		C0365540281C73D700CB8D00 /* RouletteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouletteModel.swift; sourceTree = "<group>"; };
 		C0365542281CECCE00CB8D00 /* FullCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullCard.swift; sourceTree = "<group>"; };
@@ -133,6 +147,14 @@
 		C05060B627FF970400C35785 /* HorseRaceSuits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorseRaceSuits.swift; sourceTree = "<group>"; };
 		C08848A6282A3F990074EC97 /* ChooserRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooserRules.swift; sourceTree = "<group>"; };
 		C0884927282CF7F40074EC97 /* DefaultBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultBackground.swift; sourceTree = "<group>"; };
+		C0889DD128395FCD009015DB /* UINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
+		C0889DD428398611009015DB /* TruthTierOne.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TruthTierOne.json; sourceTree = "<group>"; };
+		C0889DD6283987BA009015DB /* TruthTierTwo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TruthTierTwo.json; sourceTree = "<group>"; };
+		C0889DD8283989E3009015DB /* TruthTierThree.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TruthTierThree.json; sourceTree = "<group>"; };
+		C0889DDB28398AFF009015DB /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		C0889DDD28398B07009015DB /* JSONClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONClient.swift; sourceTree = "<group>"; };
+		C0889DDF28398D24009015DB /* TruthOrDareObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruthOrDareObjects.swift; sourceTree = "<group>"; };
+		C0889DE12839951C009015DB /* TruthOrDareTiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruthOrDareTiers.swift; sourceTree = "<group>"; };
 		C09D900A28339191000E0B04 /* Suits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Suits.swift; sourceTree = "<group>"; };
 		C09D900C28339227000E0B04 /* Rank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rank.swift; sourceTree = "<group>"; };
 		C09D900E2833923E000E0B04 /* Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
@@ -158,6 +180,11 @@
 		C0ACBBE728134FEC005D223D /* NeverHaveIEverGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeverHaveIEverGame.swift; sourceTree = "<group>"; };
 		C0ACBBEB2813AACE005D223D /* NeverHaveIEverRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeverHaveIEverRules.swift; sourceTree = "<group>"; };
 		C0ACBBF02813B400005D223D /* PyramidGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PyramidGame.swift; sourceTree = "<group>"; };
+		C0BFC1E92838F7D70079A6A1 /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		C0BFC1EB2838F8B30079A6A1 /* EditButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditButton.swift; sourceTree = "<group>"; };
+		C0BFC1EE2838F9C20079A6A1 /* RestartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestartButton.swift; sourceTree = "<group>"; };
+		C0BFC1F028390C010079A6A1 /* AddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButton.swift; sourceTree = "<group>"; };
+		C0BFC1F228390C650079A6A1 /* RemoveButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveButton.swift; sourceTree = "<group>"; };
 		C0BFE7EF28121960008BDBD1 /* TruthOrDareRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruthOrDareRules.swift; sourceTree = "<group>"; };
 		C0C759CA28185FCF00AB1C96 /* WheelGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelGame.swift; sourceTree = "<group>"; };
 		C0C759CC2818619100AB1C96 /* WheelSubviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelSubviews.swift; sourceTree = "<group>"; };
@@ -172,8 +199,8 @@
 		C0E777622816F6ED007CE89F /* HigherLowerGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HigherLowerGame.swift; sourceTree = "<group>"; };
 		C0E77764281700F6007CE89F /* RouletteGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouletteGame.swift; sourceTree = "<group>"; };
 		C0E77767281709FB007CE89F /* RouletteSubviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouletteSubviews.swift; sourceTree = "<group>"; };
-		C0E7776928176F42007CE89F /* RulesMenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesMenuButton.swift; sourceTree = "<group>"; };
-		C0E7776D2817705A007CE89F /* MainMenuMenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuMenuButton.swift; sourceTree = "<group>"; };
+		C0E7776928176F42007CE89F /* RulesButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesButton.swift; sourceTree = "<group>"; };
+		C0E7776D2817705A007CE89F /* HomeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeButton.swift; sourceTree = "<group>"; };
 		C0E7776F2817A978007CE89F /* PyramidRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PyramidRules.swift; sourceTree = "<group>"; };
 		C0E777712817AB8C007CE89F /* RouletteRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouletteRules.swift; sourceTree = "<group>"; };
 		C0F03D9728062EB5002CBB88 /* KingsCupGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingsCupGame.swift; sourceTree = "<group>"; };
@@ -188,7 +215,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C009A54D2837BA03008C0355 /* PartialSheet in Frameworks */,
 				C0884926282C5A900074EC97 /* SwiftUIVisualEffects in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,6 +249,7 @@
 		C044B80C2808849B00A112C2 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				C0889DDA28398AF3009015DB /* Clients */,
 				C09D901A2833951A000E0B04 /* Extensions */,
 				C09D900928339160000E0B04 /* Enumerations */,
 				C0A9EE2927FFEB9400E69993 /* Constants.swift */,
@@ -234,15 +261,13 @@
 		C044B80D280884BD00A112C2 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
-				C044B80E280884CB00A112C2 /* Card.swift */,
-				C044B8102808997A00A112C2 /* CardBack.swift */,
+				C0BFC1ED2838F9330079A6A1 /* Card */,
+				C0BFC1E82838F7B50079A6A1 /* ToolBarItems */,
 				C044B81228089C9E00A112C2 /* MainButton.swift */,
+				C0BFC1F028390C010079A6A1 /* AddButton.swift */,
+				C0BFC1F228390C650079A6A1 /* RemoveButton.swift */,
 				C0ACBBD92813054A005D223D /* PlayersBoard.swift */,
-				C0E7776928176F42007CE89F /* RulesMenuButton.swift */,
 				C00E05B7282EACFA0014CA8F /* GameTitle.swift */,
-				C0E7776D2817705A007CE89F /* MainMenuMenuButton.swift */,
-				C0D9C72E281A5E6B009B5001 /* TitleLabel.swift */,
-				C0365542281CECCE00CB8D00 /* FullCard.swift */,
 				C0884927282CF7F40074EC97 /* DefaultBackground.swift */,
 			);
 			path = CustomViews;
@@ -251,6 +276,7 @@
 		C050606B27FF421900C35785 = {
 			isa = PBXGroup;
 			children = (
+				C0889DD3283985C9009015DB /* JSON */,
 				C050607627FF421900C35785 /* Horserace */,
 				C050608727FF421A00C35785 /* HorseraceTests */,
 				C050609127FF421A00C35785 /* HorseraceUITests */,
@@ -321,6 +347,25 @@
 			path = GameSetup;
 			sourceTree = "<group>";
 		};
+		C0889DD3283985C9009015DB /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				C0889DD428398611009015DB /* TruthTierOne.json */,
+				C0889DD6283987BA009015DB /* TruthTierTwo.json */,
+				C0889DD8283989E3009015DB /* TruthTierThree.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		C0889DDA28398AF3009015DB /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				C0889DDB28398AFF009015DB /* APIClient.swift */,
+				C0889DDD28398B07009015DB /* JSONClient.swift */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
 		C09D900928339160000E0B04 /* Enumerations */ = {
 			isa = PBXGroup;
 			children = (
@@ -343,6 +388,8 @@
 				C09D901B2833952F000E0B04 /* UIColor.swift */,
 				C09D901D28339561000E0B04 /* Color.swift */,
 				C09D901F2833972F000E0B04 /* EnvironmentValues.swift */,
+				C0889DD128395FCD009015DB /* UINavigationController.swift */,
+				C00FA406283AD4B3006240FE /* Shape.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -380,8 +427,10 @@
 			isa = PBXGroup;
 			children = (
 				C0A9EE342803B1F300E69993 /* TruthOrDareGame.swift */,
+				C0889DE12839951C009015DB /* TruthOrDareTiers.swift */,
 				C036553E281B734A00CB8D00 /* TruthOrDareModel.swift */,
 				C0BFE7EF28121960008BDBD1 /* TruthOrDareRules.swift */,
+				C0889DDF28398D24009015DB /* TruthOrDareObjects.swift */,
 			);
 			path = TruthOrDare;
 			sourceTree = "<group>";
@@ -413,6 +462,29 @@
 				C0E7776F2817A978007CE89F /* PyramidRules.swift */,
 			);
 			path = Pyramid;
+			sourceTree = "<group>";
+		};
+		C0BFC1E82838F7B50079A6A1 /* ToolBarItems */ = {
+			isa = PBXGroup;
+			children = (
+				C0D9C72E281A5E6B009B5001 /* TitleLabel.swift */,
+				C0E7776928176F42007CE89F /* RulesButton.swift */,
+				C0BFC1E92838F7D70079A6A1 /* BackButton.swift */,
+				C0BFC1EB2838F8B30079A6A1 /* EditButton.swift */,
+				C0BFC1EE2838F9C20079A6A1 /* RestartButton.swift */,
+				C0E7776D2817705A007CE89F /* HomeButton.swift */,
+			);
+			path = ToolBarItems;
+			sourceTree = "<group>";
+		};
+		C0BFC1ED2838F9330079A6A1 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				C044B80E280884CB00A112C2 /* Card.swift */,
+				C044B8102808997A00A112C2 /* CardBack.swift */,
+				C0365542281CECCE00CB8D00 /* FullCard.swift */,
+			);
+			path = Card;
 			sourceTree = "<group>";
 		};
 		C0C759C928185FB700AB1C96 /* Wheel */ = {
@@ -488,7 +560,6 @@
 			name = Horserace;
 			packageProductDependencies = (
 				C0884925282C5A900074EC97 /* SwiftUIVisualEffects */,
-				C009A54C2837BA03008C0355 /* PartialSheet */,
 			);
 			productName = Horserace;
 			productReference = C050607427FF421900C35785 /* Horserace.app */;
@@ -564,7 +635,6 @@
 			mainGroup = C050606B27FF421900C35785;
 			packageReferences = (
 				C0884924282C5A900074EC97 /* XCRemoteSwiftPackageReference "swiftui-visual-effects" */,
-				C009A54B2837BA03008C0355 /* XCRemoteSwiftPackageReference "PartialSheet" */,
 			);
 			productRefGroup = C050607527FF421900C35785 /* Products */;
 			projectDirPath = "";
@@ -583,6 +653,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C050607F27FF421900C35785 /* Preview Assets.xcassets in Resources */,
+				C0889DD528398611009015DB /* TruthTierOne.json in Resources */,
+				C0889DD9283989E3009015DB /* TruthTierThree.json in Resources */,
+				C0889DD7283987BA009015DB /* TruthTierTwo.json in Resources */,
 				C050607C27FF421900C35785 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -615,6 +688,7 @@
 				C0F03D9828062EB5002CBB88 /* KingsCupGame.swift in Sources */,
 				C05060A427FF465700C35785 /* Modifiers.swift in Sources */,
 				C0ACBBEC2813AACE005D223D /* NeverHaveIEverRules.swift in Sources */,
+				C0BFC1EF2838F9C20079A6A1 /* RestartButton.swift in Sources */,
 				C044B80F280884CB00A112C2 /* Card.swift in Sources */,
 				C044B80A280789F500A112C2 /* KingsCupSubviews.swift in Sources */,
 				C0E77760281646AA007CE89F /* ChooserGame.swift in Sources */,
@@ -634,45 +708,55 @@
 				C044B817280A2D0000A112C2 /* KingsCupRulesSheet.swift in Sources */,
 				C05060A227FF43EB00C35785 /* GameSetup.swift in Sources */,
 				C0365546281E1FE000CB8D00 /* SpinBottleGame.swift in Sources */,
+				C0BFC1F128390C010079A6A1 /* AddButton.swift in Sources */,
 				C0C759CF2818878700AB1C96 /* WheelModel.swift in Sources */,
 				C09D901E28339561000E0B04 /* Color.swift in Sources */,
 				C0ACBBE3281313E2005D223D /* RuleObjects.swift in Sources */,
+				C0BFC1F328390C650079A6A1 /* RemoveButton.swift in Sources */,
 				C036554C281EFC0100CB8D00 /* GameState.swift in Sources */,
+				C0889DE028398D24009015DB /* TruthOrDareObjects.swift in Sources */,
 				C09D900F2833923E000E0B04 /* Size.swift in Sources */,
 				C0A9EE2E27FFEF3400E69993 /* HorceRaceGame.swift in Sources */,
 				C0E777632816F6ED007CE89F /* HigherLowerGame.swift in Sources */,
 				C0365543281CECCE00CB8D00 /* FullCard.swift in Sources */,
-				C0E7776E2817705A007CE89F /* MainMenuMenuButton.swift in Sources */,
+				C0E7776E2817705A007CE89F /* HomeButton.swift in Sources */,
 				C0E77768281709FB007CE89F /* RouletteSubviews.swift in Sources */,
 				C0F1BA4F2820440A00DBD862 /* ChooserSubviews.swift in Sources */,
 				C05060B527FF55B800C35785 /* View.swift in Sources */,
 				C09D901728339447000E0B04 /* Colors.swift in Sources */,
 				C0D9C727281A4EAA009B5001 /* WheelComponents.swift in Sources */,
 				C0D9C72F281A5E6B009B5001 /* TitleLabel.swift in Sources */,
+				C0BFC1EC2838F8B30079A6A1 /* EditButton.swift in Sources */,
 				C044B81B280D080E00A112C2 /* HorseRaceRules.swift in Sources */,
 				C0E777722817AB8C007CE89F /* RouletteRules.swift in Sources */,
 				C00E05B8282EACFA0014CA8F /* GameTitle.swift in Sources */,
 				C0ACBBDA2813054A005D223D /* PlayersBoard.swift in Sources */,
 				C0F1BA4B281F8E3300DBD862 /* HigherLowerModel.swift in Sources */,
 				C09D90112833924F000E0B04 /* Games.swift in Sources */,
+				C0889DD228395FCD009015DB /* UINavigationController.swift in Sources */,
 				C05060B727FF970400C35785 /* HorseRaceSuits.swift in Sources */,
 				C050607827FF421900C35785 /* HorseraceApp.swift in Sources */,
+				C00FA407283AD4B3006240FE /* Shape.swift in Sources */,
 				C08848A7282A3F990074EC97 /* ChooserRules.swift in Sources */,
 				C09D900D28339227000E0B04 /* Rank.swift in Sources */,
 				C0A9EE2A27FFEB9400E69993 /* Constants.swift in Sources */,
 				C0365541281C73D700CB8D00 /* RouletteModel.swift in Sources */,
 				C0ACBBE1281313D9005D223D /* Rulebook.swift in Sources */,
+				C0BFC1EA2838F7D70079A6A1 /* BackButton.swift in Sources */,
 				C0E777702817A978007CE89F /* PyramidRules.swift in Sources */,
 				C036553F281B734A00CB8D00 /* TruthOrDareModel.swift in Sources */,
 				C0F03D9C280672E6002CBB88 /* KingsCupShapes.swift in Sources */,
+				C0889DE22839951C009015DB /* TruthOrDareTiers.swift in Sources */,
+				C0889DDC28398AFF009015DB /* APIClient.swift in Sources */,
 				C0ACBBE528131CD9005D223D /* RuleView.swift in Sources */,
 				C09D90152833941F000E0B04 /* Fonts.swift in Sources */,
-				C0E7776A28176F42007CE89F /* RulesMenuButton.swift in Sources */,
+				C0E7776A28176F42007CE89F /* RulesButton.swift in Sources */,
 				C0D9C729281A4FAD009B5001 /* WheelRules.swift in Sources */,
 				C0BFE7F028121960008BDBD1 /* TruthOrDareRules.swift in Sources */,
 				C0ACBBE828134FEC005D223D /* NeverHaveIEverGame.swift in Sources */,
 				C044B8112808997A00A112C2 /* CardBack.swift in Sources */,
 				C09D9013283393CD000E0B04 /* Images.swift in Sources */,
+				C0889DDE28398B07009015DB /* JSONClient.swift in Sources */,
 				C0D9C72B281A51BA009B5001 /* HorseRaceModel.swift in Sources */,
 				C044B81328089C9E00A112C2 /* MainButton.swift in Sources */,
 				C0D9C72D281A5789009B5001 /* NeverEverModel.swift in Sources */,
@@ -833,7 +917,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 14;
+				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_ASSET_PATHS = "\"Horserace/Preview Content\"";
 				DEVELOPMENT_TEAM = Q6B2DLVPJB;
 				ENABLE_PREVIEWS = YES;
@@ -867,7 +951,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 14;
+				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_ASSET_PATHS = "\"Horserace/Preview Content\"";
 				DEVELOPMENT_TEAM = Q6B2DLVPJB;
 				ENABLE_PREVIEWS = YES;
@@ -1013,14 +1097,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		C009A54B2837BA03008C0355 /* XCRemoteSwiftPackageReference "PartialSheet" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/AndreaMiotto/PartialSheet";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 3.0.0;
-			};
-		};
 		C0884924282C5A900074EC97 /* XCRemoteSwiftPackageReference "swiftui-visual-effects" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/lucasbrown/swiftui-visual-effects";
@@ -1032,11 +1108,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		C009A54C2837BA03008C0355 /* PartialSheet */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = C009A54B2837BA03008C0355 /* XCRemoteSwiftPackageReference "PartialSheet" */;
-			productName = PartialSheet;
-		};
 		C0884925282C5A900074EC97 /* SwiftUIVisualEffects */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = C0884924282C5A900074EC97 /* XCRemoteSwiftPackageReference "swiftui-visual-effects" */;
