@@ -74,6 +74,5 @@ struct PlayersBoard: View {
             }
         }
     }
-
 }
 

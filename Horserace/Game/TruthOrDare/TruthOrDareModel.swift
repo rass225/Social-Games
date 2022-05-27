@@ -15,17 +15,17 @@ class TruthOrDareModel: ObservableObject {
     }
     
     enum TruthOrDareTier {
-        case one
-        case two
-        case three
+        case friendly
+        case challenging
+        case naughty
     }
     
     let players: [String]
-    let tier: TruthOrDareTier
     
+    @Published var tier: TruthOrDareTier = .friendly
     @Published var status: GameStatus = .notStarted
     @Published var truthOrDare: TruthOrDare = .truth
-    @Published var currentPlayer: Int = 10
+    @Published var currentPlayer: Int = 0
     @Published var label: String = ""
     @Published var title: String = ""
     @Published var truthCollection: [Truth] = []
@@ -49,9 +49,8 @@ class TruthOrDareModel: ObservableObject {
     ]
     
     
-    init(players: [String], tier: TruthOrDareTier) {
+    init(players: [String]) {
         self.players = players
-        self.tier = tier
         titleHandler()
         
     }
@@ -59,8 +58,8 @@ class TruthOrDareModel: ObservableObject {
     func restart() {
         currentPlayer = 10
         status = .notStarted
-        self.testDare.shuffle()
-        self.testTruth.shuffle()
+        self.dareCollection.shuffle()
+        self.truthCollection.shuffle()
     }
     
     func incrementPlayer() {
@@ -79,23 +78,23 @@ class TruthOrDareModel: ObservableObject {
         status = .activity
         truthOrDare = .truth
         
-        if currentTruthIndex == testTruth.count - 1 {
+        if currentTruthIndex == truthCollection.count - 1 {
             currentTruthIndex = 0
         } else {
             currentTruthIndex += 1
         }
-        label = testTruth[currentTruthIndex]
+        label = truthCollection[currentTruthIndex].question
     }
     
     func dareHandler() {
         status = .activity
         truthOrDare = .dare
-        if currentDareIndex == testDare.count - 1 {
+        if currentDareIndex == dareCollection.count - 1 {
             currentDareIndex = 0
         } else {
             currentDareIndex += 1
         }
-        label = testDare[currentDareIndex]
+        label = dareCollection[currentDareIndex].question
     }
     
     func titleHandler() {
@@ -120,7 +119,7 @@ class TruthOrDareModel: ObservableObject {
         client.fetch(client: tier) { (response: Result<[Truth], Error>) in
             switch response {
             case .success(let success):
-                print(success)
+                self.truthCollection = success.shuffled()
             case .failure(let failure):
                 print(failure)
             }
@@ -132,10 +131,31 @@ class TruthOrDareModel: ObservableObject {
         client.fetch(client: tier) { (response: Result<[Dare], Error>) in
             switch response {
             case .success(let success):
-                print(success)
+                self.dareCollection = success.shuffled()
             case .failure(let failure):
                 print(failure)
             }
+        }
+    }
+    
+    func selectTier(tier: TruthOrDareTier) {
+        if self.tier != tier {
+            self.tier = tier
+            status = .notStarted
+            titleHandler()
+            currentPlayer = 0
+            switch tier {
+            case .friendly:
+                fetchTruth(tier: .TruthTierOne)
+                fetchDare(tier: .DareTierOne)
+            case .challenging:
+                fetchTruth(tier: .TruthTierTwo)
+                fetchDare(tier: .DareTierTwo)
+            case .naughty:
+                fetchTruth(tier: .TruthTierThree)
+                fetchDare(tier: .DareTierThree)
+            }
+            
         }
     }
 }

@@ -68,7 +68,7 @@ class RouletteModel: ObservableObject {
             self.title = "Place your bet"
             self.currentPlayer = 0
             setMainButtonLabel()
-            hasPlayersShuffled = false
+            hasPlayersShuffled = true
         case .betting:
             status = .roulette
             isAnimating = true

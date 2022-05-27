@@ -33,7 +33,8 @@ struct ContentView: View {
                         .padding(.horizontal, spacing)
                         .padding(.bottom, spacing)
                     }
-                }.padding(.top, spacing)
+                }
+                .padding(.top, 32)
                 VStack(alignment: .leading, spacing: 12) {
                     SectionHeader(title: "Spinning Games")
                     ScrollView(.horizontal, showsIndicators: false) {
@@ -46,6 +47,7 @@ struct ContentView: View {
                         .padding(.bottom, spacing)
                     }
                 }
+                .padding(.top, 32)
                 VStack(alignment: .leading, spacing: 12) {
                     SectionHeader(title: "Other Games")
                     ScrollView(.horizontal, showsIndicators: false) {
@@ -55,13 +57,13 @@ struct ContentView: View {
                         .padding(.horizontal, spacing)
                         .padding(.bottom, spacing)
                     }
-                }
+                }.padding(.top, 32)
                 VStack(alignment: .leading, spacing: 12) {
                     SectionHeader(title: "Social Games")
                     ScrollView(.horizontal, showsIndicators: false) {
                         HStack(spacing: spacing){
-                            NewGameView(.truthDare, size: size)
-                                .isGameDisabled($showingAlert)
+                            NewGameView(.truthDare, size: size, willPulse: true)
+//                                .isGameDisabled($showingAlert)
                             NewGameView(.neverHaveIEver, size: size)
                                 .isGameDisabled($showingAlert)
                             NewGameView(.whosMostLikely, size: size)
@@ -72,7 +74,14 @@ struct ContentView: View {
                         .padding(.horizontal, spacing)
                         .padding(.bottom, spacing)
                     }
+                }.padding(.top, 32)
+                VStack{
+                    Text("Copyright © 2022 Rasmus Tauts. All rights reserved.")
+                    Text("Designed and developed by Rasmus Tauts.")
                 }
+                .font(.footnote)
+                .foregroundStyle(.gray)
+                .padding(.top, 48)
             }
         }
         .navigationBarTitleDisplayMode(.inline)
@@ -109,7 +118,7 @@ struct ContentView: View {
             Animation.linear(duration: 15.0).repeatForever(autoreverses: false)
         }
         var pulseAnimation: Animation {
-            Animation.linear(duration: 3).repeatForever(autoreverses: true)
+            Animation.linear(duration: 2.5).repeatForever(autoreverses: true)
         }
         
         init(
@@ -144,8 +153,8 @@ struct ContentView: View {
                     .scaleEffect(isPulsing ? 0.90 : 1)
                     .animation(foreverAnimation, value: isRotating)
                     .animation(pulseAnimation, value: isPulsing)
-                    .offset(x: size.width / 8, y: size.width / 9)
-                    .frame(idealWidth: size.width / 1.75, maxWidth: size.width / 1.75)
+                    .offset(x: size.width / 7.5, y: size.width / 9)
+                    .frame(idealWidth: size.width / 1.7, maxWidth: size.width / 1.7)
                     .frame(idealHeight: size.width / 2.2, maxHeight: size.width / 2.2)
                     .background(background)
                     .mask(RoundedRectangle(cornerRadius: 24, style: .continuous))

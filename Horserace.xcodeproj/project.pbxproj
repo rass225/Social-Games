@@ -43,7 +43,6 @@
 		C0889DDC28398AFF009015DB /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0889DDB28398AFF009015DB /* APIClient.swift */; };
 		C0889DDE28398B07009015DB /* JSONClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0889DDD28398B07009015DB /* JSONClient.swift */; };
 		C0889DE028398D24009015DB /* TruthOrDareObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0889DDF28398D24009015DB /* TruthOrDareObjects.swift */; };
-		C0889DE22839951C009015DB /* TruthOrDareTiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0889DE12839951C009015DB /* TruthOrDareTiers.swift */; };
 		C09D900B28339191000E0B04 /* Suits.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09D900A28339191000E0B04 /* Suits.swift */; };
 		C09D900D28339227000E0B04 /* Rank.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09D900C28339227000E0B04 /* Rank.swift */; };
 		C09D900F2833923E000E0B04 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09D900E2833923E000E0B04 /* Size.swift */; };
@@ -55,6 +54,9 @@
 		C09D901C2833952F000E0B04 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09D901B2833952F000E0B04 /* UIColor.swift */; };
 		C09D901E28339561000E0B04 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09D901D28339561000E0B04 /* Color.swift */; };
 		C09D90202833972F000E0B04 /* EnvironmentValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09D901F2833972F000E0B04 /* EnvironmentValues.swift */; };
+		C0A14B9B28413381004DAC0E /* DareTierTwo.json in Resources */ = {isa = PBXBuildFile; fileRef = C0A14B9828413381004DAC0E /* DareTierTwo.json */; };
+		C0A14B9C28413381004DAC0E /* DareTierThree.json in Resources */ = {isa = PBXBuildFile; fileRef = C0A14B9928413381004DAC0E /* DareTierThree.json */; };
+		C0A14B9D28413381004DAC0E /* DareTierOne.json in Resources */ = {isa = PBXBuildFile; fileRef = C0A14B9A28413381004DAC0E /* DareTierOne.json */; };
 		C0A9EE2A27FFEB9400E69993 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A9EE2927FFEB9400E69993 /* Constants.swift */; };
 		C0A9EE2E27FFEF3400E69993 /* HorceRaceGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A9EE2D27FFEF3400E69993 /* HorceRaceGame.swift */; };
 		C0A9EE312801394F00E69993 /* HorceRaceSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A9EE302801394F00E69993 /* HorceRaceSubviews.swift */; };
@@ -154,7 +156,6 @@
 		C0889DDB28398AFF009015DB /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		C0889DDD28398B07009015DB /* JSONClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONClient.swift; sourceTree = "<group>"; };
 		C0889DDF28398D24009015DB /* TruthOrDareObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruthOrDareObjects.swift; sourceTree = "<group>"; };
-		C0889DE12839951C009015DB /* TruthOrDareTiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruthOrDareTiers.swift; sourceTree = "<group>"; };
 		C09D900A28339191000E0B04 /* Suits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Suits.swift; sourceTree = "<group>"; };
 		C09D900C28339227000E0B04 /* Rank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rank.swift; sourceTree = "<group>"; };
 		C09D900E2833923E000E0B04 /* Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
@@ -166,6 +167,9 @@
 		C09D901B2833952F000E0B04 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		C09D901D28339561000E0B04 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		C09D901F2833972F000E0B04 /* EnvironmentValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentValues.swift; sourceTree = "<group>"; };
+		C0A14B9828413381004DAC0E /* DareTierTwo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DareTierTwo.json; sourceTree = "<group>"; };
+		C0A14B9928413381004DAC0E /* DareTierThree.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DareTierThree.json; sourceTree = "<group>"; };
+		C0A14B9A28413381004DAC0E /* DareTierOne.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DareTierOne.json; sourceTree = "<group>"; };
 		C0A9EE2927FFEB9400E69993 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C0A9EE2D27FFEF3400E69993 /* HorceRaceGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorceRaceGame.swift; sourceTree = "<group>"; };
 		C0A9EE302801394F00E69993 /* HorceRaceSubviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorceRaceSubviews.swift; sourceTree = "<group>"; };
@@ -353,6 +357,9 @@
 				C0889DD428398611009015DB /* TruthTierOne.json */,
 				C0889DD6283987BA009015DB /* TruthTierTwo.json */,
 				C0889DD8283989E3009015DB /* TruthTierThree.json */,
+				C0A14B9A28413381004DAC0E /* DareTierOne.json */,
+				C0A14B9928413381004DAC0E /* DareTierThree.json */,
+				C0A14B9828413381004DAC0E /* DareTierTwo.json */,
 			);
 			path = JSON;
 			sourceTree = "<group>";
@@ -427,7 +434,6 @@
 			isa = PBXGroup;
 			children = (
 				C0A9EE342803B1F300E69993 /* TruthOrDareGame.swift */,
-				C0889DE12839951C009015DB /* TruthOrDareTiers.swift */,
 				C036553E281B734A00CB8D00 /* TruthOrDareModel.swift */,
 				C0BFE7EF28121960008BDBD1 /* TruthOrDareRules.swift */,
 				C0889DDF28398D24009015DB /* TruthOrDareObjects.swift */,
@@ -654,8 +660,11 @@
 			files = (
 				C050607F27FF421900C35785 /* Preview Assets.xcassets in Resources */,
 				C0889DD528398611009015DB /* TruthTierOne.json in Resources */,
+				C0A14B9D28413381004DAC0E /* DareTierOne.json in Resources */,
+				C0A14B9C28413381004DAC0E /* DareTierThree.json in Resources */,
 				C0889DD9283989E3009015DB /* TruthTierThree.json in Resources */,
 				C0889DD7283987BA009015DB /* TruthTierTwo.json in Resources */,
+				C0A14B9B28413381004DAC0E /* DareTierTwo.json in Resources */,
 				C050607C27FF421900C35785 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -746,7 +755,6 @@
 				C0E777702817A978007CE89F /* PyramidRules.swift in Sources */,
 				C036553F281B734A00CB8D00 /* TruthOrDareModel.swift in Sources */,
 				C0F03D9C280672E6002CBB88 /* KingsCupShapes.swift in Sources */,
-				C0889DE22839951C009015DB /* TruthOrDareTiers.swift in Sources */,
 				C0889DDC28398AFF009015DB /* APIClient.swift in Sources */,
 				C0ACBBE528131CD9005D223D /* RuleView.swift in Sources */,
 				C09D90152833941F000E0B04 /* Fonts.swift in Sources */,

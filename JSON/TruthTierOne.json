@@ -6,13 +6,10 @@
     "Question": "If you had to choose between going naked or having your thoughts appear in thought bubbles above your head for everyone to read"
   },
   {
-    "Question": "Have you ever walked in on your parents doing it?"
-  },
-  {
-    "Question": "After you've dropped a piece of food"
-  },
-  {
     "Question": "Have you ever tasted a booger?"
+  },
+  {
+    "Question": "If you could plan a class prank knowing you'll never get caught, what would you do?"
   },
   {
     "Question": "Have you ever played Cards Against Humanity with your parents?"
@@ -27,10 +24,16 @@
     "Question": "Have you ever farted in an elevator?"
   },
   {
-    "Question": "Of the people in this room"
+    "Question": "Have you ever stuck gum under a desk?"
+  },
+  {
+    "Question": "What was the worst score you’ve ever gotten on a test?"
   },
   {
     "Question": "What are some things you think about when sitting on the toilet?"
+  },
+  {
+    "Question": "Have you ever made a prank in your class?"
   },
   {
     "Question": "Did you have an imaginary friend growing up?"
@@ -78,9 +81,6 @@
     "Question": "Do you ever talk to yourself in the mirror?"
   },
   {
-    "Question": "You’re in a public restroom and just went #2"
-  },
-  {
     "Question": "What would be in your web history that you’d be embarrassed if someone saw?"
   },
   {
@@ -102,7 +102,7 @@
     "Question": "Do you think [fill in the name] is cute?"
   },
   {
-    "Question": "Who do you like the least in this room"
+    "Question": "Who do you like the least in this room?"
   },
   {
     "Question": "What does your dream boy or girl look like?"
@@ -162,7 +162,7 @@
     "Question": "What is your biggest pet peeve?"
   },
   {
-    "Question": "If you were allowed to marry more than one person"
+    "Question": "If you were allowed to marry more than one person, would you?"
   },
   {
     "Question": "Would you rather lose your sex organs forever or gain 200 pounds?"
@@ -171,10 +171,7 @@
     "Question": "Would you choose to save 100 people without anyone knowing about it or not save them but have everyone praise you for it?"
   },
   {
-    "Question": "If you could only hear one song for the rest of your life"
-  },
-  {
-    "Question": "If you lost one day of your life every time you said a swear word"
+    "Question": "If you could only hear one song for the rest of your life, what song would it be?"
   },
   {
     "Question": "Who in this room would be the worst person to date? Why?"
@@ -183,10 +180,7 @@
     "Question": "Would you rather live with no internet or no A/C or heating?"
   },
   {
-    "Question": "If someone offered you $1 million to break up with your girlfriend/boyfriend"
-  },
-  {
-    "Question": "If you were reborn"
+    "Question": "If someone offered you $1 million to break up with your girlfriend/boyfriend, would you do it?"
   },
   {
     "Question": "If you could go back in time in erase one thing you said or did"
@@ -195,10 +189,7 @@
     "Question": "Has your boyfriend or girlfriend ever embarrassed you?"
   },
   {
-    "Question": "Have you ever thought about cheating on your partner?"
-  },
-  {
-    "Question": "If you could suddenly become invisible"
+    "Question": "If you could suddenly become invisible, what would you do?"
   },
   {
     "Question": "Have you ever been caught checking someone out?"
@@ -207,7 +198,7 @@
     "Question": "Have you ever waved at someone thinking they saw you when really they didn't? What did you do when you realized it?"
   },
   {
-    "Question": "What's the longest time you've stayed in the bathroom"
+    "Question": "What's the longest time you've stayed in the bathroom?"
   },
   {
     "Question": "What's the most unflattering school picture of you?"
@@ -232,9 +223,6 @@
   },
   {
     "Question": "Have you ever ding dong ditched someone?"
-  },
-  {
-    "Question": "The world ends next week"
   },
   {
     "Question": "Would you wear your shirt inside out for a whole day if someone paid you $100?"
@@ -273,7 +261,7 @@
     "Question": "Have you ever accidentally hit something with your car?"
   },
   {
-    "Question": "If you had to make out with any Disney character"
+    "Question": "If you had to make out with any Disney character, who would it be?"
   },
   {
     "Question": "Have you ever watched a movie you knew you shouldn’t?"
@@ -285,9 +273,6 @@
     "Question": "What app on your phone do you waste the most time on?"
   },
   {
-    "Question": "Have you ever pretended to be sick to get out of something? If so"
-  },
-  {
     "Question": "What is the most food you’ve eaten in a single sitting?"
   },
   {
@@ -297,19 +282,13 @@
     "Question": "Would you have voted for or against Trump?"
   },
   {
-    "Question": "What song on the radio do you sing with every time it comes on?"
-  },
-  {
-    "Question": "Do you sleep with a stuffed animal?"
+    "Question": "What song on the radio do you sing along every time it comes on?"
   },
   {
     "Question": "Do you own a pair of footie pajamas?"
   },
   {
     "Question": "Are you scared of the dark?"
-  },
-  {
-    "Question": "What \"as seen on TV\" product do you secretly want to buy?"
   },
   {
     "Question": "Do you still take bubble baths?"
@@ -348,7 +327,7 @@
     "Question": "Have you ever got caught doing something you shouldn’t?"
   },
   {
-    "Question": "What part of your body do you love"
+    "Question": "What part of your body do you love the most?"
   },
   {
     "Question": "Have you ever had lice?"
@@ -369,91 +348,88 @@
     "Question": "Do you write in a diary?"
   },
   {
-    "Question": "12. When’s the last time you lied to someone and why?"
+    "Question": "When’s the last time you lied to someone and why?"
   },
   {
-    "Question": "25. Where are you ticklish?"
+    "Question": "Where are you ticklish?"
   },
   {
-    "Question": "26. Do you believe in aliens?"
+    "Question": "Do you believe in aliens?"
   },
   {
-    "Question": "31. Have you ever peed on your pants?"
+    "Question": "What is the last message you sent to your best friend?"
   },
   {
-    "Question": "34. What is the last message you sent to your best friend?"
+    "Question": "What is the worst food you’ve ever tasted?"
   },
   {
-    "Question": "43. What is the worst food you’ve ever tasted?"
+    "Question": "Have you ever broken an expensive item in a store and then leave?"
   },
   {
-    "Question": "44. Have you ever broken an expensive item in a store and then leave?"
+    "Question": "Have you ever lied about your age? And why?"
   },
   {
-    "Question": "45. Have you ever lied about your age? And why?"
+    "Question": "If you had to delete one app from your phone, which app would you choose?"
   },
   {
-    "Question": "46. If you had to delete one app from your phone"
+    "Question": "Be honest: Do you have a favorite child/friend/parent?"
   },
   {
-    "Question": "51. Be honest: Do you have a favorite child/friend/parent?"
+    "Question": "Have you ever tasted a booger?"
   },
   {
-    "Question": "56. Have you ever tasted a booger?"
+    "Question": "Do you sing in the shower?"
   },
   {
-    "Question": "58. Do you sing in the shower?"
+    "Question": "What’s the longest you’ve gone without brushing your teeth?"
   },
   {
-    "Question": "60. What’s the longest you’ve gone without brushing your teeth?"
+    "Question": "Do you ever talk to yourself in the mirror?"
   },
   {
-    "Question": "61. Do you ever talk to yourself in the mirror?"
+    "Question": "Have you ever farted loudly in a public space?"
   },
   {
-    "Question": "70. Have you ever farted loudly in a public space?"
+    "Question": "When’s the last time you got dumped?"
   },
   {
-    "Question": "78. When’s the last time you got dumped?"
+    "Question": "What’s the worst habit you have?"
   },
   {
-    "Question": "79. What’s the worst habit you have?"
+    "Question": "When’s the last time you made someone else cry?"
   },
   {
-    "Question": "85. When’s the last time you made someone else cry?"
+    "Question": "Do you sleep with a stuffed animal?"
   },
   {
-    "Question": "86. Do you sleep with a stuffed animal?"
+    "Question": "If you could have a day, where you can do whatever you want, what would you do?"
   },
   {
-    "Question": "87. If you could have a day you can do whatever you want"
+    "Question": "Have you ever eaten something from the floor?"
   },
   {
-    "Question": "88. Have you ever eaten something from the floor?"
+    "Question": "What’s the worst food you ever tried at a restaurant?"
   },
   {
-    "Question": "95. What’s the worst food you ever tried at a restaurant?"
+    "Question": "Have you ever lied to your parents?"
   },
   {
-    "Question": "101. Have you ever lied to your parents?"
+    "Question": "Have you ever made a prank in your class?"
   },
   {
-    "Question": "102. Have you ever made a prank in your class?"
+    "Question": "Have you ever pretended to be sick to don’t go to school/college?"
   },
   {
-    "Question": "103. Have you ever pretended to be sick to don’t go to school/college?"
+    "Question": "Have you ever stolen a book from the school library?"
   },
   {
-    "Question": "105. Have you ever stolen a book from the school library?"
+    "Question": "Have you ever bullied someone in your life?"
   },
   {
-    "Question": "107. Have you ever bullied someone in your life?"
+    "Question": "Have you ever touched an exhibit in a museum?"
   },
   {
-    "Question": "111. Have you ever touched an exhibit in a museum?"
-  },
-  {
-    "Question": "115. Have you ever cheated on a test?"
+    "Question": "Have you ever cheated on a test?"
   },
   {
     "Question": "When was the last time you lied?"
@@ -504,7 +480,7 @@
     "Question": "What’s one thing you wish you could change about yourself?"
   },
   {
-    "Question": "If a genie granted you three wishes"
+    "Question": "If a genie granted you three wishes, what would these three wishes be?"
   },
   {
     "Question": "What’s the most food you've ever eaten in a single sitting?"
@@ -534,10 +510,10 @@
     "Question": "What was your favorite childhood show?"
   },
   {
-    "Question": "If you had to change your name"
+    "Question": "If you had to change your name, what would be your new one?"
   },
   {
-    "Question": "If you could be a fictional character for a day"
+    "Question": "If you could be a fictional character for a day, who would you be?"
   },
   {
     "Question": "What's your biggest fear?"
@@ -546,16 +522,16 @@
     "Question": "What's one silly thing you can't live without?"
   },
   {
-    "Question": "If you could only listen to one song for the rest of your life"
+    "Question": "If you could only listen to one song for the rest of your life, what would it be?"
   },
   {
     "Question": "What person do you text the most?"
   },
   {
-    "Question": "If you had to wear only flip flops or heels for the next 10 years"
+    "Question": "If you had to wear only flip flops or heels for the next 10 years, which one would you choose? And why?"
   },
   {
-    "Question": "If you could only eat one thing for the rest of your life"
+    "Question": "If you could only eat one thing for the rest of your life, what would it be?"
   },
   {
     "Question": "What's the worst physical pain you've ever experienced?"
@@ -564,7 +540,7 @@
     "Question": "Which player knows you the best?"
   },
   {
-    "Question": "If you could only accomplish three things in life"
+    "Question": "If you could only accomplish three things in life, what would they be?"
   },
   {
     "Question": "How many stuffed animals do you own?"
@@ -594,9 +570,6 @@
     "Question": "Have you ever had a paranormal experience?"
   },
   {
-    "Question": "If you were handed $1"
-  },
-  {
     "Question": "Have you ever cheated on an exam?"
   },
   {
@@ -606,13 +579,10 @@
     "Question": "What was your first concert?"
   },
   {
-    "Question": "If you had the choice to never have to sleep again"
+    "Question": "If you had the choice to never have to sleep again, would you do it?"
   },
   {
-    "Question": "Even if you’d be paid $1 million for it"
-  },
-  {
-    "Question": "If you could travel to the past and meet one person"
+    "Question": "If you could travel to the past and meet one person, who would it be?"
   },
   {
     "Question": "What popular music artist do you secretly hate?"
@@ -636,15 +606,18 @@
     "Question": "Do you have any phobias?"
   },
   {
-    "Question": "If you had to move to a different country tomorrow"
+    "Question": "If you had to move to a different country tomorrow, where would you go?"
   },
   {
     "Question": "Have you ever had an imaginary friend? Describe them."
   },
   {
-    "Question": "If you could become besties with a celebrity"
+    "Question": "If you could become besties with a celebrity, who would it be?"
   },
   {
     "Question": "What’s the most embarrassing nickname you’ve ever been given?"
+  },
+  {
+    "Question": "Who do you think is the worst dressed person in the room?"
   }
 ]
