@@ -57,6 +57,11 @@
 		C0A14B9B28413381004DAC0E /* DareTierTwo.json in Resources */ = {isa = PBXBuildFile; fileRef = C0A14B9828413381004DAC0E /* DareTierTwo.json */; };
 		C0A14B9C28413381004DAC0E /* DareTierThree.json in Resources */ = {isa = PBXBuildFile; fileRef = C0A14B9928413381004DAC0E /* DareTierThree.json */; };
 		C0A14B9D28413381004DAC0E /* DareTierOne.json in Resources */ = {isa = PBXBuildFile; fileRef = C0A14B9A28413381004DAC0E /* DareTierOne.json */; };
+		C0A14B9F28415E12004DAC0E /* NeverHaveIEverObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A14B9E28415E12004DAC0E /* NeverHaveIEverObject.swift */; };
+		C0A14BA328422599004DAC0E /* NeverHaveIEverTierTwo.json in Resources */ = {isa = PBXBuildFile; fileRef = C0A14BA028422599004DAC0E /* NeverHaveIEverTierTwo.json */; };
+		C0A14BA428422599004DAC0E /* NeverHaveIEverTierOne.json in Resources */ = {isa = PBXBuildFile; fileRef = C0A14BA128422599004DAC0E /* NeverHaveIEverTierOne.json */; };
+		C0A14BA528422599004DAC0E /* NeverHaveIEverTierThree.json in Resources */ = {isa = PBXBuildFile; fileRef = C0A14BA228422599004DAC0E /* NeverHaveIEverTierThree.json */; };
+		C0A14BA8284663CE004DAC0E /* MancalaGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A14BA7284663CE004DAC0E /* MancalaGame.swift */; };
 		C0A9EE2A27FFEB9400E69993 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A9EE2927FFEB9400E69993 /* Constants.swift */; };
 		C0A9EE2E27FFEF3400E69993 /* HorceRaceGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A9EE2D27FFEF3400E69993 /* HorceRaceGame.swift */; };
 		C0A9EE312801394F00E69993 /* HorceRaceSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A9EE302801394F00E69993 /* HorceRaceSubviews.swift */; };
@@ -170,6 +175,11 @@
 		C0A14B9828413381004DAC0E /* DareTierTwo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DareTierTwo.json; sourceTree = "<group>"; };
 		C0A14B9928413381004DAC0E /* DareTierThree.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DareTierThree.json; sourceTree = "<group>"; };
 		C0A14B9A28413381004DAC0E /* DareTierOne.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DareTierOne.json; sourceTree = "<group>"; };
+		C0A14B9E28415E12004DAC0E /* NeverHaveIEverObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeverHaveIEverObject.swift; sourceTree = "<group>"; };
+		C0A14BA028422599004DAC0E /* NeverHaveIEverTierTwo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NeverHaveIEverTierTwo.json; sourceTree = "<group>"; };
+		C0A14BA128422599004DAC0E /* NeverHaveIEverTierOne.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NeverHaveIEverTierOne.json; sourceTree = "<group>"; };
+		C0A14BA228422599004DAC0E /* NeverHaveIEverTierThree.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NeverHaveIEverTierThree.json; sourceTree = "<group>"; };
+		C0A14BA7284663CE004DAC0E /* MancalaGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MancalaGame.swift; sourceTree = "<group>"; };
 		C0A9EE2927FFEB9400E69993 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C0A9EE2D27FFEF3400E69993 /* HorceRaceGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorceRaceGame.swift; sourceTree = "<group>"; };
 		C0A9EE302801394F00E69993 /* HorceRaceSubviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorceRaceSubviews.swift; sourceTree = "<group>"; };
@@ -360,6 +370,9 @@
 				C0A14B9A28413381004DAC0E /* DareTierOne.json */,
 				C0A14B9928413381004DAC0E /* DareTierThree.json */,
 				C0A14B9828413381004DAC0E /* DareTierTwo.json */,
+				C0A14BA128422599004DAC0E /* NeverHaveIEverTierOne.json */,
+				C0A14BA228422599004DAC0E /* NeverHaveIEverTierThree.json */,
+				C0A14BA028422599004DAC0E /* NeverHaveIEverTierTwo.json */,
 			);
 			path = JSON;
 			sourceTree = "<group>";
@@ -401,9 +414,18 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		C0A14BA62846638D004DAC0E /* Mancala */ = {
+			isa = PBXGroup;
+			children = (
+				C0A14BA7284663CE004DAC0E /* MancalaGame.swift */,
+			);
+			path = Mancala;
+			sourceTree = "<group>";
+		};
 		C0A9EE2C27FFEF2100E69993 /* Game */ = {
 			isa = PBXGroup;
 			children = (
+				C0A14BA62846638D004DAC0E /* Mancala */,
 				C0365544281E1FCE00CB8D00 /* SpinBottle */,
 				C0C759C928185FB700AB1C96 /* Wheel */,
 				C0E77766281700FA007CE89F /* Roulette */,
@@ -457,6 +479,7 @@
 				C0ACBBE728134FEC005D223D /* NeverHaveIEverGame.swift */,
 				C0D9C72C281A5789009B5001 /* NeverEverModel.swift */,
 				C0ACBBEB2813AACE005D223D /* NeverHaveIEverRules.swift */,
+				C0A14B9E28415E12004DAC0E /* NeverHaveIEverObject.swift */,
 			);
 			path = NeverHaveIEver;
 			sourceTree = "<group>";
@@ -658,7 +681,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0A14BA528422599004DAC0E /* NeverHaveIEverTierThree.json in Resources */,
 				C050607F27FF421900C35785 /* Preview Assets.xcassets in Resources */,
+				C0A14BA428422599004DAC0E /* NeverHaveIEverTierOne.json in Resources */,
 				C0889DD528398611009015DB /* TruthTierOne.json in Resources */,
 				C0A14B9D28413381004DAC0E /* DareTierOne.json in Resources */,
 				C0A14B9C28413381004DAC0E /* DareTierThree.json in Resources */,
@@ -666,6 +691,7 @@
 				C0889DD7283987BA009015DB /* TruthTierTwo.json in Resources */,
 				C0A14B9B28413381004DAC0E /* DareTierTwo.json in Resources */,
 				C050607C27FF421900C35785 /* Assets.xcassets in Resources */,
+				C0A14BA328422599004DAC0E /* NeverHaveIEverTierTwo.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -708,6 +734,7 @@
 				C09D901C2833952F000E0B04 /* UIColor.swift in Sources */,
 				C0045D3F2824A35900A6331E /* SpinBottleRule.swift in Sources */,
 				C0C759D1281887AF00AB1C96 /* WheelShapes.swift in Sources */,
+				C0A14BA8284663CE004DAC0E /* MancalaGame.swift in Sources */,
 				C0C759CD2818619100AB1C96 /* WheelSubviews.swift in Sources */,
 				C0F1BA4D282043DE00DBD862 /* ChooserGestures.swift in Sources */,
 				C0A9EE332803941100E69993 /* AppState.swift in Sources */,
@@ -717,6 +744,7 @@
 				C044B817280A2D0000A112C2 /* KingsCupRulesSheet.swift in Sources */,
 				C05060A227FF43EB00C35785 /* GameSetup.swift in Sources */,
 				C0365546281E1FE000CB8D00 /* SpinBottleGame.swift in Sources */,
+				C0A14B9F28415E12004DAC0E /* NeverHaveIEverObject.swift in Sources */,
 				C0BFC1F128390C010079A6A1 /* AddButton.swift in Sources */,
 				C0C759CF2818878700AB1C96 /* WheelModel.swift in Sources */,
 				C09D901E28339561000E0B04 /* Color.swift in Sources */,
@@ -925,13 +953,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 15;
+				CURRENT_PROJECT_VERSION = 18;
 				DEVELOPMENT_ASSET_PATHS = "\"Horserace/Preview Content\"";
 				DEVELOPMENT_TEAM = Q6B2DLVPJB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Horserace/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Sip It";
+				INFOPLIST_KEY_CFBundleDisplayName = Pregamer;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -959,13 +987,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 15;
+				CURRENT_PROJECT_VERSION = 18;
 				DEVELOPMENT_ASSET_PATHS = "\"Horserace/Preview Content\"";
 				DEVELOPMENT_TEAM = Q6B2DLVPJB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Horserace/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Sip It";
+				INFOPLIST_KEY_CFBundleDisplayName = Pregamer;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

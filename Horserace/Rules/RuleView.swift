@@ -34,6 +34,8 @@ struct RuleView: View {
                         RouletteRules()
                     case .wheel:
                         WheelRules()
+                    case .mancala:
+                        Text("Mancala rules")
                     }
                 }
             }

@@ -27,7 +27,7 @@ struct ContentView: View {
                             NewGameView(.kingsCup, size: size, willPulse: true)
                             NewGameView(.horseRace, size: size, willPulse: true)
                             NewGameView(.pyramid, size: size, willPulse: true)
-                            NewGameView(.higherLower, size: size)
+                            NewGameView(.higherLower, size: size, willRotate: true)
                                 .isGameDisabled($showingAlert)
                         }
                         .padding(.horizontal, spacing)
@@ -53,6 +53,8 @@ struct ContentView: View {
                     ScrollView(.horizontal, showsIndicators: false) {
                         HStack(spacing: spacing){
                             NewGameView(.chooser, size: size, willPulse: true)
+                            NewGameView(.mancala, size: size, tilt: -45, willPulse: true)
+                                .isGameDisabled($showingAlert)
                         }
                         .padding(.horizontal, spacing)
                         .padding(.bottom, spacing)
@@ -63,9 +65,7 @@ struct ContentView: View {
                     ScrollView(.horizontal, showsIndicators: false) {
                         HStack(spacing: spacing){
                             NewGameView(.truthDare, size: size, willPulse: true)
-//                                .isGameDisabled($showingAlert)
-                            NewGameView(.neverHaveIEver, size: size)
-                                .isGameDisabled($showingAlert)
+                            NewGameView(.neverHaveIEver, size: size, willPulse: true)
                             NewGameView(.whosMostLikely, size: size)
                                 .isGameDisabled($showingAlert)
                             NewGameView(.explain, size: size, willPulse: true)
@@ -82,6 +82,7 @@ struct ContentView: View {
                 .font(.footnote)
                 .foregroundStyle(.gray)
                 .padding(.top, 48)
+                .padding(.bottom)
             }
         }
         .navigationBarTitleDisplayMode(.inline)
@@ -148,7 +149,6 @@ struct ContentView: View {
                     .aspectRatio(contentMode: .fit)
                     .frame(maxWidth: size.width / 2, maxHeight: size.width / 2)
                     .foregroundColor(.white.opacity(0.1))
-                    .rotationEffect(tilt)
                     .rotationEffect(Angle(degrees: isRotating ? 360.0 : 0.0))
                     .scaleEffect(isPulsing ? 0.90 : 1)
                     .animation(foreverAnimation, value: isRotating)
@@ -189,7 +189,6 @@ struct ContentView: View {
                 .frame(maxHeight: size.width / 12)
                 .foregroundColor(game.color)
                 .rotationEffect(tilt)
-                .scaleEffect(isPulsing ? 0.92 : 1)
                 .animation(pulseAnimation, value: isPulsing)
                 .padding(16)
                 .overlay{

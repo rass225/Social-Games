@@ -37,6 +37,7 @@ enum Images {
     static let diamondFill = Image(systemName: "diamond.fill")
     static let landingIndicator = Image(systemName: "arrowtriangle.down.fill")
     static let rouletteTable = Image("RouletteTable")
+    static let mancala = Image("mancala")
     
     enum Nr {
         static let one = Image(systemName: "1.circle")

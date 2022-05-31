@@ -79,4 +79,11 @@ struct RuleBook {
         TruthOrDareRule(image: Images.Nr.five, title: "Dare", rule: "Do the dare activity or take a drink."),
         TruthOrDareRule(image: Images.Nr.six, title: "Play", rule: "Play however long you choose to. There is no concrete ending to this game.")
     ]
+    
+    let neverHaveIEver: [NeverHaveIEverRule] = [
+        NeverHaveIEverRule(image: Images.Nr.one, title: "Objective", rule: "The general idea is to determine whether you have done an action in your life or not"),
+        NeverHaveIEverRule(image: Images.Nr.two, title: "Setup", rule: "Sit down with your friends and start taking turns"),
+        NeverHaveIEverRule(image: Images.Nr.three, title: "Game", rule: "Read a statement, written on the screen, out loud. If you haven't done this activity/action, you pass the turn to the next player. If you have, however, you need to take a drink"),
+        NeverHaveIEverRule(image: Images.Nr.four, title: "Play", rule: "Play however long you choose to. There is no concrete ending to this game.")
+    ]
 }

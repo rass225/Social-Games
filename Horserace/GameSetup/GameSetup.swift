@@ -23,6 +23,7 @@ struct GameSetup: View {
             case .explain: Text("Maintenance")
             case .roulette: SetupView()
             case .wheel: SetupView()
+            case .mancala: SetupView()
             }
         }
         .background(DefaultBackground())

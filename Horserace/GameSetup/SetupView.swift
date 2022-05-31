@@ -280,6 +280,8 @@ struct SetupView: View {
             destination = AnyView(RouletteGame(players: players))
         case .wheel:
             destination = AnyView(WheelComponents(players: players))
+        case .mancala:
+            destination = AnyView(MancalaGame(players: players))
         }
         toNext.toggle()
     }

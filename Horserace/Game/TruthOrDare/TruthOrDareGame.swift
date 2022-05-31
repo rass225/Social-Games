@@ -62,7 +62,7 @@ struct TruthOrDareGame: View {
                     .padding(.top, size.height / 4)
                 } else {
                     Text(model.title)
-                        .font(.title.weight(.regular))
+                        .font(.title.weight(.semibold))
                         .foregroundColor(Colors.text)
                         .maxWidth()
                         .padding(.top, size.height / 4)

@@ -14,6 +14,7 @@ enum Games: String {
     case explain = "Explain"
     case roulette = "Roulette"
     case wheel = "Wheel"
+    case mancala = "Mancala"
     
     var icon : Image {
         switch self {
@@ -29,6 +30,8 @@ enum Games: String {
         case .explain: return Images.explain
         case .wheel: return Images.wheel
         case .roulette: return Images.roulette
+        case .mancala: return Images.mancala
+
         }
     }
     
@@ -46,6 +49,7 @@ enum Games: String {
         case .explain: return Text("Explain")
         case .roulette: return Text("Roulette")
         case .wheel: return Text("Wheel")
+        case .mancala: return Text("Mancala")
         }
     }
     
@@ -63,6 +67,7 @@ enum Games: String {
         case .explain: return Colors.Foregrounds.theme1
         case .roulette: return Colors.Foregrounds.theme6
         case .wheel: return Colors.Foregrounds.theme5
+        case .mancala: return Colors.Foregrounds.theme11
         }
     }
     
@@ -80,6 +85,7 @@ enum Games: String {
         case .explain: return Colors.Backgrounds.theme10
         case .roulette: return Colors.Backgrounds.theme6
         case .wheel: return Colors.Backgrounds.theme5
+        case .mancala: return Colors.Backgrounds.theme11
         }
     }
     

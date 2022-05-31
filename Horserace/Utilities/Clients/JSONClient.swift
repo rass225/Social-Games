@@ -13,6 +13,7 @@ struct JSONClient {
         case DareTierThree
         case NeverHaveIEverTierOne
         case NeverHaveIEverTierTwo
+        case NeverHaveIEverTierThree
         case WhosMostLikelyTierOne
         case WhosMostLikelyTierTwo
     }

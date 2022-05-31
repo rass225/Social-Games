@@ -68,6 +68,9 @@ struct PlayersBoard: View {
             } else if game.game == .wheel {
                 content
                     .foregroundColor(currentPlayer == index ? (scheme == .light ? game.game.background[0] : game.game.color) : Colors.text )
+            } else if game.game == .higherLower {
+                content
+                    .foregroundColor(currentPlayer == index ? (scheme == .light ? game.game.background[0] : game.game.background[1]) : Colors.text)
             } else {
                 content
                     .foregroundColor(currentPlayer == index ? game.game.color : Colors.text)

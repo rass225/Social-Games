@@ -3,6 +3,7 @@ import SwiftUI
 struct RouletteGame: View {
     
     @EnvironmentObject var game: Game
+    @Environment(\.colorScheme) var scheme
     @ObservedObject var model: RouletteModel
     @State var isRulesOpen: Bool = false
     

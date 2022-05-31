@@ -17,7 +17,6 @@ extension RouletteGame {
                     .maxWidth()
                     .frame(height: 50)
                     .background(bet == placedBet ? game.game.color : .clear)
-                
             }
         }
     }
@@ -40,8 +39,6 @@ extension RouletteGame {
             }
         }
     }
-    
-    
     
     var betBoard: some View {
         VStack(spacing: 0){
@@ -96,7 +93,7 @@ extension RouletteGame {
     var landingIndicator: some View {
         Images.landingIndicator
             .font(.title3.weight(.light))
-            .foregroundColor(game.game.background[0])
+            .foregroundColor(scheme == .light ? game.game.background[0] : game.game.color)
             .opacity(model.status == .roulette ? 1 : 0)
     }
     
@@ -143,8 +140,6 @@ extension RouletteGame {
                                 .background(.ultraThinMaterial)
                                 .cornerRadius(8)
                         }
-                        
-//                            .opacity(model.isAnimating || model.placedBet != .none ? 0 : 1)
                     }
                 Spacer()
             }

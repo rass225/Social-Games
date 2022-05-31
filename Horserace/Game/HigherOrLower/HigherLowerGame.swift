@@ -49,18 +49,11 @@ struct HigherLowerGame: View {
         .navigationModifier(game: .higherLower)
         .gameViewModifier(game: .higherLower)
         .toolbar{
+            ToolbarItem(placement: .navigationBarLeading) {
+                HomeButton()
+            }
             ToolbarItem(placement: .navigationBarTrailing) {
-                Menu(content: {
-                    RulesButton(isOpen: $isRulesOpen)
-                    Button(action: {
-//                        model.restart()
-                    }) {
-                        Text("Was Menu label")
-                    }
-                    HomeButton()
-                }, label: {
-                    Text("Was Burger")
-                })
+                RulesButton(isOpen: $isRulesOpen)
             }
             ToolbarItem(placement: .principal) {
                 GameTitle()
