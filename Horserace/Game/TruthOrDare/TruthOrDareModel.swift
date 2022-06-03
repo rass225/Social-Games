@@ -34,21 +34,6 @@ class TruthOrDareModel: ObservableObject {
     private var currentTruthIndex: Int = 0
     private var currentDareIndex: Int = 0
     
-    private var testTruth: [String] = [
-        "Do you like basketball?",
-        "Do you like cheese?",
-        "Do you like milk?",
-        "Have you peed your pants?"
-    ]
-    private var testDare: [String] = [
-        "Fart in the fan",
-        "Drink water",
-        "Eat eggs",
-        "Stand up on your arms and chug a beer upside down",
-        "Slap someone in the face"
-    ]
-    
-    
     init(players: [String]) {
         self.players = players
         titleHandler()
@@ -58,8 +43,8 @@ class TruthOrDareModel: ObservableObject {
     func restart() {
         currentPlayer = 10
         status = .notStarted
-        self.dareCollection.shuffle()
-        self.truthCollection.shuffle()
+        dareCollection.shuffle()
+        truthCollection.shuffle()
     }
     
     func incrementPlayer() {

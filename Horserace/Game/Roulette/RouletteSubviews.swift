@@ -70,7 +70,7 @@ extension RouletteGame {
         }
         .frame(height: 100)
         .background(game.game.gradient)
-        .mask(RoundedRectangle(cornerRadius: 16, style: .continuous))
+        .mask(RoundCorners())
         .overlay(
             RoundedRectangle(cornerRadius: 16, style: .continuous)
                 .stroke(lineWidth: 1)

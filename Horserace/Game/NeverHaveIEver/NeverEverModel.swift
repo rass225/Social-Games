@@ -31,12 +31,11 @@ class NeverEverModel: ObservableObject {
         titleLabel()
     }
     
-    
     func startGame() {
         status = .activity
     }
     
-    func statementHandler() {
+    private func statementHandler() {
         if currentStatementIndex == statementCollection.count - 1 {
             currentStatementIndex = 0
         } else {
@@ -45,8 +44,7 @@ class NeverEverModel: ObservableObject {
         currentStatement = statementCollection[currentStatementIndex].question
     }
     
-
-    func incrementPlayer() {
+    private func incrementPlayer() {
         if currentPlayer == 10 {
             currentPlayer = 0
             return
@@ -80,7 +78,7 @@ class NeverEverModel: ObservableObject {
         }
     }
     
-    func titleLabel() {
+    private func titleLabel() {
         switch status {
         case .notStarted:
             currentTitle = "Are you ready?"
@@ -103,7 +101,6 @@ class NeverEverModel: ObservableObject {
             case .naughty:
                 fetchNeverHaveIEver(tier: .NeverHaveIEverTierThree)
             }
-            
         }
     }
     

@@ -19,7 +19,9 @@ class FortuneWheelViewModel: ObservableObject {
     
     func spinWheel() {
         let d = Double.random(in: 720...7200)
-        withAnimation(animation) { self.degree += d }
+        withAnimation(animation) {
+            self.degree += d
+        }
         // Cancel the currently pending item
         pendingRequestWorkItem?.cancel()
         // Wrap our request in a work item

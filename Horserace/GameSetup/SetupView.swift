@@ -39,11 +39,13 @@ struct SetupView: View {
                     TextField("", text: $player1)
                         .placeholder(when: player1.isEmpty) {
                             Text("Player 1")
+                                .opacity(focusField == .player1 ? 0.4 : 1)
                         }
+                        .accentColor(game.game.background[0])
                         .padding(.horizontal)
                         .padding(.vertical, 12)
                         .background(BlurEffect().opacity(focusField == .player1 ? 0.4 : 1))
-                        .mask(RoundedRectangle(cornerRadius: 16, style: .continuous))
+                        .mask(RoundCorners())
                         .overlay(RoundedRectangle(cornerRadius: 16, style: .continuous).stroke(lineWidth: 0.5).fill(Colors.buttonBorder))
                         .focused($focusField, equals: .player1)
                     
@@ -51,11 +53,13 @@ struct SetupView: View {
                         TextField("", text: $player2)
                             .placeholder(when: player2.isEmpty) {
                                 Text("Player 2")
+                                    .opacity(focusField == .player2 ? 0.4 : 1)
                             }
+                            .accentColor(game.game.background[0])
                             .padding(.horizontal)
                             .padding(.vertical, 12)
                             .background(BlurEffect().opacity(focusField == .player2 ? 0.4 : 1))
-                            .mask(RoundedRectangle(cornerRadius: 16, style: .continuous))
+                            .mask(RoundCorners())
                             .overlay(RoundedRectangle(cornerRadius: 16, style: .continuous).stroke(lineWidth: 0.5).fill(Colors.buttonBorder))
                             .focused($focusField, equals: .player2)
                             .overlay(Remove(player: $revealPlayer2), alignment: .trailing)
@@ -65,11 +69,13 @@ struct SetupView: View {
                         TextField("", text: $player3)
                             .placeholder(when: player3.isEmpty) {
                                 Text("Player 3")
+                                    .opacity(focusField == .player3 ? 0.4 : 1)
                             }
+                            .accentColor(game.game.background[0])
                             .padding(.horizontal)
                             .padding(.vertical, 12)
                             .background(BlurEffect().opacity(focusField == .player3 ? 0.4 : 1))
-                            .mask(RoundedRectangle(cornerRadius: 16, style: .continuous))
+                            .mask(RoundCorners())
                             .overlay(RoundedRectangle(cornerRadius: 16, style: .continuous).stroke(lineWidth: 0.5).fill(Colors.buttonBorder))
                             .focused($focusField, equals: .player3)
                             .overlay(Remove(player: $revealPlayer3), alignment: .trailing)
@@ -79,11 +85,13 @@ struct SetupView: View {
                         TextField("", text: $player4)
                             .placeholder(when: player4.isEmpty) {
                                 Text("Player 4")
+                                    .opacity(focusField == .player4 ? 0.4 : 1)
                             }
+                            .accentColor(game.game.background[0])
                             .padding(.horizontal)
                             .padding(.vertical, 12)
                             .background(BlurEffect().opacity(focusField == .player4 ? 0.4 : 1))
-                            .mask(RoundedRectangle(cornerRadius: 16, style: .continuous))
+                            .mask(RoundCorners())
                             .overlay(RoundedRectangle(cornerRadius: 16, style: .continuous).stroke(lineWidth: 0.5).fill(Colors.buttonBorder))
                             .focused($focusField, equals: .player4)
                             .overlay(Remove(player: $revealPlayer4), alignment: .trailing)
@@ -93,11 +101,13 @@ struct SetupView: View {
                         TextField("", text: $player5)
                             .placeholder(when: player5.isEmpty) {
                                 Text("Player 5")
+                                    .opacity(focusField == .player5 ? 0.4 : 1)
                             }
+                            .accentColor(game.game.background[0])
                             .padding(.horizontal)
                             .padding(.vertical, 12)
                             .background(BlurEffect().opacity(focusField == .player5 ? 0.4 : 1))
-                            .mask(RoundedRectangle(cornerRadius: 16, style: .continuous))
+                            .mask(RoundCorners())
                             .overlay(RoundedRectangle(cornerRadius: 16, style: .continuous).stroke(lineWidth: 0.5).fill(Colors.buttonBorder))
                             .focused($focusField, equals: .player5)
                             .overlay(Remove(player: $revealPlayer5), alignment: .trailing)
@@ -107,11 +117,13 @@ struct SetupView: View {
                         TextField("", text: $player6)
                             .placeholder(when: player6.isEmpty) {
                                 Text("Player 6")
+                                    .opacity(focusField == .player6 ? 0.4 : 1)
                             }
+                            .accentColor(game.game.background[0])
                             .padding(.horizontal)
                             .padding(.vertical, 12)
                             .background(BlurEffect().opacity(focusField == .player6 ? 0.4 : 1))
-                            .mask(RoundedRectangle(cornerRadius: 16, style: .continuous))
+                            .mask(RoundCorners())
                             .overlay(RoundedRectangle(cornerRadius: 16, style: .continuous).stroke(lineWidth: 0.5).fill(Colors.buttonBorder))
                             .focused($focusField, equals: .player6)
                             .overlay(Remove(player: $revealPlayer6), alignment: .trailing)

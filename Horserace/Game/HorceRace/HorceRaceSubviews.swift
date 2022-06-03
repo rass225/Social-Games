@@ -82,18 +82,8 @@ extension HorceRaceGame {
             LazyVGrid(columns: columns, alignment: .trailing, spacing: 0) {
                 ForEach(model.players, id: \.self) { item in
                     HStack(spacing: 4){
-                        switch item.suit {
-                        case .clubs:
-                            Images.club.foregroundColor(.black)
-                        case .spades:
-                            Images.spade.foregroundColor(.black)
-                        case .heart:
-                            Images.heart.foregroundColor(.red)
-                        case .diamond:
-                            Images.diamond.foregroundColor(.red)
-                        case .none:
-                            EmptyView()
-                        }
+                        item.suit?.image
+                            .foregroundColor(item.suit?.color)
                         Text(item.name)
                             .font(.subheadline.weight(.light))
                     }.padding(.vertical, 8)
@@ -102,7 +92,7 @@ extension HorceRaceGame {
         }
         .padding(8)
         .background(.thickMaterial)
-        .mask(RoundedRectangle(cornerRadius: 16, style: .continuous))
+        .mask(RoundCorners())
         .padding(.vertical, 8)
     }
     
@@ -115,7 +105,7 @@ extension HorceRaceGame {
                     .foregroundColor(Colors.text)
                     .font(Fonts.largeTitle)
                     .offset(x: 0, y: size.height / 6)
-                    .frame(maxWidth: .infinity, alignment: .center)
+                    .maxWidth()
                 VStack{
                     model.winnerSuit?.image
                         .resizable()
@@ -138,14 +128,14 @@ extension HorceRaceGame {
                             }
                         }
                     }
-                    .frame(maxWidth: .infinity, alignment: .center)
+                    .maxWidth()
                     .offset(x: 0, y: size.height / 2)
                 } else {
                     VStack(spacing: 16){
                         Text("No winners this game")
                             .font(Fonts.title)
                     }
-                    .frame(maxWidth: .infinity, alignment: .center)
+                    .maxWidth()
                     .offset(x: 0, y: size.height / 2)
                 }
                 

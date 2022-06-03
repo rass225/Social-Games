@@ -9,6 +9,8 @@ struct PlayersBoard: View {
     
     @State var players: [String]
     
+    private let selectedFont: Font = .headline.weight(.medium)
+    private let unselectedFont: Font = .subheadline.weight(.light)
     
     let columns = [
         GridItem(.flexible(maximum: .infinity), spacing: 0, alignment: .center),
@@ -22,7 +24,7 @@ struct PlayersBoard: View {
                 LazyVGrid(columns: columns, alignment: .trailing, spacing: 0) {
                     ForEach(players.indices, id: \.self) { index in
                         Text(players[index])
-                            .font(currentPlayer == index ? .headline.weight(.medium) : .subheadline.weight(.light))
+                            .font(currentPlayer == index ? selectedFont : unselectedFont)
                             .padding(.vertical, 6)
                             .padding(.horizontal, 12)
                             .cornerRadius(8)
@@ -33,7 +35,7 @@ struct PlayersBoard: View {
             }
             .padding(8)
             .background(.ultraThickMaterial)
-            .mask(RoundedRectangle(cornerRadius: 16, style: .continuous))
+            .mask(RoundCorners())
             .shadow(color: Colors.darkShadow2, radius: 5, x: 0, y: 8)
             
             if !hasPlayersShuffled && players.count > 1 {

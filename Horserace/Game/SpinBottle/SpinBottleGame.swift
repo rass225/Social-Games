@@ -6,6 +6,7 @@ struct SpinBottleGame: View {
     @StateObject var model = SpinBottleModel()
     @State var isRulesOpen: Bool = false
     
+    
     private let spinAnimation: Animation = Animation.easeOut(duration: 4.0)
     
     var body: some View {

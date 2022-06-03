@@ -12,7 +12,7 @@ struct MancalaGame: View {
 //            Text(players[0])
 //                .rotationEffect(Angle(degrees: 180))
             Spacer()
-            RoundedRectangle(cornerRadius: 16, style: .continuous)
+            RoundCorners()
                 .frame(height: 70)
                 .padding(.horizontal, 32)
             HStack{
@@ -34,7 +34,7 @@ struct MancalaGame: View {
                     Circle()
                 }
             }
-            RoundedRectangle(cornerRadius: 16, style: .continuous)
+            RoundCorners()
                 .frame(height: 70)
                 .padding(.horizontal, 32)
 //            Text(players[1])

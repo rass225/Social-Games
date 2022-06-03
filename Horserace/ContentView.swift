@@ -157,7 +157,7 @@ struct ContentView: View {
                     .frame(idealWidth: size.width / 1.7, maxWidth: size.width / 1.7)
                     .frame(idealHeight: size.width / 2.2, maxHeight: size.width / 2.2)
                     .background(background)
-                    .mask(RoundedRectangle(cornerRadius: 24, style: .continuous))
+                    .mask(RoundCorners(cornerRadius: 24))
                     .shadow(color: Colors.darkShadow, radius: 5, x: 0, y: 8)
                     .overlay(alignment: .bottomLeading) {
                         gameTitle

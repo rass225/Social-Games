@@ -102,7 +102,6 @@ class RouletteModel: ObservableObject {
         }
     }
 
-    
     func getAngle(angle: Double) -> Double {
         let deg = 360 - angle.truncatingRemainder(dividingBy: 360)
         return deg

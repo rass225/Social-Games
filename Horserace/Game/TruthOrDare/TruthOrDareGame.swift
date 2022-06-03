@@ -20,7 +20,6 @@ struct TruthOrDareGame: View {
                     Text("Friendly")
                         .maxWidth()
                         .foregroundColor(model.tier == .friendly ? game.game.color : .white)
-                        .font(.subheadline)
                 }
                 Divider().background(.white)
                 Button(action: {
@@ -29,7 +28,6 @@ struct TruthOrDareGame: View {
                     Text("Challenging")
                         .maxWidth()
                         .foregroundColor(model.tier == .challenging ? game.game.color : .white)
-                        .font(.subheadline)
                 }
                 Divider().background(.white)
                 Button(action: {
@@ -38,9 +36,9 @@ struct TruthOrDareGame: View {
                     Text("Naughty")
                         .maxWidth()
                         .foregroundColor(model.tier == .naughty ? game.game.color : .white)
-                        .font(.subheadline)
                 }
             }
+            .font(.subheadline)
             .frame(maxHeight: 36)
             .background(game.game.gradient)
             .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))

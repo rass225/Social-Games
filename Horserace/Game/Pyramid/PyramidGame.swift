@@ -158,7 +158,6 @@ struct PyramidGame: View {
             .padding(.bottom, 16)
             .padding(.horizontal)
         }
-//        .padding(.horizontal, 20)
         .padding(.bottom)
         .padding(.top, 20)
         .background(DefaultBackground())

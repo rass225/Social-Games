@@ -62,6 +62,8 @@
 		C0A14BA428422599004DAC0E /* NeverHaveIEverTierOne.json in Resources */ = {isa = PBXBuildFile; fileRef = C0A14BA128422599004DAC0E /* NeverHaveIEverTierOne.json */; };
 		C0A14BA528422599004DAC0E /* NeverHaveIEverTierThree.json in Resources */ = {isa = PBXBuildFile; fileRef = C0A14BA228422599004DAC0E /* NeverHaveIEverTierThree.json */; };
 		C0A14BA8284663CE004DAC0E /* MancalaGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A14BA7284663CE004DAC0E /* MancalaGame.swift */; };
+		C0A14BAC2846D58F004DAC0E /* RoundCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A14BAB2846D58F004DAC0E /* RoundCorners.swift */; };
+		C0A14BAE284767F2004DAC0E /* DefaultRuleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A14BAD284767F2004DAC0E /* DefaultRuleCell.swift */; };
 		C0A9EE2A27FFEB9400E69993 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A9EE2927FFEB9400E69993 /* Constants.swift */; };
 		C0A9EE2E27FFEF3400E69993 /* HorceRaceGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A9EE2D27FFEF3400E69993 /* HorceRaceGame.swift */; };
 		C0A9EE312801394F00E69993 /* HorceRaceSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A9EE302801394F00E69993 /* HorceRaceSubviews.swift */; };
@@ -180,6 +182,8 @@
 		C0A14BA128422599004DAC0E /* NeverHaveIEverTierOne.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NeverHaveIEverTierOne.json; sourceTree = "<group>"; };
 		C0A14BA228422599004DAC0E /* NeverHaveIEverTierThree.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NeverHaveIEverTierThree.json; sourceTree = "<group>"; };
 		C0A14BA7284663CE004DAC0E /* MancalaGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MancalaGame.swift; sourceTree = "<group>"; };
+		C0A14BAB2846D58F004DAC0E /* RoundCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundCorners.swift; sourceTree = "<group>"; };
+		C0A14BAD284767F2004DAC0E /* DefaultRuleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultRuleCell.swift; sourceTree = "<group>"; };
 		C0A9EE2927FFEB9400E69993 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C0A9EE2D27FFEF3400E69993 /* HorceRaceGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorceRaceGame.swift; sourceTree = "<group>"; };
 		C0A9EE302801394F00E69993 /* HorceRaceSubviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorceRaceSubviews.swift; sourceTree = "<group>"; };
@@ -283,6 +287,7 @@
 				C0ACBBD92813054A005D223D /* PlayersBoard.swift */,
 				C00E05B7282EACFA0014CA8F /* GameTitle.swift */,
 				C0884927282CF7F40074EC97 /* DefaultBackground.swift */,
+				C0A14BAB2846D58F004DAC0E /* RoundCorners.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -469,6 +474,7 @@
 				C0ACBBE0281313D9005D223D /* Rulebook.swift */,
 				C0ACBBE2281313E2005D223D /* RuleObjects.swift */,
 				C0ACBBE428131CD9005D223D /* RuleView.swift */,
+				C0A14BAD284767F2004DAC0E /* DefaultRuleCell.swift */,
 			);
 			path = Rules;
 			sourceTree = "<group>";
@@ -723,6 +729,7 @@
 				C0F03D9828062EB5002CBB88 /* KingsCupGame.swift in Sources */,
 				C05060A427FF465700C35785 /* Modifiers.swift in Sources */,
 				C0ACBBEC2813AACE005D223D /* NeverHaveIEverRules.swift in Sources */,
+				C0A14BAE284767F2004DAC0E /* DefaultRuleCell.swift in Sources */,
 				C0BFC1EF2838F9C20079A6A1 /* RestartButton.swift in Sources */,
 				C044B80F280884CB00A112C2 /* Card.swift in Sources */,
 				C044B80A280789F500A112C2 /* KingsCupSubviews.swift in Sources */,
@@ -789,6 +796,7 @@
 				C0E7776A28176F42007CE89F /* RulesButton.swift in Sources */,
 				C0D9C729281A4FAD009B5001 /* WheelRules.swift in Sources */,
 				C0BFE7F028121960008BDBD1 /* TruthOrDareRules.swift in Sources */,
+				C0A14BAC2846D58F004DAC0E /* RoundCorners.swift in Sources */,
 				C0ACBBE828134FEC005D223D /* NeverHaveIEverGame.swift in Sources */,
 				C044B8112808997A00A112C2 /* CardBack.swift in Sources */,
 				C09D9013283393CD000E0B04 /* Images.swift in Sources */,
@@ -953,7 +961,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 18;
+				CURRENT_PROJECT_VERSION = 21;
 				DEVELOPMENT_ASSET_PATHS = "\"Horserace/Preview Content\"";
 				DEVELOPMENT_TEAM = Q6B2DLVPJB;
 				ENABLE_PREVIEWS = YES;
@@ -987,7 +995,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 18;
+				CURRENT_PROJECT_VERSION = 21;
 				DEVELOPMENT_ASSET_PATHS = "\"Horserace/Preview Content\"";
 				DEVELOPMENT_TEAM = Q6B2DLVPJB;
 				ENABLE_PREVIEWS = YES;

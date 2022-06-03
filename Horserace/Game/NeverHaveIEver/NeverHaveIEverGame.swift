@@ -76,12 +76,6 @@ struct NeverHaveIEverGame: View {
         }
         .gameViewModifier(game: .neverHaveIEver)
         .navigationModifier(game: .neverHaveIEver)
-        .sheet(isPresented: $isRulesOpen) {
-            RuleView(isOpen: $isRulesOpen)
-        }
-        .onAppear{
-            model.fetchNeverHaveIEver()
-        }
         .toolbar{
             ToolbarItem(placement: .navigationBarLeading) {
                 HomeButton()
@@ -92,6 +86,12 @@ struct NeverHaveIEverGame: View {
             ToolbarItem(placement: .principal) {
                 GameTitle()
             }
+        }
+        .sheet(isPresented: $isRulesOpen) {
+            RuleView(isOpen: $isRulesOpen)
+        }
+        .onAppear{
+            model.fetchNeverHaveIEver()
         }
     }
 }

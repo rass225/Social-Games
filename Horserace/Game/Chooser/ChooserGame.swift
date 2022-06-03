@@ -47,6 +47,7 @@ struct ChooserGame: View {
         .navigationBarTitleDisplayMode(.inline)
         .navigationTitle(points.isEmpty ? game.game.title : Text(""))
         .navigationBarBackButtonHidden(true)
+        .navigationBarHidden(!points.isEmpty)
         .ignoresSafeArea()
         .toolbar{
             ToolbarItem(placement: .navigationBarLeading) {
@@ -63,7 +64,6 @@ struct ChooserGame: View {
                 if points.isEmpty {
                     GameTitle()
                 }
-                
             }
         }
         .sheet(isPresented: $isRulesOpen) {
@@ -74,8 +74,8 @@ struct ChooserGame: View {
     private struct TouchMarker: View {
         @EnvironmentObject var game: Game
         let size: CGSize
-        var innerPulseAnimation: Animation = Animation.easeInOut(duration: 0.75).repeatForever(autoreverses: true)
-        var outerPulseAnimation: Animation = Animation.easeInOut(duration: 0.75).repeatForever(autoreverses: true)
+        private let innerPulseAnimation: Animation = Animation.easeInOut(duration: 0.75).repeatForever(autoreverses: true)
+        private let outerPulseAnimation: Animation = Animation.easeInOut(duration: 0.75).repeatForever(autoreverses: true)
     
         @State var isInnerPulsing: Bool = false
         @State var isOuterPulsing: Bool = false

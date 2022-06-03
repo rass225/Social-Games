@@ -35,13 +35,15 @@ struct WheelComponents: View {
                                 }
                             }
                             .placeholder(when: components[index].isEmpty) {
-                                Text("\(index + 1). Item").foregroundColor(Colors.text)
+                                Text("\(index + 1). Item")
+                                    .foregroundColor(Colors.text)
+                                    .opacity(focusField == .row(id: index) ? 0.4 : 1)
                             }
-                        
+                            .accentColor(game.game.background[0])
                             .padding(.horizontal)
                             .padding(.vertical, 12)
                             .background(BlurEffect().opacity(focusField == .row(id: index) ? 0.4 : 1))
-                            .mask(RoundedRectangle(cornerRadius: 16, style: .continuous))
+                            .mask(RoundCorners())
                             .overlay(RoundedRectangle(cornerRadius: 16, style: .continuous).stroke(lineWidth: 0.5).fill(Colors.buttonBorder))
                             .focused($focusField, equals: .row(id: index))
                             .overlay(

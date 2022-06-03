@@ -24,7 +24,7 @@ enum Images {
     static let higherLower = Image(systemName: "arrow.up.arrow.down.circle.fill")
     static let chooser = Image(systemName: "dot.circle.and.hand.point.up.left.fill")
     static let bottle = Image("Bottle")
-    static let horse = Image("Horse")
+    static let horse = Image("Horses")
     static let horseBig = Image("HorseRace")
     static let roulette = Image("Roulette")
     static let wheel = Image(systemName: "gearshape.fill")

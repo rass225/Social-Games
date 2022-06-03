@@ -50,7 +50,6 @@ struct KingsCupGame: View {
                     }
                     .padding(.vertical, 32)
                     
-                    
                     DescriptionView(title: $rule.title, rule: $rule.rule)
                         .padding(.top)
                     Spacer()
@@ -85,8 +84,6 @@ struct KingsCupGame: View {
                 .disabled(gameStatus == .gameOver ? true : false)
                 .buttonStyle(PlainButtonStyle())
             }.padding(.top, 32)
-            
-            
         }
         .gameViewModifier(game: .kingsCup)
         .navigationModifier(game: .kingsCup)
@@ -114,18 +111,17 @@ struct KingsCupGame: View {
             ToolbarItem(placement: .principal) {
                 GameTitle()
             }
-            
         }
     }
     
     func gameLogic() {
         deckIndex += 1
         incrementPlayer()
-        displayRule(rank: deck[deckIndex].rank)
+        displayRule()
         checkKing()
     }
     
-    func displayRule(rank: Rank) {
+    func displayRule() {
         switch deck[deckIndex].rank {
         case .two  : rule = Constant.KingsCupRules.two
         case .three: rule = Constant.KingsCupRules.three
@@ -144,26 +140,27 @@ struct KingsCupGame: View {
     }
     
     func checkKing() {
+        let animation: Animation = .easeOut(duration: 2)
         if deck[deckIndex].rank == .king {
             switch deck[deckIndex].suit {
             case .heart:
                 isHeartKingPicked.toggle()
-                withAnimation(.easeOut(duration: 2)) {
+                withAnimation(animation) {
                     cupPercent = cupPercent + 0.25
                 }
             case .diamond:
                 isDiamondKingPicked.toggle()
-                withAnimation(.easeOut(duration: 2)) {
+                withAnimation(animation) {
                     cupPercent = cupPercent + 0.25
                 }
             case .spades:
                 isSpadeKingPicked.toggle()
-                withAnimation(.easeOut(duration: 2)) {
+                withAnimation(animation) {
                     cupPercent = cupPercent + 0.25
                 }
             case .clubs:
                 isClubKingPicked.toggle()
-                withAnimation(.easeOut(duration: 2)) {
+                withAnimation(animation) {
                     cupPercent = cupPercent + 0.25
                 }
             }
@@ -181,14 +178,18 @@ struct KingsCupGame: View {
     func mainButton() {
         switch gameStatus {
         case .notStarted:
-            gameStatus = .game
-            displayRule(rank: deck[deckIndex].rank)
-            checkKing()
+            startGame()
         case .game:
             gameLogic()
         case .gameOver:
             break
         }
+    }
+    
+    func startGame() {
+        gameStatus = .game
+        displayRule()
+        checkKing()
     }
     
     func restartGame() {

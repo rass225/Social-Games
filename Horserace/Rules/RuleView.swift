@@ -9,34 +9,38 @@ struct RuleView: View {
         NavigationView{
             GeometryReader { geometry in
                 ScrollView {
-                    switch game.game {
-                    case .horseRace:
-                        HorseRaceRules()
-                    case .kingsCup:
-                        KingsCupRulesSheet(size: geometry.size)
-                    case .truthDare:
-                        TruthOrDareRules()
-                    case .neverHaveIEver:
-                        NeverHaveIEverRules()
-                    case .pyramid:
-                        PyramidRules()
-                    case .spinBottle:
-                        SpinBottleRules()
-                    case .whosMostLikely:
-                        EmptyView()
-                    case .higherLower:
-                        EmptyView()
-                    case .chooser:
-                        ChooserRules()
-                    case .explain:
-                        EmptyView()
-                    case .roulette:
-                        RouletteRules()
-                    case .wheel:
-                        WheelRules()
-                    case .mancala:
-                        Text("Mancala rules")
+                    VStack(spacing: 32){
+                        switch game.game {
+                        case .horseRace:
+                            HorseRaceRules()
+                        case .kingsCup:
+                            KingsCupRulesSheet(size: geometry.size)
+                        case .truthDare:
+                            TruthOrDareRules()
+                        case .neverHaveIEver:
+                            NeverHaveIEverRules()
+                        case .pyramid:
+                            PyramidRules()
+                        case .spinBottle:
+                            SpinBottleRules()
+                        case .whosMostLikely:
+                            EmptyView()
+                        case .higherLower:
+                            EmptyView()
+                        case .chooser:
+                            ChooserRules()
+                        case .explain:
+                            EmptyView()
+                        case .roulette:
+                            RouletteRules()
+                        case .wheel:
+                            WheelRules()
+                        case .mancala:
+                            Text("Mancala rules")
+                        }
                     }
+                    .padding(.horizontal)
+                    .padding(.leading, 8)
                 }
             }
             .background(Colors.background)
