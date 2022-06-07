@@ -31,7 +31,6 @@ enum Games: String {
         case .wheel: return Images.wheel
         case .roulette: return Images.roulette
         case .mancala: return Images.mancala
-
         }
     }
     

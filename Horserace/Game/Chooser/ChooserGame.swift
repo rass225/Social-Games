@@ -52,18 +52,15 @@ struct ChooserGame: View {
         .toolbar{
             ToolbarItem(placement: .navigationBarLeading) {
                 HomeButton()
-                    .disabled(points.isEmpty ? false : true)
-                    .opacity(points.isEmpty ? 1 : 0)
+                    .isHidden(points.isEmpty)
             }
             ToolbarItem(placement: .navigationBarTrailing) {
                 RulesButton(isOpen: $isRulesOpen)
-                    .disabled(points.isEmpty ? false : true)
-                    .opacity(points.isEmpty ? 1 : 0)
+                    .isHidden(points.isEmpty)
             }
             ToolbarItem(placement: .principal) {
-                if points.isEmpty {
-                    GameTitle()
-                }
+                GameTitle()
+                    .isHidden(points.isEmpty)
             }
         }
         .sheet(isPresented: $isRulesOpen) {

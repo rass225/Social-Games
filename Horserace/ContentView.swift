@@ -28,7 +28,7 @@ struct ContentView: View {
                             NewGameView(.horseRace, size: size, willPulse: true)
                             NewGameView(.pyramid, size: size, willPulse: true)
                             NewGameView(.higherLower, size: size, willRotate: true)
-                                .isGameDisabled($showingAlert)
+//                                .isGameDisabled($showingAlert)
                         }
                         .padding(.horizontal, spacing)
                         .padding(.bottom, spacing)
@@ -75,20 +75,24 @@ struct ContentView: View {
                         .padding(.bottom, spacing)
                     }
                 }.padding(.top, 32)
-                VStack{
-                    Text("Copyright © 2022 Rasmus Tauts. All rights reserved.")
-                    Text("Designed and developed by Rasmus Tauts.")
-                }
-                .font(.footnote)
-                .foregroundStyle(.gray)
-                .padding(.top, 48)
-                .padding(.bottom)
+                copyright
             }
         }
         .navigationBarTitleDisplayMode(.inline)
         .alert(isPresented: $showingAlert) {
             Alert(title: Text("Coming Soon"), message: Text(alertMessage), dismissButton: .default(Text("Done")))
         }
+    }
+    
+    var copyright: some View {
+        VStack{
+            Text("Copyright © 2022 Rasmus Tauts. All rights reserved.")
+            Text("Designed and developed by Rasmus Tauts.")
+        }
+        .font(.footnote)
+        .foregroundStyle(.gray)
+        .padding(.top, 48)
+        .padding(.bottom)
     }
     
     private struct SectionHeader: View {
@@ -144,16 +148,7 @@ struct ContentView: View {
         
         var body: some View {
             NavigationLink(destination: GameSetup(game: game)) {
-                game.icon
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(maxWidth: size.width / 2, maxHeight: size.width / 2)
-                    .foregroundColor(.white.opacity(0.1))
-                    .rotationEffect(Angle(degrees: isRotating ? 360.0 : 0.0))
-                    .scaleEffect(isPulsing ? 0.90 : 1)
-                    .animation(foreverAnimation, value: isRotating)
-                    .animation(pulseAnimation, value: isPulsing)
-                    .offset(x: size.width / 7.5, y: size.width / 9)
+                gameIconBig
                     .frame(idealWidth: size.width / 1.7, maxWidth: size.width / 1.7)
                     .frame(idealHeight: size.width / 2.2, maxHeight: size.width / 2.2)
                     .background(background)
@@ -169,6 +164,19 @@ struct ContentView: View {
                         startAnimation()
                     }
             }.buttonStyle(GameButtonStyle())
+        }
+        
+        var gameIconBig: some View {
+            game.icon
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(maxWidth: size.width / 2, maxHeight: size.width / 2)
+                .foregroundColor(.white.opacity(0.1))
+                .rotationEffect(Angle(degrees: isRotating ? 360.0 : 0.0))
+                .scaleEffect(isPulsing ? 0.90 : 1)
+                .animation(foreverAnimation, value: isRotating)
+                .animation(pulseAnimation, value: isPulsing)
+                .offset(x: size.width / 7.5, y: size.width / 9)
         }
         
         var gameTitle: some View {

@@ -53,4 +53,10 @@ extension View {
     func blurEffect() -> some View {
         ModifiedContent(content: self, modifier: BlurEffectModifier())
     }
+    
+    func isHidden(_ shouldHide: Bool) -> some View {
+        return self
+            .disabled(shouldHide ? false : true)
+            .opacity(shouldHide ? 1 : 0)
+    }
 }

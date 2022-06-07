@@ -204,7 +204,7 @@ struct PyramidGame: View {
         flipFaceUp(index: index)
         addToPath(index: index)
         
-        if isFaceCard(deck: deck[index]) {
+        if deck[index].rank.isFaceCard {
             revealPunishment()
             
             DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {

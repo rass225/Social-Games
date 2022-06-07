@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct TruthOrDareGame: View {
-
+    
     @EnvironmentObject var game: Game
     @ObservedObject var model: TruthOrDareModel
     @State var isRulesOpen: Bool = false
@@ -46,18 +46,31 @@ struct TruthOrDareGame: View {
             GeometryReader { geo in
                 let size = geo.size
                 if model.status == .activity {
-                    VStack(alignment: .leading, spacing: 8){
-                        Text(model.title)
-                            .font(.title.weight(.semibold))
-                            .foregroundColor(Colors.text)
-                        if model.status == .activity {
+                    VStack(alignment: .center){
+                        VStack(alignment: .center, spacing: 16){
+                            Text(model.title)
+                                .font(.title3.weight(.semibold))
+                                .foregroundColor(Colors.text)
+                                .padding(.top)
                             Text(model.label)
-                                .font(.headline.weight(.regular))
+                                .font(.body.weight(.regular))
                                 .foregroundColor(.gray)
+                            
+                            Spacer()
                         }
+                        .padding()
+                        .frame(width: size.width / 1.5)
+                        .frame(height: size.height / 1.5)
+                        .background(.ultraThickMaterial)
+                        .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
+//                        .shadow(color: Color.black.opacity(0.6), radius: 3, x: 0, y: 0)
+                        .shadow(color: Colors.darkShadow2, radius: 5, x: 0, y: 8)
                     }
-                    .maxWidth(alignment: .leading)
-                    .padding(.top, size.height / 4)
+                    .maxWidth()
+                    .maxHeight()
+                   
+                
+//                    .padding(.top, size.height / 4)
                 } else {
                     Text(model.title)
                         .font(.title.weight(.semibold))

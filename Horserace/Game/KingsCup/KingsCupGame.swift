@@ -80,6 +80,7 @@ struct KingsCupGame: View {
                 }) {
                     MainButton(label: gameStatus == .game ? "Next Card" : "Play")
                 }
+                .isHidden(gameStatus == .gameOver)
                 .opacity(gameStatus == .gameOver ? 0 : 1)
                 .disabled(gameStatus == .gameOver ? true : false)
                 .buttonStyle(PlainButtonStyle())

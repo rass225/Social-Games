@@ -52,7 +52,6 @@ struct Card: View {
         }
     }
     
-    
     func suitImage() -> AnyView {
         switch suit {
         case .heart: return AnyView(Images.heart.resizable())
@@ -60,7 +59,6 @@ struct Card: View {
         case .spades: return AnyView(Images.spade.resizable())
         case .clubs: return AnyView(Images.club.resizable())
         }
-        
     }
     
     func rankFont() -> Font {
