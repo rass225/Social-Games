@@ -8,26 +8,23 @@ class NeverEverModel: ObservableObject {
         case activity
     }
     
-    enum GameTier {
-        case friendly
-        case challenging
-        case naughty
+    enum GameTier: String {
+        case friendly = "Friendly"
+        case challenging  = "Challenging"
+        case naughty = "Naughty"
     }
     
     @Published var tier: GameTier = .friendly
     
-    @Published var players: [String]
+//    @Published var players: [String]
     @Published var status: GameStatus = .notStarted
-    @Published var currentPlayer: Int = 0
     @Published var currentStatement: String = ""
     @Published var currentTitle: String = ""
     @Published var statementCollection: [NeverHaveIEverQuestion] = []
     
     private var currentStatementIndex: Int = 0
-//    private var statements: [String] = ["Played basketball", "Farted in a classroom", "Scored a goal", "Driven a car", "Lied to someone's face", "Thrown up because of alcohol"]
     
-    init(players: [String]) {
-        self.players = players
+    init() {
         titleLabel()
     }
     
@@ -44,18 +41,6 @@ class NeverEverModel: ObservableObject {
         currentStatement = statementCollection[currentStatementIndex].question
     }
     
-    private func incrementPlayer() {
-        if currentPlayer == 10 {
-            currentPlayer = 0
-            return
-        }
-        if currentPlayer == players.count - 1 {
-            currentPlayer = 0
-        } else {
-            currentPlayer += 1
-        }
-    }
-    
     func mainButtonAction() {
         switch status {
         case .notStarted:
@@ -64,7 +49,7 @@ class NeverEverModel: ObservableObject {
                 titleLabel()
             
         case .activity:
-            incrementPlayer()
+//            incrementPlayer()
             statementHandler()
         }
     }
@@ -74,7 +59,7 @@ class NeverEverModel: ObservableObject {
         case .notStarted:
             return "Play"
         case .activity:
-            return "Next Player"
+            return "Next"
         }
     }
     
@@ -92,7 +77,7 @@ class NeverEverModel: ObservableObject {
             self.tier = tier
             status = .notStarted
             titleLabel()
-            currentPlayer = 0
+            currentStatementIndex = 0
             switch tier {
             case .friendly:
                 fetchNeverHaveIEver(tier: .NeverHaveIEverTierOne)

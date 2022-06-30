@@ -15,28 +15,12 @@ struct RuleBook {
         HorseRaceRule(image: Images.Nr.nine, title: "Winner", rule: "The players who's horce(suit) won, can give out double of their own bet.")
     ]
     
-    let kingsCup: [KingsCupRules] = [
-        KingsCupRules(deck: Deck(suit: .diamond, rank: .ace), title: "Waterfall", rule: "Everyone drinks, staring with you. A player can end drinking when the previous player does."),
-        KingsCupRules(deck: Deck(suit: .heart, rank: .two), title: "You", rule: "Pick someone to take a drink."),
-        KingsCupRules(deck: Deck(suit: .clubs, rank: .three), title: "Me", rule: "Take a drink."),
-        KingsCupRules(deck: Deck(suit: .spades, rank: .four), title: "Whores", rule: "Ladies take a drink."),
-        KingsCupRules(deck: Deck(suit: .diamond, rank: .five), title: "Slap", rule: "Last person to slap the table drinks."),
-        KingsCupRules(deck: Deck(suit: .heart, rank: .six), title: "Dicks", rule: "Gentlemen drink."),
-        KingsCupRules(deck: Deck(suit: .spades, rank: .seven), title: "Heaven", rule: "Put your fingers up in the air. last one drinks."),
-        KingsCupRules(deck: Deck(suit: .clubs, rank: .eight), title: "Mate", rule: "Find a buddy, who drinks every time you drink throughout the game."),
-        KingsCupRules(deck: Deck(suit: .diamond, rank: .nine), title: "Rhyme", rule: "Pick a word, others must rhyme it or drink."),
-        KingsCupRules(deck: Deck(suit: .heart, rank: .ten), title: "Categories", rule: "Pick a category, others need to say things in the category, or drink."),
-        KingsCupRules(deck: Deck(suit: .clubs, rank: .jack), title: "Rule", rule: "Make a rule that lasts the entire game."),
-        KingsCupRules(deck: Deck(suit: .spades, rank: .queen), title: "Question Master", rule: "Ask questions. Who answers, drinks. Who responses with a questions, makes you drink. Effect lasts until a new queen is drawn."),
-        KingsCupRules(deck: Deck(suit: .diamond, rank: .king), title: "Pour to the cup", rule: "Pour a little bit of your drink into the king's cup. The person, who picks the last king, drinks the mix. Game over!")
-    ]
-    
     let pyramid: [PyramidRule] = [
         PyramidRule(image: Images.Nr.one, title: "Objective", rule: "The general target is to reach to the top of the pyramid, avoiding face cards (jack, queen, king, ace)."),
         PyramidRule(image: Images.Nr.two, title: "Start", rule: "Pick a card from the first row."),
         PyramidRule(image: Images.Nr.three, title: "Game", rule: "If the card is a number card (1 - 10), then move on to the next row."),
         PyramidRule(image: Images.Nr.four, title: "Continue", rule: "Advance by successfully picking a number card from each consecutive row."),
-        PyramidRule(image: Images.Nr.five, title: "Penalty", rule: "If the card you picked is a face card, you will go back to the beginning. You will also have to take sips, depending on what row you were on. If your run ended in the first row, take 1 sip. On second row, take 2. 3rd row = 3, 4th row = 4, and 5th = 5."),
+        PyramidRule(image: Images.Nr.five, title: "Penalty", rule: "If the card you picked is a face card, you will go back to the beginning. You will also get penalty points, depending on what row you were on. If your run ended in the first row, take 1 penalty point. On second row, 2. 3rd row = 3, 4th row = 4, and 5th = 5."),
         PyramidRule(image: Images.Nr.six, title: "Go again", rule: "The cards you have previously picked, will be put back into the deck, and will be swapped with brand new cards."),
         PyramidRule(image: Images.Nr.seven, title: "Next Player", rule: "If you reach to the top of the pyramid, it is the next player's turn. You can take a break."),
         PyramidRule(image: Images.Nr.eight, title: "Winner", rule: "There are no winners, only a biggest loser")
@@ -46,9 +30,9 @@ struct RuleBook {
         RouletteRule(image: Images.Nr.one, title: "Objective", rule: "The general target is to make a correct bet on a roulette table."),
         RouletteRule(image: Images.Nr.two, title: "Place a bet", rule: "Choose a bet you want to place."),
         RouletteRule(image: Images.Nr.three, title: "Play", rule: "Spin the roulette table."),
-        RouletteRule(image: Images.Nr.four, title: "Penalty", rule: "If you lose your bet, you take a sip."),
-        RouletteRule(image: Images.Nr.five, title: "Win 1", rule: "If your bet was placed on the bottom row (bets with 1/2 odds), you can give out 2 sips."),
-        RouletteRule(image: Images.Nr.six, title: "Win 2", rule: "If your bet was placed on the top row (bets with 1/3 odds), you can give out 2 sips.")
+        RouletteRule(image: Images.Nr.four, title: "Penalty", rule: "If you lose your bet, you need to do a punishment."),
+        RouletteRule(image: Images.Nr.five, title: "Win 1", rule: "If your bet was placed on the bottom row (bets with 1/2 odds), you can give out 2 punishments."),
+        RouletteRule(image: Images.Nr.six, title: "Win 2", rule: "If your bet was placed on the top row (bets with 1/3 odds), you can give out 3 punishments.")
     ]
     
     let wheel: [WheelRule] = [
@@ -85,5 +69,20 @@ struct RuleBook {
         NeverHaveIEverRule(image: Images.Nr.two, title: "Setup", rule: "Sit down with your friends and start taking turns"),
         NeverHaveIEverRule(image: Images.Nr.three, title: "Game", rule: "Read a statement, written on the screen, out loud. If you haven't done this activity/action, you pass the turn to the next player. If you have, however, you need to do punishment"),
         NeverHaveIEverRule(image: Images.Nr.four, title: "Play", rule: "Play however long you choose to. There is no concrete ending to this game.")
+    ]
+    
+    let higherLower: [HigherLowerRule] = [
+        HigherLowerRule(image: Images.Nr.one, title: "Objective", rule: "The general idea of the game is to make a right decision by picking higher or lower"),
+        HigherLowerRule(image: Images.Nr.two, title: "Setup", rule: "Choose the number of players who play, and determine a penalty, if someone were to make an inaccurate prediction"),
+        HigherLowerRule(image: Images.Nr.three, title: "Game", rule: "Start taking turns. The left card is the card you play against. Predict whether the next card will be lower or higher of the card on the field."),
+        HigherLowerRule(image: Images.Nr.four, title: "Streak", rule: "Every time a player makes an accurate prediction, the streak is incremented."),
+        HigherLowerRule(image: Images.Nr.five, title: "Penalty", rule: "If a player makes an inaccurate prediction, they will receive as many penalty points as the streak count is at that moment")
+    ]
+    
+    let whosMostLikely: [WhosMostLikelyRule] = [
+        WhosMostLikelyRule(image: Images.Nr.one, title: "Objective", rule: "The general objective of the game is to determine of whom the card is talking about"),
+        WhosMostLikelyRule(image: Images.Nr.two, title: "Setup", rule: "Sit down with your friends and start taking turns"),
+        WhosMostLikelyRule(image: Images.Nr.three, title: "Game", rule: "The person, who's turn it is, reads out loud the text on the card. Everyone will nominate someone, who they think matches that descrption the best"),
+        WhosMostLikelyRule(image: Images.Nr.four, title: "Play", rule: "Play however long you choose to. There is no concrete ending to this game.")
     ]
 }

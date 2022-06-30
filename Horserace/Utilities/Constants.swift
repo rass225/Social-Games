@@ -3,23 +3,6 @@ import SwiftUI
 
 public enum Constant {
     
-    enum KingsCupRules {
-        static let ace = KingsCupRule(title: "Waterfall", rule: "Everyone drinks, staring with you. A player can end drinking when the previous player does")
-        static let two = KingsCupRule(title: "You", rule: "Pick someone to take a drink")
-        static let three = KingsCupRule(title: "Me", rule: "Take a drink")
-        static let four = KingsCupRule(title: "Whores", rule: "Ladies drink")
-        static let five = KingsCupRule(title: "Slap", rule: "Last person to slap the table drinks")
-        static let six = KingsCupRule(title: "Dicks", rule: "Gentlemen drink")
-        static let seven = KingsCupRule(title: "Heaven", rule: "Put your fingers up in the air. last one drinks")
-        static let eight = KingsCupRule(title: "Mate", rule: "Find a buddy, who drinks every time you drink throughout the game")
-        static let nine = KingsCupRule(title: "Rhyme", rule: "Pick a word, others must rhyme it or drink")
-        static let ten = KingsCupRule(title: "Categories", rule: "Pick a category, others need to say things in the category, or drink")
-        static let jack = KingsCupRule(title: "Rule", rule: "Make a rule that lasts the entire game")
-        static let queen = KingsCupRule(title: "Question Master", rule: "Ask questions. Who answers, drinks. Who responses with a questions, makes you drink. Effect lasts until a new queen is drawn.")
-        static let king = KingsCupRule(title: "Pour to the Cup", rule: "Pour a little bit of your drink into the king's cup. The person, who picks the last king, drinks the mix. Game over!")
-
-    }
-    
     static let deck: [Deck] = [
         Deck(suit: .diamond, rank: .two),
         Deck(suit: .diamond, rank: .three),
@@ -74,8 +57,6 @@ public enum Constant {
         Deck(suit: .spades, rank: .ace),
         Deck(suit: .heart, rank: .ace)
     ]
-    
-    
 }
 
 struct Deck: Identifiable {

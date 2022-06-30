@@ -31,9 +31,18 @@ struct Card: View {
         }
         .background(
             LinearGradient(gradient: Gradient(colors: [.init(red: 0.85, green: 0.85, blue: 0.85), .white, .white]), startPoint: .bottom, endPoint: .top)
-                .cornerRadius(5)
+                .cornerRadius(cornerRadius())
                 .shadow(color: .black.opacity(0.2), radius: 2, x: 0, y: 0)
         )
+    }
+    
+    func cornerRadius() -> CGFloat {
+        switch size {
+        case .small: return 4
+        case .medium: return 7
+        case .large: return 10
+        case .extraLarge: return 13
+        }
     }
     
     func width() -> CGFloat {
@@ -41,6 +50,7 @@ struct Card: View {
         case .small: return geometry.height / 15
         case .medium: return geometry.height / 10
         case .large: return geometry.height / 6.6666
+        case .extraLarge: return geometry.height / 4.5
         }
     }
     
@@ -49,6 +59,7 @@ struct Card: View {
         case .small: return geometry.height / 10
         case .medium: return geometry.height / 6.6666666
         case .large: return geometry.height / 4.4444
+        case .extraLarge: return geometry.height / 3
         }
     }
     
@@ -70,6 +81,7 @@ struct Card: View {
         case .small: return 2
         case .medium: return 4
         case .large: return 6
+        case .extraLarge: return 8
         }
     }
 }

@@ -3,7 +3,6 @@ import SwiftUI
 
 enum Games: String {
     case horseRace = "Horse Race"
-    case kingsCup = "King's Cup"
     case truthDare = "Truth or Dare"
     case neverHaveIEver = "Never Have I Ever"
     case pyramid = "Pyramid"
@@ -19,7 +18,6 @@ enum Games: String {
     var icon : Image {
         switch self {
         case .horseRace: return Images.horse
-        case .kingsCup: return Images.crown
         case .truthDare: return Images.hexagon
         case .neverHaveIEver: return Images.seal
         case .pyramid: return Images.pyramid
@@ -37,7 +35,6 @@ enum Games: String {
     var title : Text {
         switch self {
         case .horseRace: return Text("Horse Race")
-        case .kingsCup: return Text("King's Cup")
         case .truthDare: return Text("Truth or Dare")
         case .neverHaveIEver: return Text("Never Have I Ever")
         case .pyramid: return Text("Pyramid")
@@ -55,12 +52,11 @@ enum Games: String {
     var color : Color {
         switch self {
         case .horseRace: return Colors.Foregrounds.theme1
-        case .kingsCup: return Colors.Foregrounds.theme2
         case .truthDare: return Colors.Foregrounds.theme8
         case .neverHaveIEver: return Colors.Foregrounds.theme9
         case .pyramid: return Colors.Foregrounds.theme3
         case .spinBottle: return Colors.Foregrounds.theme4
-        case .whosMostLikely: return Colors.Foregrounds.theme10
+        case .whosMostLikely: return Colors.Foregrounds.theme12
         case .higherLower: return Colors.Foregrounds.theme10
         case .chooser: return Colors.Foregrounds.theme7
         case .explain: return Colors.Foregrounds.theme1
@@ -73,12 +69,11 @@ enum Games: String {
     var background : [Color] {
         switch self {
         case .horseRace: return Colors.Backgrounds.theme1
-        case .kingsCup: return Colors.Backgrounds.theme2
         case .truthDare: return Colors.Backgrounds.theme8
         case .neverHaveIEver: return Colors.Backgrounds.theme9
         case .pyramid: return Colors.Backgrounds.theme3
         case .spinBottle: return Colors.Backgrounds.theme4
-        case .whosMostLikely: return Colors.Backgrounds.theme10
+        case .whosMostLikely: return Colors.Backgrounds.theme12
         case .higherLower: return Colors.Backgrounds.theme10
         case .chooser: return Colors.Backgrounds.theme7
         case .explain: return Colors.Backgrounds.theme10

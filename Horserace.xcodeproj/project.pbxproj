@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		C0045D3F2824A35900A6331E /* SpinBottleRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0045D3E2824A35900A6331E /* SpinBottleRule.swift */; };
+		C00A91CE2867875800DC62FF /* ExplainGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00A91CD2867875800DC62FF /* ExplainGame.swift */; };
+		C00A91D1286D971500DC62FF /* WhosMostLikelyTierTwo.json in Resources */ = {isa = PBXBuildFile; fileRef = C00A91CF286D971500DC62FF /* WhosMostLikelyTierTwo.json */; };
+		C00A91D2286D971500DC62FF /* WhosMostLikelyTierOne.json in Resources */ = {isa = PBXBuildFile; fileRef = C00A91D0286D971500DC62FF /* WhosMostLikelyTierOne.json */; };
+		C00A91D5286D975A00DC62FF /* WhosMostLikelyGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00A91D4286D975A00DC62FF /* WhosMostLikelyGame.swift */; };
+		C00A91D7286D97CD00DC62FF /* WhosMostLikelyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00A91D6286D97CD00DC62FF /* WhosMostLikelyModel.swift */; };
+		C00A91D9286D9A6200DC62FF /* WhosMostLikelyObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00A91D8286D9A6200DC62FF /* WhosMostLikelyObject.swift */; };
+		C00A91DB286DA76F00DC62FF /* HigherLowerRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00A91DA286DA76F00DC62FF /* HigherLowerRules.swift */; };
+		C00A91DD286DA7A400DC62FF /* WhosMostLikelyRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00A91DC286DA7A400DC62FF /* WhosMostLikelyRules.swift */; };
 		C00E05B8282EACFA0014CA8F /* GameTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00E05B7282EACFA0014CA8F /* GameTitle.swift */; };
 		C00FA407283AD4B3006240FE /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00FA406283AD4B3006240FE /* Shape.swift */; };
 		C036553F281B734A00CB8D00 /* TruthOrDareModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C036553E281B734A00CB8D00 /* TruthOrDareModel.swift */; };
@@ -16,11 +24,9 @@
 		C0365546281E1FE000CB8D00 /* SpinBottleGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0365545281E1FE000CB8D00 /* SpinBottleGame.swift */; };
 		C0365548281E1FEA00CB8D00 /* SpinBottleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0365547281E1FEA00CB8D00 /* SpinBottleModel.swift */; };
 		C036554C281EFC0100CB8D00 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C036554B281EFC0100CB8D00 /* GameState.swift */; };
-		C044B80A280789F500A112C2 /* KingsCupSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C044B809280789F500A112C2 /* KingsCupSubviews.swift */; };
 		C044B80F280884CB00A112C2 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C044B80E280884CB00A112C2 /* Card.swift */; };
 		C044B8112808997A00A112C2 /* CardBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C044B8102808997A00A112C2 /* CardBack.swift */; };
 		C044B81328089C9E00A112C2 /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C044B81228089C9E00A112C2 /* MainButton.swift */; };
-		C044B817280A2D0000A112C2 /* KingsCupRulesSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C044B816280A2D0000A112C2 /* KingsCupRulesSheet.swift */; };
 		C044B81B280D080E00A112C2 /* HorseRaceRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = C044B81A280D080E00A112C2 /* HorseRaceRules.swift */; };
 		C050607827FF421900C35785 /* HorseraceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C050607727FF421900C35785 /* HorseraceApp.swift */; };
 		C050607A27FF421900C35785 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C050607927FF421900C35785 /* ContentView.swift */; };
@@ -33,6 +39,7 @@
 		C05060A427FF465700C35785 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05060A327FF465700C35785 /* Modifiers.swift */; };
 		C05060B527FF55B800C35785 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05060B427FF55B800C35785 /* View.swift */; };
 		C05060B727FF970400C35785 /* HorseRaceSuits.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05060B627FF970400C35785 /* HorseRaceSuits.swift */; };
+		C05F54B6285E44EB00949E98 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05F54B5285E44EB00949E98 /* Ticket.swift */; };
 		C08848A7282A3F990074EC97 /* ChooserRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08848A6282A3F990074EC97 /* ChooserRules.swift */; };
 		C0884926282C5A900074EC97 /* SwiftUIVisualEffects in Frameworks */ = {isa = PBXBuildFile; productRef = C0884925282C5A900074EC97 /* SwiftUIVisualEffects */; };
 		C0884928282CF7F40074EC97 /* DefaultBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0884927282CF7F40074EC97 /* DefaultBackground.swift */; };
@@ -100,8 +107,6 @@
 		C0E7776E2817705A007CE89F /* HomeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E7776D2817705A007CE89F /* HomeButton.swift */; };
 		C0E777702817A978007CE89F /* PyramidRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E7776F2817A978007CE89F /* PyramidRules.swift */; };
 		C0E777722817AB8C007CE89F /* RouletteRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E777712817AB8C007CE89F /* RouletteRules.swift */; };
-		C0F03D9828062EB5002CBB88 /* KingsCupGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F03D9728062EB5002CBB88 /* KingsCupGame.swift */; };
-		C0F03D9C280672E6002CBB88 /* KingsCupShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F03D9B280672E6002CBB88 /* KingsCupShapes.swift */; };
 		C0F1BA4B281F8E3300DBD862 /* HigherLowerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F1BA4A281F8E3300DBD862 /* HigherLowerModel.swift */; };
 		C0F1BA4D282043DE00DBD862 /* ChooserGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F1BA4C282043DE00DBD862 /* ChooserGestures.swift */; };
 		C0F1BA4F2820440A00DBD862 /* ChooserSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F1BA4E2820440A00DBD862 /* ChooserSubviews.swift */; };
@@ -126,6 +131,14 @@
 
 /* Begin PBXFileReference section */
 		C0045D3E2824A35900A6331E /* SpinBottleRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinBottleRule.swift; sourceTree = "<group>"; };
+		C00A91CD2867875800DC62FF /* ExplainGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplainGame.swift; sourceTree = "<group>"; };
+		C00A91CF286D971500DC62FF /* WhosMostLikelyTierTwo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = WhosMostLikelyTierTwo.json; sourceTree = "<group>"; };
+		C00A91D0286D971500DC62FF /* WhosMostLikelyTierOne.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = WhosMostLikelyTierOne.json; sourceTree = "<group>"; };
+		C00A91D4286D975A00DC62FF /* WhosMostLikelyGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhosMostLikelyGame.swift; sourceTree = "<group>"; };
+		C00A91D6286D97CD00DC62FF /* WhosMostLikelyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhosMostLikelyModel.swift; sourceTree = "<group>"; };
+		C00A91D8286D9A6200DC62FF /* WhosMostLikelyObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhosMostLikelyObject.swift; sourceTree = "<group>"; };
+		C00A91DA286DA76F00DC62FF /* HigherLowerRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HigherLowerRules.swift; sourceTree = "<group>"; };
+		C00A91DC286DA7A400DC62FF /* WhosMostLikelyRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhosMostLikelyRules.swift; sourceTree = "<group>"; };
 		C00E05B7282EACFA0014CA8F /* GameTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTitle.swift; sourceTree = "<group>"; };
 		C00FA406283AD4B3006240FE /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 		C036553E281B734A00CB8D00 /* TruthOrDareModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruthOrDareModel.swift; sourceTree = "<group>"; };
@@ -134,11 +147,9 @@
 		C0365545281E1FE000CB8D00 /* SpinBottleGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinBottleGame.swift; sourceTree = "<group>"; };
 		C0365547281E1FEA00CB8D00 /* SpinBottleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinBottleModel.swift; sourceTree = "<group>"; };
 		C036554B281EFC0100CB8D00 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
-		C044B809280789F500A112C2 /* KingsCupSubviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingsCupSubviews.swift; sourceTree = "<group>"; };
 		C044B80E280884CB00A112C2 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		C044B8102808997A00A112C2 /* CardBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBack.swift; sourceTree = "<group>"; };
 		C044B81228089C9E00A112C2 /* MainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButton.swift; sourceTree = "<group>"; };
-		C044B816280A2D0000A112C2 /* KingsCupRulesSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingsCupRulesSheet.swift; sourceTree = "<group>"; };
 		C044B81A280D080E00A112C2 /* HorseRaceRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorseRaceRules.swift; sourceTree = "<group>"; };
 		C050607427FF421900C35785 /* Horserace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Horserace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C050607727FF421900C35785 /* HorseraceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorseraceApp.swift; sourceTree = "<group>"; };
@@ -154,6 +165,7 @@
 		C05060A327FF465700C35785 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
 		C05060B427FF55B800C35785 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		C05060B627FF970400C35785 /* HorseRaceSuits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorseRaceSuits.swift; sourceTree = "<group>"; };
+		C05F54B5285E44EB00949E98 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
 		C08848A6282A3F990074EC97 /* ChooserRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooserRules.swift; sourceTree = "<group>"; };
 		C0884927282CF7F40074EC97 /* DefaultBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultBackground.swift; sourceTree = "<group>"; };
 		C0889DD128395FCD009015DB /* UINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
@@ -221,8 +233,6 @@
 		C0E7776D2817705A007CE89F /* HomeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeButton.swift; sourceTree = "<group>"; };
 		C0E7776F2817A978007CE89F /* PyramidRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PyramidRules.swift; sourceTree = "<group>"; };
 		C0E777712817AB8C007CE89F /* RouletteRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouletteRules.swift; sourceTree = "<group>"; };
-		C0F03D9728062EB5002CBB88 /* KingsCupGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingsCupGame.swift; sourceTree = "<group>"; };
-		C0F03D9B280672E6002CBB88 /* KingsCupShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingsCupShapes.swift; sourceTree = "<group>"; };
 		C0F1BA4A281F8E3300DBD862 /* HigherLowerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HigherLowerModel.swift; sourceTree = "<group>"; };
 		C0F1BA4C282043DE00DBD862 /* ChooserGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooserGestures.swift; sourceTree = "<group>"; };
 		C0F1BA4E2820440A00DBD862 /* ChooserSubviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooserSubviews.swift; sourceTree = "<group>"; };
@@ -254,6 +264,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C00A91CC286786B900DC62FF /* Explain */ = {
+			isa = PBXGroup;
+			children = (
+				C00A91CD2867875800DC62FF /* ExplainGame.swift */,
+			);
+			path = Explain;
+			sourceTree = "<group>";
+		};
+		C00A91D3286D974900DC62FF /* WhosMostLikely */ = {
+			isa = PBXGroup;
+			children = (
+				C00A91D4286D975A00DC62FF /* WhosMostLikelyGame.swift */,
+				C00A91D6286D97CD00DC62FF /* WhosMostLikelyModel.swift */,
+				C00A91D8286D9A6200DC62FF /* WhosMostLikelyObject.swift */,
+				C00A91DC286DA7A400DC62FF /* WhosMostLikelyRules.swift */,
+			);
+			path = WhosMostLikely;
+			sourceTree = "<group>";
+		};
 		C0365544281E1FCE00CB8D00 /* SpinBottle */ = {
 			isa = PBXGroup;
 			children = (
@@ -288,6 +317,7 @@
 				C00E05B7282EACFA0014CA8F /* GameTitle.swift */,
 				C0884927282CF7F40074EC97 /* DefaultBackground.swift */,
 				C0A14BAB2846D58F004DAC0E /* RoundCorners.swift */,
+				C05F54B5285E44EB00949E98 /* Ticket.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -378,6 +408,8 @@
 				C0A14BA128422599004DAC0E /* NeverHaveIEverTierOne.json */,
 				C0A14BA228422599004DAC0E /* NeverHaveIEverTierThree.json */,
 				C0A14BA028422599004DAC0E /* NeverHaveIEverTierTwo.json */,
+				C00A91D0286D971500DC62FF /* WhosMostLikelyTierOne.json */,
+				C00A91CF286D971500DC62FF /* WhosMostLikelyTierTwo.json */,
 			);
 			path = JSON;
 			sourceTree = "<group>";
@@ -430,6 +462,8 @@
 		C0A9EE2C27FFEF2100E69993 /* Game */ = {
 			isa = PBXGroup;
 			children = (
+				C00A91D3286D974900DC62FF /* WhosMostLikely */,
+				C00A91CC286786B900DC62FF /* Explain */,
 				C0A14BA62846638D004DAC0E /* Mancala */,
 				C0365544281E1FCE00CB8D00 /* SpinBottle */,
 				C0C759C928185FB700AB1C96 /* Wheel */,
@@ -438,7 +472,6 @@
 				C0E7775E28164699007CE89F /* Chooser */,
 				C0ACBBEF2813B3E8005D223D /* Pyramid */,
 				C0ACBBE628134FD5005D223D /* NeverHaveIEver */,
-				C0F03D9628062EA7002CBB88 /* KingsCup */,
 				C0A9EE362803B24E00E69993 /* TruthOrDare */,
 				C0A9EE2F280137AA00E69993 /* HorceRace */,
 			);
@@ -551,6 +584,7 @@
 			children = (
 				C0E777622816F6ED007CE89F /* HigherLowerGame.swift */,
 				C0F1BA4A281F8E3300DBD862 /* HigherLowerModel.swift */,
+				C00A91DA286DA76F00DC62FF /* HigherLowerRules.swift */,
 			);
 			path = HigherOrLower;
 			sourceTree = "<group>";
@@ -564,17 +598,6 @@
 				C0E777712817AB8C007CE89F /* RouletteRules.swift */,
 			);
 			path = Roulette;
-			sourceTree = "<group>";
-		};
-		C0F03D9628062EA7002CBB88 /* KingsCup */ = {
-			isa = PBXGroup;
-			children = (
-				C0F03D9728062EB5002CBB88 /* KingsCupGame.swift */,
-				C0F03D9B280672E6002CBB88 /* KingsCupShapes.swift */,
-				C044B809280789F500A112C2 /* KingsCupSubviews.swift */,
-				C044B816280A2D0000A112C2 /* KingsCupRulesSheet.swift */,
-			);
-			path = KingsCup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -692,11 +715,13 @@
 				C0A14BA428422599004DAC0E /* NeverHaveIEverTierOne.json in Resources */,
 				C0889DD528398611009015DB /* TruthTierOne.json in Resources */,
 				C0A14B9D28413381004DAC0E /* DareTierOne.json in Resources */,
+				C00A91D2286D971500DC62FF /* WhosMostLikelyTierOne.json in Resources */,
 				C0A14B9C28413381004DAC0E /* DareTierThree.json in Resources */,
 				C0889DD9283989E3009015DB /* TruthTierThree.json in Resources */,
 				C0889DD7283987BA009015DB /* TruthTierTwo.json in Resources */,
 				C0A14B9B28413381004DAC0E /* DareTierTwo.json in Resources */,
 				C050607C27FF421900C35785 /* Assets.xcassets in Resources */,
+				C00A91D1286D971500DC62FF /* WhosMostLikelyTierTwo.json in Resources */,
 				C0A14BA328422599004DAC0E /* NeverHaveIEverTierTwo.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -725,14 +750,14 @@
 				C0A9EE352803B1F300E69993 /* TruthOrDareGame.swift in Sources */,
 				C0C759CB28185FCF00AB1C96 /* WheelGame.swift in Sources */,
 				C0ACBBDC28131093005D223D /* SetupView.swift in Sources */,
+				C00A91DD286DA7A400DC62FF /* WhosMostLikelyRules.swift in Sources */,
 				C0365548281E1FEA00CB8D00 /* SpinBottleModel.swift in Sources */,
-				C0F03D9828062EB5002CBB88 /* KingsCupGame.swift in Sources */,
 				C05060A427FF465700C35785 /* Modifiers.swift in Sources */,
 				C0ACBBEC2813AACE005D223D /* NeverHaveIEverRules.swift in Sources */,
+				C00A91DB286DA76F00DC62FF /* HigherLowerRules.swift in Sources */,
 				C0A14BAE284767F2004DAC0E /* DefaultRuleCell.swift in Sources */,
 				C0BFC1EF2838F9C20079A6A1 /* RestartButton.swift in Sources */,
 				C044B80F280884CB00A112C2 /* Card.swift in Sources */,
-				C044B80A280789F500A112C2 /* KingsCupSubviews.swift in Sources */,
 				C0E77760281646AA007CE89F /* ChooserGame.swift in Sources */,
 				C0884928282CF7F40074EC97 /* DefaultBackground.swift in Sources */,
 				C09D90192833946A000E0B04 /* Gradients.swift in Sources */,
@@ -748,10 +773,10 @@
 				C050607A27FF421900C35785 /* ContentView.swift in Sources */,
 				C09D900B28339191000E0B04 /* Suits.swift in Sources */,
 				C0ACBBF12813B400005D223D /* PyramidGame.swift in Sources */,
-				C044B817280A2D0000A112C2 /* KingsCupRulesSheet.swift in Sources */,
 				C05060A227FF43EB00C35785 /* GameSetup.swift in Sources */,
 				C0365546281E1FE000CB8D00 /* SpinBottleGame.swift in Sources */,
 				C0A14B9F28415E12004DAC0E /* NeverHaveIEverObject.swift in Sources */,
+				C05F54B6285E44EB00949E98 /* Ticket.swift in Sources */,
 				C0BFC1F128390C010079A6A1 /* AddButton.swift in Sources */,
 				C0C759CF2818878700AB1C96 /* WheelModel.swift in Sources */,
 				C09D901E28339561000E0B04 /* Color.swift in Sources */,
@@ -766,6 +791,7 @@
 				C0E7776E2817705A007CE89F /* HomeButton.swift in Sources */,
 				C0E77768281709FB007CE89F /* RouletteSubviews.swift in Sources */,
 				C0F1BA4F2820440A00DBD862 /* ChooserSubviews.swift in Sources */,
+				C00A91D9286D9A6200DC62FF /* WhosMostLikelyObject.swift in Sources */,
 				C05060B527FF55B800C35785 /* View.swift in Sources */,
 				C09D901728339447000E0B04 /* Colors.swift in Sources */,
 				C0D9C727281A4EAA009B5001 /* WheelComponents.swift in Sources */,
@@ -776,6 +802,7 @@
 				C00E05B8282EACFA0014CA8F /* GameTitle.swift in Sources */,
 				C0ACBBDA2813054A005D223D /* PlayersBoard.swift in Sources */,
 				C0F1BA4B281F8E3300DBD862 /* HigherLowerModel.swift in Sources */,
+				C00A91D7286D97CD00DC62FF /* WhosMostLikelyModel.swift in Sources */,
 				C09D90112833924F000E0B04 /* Games.swift in Sources */,
 				C0889DD228395FCD009015DB /* UINavigationController.swift in Sources */,
 				C05060B727FF970400C35785 /* HorseRaceSuits.swift in Sources */,
@@ -785,11 +812,11 @@
 				C09D900D28339227000E0B04 /* Rank.swift in Sources */,
 				C0A9EE2A27FFEB9400E69993 /* Constants.swift in Sources */,
 				C0365541281C73D700CB8D00 /* RouletteModel.swift in Sources */,
+				C00A91D5286D975A00DC62FF /* WhosMostLikelyGame.swift in Sources */,
 				C0ACBBE1281313D9005D223D /* Rulebook.swift in Sources */,
 				C0BFC1EA2838F7D70079A6A1 /* BackButton.swift in Sources */,
 				C0E777702817A978007CE89F /* PyramidRules.swift in Sources */,
 				C036553F281B734A00CB8D00 /* TruthOrDareModel.swift in Sources */,
-				C0F03D9C280672E6002CBB88 /* KingsCupShapes.swift in Sources */,
 				C0889DDC28398AFF009015DB /* APIClient.swift in Sources */,
 				C0ACBBE528131CD9005D223D /* RuleView.swift in Sources */,
 				C09D90152833941F000E0B04 /* Fonts.swift in Sources */,
@@ -798,6 +825,7 @@
 				C0BFE7F028121960008BDBD1 /* TruthOrDareRules.swift in Sources */,
 				C0A14BAC2846D58F004DAC0E /* RoundCorners.swift in Sources */,
 				C0ACBBE828134FEC005D223D /* NeverHaveIEverGame.swift in Sources */,
+				C00A91CE2867875800DC62FF /* ExplainGame.swift in Sources */,
 				C044B8112808997A00A112C2 /* CardBack.swift in Sources */,
 				C09D9013283393CD000E0B04 /* Images.swift in Sources */,
 				C0889DDE28398B07009015DB /* JSONClient.swift in Sources */,
@@ -961,7 +989,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 22;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Horserace/Preview Content\"";
 				DEVELOPMENT_TEAM = Q6B2DLVPJB;
 				ENABLE_PREVIEWS = YES;
@@ -980,7 +1008,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = SocialGames.tauts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -995,7 +1023,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 22;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Horserace/Preview Content\"";
 				DEVELOPMENT_TEAM = Q6B2DLVPJB;
 				ENABLE_PREVIEWS = YES;
@@ -1014,7 +1042,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = SocialGames.tauts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

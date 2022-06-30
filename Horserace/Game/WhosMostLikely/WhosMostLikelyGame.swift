@@ -1,15 +1,14 @@
 import SwiftUI
 
-struct NeverHaveIEverGame: View {
+struct WhosMostLikelyGame: View {
     
     @EnvironmentObject var game: Game
-    @ObservedObject var model: NeverEverModel
+    @ObservedObject var model: WhosMostLikelyModel
     @State var isRulesOpen: Bool = false
     @State var hasPlayersShuffled: Bool = false
-    @State var title: String = "Never Have I Ever"
     
     init() {
-        self.model = NeverEverModel()
+        model = WhosMostLikelyModel()
     }
     
     var body: some View {
@@ -32,17 +31,7 @@ struct NeverHaveIEverGame: View {
                         .foregroundColor(model.tier == .challenging ? .white : .gray)
                         .font(.subheadline.weight(.medium))
                 }
-                Divider().background(.white)
-                Button(action: {
-                    model.selectTier(tier: .naughty)
-                }) {
-                    Text("Naughty")
-                        .maxWidth()
-                        .foregroundColor(model.tier == .naughty ? .white : .gray)
-                        .font(.subheadline.weight(.medium))
-                }
             }
-//            .textCase(.uppercase)
             .frame(maxHeight: 36)
             .background(game.game.gradient)
             .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
@@ -51,7 +40,7 @@ struct NeverHaveIEverGame: View {
                 let size = geo.size
                 let desiredWidth = size.width / 1.3
                 if model.status == .activity {
-                    Ticket(desiredWidth: desiredWidth, title: $title, subtitle: $model.currentStatement, footnote: model.tier.rawValue)
+                    Ticket(desiredWidth: desiredWidth, title: $model.currentTitle, subtitle: $model.currentStatement, footnote: model.tier.rawValue)
                 } else {
                     Text(model.currentTitle)
                         .font(.title.weight(.semibold))
@@ -66,8 +55,8 @@ struct NeverHaveIEverGame: View {
                 MainButton(label: model.mainButtonLabel())
             }
         }
-        .gameViewModifier(game: .neverHaveIEver)
-        .navigationModifier(game: .neverHaveIEver)
+        .gameViewModifier(game: .whosMostLikely)
+        .navigationModifier(game: .whosMostLikely)
         .toolbar{
             ToolbarItem(placement: .navigationBarLeading) {
                 HomeButton()
@@ -83,10 +72,7 @@ struct NeverHaveIEverGame: View {
             RuleView(isOpen: $isRulesOpen)
         }
         .onAppear{
-            model.fetchNeverHaveIEver()
+            model.fetchWhosMostLikely()
         }
     }
 }
-
-
-

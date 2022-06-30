@@ -24,11 +24,9 @@ struct ContentView: View {
                     SectionHeader(title: "Card Games")
                     ScrollView(.horizontal, showsIndicators: false) {
                         HStack(spacing: spacing){
-                            NewGameView(.kingsCup, size: size, willPulse: true)
-                            NewGameView(.horseRace, size: size, willPulse: true)
+                            NewGameView(.horseRace, size: size)
                             NewGameView(.pyramid, size: size, willPulse: true)
                             NewGameView(.higherLower, size: size, willRotate: true)
-//                                .isGameDisabled($showingAlert)
                         }
                         .padding(.horizontal, spacing)
                         .padding(.bottom, spacing)
@@ -67,7 +65,7 @@ struct ContentView: View {
                             NewGameView(.truthDare, size: size, willPulse: true)
                             NewGameView(.neverHaveIEver, size: size, willPulse: true)
                             NewGameView(.whosMostLikely, size: size)
-                                .isGameDisabled($showingAlert)
+                                
                             NewGameView(.explain, size: size, willPulse: true)
                                 .isGameDisabled($showingAlert)
                         }

@@ -270,12 +270,10 @@ struct SetupView: View {
         switch game.game {
         case .horseRace:
             destination = AnyView(HorseRaceSuits(players: players))
-        case .kingsCup:
-            destination = AnyView(KingsCupGame(players: players))
         case .truthDare:
             destination = AnyView(TruthOrDareGame(players: players))
         case .neverHaveIEver:
-            destination = AnyView(NeverHaveIEverGame(players: players))
+            break
         case .pyramid:
             destination = AnyView(PyramidGame(players: players))
         case .spinBottle:

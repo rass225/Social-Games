@@ -13,8 +13,6 @@ struct RuleView: View {
                         switch game.game {
                         case .horseRace:
                             HorseRaceRules()
-                        case .kingsCup:
-                            KingsCupRulesSheet(size: geometry.size)
                         case .truthDare:
                             TruthOrDareRules()
                         case .neverHaveIEver:
@@ -24,9 +22,9 @@ struct RuleView: View {
                         case .spinBottle:
                             SpinBottleRules()
                         case .whosMostLikely:
-                            EmptyView()
+                            WhosMostLikelyRules()
                         case .higherLower:
-                            EmptyView()
+                            HigherLowerRules()
                         case .chooser:
                             ChooserRules()
                         case .explain:

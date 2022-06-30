@@ -358,11 +358,11 @@ struct PyramidGame: View {
     func revealPunishment() {
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.7) {
             switch currentBase {
-            case .first: mainLabel = "Take 1 sip"
-            case .second: mainLabel = "Take 2 sips"
-            case .third: mainLabel = "Take 3 sips"
-            case .fourth: mainLabel = "Take 4 sips"
-            case .fifth: mainLabel = "Take 5 sips"
+            case .first: mainLabel = "1 penalty point"
+            case .second: mainLabel = "2 penalty points"
+            case .third: mainLabel = "3 penalty points"
+            case .fourth: mainLabel = "4 penalty points"
+            case .fifth: mainLabel = "5 penalty points"
             }
             mainLabelOpacity = 1
         }
@@ -428,3 +428,4 @@ struct PyramidGame: View {
         }
     }
 }
+

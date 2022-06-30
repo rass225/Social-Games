@@ -14,7 +14,7 @@ class TruthOrDareModel: ObservableObject {
         case dare
     }
     
-    enum TruthOrDareTier {
+    enum TruthOrDareTier: String {
         case friendly
         case challenging
         case naughty

@@ -63,3 +63,17 @@ struct SpinBottleRule: Identifiable {
     let title: String
     let rule: String
 }
+
+struct HigherLowerRule: Identifiable {
+    var id = UUID()
+    let image: Image
+    let title: String
+    let rule: String
+}
+
+struct WhosMostLikelyRule: Identifiable {
+    var id = UUID()
+    let image: Image
+    let title: String
+    let rule: String
+}

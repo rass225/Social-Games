@@ -19,7 +19,7 @@ struct TruthOrDareGame: View {
                 }) {
                     Text("Friendly")
                         .maxWidth()
-                        .foregroundColor(model.tier == .friendly ? game.game.color : .white)
+                        .foregroundColor(model.tier == .friendly ? .white : .gray)
                 }
                 Divider().background(.white)
                 Button(action: {
@@ -27,7 +27,7 @@ struct TruthOrDareGame: View {
                 }) {
                     Text("Challenging")
                         .maxWidth()
-                        .foregroundColor(model.tier == .challenging ? game.game.color : .white)
+                        .foregroundColor(model.tier == .challenging ? .white : .gray)
                 }
                 Divider().background(.white)
                 Button(action: {
@@ -35,42 +35,19 @@ struct TruthOrDareGame: View {
                 }) {
                     Text("Naughty")
                         .maxWidth()
-                        .foregroundColor(model.tier == .naughty ? game.game.color : .white)
+                        .foregroundColor(model.tier == .naughty ? .white : .gray)
                 }
             }
-            .font(.subheadline)
+            .font(.subheadline.weight(.medium))
             .frame(maxHeight: 36)
             .background(game.game.gradient)
             .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
             .padding(.top, 8)
             GeometryReader { geo in
                 let size = geo.size
+                let desiredWidth = size.width / 1.3
                 if model.status == .activity {
-                    VStack(alignment: .center){
-                        VStack(alignment: .center, spacing: 16){
-                            Text(model.title)
-                                .font(.title3.weight(.semibold))
-                                .foregroundColor(Colors.text)
-                                .padding(.top)
-                            Text(model.label)
-                                .font(.body.weight(.regular))
-                                .foregroundColor(.gray)
-                            
-                            Spacer()
-                        }
-                        .padding()
-                        .frame(width: size.width / 1.5)
-                        .frame(height: size.height / 1.5)
-                        .background(.ultraThickMaterial)
-                        .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
-//                        .shadow(color: Color.black.opacity(0.6), radius: 3, x: 0, y: 0)
-                        .shadow(color: Colors.darkShadow2, radius: 5, x: 0, y: 8)
-                    }
-                    .maxWidth()
-                    .maxHeight()
-                   
-                
-//                    .padding(.top, size.height / 4)
+                    Ticket(desiredWidth: desiredWidth, title: $model.title, subtitle: $model.label, footnote: model.tier.rawValue)
                 } else {
                     Text(model.title)
                         .font(.title.weight(.semibold))

@@ -40,7 +40,7 @@ struct HigherLowerGame: View {
             GeometryReader { geo in
                 let size = geo.size
                 Text(mainLabel)
-                    .font(.title.weight(.regular))
+                    .font(.title3.weight(.regular))
                     .foregroundColor(Colors.text)
                     .maxWidth(alignment: .center)
                     .padding(.top, 32)
@@ -49,26 +49,27 @@ struct HigherLowerGame: View {
                 VStack{
                     Spacer()
                     Text("Current streak: \(currentStreak)")
+                        .textCase(.uppercase)
                         .font(.headline.weight(.medium))
                     HStack(spacing: 20){
                         ZStack{
                             ForEach($dealtCards) { item in
-                                FullCard(card: item, rotation: $leftCardRotation, size: .large, geo: size)
+                                FullCard(card: item, rotation: $leftCardRotation, size: .extraLarge, geo: size)
                             }
                         }
                         ZStack{
                             ForEach(undealtCards.indices, id: \.self) { index in
                                 if index == undealtCards.count - 1 {
-                                    FullCard(card: $undealtCards[index], rotation: $rightCardRotation, size: .large, geo: size)
+                                    FullCard(card: $undealtCards[index], rotation: $rightCardRotation, size: .extraLarge, geo: size)
                                         .offset(x: offsetX, y: 0)
                                 } else {
-                                    FullCard(card: $undealtCards[index], rotation: $rightSecondCardRotation, size: .large, geo: size)
+                                    FullCard(card: $undealtCards[index], rotation: $rightSecondCardRotation, size: .extraLarge, geo: size)
                                 }
                             }
                         }
                     }
                     .maxWidth()
-                    .padding(.bottom, 32)
+                   
                     
                     Spacer()
                 }
@@ -129,7 +130,7 @@ struct HigherLowerGame: View {
         isAnimating.toggle()
         currentStreak += 1
         withAnimation(Animation.easeIn(duration: 0.6).delay(1.7)) {
-            offsetX = (size.height / 6.6666 * -1) - 20
+            offsetX = (size.height / 4.5 * -1) - 20
         }
         withAnimation(Animation.easeOut(duration: 0.5)) {
             rightCardRotation.back = -90
@@ -144,7 +145,7 @@ struct HigherLowerGame: View {
             determineOutcome()
         }
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2.2) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2.3) {
             transferToDealtDeck()
             addCardToUndealtDeck()
             incrementPlayer()
@@ -171,7 +172,7 @@ struct HigherLowerGame: View {
             } else {
                 let penalty = currentStreak
                 let currentPlayer = players[currentPlayer]
-                mainLabel = "\(currentPlayer) lost. Take \(penalty) sips"
+                mainLabel = "\(currentPlayer) lost with \(penalty) penalty points."
                 currentStreak = 0
                 print("loser")
             }
@@ -181,7 +182,7 @@ struct HigherLowerGame: View {
             } else {
                 let penalty = currentStreak
                 let currentPlayer = players[currentPlayer]
-                mainLabel = "\(currentPlayer) lost. Take \(penalty) sips"
+                mainLabel = "\(currentPlayer) lost with \(penalty) penalty points."
                 currentStreak = 0
                 print("loser")
             }
