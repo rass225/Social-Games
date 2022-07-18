@@ -35,6 +35,10 @@ struct RuleView: View {
                             WheelRules()
                         case .mancala:
                             Text("Mancala rules")
+                        case .trivia:
+                            TriviaRules()
+                        case .millionaire:
+                            Text("Millinaire")
                         }
                     }
                     .padding(.horizontal)

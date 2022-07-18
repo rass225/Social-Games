@@ -41,6 +41,8 @@ enum Colors {
         static let theme10: [Color] = [.init(red: 178/255, green: 6/255, blue: 0), .init(red: 255/255, green: 95/255, blue: 0)]
         static let theme11: [Color] = [.init(red: 25/255, green: 35/255, blue: 30/255), .init(red: 30/255, green: 81/255, blue: 40/255)]
         static let theme12: [Color] = [.init(red: 17/255, green: 45/255, blue: 78/255), .init(red: 63/255, green: 114/255, blue: 175/255)]
+        static let theme13: [Color] = [.init(red: 62/255, green: 42/255, blue: 42/255), .init(red: 107/255, green: 79/255, blue: 79/255) ]
+        static let theme14: [Color] = [.init(red: 31/255, green: 70/255, blue: 144/255), .init(red: 58/255, green: 91/255, blue: 160/255)]
     }
     
     enum Foregrounds {
@@ -56,6 +58,8 @@ enum Colors {
         static let theme10: Color = .init(red: 238/255, green: 230/255, blue: 238/255)
         static let theme11: Color = .init(red: 100/255, green: 179/255, blue: 91/255)
         static let theme12: Color = .init(red: 169/255, green: 187/255, blue: 217/255)
+        static let theme13: Color = .init(red: 218/255, green: 194/255, blue: 176/255)
+        static let theme14: Color = .init(red: 255/255, green: 165/255, blue: 0)
     }
     
     private enum Light {

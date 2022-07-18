@@ -292,6 +292,10 @@ struct SetupView: View {
             destination = AnyView(WheelComponents(players: players))
         case .mancala:
             destination = AnyView(MancalaGame(players: players))
+        case .trivia:
+            break
+        case .millionaire:
+            break
         }
         toNext.toggle()
     }

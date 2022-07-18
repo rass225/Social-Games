@@ -5,8 +5,10 @@ struct GameTitle: View {
     @EnvironmentObject var game: Game
     
     var body: some View {
+//        Text("")
         game.game.title
-            .font(.headline.weight(.medium))
+            .textCase(.uppercase)
+            .font(.callout.weight(.semibold))
             .foregroundColor(Colors.text)
     }
 }

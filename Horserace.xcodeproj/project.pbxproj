@@ -40,6 +40,14 @@
 		C05060B527FF55B800C35785 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05060B427FF55B800C35785 /* View.swift */; };
 		C05060B727FF970400C35785 /* HorseRaceSuits.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05060B627FF970400C35785 /* HorseRaceSuits.swift */; };
 		C05F54B6285E44EB00949E98 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05F54B5285E44EB00949E98 /* Ticket.swift */; };
+		C070361C2881E552003C68B2 /* MillionaireModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C070361B2881E552003C68B2 /* MillionaireModel.swift */; };
+		C07F114B28776DD000429838 /* TriviaSports.json in Resources */ = {isa = PBXBuildFile; fileRef = C07F114A28776DD000429838 /* TriviaSports.json */; };
+		C07F114D2877712A00429838 /* TriviaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07F114C2877712A00429838 /* TriviaModel.swift */; };
+		C07F114F2877759100429838 /* TriviaObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07F114E2877759100429838 /* TriviaObject.swift */; };
+		C07F11512878D75700429838 /* TriviaMovies.json in Resources */ = {isa = PBXBuildFile; fileRef = C07F11502878D75700429838 /* TriviaMovies.json */; };
+		C07F1153287B433700429838 /* TriviaScience.json in Resources */ = {isa = PBXBuildFile; fileRef = C07F1152287B433700429838 /* TriviaScience.json */; };
+		C07F1155287C091000429838 /* TriviaHistory.json in Resources */ = {isa = PBXBuildFile; fileRef = C07F1154287C091000429838 /* TriviaHistory.json */; };
+		C07F1157287C7E3500429838 /* GameMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07F1156287C7E3500429838 /* GameMenuButton.swift */; };
 		C08848A7282A3F990074EC97 /* ChooserRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08848A6282A3F990074EC97 /* ChooserRules.swift */; };
 		C0884926282C5A900074EC97 /* SwiftUIVisualEffects in Frameworks */ = {isa = PBXBuildFile; productRef = C0884925282C5A900074EC97 /* SwiftUIVisualEffects */; };
 		C0884928282CF7F40074EC97 /* DefaultBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0884927282CF7F40074EC97 /* DefaultBackground.swift */; };
@@ -50,6 +58,7 @@
 		C0889DDC28398AFF009015DB /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0889DDB28398AFF009015DB /* APIClient.swift */; };
 		C0889DDE28398B07009015DB /* JSONClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0889DDD28398B07009015DB /* JSONClient.swift */; };
 		C0889DE028398D24009015DB /* TruthOrDareObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0889DDF28398D24009015DB /* TruthOrDareObjects.swift */; };
+		C09C3029287611AB00A4CD07 /* TriviaGeography.json in Resources */ = {isa = PBXBuildFile; fileRef = C09C3028287611AB00A4CD07 /* TriviaGeography.json */; };
 		C09D900B28339191000E0B04 /* Suits.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09D900A28339191000E0B04 /* Suits.swift */; };
 		C09D900D28339227000E0B04 /* Rank.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09D900C28339227000E0B04 /* Rank.swift */; };
 		C09D900F2833923E000E0B04 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09D900E2833923E000E0B04 /* Size.swift */; };
@@ -84,6 +93,7 @@
 		C0ACBBE828134FEC005D223D /* NeverHaveIEverGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ACBBE728134FEC005D223D /* NeverHaveIEverGame.swift */; };
 		C0ACBBEC2813AACE005D223D /* NeverHaveIEverRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ACBBEB2813AACE005D223D /* NeverHaveIEverRules.swift */; };
 		C0ACBBF12813B400005D223D /* PyramidGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ACBBF02813B400005D223D /* PyramidGame.swift */; };
+		C0BB5F2728757FFF0018E998 /* TriviaGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BB5F2628757FFF0018E998 /* TriviaGame.swift */; };
 		C0BFC1EA2838F7D70079A6A1 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BFC1E92838F7D70079A6A1 /* BackButton.swift */; };
 		C0BFC1EC2838F8B30079A6A1 /* EditButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BFC1EB2838F8B30079A6A1 /* EditButton.swift */; };
 		C0BFC1EF2838F9C20079A6A1 /* RestartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BFC1EE2838F9C20079A6A1 /* RestartButton.swift */; };
@@ -107,6 +117,11 @@
 		C0E7776E2817705A007CE89F /* HomeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E7776D2817705A007CE89F /* HomeButton.swift */; };
 		C0E777702817A978007CE89F /* PyramidRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E7776F2817A978007CE89F /* PyramidRules.swift */; };
 		C0E777722817AB8C007CE89F /* RouletteRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E777712817AB8C007CE89F /* RouletteRules.swift */; };
+		C0E93B47287D736900055283 /* GameButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E93B46287D736900055283 /* GameButton.swift */; };
+		C0E93B4A287DA67200055283 /* MillionaireGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E93B49287DA67200055283 /* MillionaireGame.swift */; };
+		C0E93B4C287DA7AC00055283 /* TriviaRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E93B4B287DA7AC00055283 /* TriviaRules.swift */; };
+		C0E93B4E287EBF0500055283 /* TriviaMusic.json in Resources */ = {isa = PBXBuildFile; fileRef = C0E93B4D287EBF0400055283 /* TriviaMusic.json */; };
+		C0E93B50287F0BFD00055283 /* MillionaireObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E93B4F287F0BFD00055283 /* MillionaireObject.swift */; };
 		C0F1BA4B281F8E3300DBD862 /* HigherLowerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F1BA4A281F8E3300DBD862 /* HigherLowerModel.swift */; };
 		C0F1BA4D282043DE00DBD862 /* ChooserGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F1BA4C282043DE00DBD862 /* ChooserGestures.swift */; };
 		C0F1BA4F2820440A00DBD862 /* ChooserSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F1BA4E2820440A00DBD862 /* ChooserSubviews.swift */; };
@@ -166,6 +181,14 @@
 		C05060B427FF55B800C35785 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		C05060B627FF970400C35785 /* HorseRaceSuits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorseRaceSuits.swift; sourceTree = "<group>"; };
 		C05F54B5285E44EB00949E98 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		C070361B2881E552003C68B2 /* MillionaireModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MillionaireModel.swift; sourceTree = "<group>"; };
+		C07F114A28776DD000429838 /* TriviaSports.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TriviaSports.json; sourceTree = "<group>"; };
+		C07F114C2877712A00429838 /* TriviaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaModel.swift; sourceTree = "<group>"; };
+		C07F114E2877759100429838 /* TriviaObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaObject.swift; sourceTree = "<group>"; };
+		C07F11502878D75700429838 /* TriviaMovies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TriviaMovies.json; sourceTree = "<group>"; };
+		C07F1152287B433700429838 /* TriviaScience.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TriviaScience.json; sourceTree = "<group>"; };
+		C07F1154287C091000429838 /* TriviaHistory.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TriviaHistory.json; sourceTree = "<group>"; };
+		C07F1156287C7E3500429838 /* GameMenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMenuButton.swift; sourceTree = "<group>"; };
 		C08848A6282A3F990074EC97 /* ChooserRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooserRules.swift; sourceTree = "<group>"; };
 		C0884927282CF7F40074EC97 /* DefaultBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultBackground.swift; sourceTree = "<group>"; };
 		C0889DD128395FCD009015DB /* UINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
@@ -175,6 +198,7 @@
 		C0889DDB28398AFF009015DB /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		C0889DDD28398B07009015DB /* JSONClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONClient.swift; sourceTree = "<group>"; };
 		C0889DDF28398D24009015DB /* TruthOrDareObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruthOrDareObjects.swift; sourceTree = "<group>"; };
+		C09C3028287611AB00A4CD07 /* TriviaGeography.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TriviaGeography.json; sourceTree = "<group>"; };
 		C09D900A28339191000E0B04 /* Suits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Suits.swift; sourceTree = "<group>"; };
 		C09D900C28339227000E0B04 /* Rank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rank.swift; sourceTree = "<group>"; };
 		C09D900E2833923E000E0B04 /* Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
@@ -210,6 +234,7 @@
 		C0ACBBE728134FEC005D223D /* NeverHaveIEverGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeverHaveIEverGame.swift; sourceTree = "<group>"; };
 		C0ACBBEB2813AACE005D223D /* NeverHaveIEverRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeverHaveIEverRules.swift; sourceTree = "<group>"; };
 		C0ACBBF02813B400005D223D /* PyramidGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PyramidGame.swift; sourceTree = "<group>"; };
+		C0BB5F2628757FFF0018E998 /* TriviaGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaGame.swift; sourceTree = "<group>"; };
 		C0BFC1E92838F7D70079A6A1 /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
 		C0BFC1EB2838F8B30079A6A1 /* EditButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditButton.swift; sourceTree = "<group>"; };
 		C0BFC1EE2838F9C20079A6A1 /* RestartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestartButton.swift; sourceTree = "<group>"; };
@@ -233,6 +258,11 @@
 		C0E7776D2817705A007CE89F /* HomeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeButton.swift; sourceTree = "<group>"; };
 		C0E7776F2817A978007CE89F /* PyramidRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PyramidRules.swift; sourceTree = "<group>"; };
 		C0E777712817AB8C007CE89F /* RouletteRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouletteRules.swift; sourceTree = "<group>"; };
+		C0E93B46287D736900055283 /* GameButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameButton.swift; sourceTree = "<group>"; };
+		C0E93B49287DA67200055283 /* MillionaireGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MillionaireGame.swift; sourceTree = "<group>"; };
+		C0E93B4B287DA7AC00055283 /* TriviaRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaRules.swift; sourceTree = "<group>"; };
+		C0E93B4D287EBF0400055283 /* TriviaMusic.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TriviaMusic.json; sourceTree = "<group>"; };
+		C0E93B4F287F0BFD00055283 /* MillionaireObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MillionaireObject.swift; sourceTree = "<group>"; };
 		C0F1BA4A281F8E3300DBD862 /* HigherLowerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HigherLowerModel.swift; sourceTree = "<group>"; };
 		C0F1BA4C282043DE00DBD862 /* ChooserGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooserGestures.swift; sourceTree = "<group>"; };
 		C0F1BA4E2820440A00DBD862 /* ChooserSubviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooserSubviews.swift; sourceTree = "<group>"; };
@@ -318,6 +348,8 @@
 				C0884927282CF7F40074EC97 /* DefaultBackground.swift */,
 				C0A14BAB2846D58F004DAC0E /* RoundCorners.swift */,
 				C05F54B5285E44EB00949E98 /* Ticket.swift */,
+				C07F1156287C7E3500429838 /* GameMenuButton.swift */,
+				C0E93B46287D736900055283 /* GameButton.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -410,6 +442,12 @@
 				C0A14BA028422599004DAC0E /* NeverHaveIEverTierTwo.json */,
 				C00A91D0286D971500DC62FF /* WhosMostLikelyTierOne.json */,
 				C00A91CF286D971500DC62FF /* WhosMostLikelyTierTwo.json */,
+				C09C3028287611AB00A4CD07 /* TriviaGeography.json */,
+				C07F114A28776DD000429838 /* TriviaSports.json */,
+				C07F11502878D75700429838 /* TriviaMovies.json */,
+				C07F1152287B433700429838 /* TriviaScience.json */,
+				C07F1154287C091000429838 /* TriviaHistory.json */,
+				C0E93B4D287EBF0400055283 /* TriviaMusic.json */,
 			);
 			path = JSON;
 			sourceTree = "<group>";
@@ -462,6 +500,8 @@
 		C0A9EE2C27FFEF2100E69993 /* Game */ = {
 			isa = PBXGroup;
 			children = (
+				C0E93B48287DA5FC00055283 /* WhoWantsToBeMillionaire */,
+				C0BB5F2528757FF00018E998 /* Trivia */,
 				C00A91D3286D974900DC62FF /* WhosMostLikely */,
 				C00A91CC286786B900DC62FF /* Explain */,
 				C0A14BA62846638D004DAC0E /* Mancala */,
@@ -532,6 +572,17 @@
 			path = Pyramid;
 			sourceTree = "<group>";
 		};
+		C0BB5F2528757FF00018E998 /* Trivia */ = {
+			isa = PBXGroup;
+			children = (
+				C0BB5F2628757FFF0018E998 /* TriviaGame.swift */,
+				C07F114C2877712A00429838 /* TriviaModel.swift */,
+				C07F114E2877759100429838 /* TriviaObject.swift */,
+				C0E93B4B287DA7AC00055283 /* TriviaRules.swift */,
+			);
+			path = Trivia;
+			sourceTree = "<group>";
+		};
 		C0BFC1E82838F7B50079A6A1 /* ToolBarItems */ = {
 			isa = PBXGroup;
 			children = (
@@ -598,6 +649,16 @@
 				C0E777712817AB8C007CE89F /* RouletteRules.swift */,
 			);
 			path = Roulette;
+			sourceTree = "<group>";
+		};
+		C0E93B48287DA5FC00055283 /* WhoWantsToBeMillionaire */ = {
+			isa = PBXGroup;
+			children = (
+				C0E93B49287DA67200055283 /* MillionaireGame.swift */,
+				C070361B2881E552003C68B2 /* MillionaireModel.swift */,
+				C0E93B4F287F0BFD00055283 /* MillionaireObject.swift */,
+			);
+			path = WhoWantsToBeMillionaire;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -713,13 +774,19 @@
 				C0A14BA528422599004DAC0E /* NeverHaveIEverTierThree.json in Resources */,
 				C050607F27FF421900C35785 /* Preview Assets.xcassets in Resources */,
 				C0A14BA428422599004DAC0E /* NeverHaveIEverTierOne.json in Resources */,
+				C0E93B4E287EBF0500055283 /* TriviaMusic.json in Resources */,
+				C09C3029287611AB00A4CD07 /* TriviaGeography.json in Resources */,
 				C0889DD528398611009015DB /* TruthTierOne.json in Resources */,
 				C0A14B9D28413381004DAC0E /* DareTierOne.json in Resources */,
 				C00A91D2286D971500DC62FF /* WhosMostLikelyTierOne.json in Resources */,
 				C0A14B9C28413381004DAC0E /* DareTierThree.json in Resources */,
+				C07F114B28776DD000429838 /* TriviaSports.json in Resources */,
+				C07F1155287C091000429838 /* TriviaHistory.json in Resources */,
 				C0889DD9283989E3009015DB /* TruthTierThree.json in Resources */,
 				C0889DD7283987BA009015DB /* TruthTierTwo.json in Resources */,
+				C07F11512878D75700429838 /* TriviaMovies.json in Resources */,
 				C0A14B9B28413381004DAC0E /* DareTierTwo.json in Resources */,
+				C07F1153287B433700429838 /* TriviaScience.json in Resources */,
 				C050607C27FF421900C35785 /* Assets.xcassets in Resources */,
 				C00A91D1286D971500DC62FF /* WhosMostLikelyTierTwo.json in Resources */,
 				C0A14BA328422599004DAC0E /* NeverHaveIEverTierTwo.json in Resources */,
@@ -769,11 +836,13 @@
 				C0A14BA8284663CE004DAC0E /* MancalaGame.swift in Sources */,
 				C0C759CD2818619100AB1C96 /* WheelSubviews.swift in Sources */,
 				C0F1BA4D282043DE00DBD862 /* ChooserGestures.swift in Sources */,
+				C0E93B50287F0BFD00055283 /* MillionaireObject.swift in Sources */,
 				C0A9EE332803941100E69993 /* AppState.swift in Sources */,
 				C050607A27FF421900C35785 /* ContentView.swift in Sources */,
 				C09D900B28339191000E0B04 /* Suits.swift in Sources */,
 				C0ACBBF12813B400005D223D /* PyramidGame.swift in Sources */,
 				C05060A227FF43EB00C35785 /* GameSetup.swift in Sources */,
+				C0E93B4A287DA67200055283 /* MillionaireGame.swift in Sources */,
 				C0365546281E1FE000CB8D00 /* SpinBottleGame.swift in Sources */,
 				C0A14B9F28415E12004DAC0E /* NeverHaveIEverObject.swift in Sources */,
 				C05F54B6285E44EB00949E98 /* Ticket.swift in Sources */,
@@ -791,11 +860,13 @@
 				C0E7776E2817705A007CE89F /* HomeButton.swift in Sources */,
 				C0E77768281709FB007CE89F /* RouletteSubviews.swift in Sources */,
 				C0F1BA4F2820440A00DBD862 /* ChooserSubviews.swift in Sources */,
+				C07F1157287C7E3500429838 /* GameMenuButton.swift in Sources */,
 				C00A91D9286D9A6200DC62FF /* WhosMostLikelyObject.swift in Sources */,
 				C05060B527FF55B800C35785 /* View.swift in Sources */,
 				C09D901728339447000E0B04 /* Colors.swift in Sources */,
 				C0D9C727281A4EAA009B5001 /* WheelComponents.swift in Sources */,
 				C0D9C72F281A5E6B009B5001 /* TitleLabel.swift in Sources */,
+				C0E93B47287D736900055283 /* GameButton.swift in Sources */,
 				C0BFC1EC2838F8B30079A6A1 /* EditButton.swift in Sources */,
 				C044B81B280D080E00A112C2 /* HorseRaceRules.swift in Sources */,
 				C0E777722817AB8C007CE89F /* RouletteRules.swift in Sources */,
@@ -810,7 +881,9 @@
 				C00FA407283AD4B3006240FE /* Shape.swift in Sources */,
 				C08848A7282A3F990074EC97 /* ChooserRules.swift in Sources */,
 				C09D900D28339227000E0B04 /* Rank.swift in Sources */,
+				C0E93B4C287DA7AC00055283 /* TriviaRules.swift in Sources */,
 				C0A9EE2A27FFEB9400E69993 /* Constants.swift in Sources */,
+				C0BB5F2728757FFF0018E998 /* TriviaGame.swift in Sources */,
 				C0365541281C73D700CB8D00 /* RouletteModel.swift in Sources */,
 				C00A91D5286D975A00DC62FF /* WhosMostLikelyGame.swift in Sources */,
 				C0ACBBE1281313D9005D223D /* Rulebook.swift in Sources */,
@@ -819,9 +892,11 @@
 				C036553F281B734A00CB8D00 /* TruthOrDareModel.swift in Sources */,
 				C0889DDC28398AFF009015DB /* APIClient.swift in Sources */,
 				C0ACBBE528131CD9005D223D /* RuleView.swift in Sources */,
+				C07F114F2877759100429838 /* TriviaObject.swift in Sources */,
 				C09D90152833941F000E0B04 /* Fonts.swift in Sources */,
 				C0E7776A28176F42007CE89F /* RulesButton.swift in Sources */,
 				C0D9C729281A4FAD009B5001 /* WheelRules.swift in Sources */,
+				C07F114D2877712A00429838 /* TriviaModel.swift in Sources */,
 				C0BFE7F028121960008BDBD1 /* TruthOrDareRules.swift in Sources */,
 				C0A14BAC2846D58F004DAC0E /* RoundCorners.swift in Sources */,
 				C0ACBBE828134FEC005D223D /* NeverHaveIEverGame.swift in Sources */,
@@ -830,6 +905,7 @@
 				C09D9013283393CD000E0B04 /* Images.swift in Sources */,
 				C0889DDE28398B07009015DB /* JSONClient.swift in Sources */,
 				C0D9C72B281A51BA009B5001 /* HorseRaceModel.swift in Sources */,
+				C070361C2881E552003C68B2 /* MillionaireModel.swift in Sources */,
 				C044B81328089C9E00A112C2 /* MainButton.swift in Sources */,
 				C0D9C72D281A5789009B5001 /* NeverEverModel.swift in Sources */,
 				C0E77765281700F6007CE89F /* RouletteGame.swift in Sources */,
@@ -1008,7 +1084,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = SocialGames.tauts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1042,7 +1118,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = SocialGames.tauts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

@@ -4,6 +4,7 @@ struct HigherLowerGame: View {
     
 //    @ObservedObject var model: HigherLowerModel
     @State var isRulesOpen: Bool = false
+    @EnvironmentObject var game: Game
     
 //    init(players: [String]) {
 //        model = HigherLowerModel(players: players)
@@ -103,14 +104,31 @@ struct HigherLowerGame: View {
                 HomeButton()
             }
             ToolbarItem(placement: .navigationBarTrailing) {
-                Button(action: {
-                    restart()
-                }) {
-                    RestartButton()
-                }
-            }
-            ToolbarItem(placement: .navigationBarTrailing) {
-                RulesButton(isOpen: $isRulesOpen)
+                Menu(content: {
+                    Section{
+                        Button(action: {
+                            isRulesOpen.toggle()
+                        }) {
+                            Text("Rules")
+                            Images.rulesFill
+                                .symbolRenderingMode(.palette)
+                                .foregroundStyle(.white, game.game.gradient)
+                        }
+                    }
+                    Section{
+                        Button(action: {
+                            restart()
+                        }) {
+                            Text("Restart")
+                            Images.restart
+                                .symbolRenderingMode(.palette)
+                                .foregroundStyle(.white, game.game.gradient)
+                                .font(.title)
+                        }
+                    }
+                }, label: {
+                    GameMenuButton()
+                })
             }
             
             ToolbarItem(placement: .principal) {
@@ -120,9 +138,7 @@ struct HigherLowerGame: View {
         .sheet(isPresented: $isRulesOpen) {
             RuleView(isOpen: $isRulesOpen)
         }
-        .onAppear{
-            initialize()
-        }
+        .onAppear(perform: initialize)
     }
     
     func mainAction(size: CGSize) {
@@ -206,6 +222,8 @@ struct HigherLowerGame: View {
         withAnimation(Animation.easeIn(duration: 1.2)) {
             offsetX = 0
         }
+        currentStreak = 0
+        deck.shuffle()
     }
     
     func transferToDealtDeck() {

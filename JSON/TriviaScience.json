@@ -1,0 +1,1361 @@
+[
+  {
+    "Question": "When was the idea of the atom first introduced?",
+    "Answer": "450 B.C.",
+    "A": "450 B.C.",
+    "B": "1050",
+    "C": "1791",
+    "D": "1942",
+    "Description": "The idea of the atom was first introduced by Leucippus of Miletus around 450 B.C.. Leucippus and his pupil, Democritus, theorized that all matter was composed of atoms, or bits of matter too small to be seen. The word \"atom\" comes from a Greek word, \"atomos\", meaning uncuttable, because Leucippus believed that atoms were the building blocks of all materials and therefore could not be broken down any further."
+  },
+  {
+    "Question": "An earthquake that measures 8 on the Richter Scale would be how many times stronger than an earthquake that measures 4 on the same scale?",
+    "Answer": "10,000 times stronger",
+    "A": "2 times stronger",
+    "B": "4 times stronger",
+    "C": "1000 times stronger",
+    "D": "10,000 times stronger",
+    "Description": "The Richter Scale is logarithmic, which means that each successive whole number represents a 10-fold increase in power. Thus, an earthquake that measures 8 would be 10,000 times stronger than an earthquake that measures 4."
+  },
+  {
+    "Question": "In what type of matter are atoms most tightly packed?",
+    "Answer": "Solids",
+    "A": "Gases",
+    "B": "Solids",
+    "C": "All are the same",
+    "D": "Liquids",
+    "Description": "Atoms are most tightly packed in a solid, and are usually in a regular pattern. Atoms in a liquid are close together, with no regular arrangement. Atoms in a gas are well separated, with no regular arrangement, and move freely at high speeds."
+  },
+  {
+    "Question": "In 2004, what was discovered on the island of Flores in Indonesia?",
+    "Answer": "Remains of a hobbit-sized human species",
+    "A": "Remains of a hobbit-sized human species",
+    "B": "A living dinosaur",
+    "C": "A tribe whose members live over 150 years",
+    "D": "A plant with a mammal-like brain",
+    "Description": "In 2004, on the island of Flores in Indonesia, a team of Australian and Indonesian researchers discovered the remains of a hobbit-sized human, one that stood no more than a meter tall. Remarkable, these researchers determined that this new species of human lived as recently as 13,000 years ago, shattering the long-held belief that Homo sapiens have had the planet to themselves for the past 25,000 years."
+  },
+  {
+    "Question": "What planet has the most moons?",
+    "Answer": "Jupiter",
+    "A": "Jupiter",
+    "B": "Saturn",
+    "C": "Uranus",
+    "D": "Mars",
+    "Description": "Jupiter has at least 67 known moons. The largest four are called Io, Europa, Ganymede, and Callisto."
+  },
+  {
+    "Question": "Hurricanes only form over ________?",
+    "Answer": "Warm water",
+    "A": "Warm land",
+    "B": "Cold water",
+    "C": "Cold land",
+    "D": "Warm water",
+    "Description": "Hurricanes are like giant engines that use warm, moist air as fuel--which is why they only form over warm ocean waters."
+  },
+  {
+    "Question": "What was one of the most famous species studied by Charles Darwin?",
+    "Answer": "Finch",
+    "A": "Crane",
+    "B": "Sparrow",
+    "C": "Finch",
+    "D": "Parrot",
+    "Description": "Perhaps one of the finest examples of evolution in action were the finches of the Galapagos Islands. Each island had a different species of finch, and each species of finch had a different sized beak. The finches with the largest beak lived on an island with plenty of hard nuts, while the smallest-beaked finch lived on an island where the main food source was insects. This showed how well these birds had adapted to their environment."
+  },
+  {
+    "Question": "How many brains did a Stegosaurus have?",
+    "Answer": "1",
+    "A": "0",
+    "B": "1",
+    "C": "2",
+    "D": "3",
+    "Description": "Although it was a long-held belief that the Stegosaurus had three brains: One in its head, one in its back, and one in its tail, recent studies have shown that these extra \"brains\" were actually energy stores for muscles. So the Stegosaurus had only one brain, and not a very big one at that!"
+  },
+  {
+    "Question": "What instrument is used to measure wind speed?",
+    "Answer": "Anemometer",
+    "A": "Fanometer",
+    "B": "Anemometer",
+    "C": "Barometer",
+    "D": "Altimeter",
+    "Description": "An anemometer is used to measure wind speed. The first mechanical anemometer was invented in 1450 by Italian artist and architect Leon Battista Alberti."
+  },
+  {
+    "Question": "Which of the following has the largest brain?",
+    "Answer": "Neanderthal",
+    "A": "Neanderthal",
+    "B": "Rhinoceros",
+    "C": "Gorilla",
+    "D": "Human",
+    "Description": "The appearance of modern man about 100,000 years ago was marked by a decrease in body size at the same time as an increase in brain size. However, it is worth noting that Neanderthals, which became extinct about 40,000 years ago, had larger brains than modern Homo sapiens."
+  },
+  {
+    "Question": "Where are the three smallest bones in the human body?",
+    "Answer": "Middle ear",
+    "A": "Eyes",
+    "B": "Nose",
+    "C": "Middle ear",
+    "D": "toes",
+    "Description": "The three smallest bones in the human body are located in the middle ear. Individually, they are known as the malleus, incus, and stapes. Collectively, they are called the ossicles. Their purpose is to convey sound from the outer ear to the inner ear."
+  },
+  {
+    "Question": "Who invented the first battery?",
+    "Answer": "Alessandro Volta",
+    "A": "Benjamin Franklin",
+    "B": "Luigi Galvani",
+    "C": "Nikola Tesla",
+    "D": "Alessandro Volta",
+    "Description": "In 1800, Alessandro Volta discovered that certain fluids would generate a continuous flow of electrical power when used as a conductor. This discovery led to the invention of the first voltaic cell, more commonly known as a battery."
+  },
+  {
+    "Question": "What layer of the Earth's atmosphere makes radio communications possible?",
+    "Answer": "Ionosphere",
+    "A": "Thermoshpere",
+    "B": "Stratoshpere",
+    "C": "Exosphere",
+    "D": "Ionosphere",
+    "Description": "The ionosphere is an abundant layer of electrons and ionized atoms and molecules that stretches from about 48 kilometers (30 miles) above the surface of the Earth to the edge of space at about 965 km (600 mi). This dynamic region grows and shrinks based on solar conditions. Because of its high concentration of ions and free electrons, this region is able to reflect radio waves and makes radio communications possible."
+  },
+  {
+    "Question": "What is a hummingbird's heart rate?",
+    "Answer": "1260 beats per minute",
+    "A": "240 beats per minute",
+    "B": "600 beats per minute",
+    "C": "170 beats per minute",
+    "D": "1260 beats per minute",
+    "Description": "While in flight, hummingbirds have the highest metabolism of all animals (excluding insects). Their heart rate can reach as much as 1,260 beats per minute."
+  },
+  {
+    "Question": "What did Albert Einstein win the Nobel Prize for in 1921?",
+    "Answer": "Photoelectronic effect",
+    "A": "Photoelectronic effect",
+    "B": "Wave-particle duality",
+    "C": "Zero-point energy",
+    "D": "Relativity",
+    "Description": "Because Einstein's general theory of relativity was considered too controversial, he was awarded the Nobel Prize in Physics \"for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect."
+  },
+  {
+    "Question": "Which of the following measures the amount of damage done by an earthquake?",
+    "Answer": "Mercalli scale",
+    "A": "Richter scale",
+    "B": "Kanamori scale",
+    "C": "Mercalli scale",
+    "D": "Selvaggi scale",
+    "Description": "The Mercalli scale is the lesser known of the two scales to measure earthquakes -- it measures the effects of an earthquake and is distinct from the Richter scale which measures the energy released."
+  },
+  {
+    "Question": "Saturn is the ______ planet.",
+    "Answer": "Flattest",
+    "A": "Oldest",
+    "B": "Biggest",
+    "C": "Flattest",
+    "D": "Coldest",
+    "Description": "With a polar diameter that is 90% of its equatorial diameter, Saturn is the flattest of all the planets. This is because of the its low density and fast rotation speed."
+  },
+  {
+    "Question": "How many pencils could you produce from the carbon in the average human body?",
+    "Answer": "9000",
+    "A": "9",
+    "B": "90",
+    "C": "900",
+    "D": "9000",
+    "Description": "The human body contains enough carbon to produce graphite for about 9,000 pencils."
+  },
+  {
+    "Question": "How many new species are discovered each year?",
+    "Answer": "18000",
+    "A": "80",
+    "B": "1800",
+    "C": "8000",
+    "D": "18000",
+    "Description": "Even after 250 years of professionals documenting thousands of new plants and animals every year, the rate at which new species are discovered remains relatively stable. Approximately 18,000 new species are discovered each year, with about half of those being insects."
+  },
+  {
+    "Question": "What is Johannes Kepler best known for?",
+    "Answer": "Laws of planetary motion",
+    "A": "Laws of thermodynamics",
+    "B": "Laws of planetary motion",
+    "C": "Laws of motion",
+    "D": "Laws of universal gravitation",
+    "Description": "Kepler's laws of planetary motion are three scientific laws describing the motion of planets around the Sun."
+  },
+  {
+    "Question": "What gas becomes a superfluid when cooled to absolute zero?",
+    "Answer": "Helium",
+    "A": "Xenon",
+    "B": "Hydrogen",
+    "C": "Neon",
+    "D": "Helium",
+    "Description": "When most liquids are cooled, the particles settle into a regular order, and the liquid becomes a solid. But helium atoms are so light and weakly drawn to one another that even when ordinary atomic motions have quieted, the atoms jiggle with zero-point motion, a slight momentum imparted by the quantum uncertainty principle. Hence, they never settle into the solid state."
+  },
+  {
+    "Question": "How often does Halley's Comet pass Earth?",
+    "Answer": "76 years",
+    "A": "114 years",
+    "B": "35 years",
+    "C": "92 years",
+    "D": "76 years",
+    "Description": "Halley's comet was recorded by Edmund Halley in 1682. It was seen again in 1758, 1835, 1910, and 1986 -- approximately every 76 years."
+  },
+  {
+    "Question": "Which of the following evolved first?",
+    "Answer": "Sharks",
+    "A": "Cockroaches",
+    "B": "Trees",
+    "C": "Sharks",
+    "D": "Humans",
+    "Description": "Sharks are older than trees. The earliest species that can reasonably be classified as a \"tree,\" the now-extinct Archaeopteris, lived around 350 million years ago. But Sharks? They laugh at trees. They've been around for 400 million years. Insects broadly resembling cockroaches appeared around 300 million years ago. Early humans didn't appear until much later."
+  },
+  {
+    "Question": "What are the moons of Uranus named after?",
+    "Answer": "Characters from Shakespeare",
+    "A": "Ancient astronomers",
+    "B": "Water deities in Greek mythology",
+    "C": "Characters from Shakespeare",
+    "D": "Characters from Star Trek",
+    "Description": "The moons of Uranus are named after characters from the works of William Shakespeare and Alexander Pope."
+  },
+  {
+    "Question": "What is the symbol for silver?",
+    "Answer": "AG",
+    "A": "AU",
+    "B": "AG",
+    "C": "PB",
+    "D": "SI",
+    "Description": "The chemical symbol Ag is from the Latin word for \"silver\" -- argentum."
+  },
+  {
+    "Question": "What is the most abundant element in the Universe?",
+    "Answer": "Hydrogen",
+    "A": "Oxygen",
+    "B": "Lithium",
+    "C": "Helium",
+    "D": "Hydrogen",
+    "Description": "Hydrogen is the lightest and most abundant element in the entire Universe, constituting roughly 75% of all baryonic mass."
+  },
+  {
+    "Question": "How many eggs does a queen bee lay per day?",
+    "Answer": "2000",
+    "A": "200",
+    "B": "2000",
+    "C": "20000",
+    "D": "2000000",
+    "Description": "A newly established queen bee will mate with one or more \"drones.\" Most likely, this one mating event will allow her to lay eggs for the rest of her life. A queen bee may lay up to 2,000 eggs a day and up to 1,000,000 in her lifetime."
+  },
+  {
+    "Question": "When was the steam turbine invented?",
+    "Answer": "1st century AD",
+    "A": "2nd century BC",
+    "B": "1810",
+    "C": "1st century AD",
+    "D": "1712",
+    "Description": "The Aeolipile, a simple steam turbine is first described by Hero of Alexandria in the 1st century AD, and many historians give him credit for the invention."
+  },
+  {
+    "Question": "What was invented by Chinese astronomer and mathematician Chang Heng in 132 A.D.?",
+    "Answer": "Seismograph",
+    "A": "Steam turbine",
+    "B": "Fishing reel",
+    "C": "Compass",
+    "D": "Seismograph",
+    "Description": "The first seismograph was invented in 132 A.D. by the Chinese astronomer and mathematician Chang Heng. It consisted of a ceramic urn with eight dragons attached to its sides. Each dragon held a small bronze ball in its mouth. Whenever there was even a slight earth tremor, a mechanism inside the seismograph would open the mouth of one dragon, and the bronze ball would fall into the open mouth of one of eight toads sitting below. Imperial watchman could tell which direction the earthquake came from by seeing which dragon's mouth was empty."
+  },
+  {
+    "Question": "How fast can a hummingbird flap its wings?",
+    "Answer": "80 flaps per second",
+    "A": "600 flaps per second",
+    "B": "80 flaps per second",
+    "C": "50 flaps per second",
+    "D": "15 flaps per second",
+    "Description": "A typical hummingbird can flap its wings up to 80 times per second."
+  },
+  {
+    "Question": "What is the strongest known magnet in the Universe?",
+    "Answer": "Magnetar",
+    "A": "Magnetar",
+    "B": "Dark Matter",
+    "C": "Neodymium magnets",
+    "D": "Black hole",
+    "Description": "Magnetars (a type of neutron star) are the bizarre super-dense remnants of supernova explosions. They are the strongest magnets known in the universe -- hundreds of millions of times more powerful than the magnetic field surrounding Earth."
+  },
+  {
+    "Question": "How many patents did Thomas Edison accumulate during his lifetime?",
+    "Answer": "2332",
+    "A": "2332",
+    "B": "1093",
+    "C": "0",
+    "D": "85",
+    "Description": "Thomas Edison was an inventor who accumulated 2,332 patents worldwide for his inventions. 1,093 of Edison's patents were in the United States, but other patents were approved in countries around the globe."
+  },
+  {
+    "Question": "What is the name of the lowest layer of Earth's atmosphere?",
+    "Answer": "Troposhpere",
+    "A": "Exosphere",
+    "B": "Troposhpere",
+    "C": "Stratosphere",
+    "D": "Mesosphere",
+    "Description": "The troposphere is the lowest layer of Earth's atmosphere. It starts at the Earth's surface and extends 8 to 14.5 kilometers high (5 to 9 miles). Most types of clouds are found in the troposphere, and almost all weather occurs within this layer."
+  },
+  {
+    "Question": "What percentage of the cells in your body are bacteria?",
+    "Answer": "90%",
+    "A": "2%",
+    "B": "68%",
+    "C": "15%",
+    "D": "90%",
+    "Description": "You are more bacteria than you are you! The average human body is made up of 90% bacteria and only 10% human cells. Because of their small size, however, microorganisms make up only about 1 to 3 percent of the body's mass. (In a 200-pound adult, that's 2 to 6 pounds of bacteria.)"
+  },
+  {
+    "Question": "What is the strongest living creature on Earth?",
+    "Answer": "Gonorrhea Bacterium",
+    "A": "Dung Beetle",
+    "B": "Oribatid Mite",
+    "C": "Leafcutter Ant",
+    "D": "Gonorrhea Bacterium",
+    "Description": "Scientists have recently discovered that gonorrhea bacterium is, pound for pound, the strongest living creature on Earth, capable of pulling up to 100,000 times its own body weight!"
+  },
+  {
+    "Question": "How long does it take for light to travel from the Sun's surface to the Earth?",
+    "Answer": "8 minutes",
+    "A": "8 days",
+    "B": "8 hours",
+    "C": "8 minutes",
+    "D": "8 seconds",
+    "Description": "It takes sunlight an average of 8 minutes and 20 seconds to travel from the Sun to the Earth."
+  },
+  {
+    "Question": "What is the largest living structure on Earth?",
+    "Answer": "Great Barrier Reef",
+    "A": "Jurupa Oak",
+    "B": "Great Barrier Reef",
+    "C": "Armillaria Solidipes",
+    "D": "Endolith",
+    "Description": "At over 2000 kilometers long, The Great Barrier Reef is the largest living structure on Earth."
+  },
+  {
+    "Question": "Which of the following has the LEAST amount of chromosomes?",
+    "Answer": "Humans",
+    "A": "Potato",
+    "B": "Water buffalo",
+    "C": "Silkworm",
+    "D": "Humans",
+    "Description": "In humans, each cell normally contains 23 pairs of chromosomes, for a total of 46. Water buffalo and potatoes each have 48, and Silkworms have 54."
+  },
+  {
+    "Question": "How long does it take an individual blood cell to make a complete circuit of the body?",
+    "Answer": "60 seconds",
+    "A": "60 seconds",
+    "B": "240 seconds",
+    "C": "86000 seconds",
+    "D": "3600 seconds",
+    "Description": "The average person has about 5 liters of blood, and the average heart pumps about 70 ml of blood with each beat. If your heart rate is 70 beats per minute, you will pump about 4.9 liters of blood (70 beats X 70 ml) in one minute, which is roughly your entire blood supply. So an individual blood cell should make a complete circuit of the body at least once every 60 seconds."
+  },
+  {
+    "Question": "How fast can lava flow?",
+    "Answer": "60 km/h",
+    "A": "2 km/h",
+    "B": "30 km/h",
+    "C": "6 km/h",
+    "D": "60 km/h",
+    "Description": "Once a lava flows became established and good channels develop, the lava in the channels can flow at up to 60 km/hour. That's faster than a sprinting greyhound!"
+  },
+  {
+    "Question": "How often do your taste buds regenerate?",
+    "Answer": "Every 10 days",
+    "A": "Every 6 months",
+    "B": "Every 10 days",
+    "C": "Every 7 years",
+    "D": "Every 24 hours",
+    "Description": "The taste buds themselves are a collection of cells on the surface of the tongue, each housing about 50 taste cells. The buds renew themselves every ten days to two weeks. However, anything that causes inflammation, such as infections or smoking, can damage the taste buds and affect their renewal."
+  },
+  {
+    "Question": "Who invented dynamite?",
+    "Answer": "Alfred Nobel",
+    "A": "Sam Winchester",
+    "B": "Richard Jordan Gatling",
+    "C": "Alfred Nobel",
+    "D": "Robert Bunsen",
+    "Description": "Alfred Nobel, a Swedish chemist, invented dynamite in 1867. Nobel held 355 different patents, dynamite being the most famous. After reading a premature obituary which condemned him for profiting from the sales of arms, he bequeathed his fortune to institute the Nobel Prizes."
+  },
+  {
+    "Question": "When will the sun run out of fuel?",
+    "Answer": "5 billion years",
+    "A": "20 billion years",
+    "B": "10 million years",
+    "C": "200 million years",
+    "D": "5 billion years",
+    "Description": "The sun has used up about half of its hydrogen fuel in the last 4.6 billion years, since its birth. It still has enough hydrogen to last about another 5 billion years before it runs out of fuel and turns into a Red Giant."
+  },
+  {
+    "Question": "CH3COOH is the chemical formula for what common household item?",
+    "Answer": "Vingerar",
+    "A": "Table salt",
+    "B": "Hydrogen peroxide",
+    "C": "Ammonia",
+    "D": "Vinegar",
+    "Description": "Vinegar is approximately 5% acetic acid in water. The structural formula for acetic acid is CH3COOH."
+  },
+  {
+    "Question": "Mycology is the study of what?",
+    "Answer": "Fungi",
+    "A": "Yourself",
+    "B": "The heart",
+    "C": "Fungi",
+    "D": "Volcanoes",
+    "Description": "Mycology is the branch of biology concerned with the study of fungi, including their genetic and biochemical properties, their taxonomy and their use to humans as a source for tinder, medicine, food, and entheogens, as well as their dangers, such as poisoning or infection."
+  },
+  {
+    "Question": "How many legs do spiders have?",
+    "Answer": "8",
+    "A": "12",
+    "B": "8",
+    "C": "6",
+    "D": "10",
+    "Description": "All spiders have eight legs. They also possess a pair of shorter limbs called pedipalps, that in males serve as sex organs. Some spiders seem to have ten legs and not eight, because these pedipalps look like an extra pair of legs."
+  },
+  {
+    "Question": "How many miles of blood vessels are there in the human body?",
+    "Answer": "100000 miles",
+    "A": "30 miles",
+    "B": "100000 miles",
+    "C": "2 miles",
+    "D": "100 miles",
+    "Description": "If you took all the blood vessels out of an average adult and laid them out in a line, it would stretch about 100,000 miles."
+  },
+  {
+    "Question": "What discovery earned Wilhelm Rontgen the first Nobel Prize for Physics?",
+    "Answer": "X-rays",
+    "A": "The neutron",
+    "B": "X-rays",
+    "C": "Radioactivity",
+    "D": "Wireless telegraphy",
+    "Description": "Wilhelm Conrad Roentgen earned the first Nobel Prize in Physics for his discovery of electromagnetic radiation in a wavelength range -- commonly known as X-rays today."
+  },
+  {
+    "Question": "Why are sharks and rays different from other fish?",
+    "Answer": "They have no bones",
+    "A": "They have eyelids",
+    "B": "They have live young",
+    "C": "They're warm blooded",
+    "D": "They have no bones",
+    "Description": "Shark and rays are different from other fish because they have no bones. Their skeletons are made of cartilage, which is flexible and durable with about half the normal density of bone."
+  },
+  {
+    "Question": "Which of the following is NOT a mineral?",
+    "Answer": "Wood",
+    "A": "Gold",
+    "B": "Salt",
+    "C": "Wood",
+    "D": "Diamond",
+    "Description": "A mineral is a naturally occurring inorganic solid with a definite chemical composition and an ordered internal structure. Although wood is a naturally occurring solid, it is an organic material, so it is not a mineral."
+  },
+  {
+    "Question": "What is the smallest biological unit of a living organism?",
+    "Answer": "Cell",
+    "A": "Molecule",
+    "B": "Cell",
+    "C": "Tissue",
+    "D": "Atom",
+    "Description": "Often called the \"building blocks of life\", cells are the basic structural, functional, and biological unit of all known living organisms."
+  },
+  {
+    "Question": "What is the symbol for Potassium?",
+    "Answer": "K",
+    "A": "P",
+    "B": "PO",
+    "C": "PA",
+    "D": "K",
+    "Description": "Potassium is a chemical element with symbol K (derived from Neo-Latin, kalium) and atomic number 19. It was first isolated from potash, the ashes of plants, from which its name derives."
+  },
+  {
+    "Question": "Who invented the telescope?",
+    "Answer": "Hans Lippershey",
+    "A": "Isaac Newton",
+    "B": "Johannes Kepler",
+    "C": "Hans Lippershey",
+    "D": "Galileo Galilei",
+    "Description": "It is commonly believed that Italian astronomer Galileo Galilei invented the telescope, but the earliest known record of a refracting telescope is in fact credited to German-Dutch spectacle-maker Hans Lippershey who filed a patent for the device in 1608."
+  },
+  {
+    "Question": "What has the highest atomic number of any non-radioactive element?",
+    "Answer": "Lead",
+    "A": "Iron",
+    "B": "Polonium",
+    "C": "Lead",
+    "D": "Bismuth",
+    "Description": "Lead has the highest atomic number of any non-radioactive element, although the next higher element, bismuth, has one isotope with a half-life that is long enough (over one billion times the estimated age of the universe) to be considered stable for all practical purposes."
+  },
+  {
+    "Question": "Which of the following is NOT classified on the periodic table as a post-transition metal?",
+    "Answer": "Magnesium",
+    "A": "Aluminum",
+    "B": "Lead",
+    "C": "Magnesium",
+    "D": "Indium",
+    "Description": "Magnesium, the eighth most abundant element in the earth's crust, is classified as an alkaline earth metal."
+  },
+  {
+    "Question": "What is Jupiter's largest moon?",
+    "Answer": "Ganymede",
+    "A": "Europa",
+    "B": "Callisto",
+    "C": "Ganymede",
+    "D": "IO",
+    "Description": "Ganymede is the largest moon in our solar system, and the only moon known to have a magnetic field."
+  },
+  {
+    "Question": "The conversion of ethanol to ethanoic acid is an example of what?",
+    "Answer": "Oxidation",
+    "A": "Reduction",
+    "B": "Dehydration",
+    "C": "Hydrolysis",
+    "D": "Oxidation",
+    "Description": "Since the conversion of ethanol to ethanoic acid involves the addition of oxygen to ethanol, it is an oxidation reaction."
+  },
+  {
+    "Question": "What is the hottest planet in our solar system?",
+    "Answer": "Venus",
+    "A": "Venus",
+    "B": "Earth",
+    "C": "Mercury",
+    "D": "Jupiter",
+    "Description": "The hottest planet in our solar system is Venus. When it comes to temperature, distance from the Sun matters, but it takes a backseat to wrapping a planet in a atmospheric blanket of carbon dioxide."
+  },
+  {
+    "Question": "What is the thinnest layer of the Earth?",
+    "Answer": "Crust",
+    "A": "Outer core",
+    "B": "Crust",
+    "C": "Inner core",
+    "D": "Mantle",
+    "Description": "The crust is the thinnest layer of the Earth, amounting to less than 1% of our planet's volume."
+  },
+  {
+    "Question": "How are U-shaped valleys formed?",
+    "Answer": "Ice",
+    "A": "Water",
+    "B": "Wind",
+    "C": "Ice",
+    "D": "Asteroids",
+    "Description": "U-shaped or glaciated valleys are formed when a glacier travels across and down a slope, carving the valley by the action of scouring."
+  },
+  {
+    "Question": "Which of the following is NOT generally considered a greenhouse gas?",
+    "Answer": "Oxygen",
+    "A": "Water vapor",
+    "B": "Carbon dioxide",
+    "C": "Ozone",
+    "D": "Oxygen",
+    "Description": "While oxygen (o2) is the second most abundant gas in our atmosphere, it does not absorb thermal infrared radiation."
+  },
+  {
+    "Question": "What is the most abundant element in the Martian atmosphere?",
+    "Answer": "Carbon dioxide",
+    "A": "Methane",
+    "B": "Argon",
+    "C": "Nitrogen",
+    "D": "Carbon dioxide",
+    "Description": "The Martian atmosphere consists of approximately 96% carbon dioxide, 1.9% argon, 1.9% nitrogen, and traces of free oxygen, carbon monoxide, water and methane."
+  },
+  {
+    "Question": "What planet has the highest density?",
+    "Answer": "Earth",
+    "A": "Pluto",
+    "B": "Jupiter",
+    "C": "Earth",
+    "D": "Mercury",
+    "Description": "Earth is the densest planet in our Solar System, with an average density of 5.51 grams per cubic centimeter."
+  },
+  {
+    "Question": "The Earth's core is composed primarily of what substance?",
+    "Answer": "Iron-nickel alloy",
+    "A": "Granite",
+    "B": "Iron-nickel alloy",
+    "C": "Quartz",
+    "D": "Shale",
+    "Description": "The Earth's inner core is believed to be primarily a solid ball with a radius of about 1220 kilometers. It is composed of an iron-nickel alloy and some light elements."
+  },
+  {
+    "Question": "Which of the following is NOT a fossil fuel?",
+    "Answer": "Solar",
+    "A": "Coal",
+    "B": "Solar",
+    "C": "Oil",
+    "D": "Natural gas",
+    "Description": "Fossil fuels are hydrocarbons, primarily coal, fuel oil or natural gas, formed from the remains of dead plants and animals. Solar power is obtained by harnessing the energy of the sun's rays."
+  },
+  {
+    "Question": "Which of the following is a pure compound?",
+    "Answer": "Glucose",
+    "A": "Glucose",
+    "B": "Sea water",
+    "C": "Air",
+    "D": "Steel",
+    "Description": "A \"pure\" compound simply indicates that a substance includes two or more elements in a specific ratio, which never varies. The chemical structure of glucose is always C6H12O6."
+  },
+  {
+    "Question": "What is the windiest planet in our solar system?",
+    "Answer": "Neptune",
+    "A": "Jupiter",
+    "B": "Neptune",
+    "C": "Saturn",
+    "D": "Uranus",
+    "Description": "Neptune's weather is characterised by extremely dynamic storm systems, with winds reaching speeds of almost 1400 mph--nearly attaining supersonic flow."
+  },
+  {
+    "Question": "Which term refers to the sum total of all life on Earth?",
+    "Answer": "Bioshpere",
+    "A": "Lithosphere",
+    "B": "Hydrosphere",
+    "C": "Bioshpere",
+    "D": "Atmosphere",
+    "Description": "The biosphere is the global sum of all ecosystems on Earth."
+  },
+  {
+    "Question": "In which type of chemical bonding are electrons shared between adjacent atoms?",
+    "Answer": "Covalent",
+    "A": "Ionic",
+    "B": "Isotopic",
+    "C": "Subatomic",
+    "D": "Covalent",
+    "Description": "A covalent bond is a chemical bond that involves the sharing of electron pairs between atoms."
+  },
+  {
+    "Question": "What is the largest planet in our solar system?",
+    "Answer": "Jupiter",
+    "A": "Saturn",
+    "B": "Mars",
+    "C": "Jupiter",
+    "D": "Neptune",
+    "Description": "The mass of Jupiter is about 2.5 that of all the other planets in the Solar System combined."
+  },
+  {
+    "Question": "How long is one Pluto year?",
+    "Answer": "248 earth years",
+    "A": "248 earth years",
+    "B": "10623 earth years",
+    "C": "6 earth years",
+    "D": "57 earth years",
+    "Description": "It takes 247.9 Earth years for Pluto to make one orbit around the Sun."
+  },
+  {
+    "Question": "Insect bodies have how many major divisions?",
+    "Answer": "3",
+    "A": "2",
+    "B": "3",
+    "C": "4",
+    "D": "5",
+    "Description": "All insects have three main body regions: the head, the thorax, and the abdomen."
+  },
+  {
+    "Question": "What is the functional unit of heredity?",
+    "Answer": "Gene",
+    "A": "Nucleus",
+    "B": "Gene",
+    "C": "Chromosome",
+    "D": "Sperm",
+    "Description": "A gene is a locus (or region) of DNA which is made up of nucleotides and is the molecular unit of heredity. The transmission of genes to an organism's offspring is the basis of the inheritance of phenotypic traits."
+  },
+  {
+    "Question": "Which of the following represents the largest group of biological classification?",
+    "Answer": "Kingdom",
+    "A": "Class",
+    "B": "Kingdom",
+    "C": "Genus",
+    "D": "Species",
+    "Description": "In biology, kingdom is the second highest taxonomic rank below domain."
+  },
+  {
+    "Question": "Which of the following could cause a tsunami?",
+    "Answer": "All of these",
+    "A": "Meteorite",
+    "B": "Earthquake",
+    "C": "Volcanic Eruption",
+    "D": "All of these",
+    "Description": "Earthquakes, volcanic eruptions and other underwater explosions, landslides, glacier calvings, meteorite impacts and other disturbances above or below water all have the potential to generate a tsunami."
+  },
+  {
+    "Question": "Which of the following best describes our Moon's orbit around Earth?",
+    "Answer": "Synchronous rotation",
+    "A": "Non-synchronous rotation",
+    "B": "Molniya orbit",
+    "C": "Geostationary rotation",
+    "D": "Synchronous rotation",
+    "Description": "The Moon is in synchronous rotation with Earth, always showing the same face."
+  },
+  {
+    "Question": "What was the title of Charles Darwin's influential book on evolution?",
+    "Answer": "On the Origin of the Species",
+    "A": "The Third Chimpanzee",
+    "B": "Survival of the Fittest",
+    "C": "On the Origin of the Species",
+    "D": "The Selfish Gene",
+    "Description": "Darwin's On the Origin of Species is considered the foundation of evolutionary biology."
+  },
+  {
+    "Question": "How many biopolymer strands make up DNA?",
+    "Answer": "2",
+    "A": "1",
+    "B": "2",
+    "C": "3",
+    "D": "4",
+    "Description": "Most DNA molecules consist of two biopolymer strands coiled around each other to form a double helix."
+  },
+  {
+    "Question": "During a tornado, what happens to air pressure?",
+    "Answer": "It drops",
+    "A": "It drops",
+    "B": "It rises",
+    "C": "it doesn't change",
+    "D": "it vacillates wildly",
+    "Description": "As the updraft of a tornado intensifies, it creates an area of low pressure at the surface."
+  },
+  {
+    "Question": "DNA is organized into long structures called ________?",
+    "Answer": "Chromosomes",
+    "A": "Chromosomes",
+    "B": "Nucleotides",
+    "C": "Mitochondria",
+    "D": "Cytoplasm",
+    "Description": "DNA is organized into long structures called chromosomes. During cell division these chromosomes are duplicated in the process of DNA replication, providing each cell its own complete set of chromosomes."
+  },
+  {
+    "Question": "How far is Earth from the center of the Milky Way Galaxy?",
+    "Answer": "25000 light years",
+    "A": "500000 light years",
+    "B": "25000 light years",
+    "C": "50000 light years",
+    "D": "250000 light years",
+    "Description": "Earth is located about 25,000 light-years from the galactic center and 25,000 light-years away from the rim. So basically, if you were to think of the Milky Way as a big record, we would be the spot that's roughly halfway between the center and the edge."
+  },
+  {
+    "Question": "What is the most volcanically active body in our solar system?",
+    "Answer": "IO",
+    "A": "Ganymede",
+    "B": "Jupiter",
+    "C": "IO",
+    "D": "Earth",
+    "Description": "Jupiter's moon Io is the most volcanically active body in our solar system. Active volcanoes constantly spew material onto Io's surface."
+  },
+  {
+    "Question": "What is the hardest substance in the human body?",
+    "Answer": "Tooth Enamel",
+    "A": "Fingernails",
+    "B": "Bone",
+    "C": "Muscle",
+    "D": "Tooth Enamel",
+    "Description": "Enamel is the hardest substance in the human body and contains the highest percentage of minerals, 96%, with water and organic material composing the rest. The primary mineral is hydroxyapatite, which is a crystalline calcium phosphate."
+  },
+  {
+    "Question": "What is the brightest planet in Earth's sky?",
+    "Answer": "Venus",
+    "A": "Mercury",
+    "B": "Venus",
+    "C": "Jupiter",
+    "D": "Mars",
+    "Description": "Venus is the brightest planet in Earth's dark skies. Only the moon -- which is not a planet -- is brighter. Venus outshines the other planets because it is closer and its thick cloud cover are is excellent for reflecting sunlight."
+  },
+  {
+    "Question": "Which of the following is NOT a noble gas?",
+    "Answer": "Hydrogen",
+    "A": "Helium",
+    "B": "Argon",
+    "C": "Hydrogen",
+    "D": "Krypton",
+    "Description": "Noble gas atoms have complete outer valence shell electron configuration. Hydrogen does not."
+  },
+  {
+    "Question": "What is the only letter of the alphabet that doesn't appear on the Periodic Table?",
+    "Answer": "J",
+    "A": "Q",
+    "B": "Z",
+    "C": "J",
+    "D": "K",
+    "Description": "The only letter that doesn't appear on the Periodic Table of Elements is J."
+  },
+  {
+    "Question": "What inorganic molecule does lightning produce?",
+    "Answer": "Ozone",
+    "A": "Phosphine",
+    "B": "Hydroxylamine",
+    "C": "Ozone",
+    "D": "Cyanogen",
+    "Description": "Lightning strikes produce ozone (O3) through electrical excitation of Oxygen molecules."
+  },
+  {
+    "Question": "What are the lakes of Titan made of?",
+    "Answer": "Methane",
+    "A": "Water",
+    "B": "Ozone",
+    "C": "Methane",
+    "D": "Hydrogen",
+    "Description": "The lakes of Titan, Saturn's largest moon, are bodies of liquid ethane and methane."
+  },
+  {
+    "Question": "What color is liquid oxygen?",
+    "Answer": "Blue",
+    "A": "Colorless",
+    "B": "Green",
+    "C": "Blue",
+    "D": "White",
+    "Description": "Oxygen gas is colorless, odorless, and tasteless, but the liquid and solid forms are a pale blue color."
+  },
+  {
+    "Question": "Which planet has the tallest mountain?",
+    "Answer": "Mars",
+    "A": "Venus",
+    "B": "Earth",
+    "C": "Mars",
+    "D": "Jupiter",
+    "Description": "Olympus Mons on Mars, the tallest planetary mountain in the Solar System, stands about two and a half times as tall as Mount Everest."
+  },
+  {
+    "Question": "What causes more human deaths?",
+    "Answer": "House flies",
+    "A": "Sharks",
+    "B": "House flies",
+    "C": "Snakes",
+    "D": "Spiders",
+    "Description": "House flies can carry more than 100 different pathogens, potentially fatal to humans, making them more deadly than rattlesnakes or man-eating sharks."
+  },
+  {
+    "Question": "Jupiter's Great Red Spot is about the size of ________.",
+    "Answer": "Earth",
+    "A": "United States",
+    "B": "Texas",
+    "C": "Earth",
+    "D": "Earth's moon",
+    "Description": "Jupiter's Great Red Spot is about as big as Earth. The hurricane-like storm is at least 300 years old."
+  },
+  {
+    "Question": "When was the first fax machine invented?",
+    "Answer": "1840s",
+    "A": "1840s",
+    "B": "1930s",
+    "C": "1870s",
+    "D": "1980s",
+    "Description": "During the 1840s, Scotsman Alexander Bain invented a primitive fax machine based on chemical technology. He used a clock to synchronise the movement of two pendulums for line-by-line scanning of a message. For transmission, Bain applied metal pins arranged on a cylinder made of insulating material. An electric probe that transmitted on-off pulses then scanned the pins. The message was reproduced at the receiving station on electrochemically sensitive paper."
+  },
+  {
+    "Question": "Who coined the term dark energy?",
+    "Answer": "Michael S. Turner",
+    "A": "Martin Rees",
+    "B": "Allan Sandage",
+    "C": "Stephen Hawking",
+    "D": "Michael S. Turner",
+    "Description": "Michael S. Turner helped establish the interdisciplinary field that combines cosmology and elementary particle physics to understand the origin and evolution of the Universe. His research focuses on the earliest moments of creation, and he has made contributions to inflationary cosmology, particle dark matter and structure formation, the theory of big bang nucleosynthesis, and the nature of dark energy."
+  },
+  {
+    "Question": "What year was the fire extinguisher invented?",
+    "Answer": "1723",
+    "A": "1633",
+    "B": "1723",
+    "C": "1865",
+    "D": "1927",
+    "Description": "The first fire extinguisher of which there is any record was patented in England in 1723 by Ambrose Godfrey, a celebrated chemist at that time. It consisted of a cask of fire-extinguishing liquid containing a pewter chamber of gunpowder. This was connected with a system of fuses which were ignited, exploding the gunpowder and scattering the solution."
+  },
+  {
+    "Question": "Who was the first woman to win a Nobel Prize in Physics?",
+    "Answer": "Marie Curie",
+    "A": "Dorothy Crowfoot Hodgin",
+    "B": "Marie Curie",
+    "C": "Irene Joliot-Curie",
+    "D": "Marie Goeppert-mayer",
+    "Description": "Marie Curie won the Nobel Prize in Physics in 1903 with her husband, Pierre Curie, and Henri Becquerel. She also won a Nobel Prize in Chemistry in 1911."
+  },
+  {
+    "Question": "What theoretical physicist and cosmologist suffered from Lou Gehrig's Disease?",
+    "Answer": "Stephen Hawking",
+    "A": "Carl Sagan",
+    "B": "Nel DeGrasse Tyson",
+    "C": "Albert Einstein",
+    "D": "Stephen Hawking",
+    "Description": "Hawking had a rare early-onset, slow-progressing form of amyotrophic lateral sclerosis (ALS), commonly known as motor neurone disease in the UK and as Lou Gehrig's Disease in the US."
+  },
+  {
+    "Question": "What is the largest object in the asteroid belt that lies between the orbits of Mars and Jupiter?",
+    "Answer": "Ceres",
+    "A": "Quaoar",
+    "B": "Ceres",
+    "C": "Orcus",
+    "D": "Salacia",
+    "Description": "Ceres is the largest object in the asteroid belt that lies between the orbits of Mars and Jupiter. It is the 33rd-largest known body in the Solar System."
+  },
+  {
+    "Question": "What is the standard unit of kinetic energy?",
+    "Answer": "Joule",
+    "A": "Watt",
+    "B": "Joule",
+    "C": "Newton",
+    "D": "Calorie",
+    "Description": "One joule in everyday life represents approximately the energy required to lift a medium-sized tomato (100 g) 1 meter vertically from the surface of the Earth."
+  },
+  {
+    "Question": "What branch of science is concerned with the interaction between matter and electromagnetic radiation?",
+    "Answer": "Spectroscopy",
+    "A": "Geology",
+    "B": "Spectroscopy",
+    "C": "Chemistry",
+    "D": "Physics",
+    "Description": "Spectroscopy is the study of the interaction between matter and electromagnetic radiation."
+  },
+  {
+    "Question": "Which of the following is the hottest?",
+    "Answer": "Lightning",
+    "A": "Surface of the sun",
+    "B": "Magma",
+    "C": "Earth's core",
+    "D": "Lightning",
+    "Description": "The electricity of a lightning strike does not have a temperature, per se, but the air around a bolt of lightning can reach a temperature of 54,000 degrees Fahrenheit, which is 5 times hotter than the surface of the sun which is a mere 10,000 degrees Fahrenheit. The central region of the sun, however, is much hotter than lightning at 27 million degrees Fahrenheit."
+  },
+  {
+    "Question": "In 2012, what new molecule was discovered by a 10-year -old in science class?",
+    "Answer": "Tetranitratoxycarbon",
+    "A": "Tetrahydrozoline",
+    "B": "Tetrabutylammonium",
+    "C": "Tetramethylpyrazine",
+    "D": "Tetranitratoxycarbon",
+    "Description": "Tetranitratoxycarbon is a hypothetically-possible molecule, unknown to science until ten-year-old Clara Lazen (a fifth-grader in Kansas City, Missouri) assembled a model of it in her science class in 2012. As an oxygen-rich compound of carbon and nitrogen, it is similar to nitroglycerin and is predicted to have explosive properties."
+  },
+  {
+    "Question": "What is the energy an object possesses due to its motion?",
+    "Answer": "Kinetic",
+    "A": "Potential",
+    "B": "Kinetic",
+    "C": "Chemical",
+    "D": "Gravitational",
+    "Description": "Kinetic energy is the energy an object possesses due to its motion. It is defined as the work needed to accelerate a body of a given mass from rest to its stated velocity."
+  },
+  {
+    "Question": "What is the average number of readers for a published scientific paper?",
+    "Answer": "0.6",
+    "A": "0.6",
+    "B": "6",
+    "C": "60",
+    "D": "600",
+    "Description": "There are a lot of scientific papers out there. One estimate puts the count at 1.8 million articles published each year, in about 28,000 journals. Who actually reads those papers? According to one 2007 study, not many people: half of academic papers are read only by their authors and journal editors, and the average number of readers for a published scientific paper is only 0.6."
+  },
+  {
+    "Question": "What do scientists use to clean up radioactive waste?",
+    "Answer": "Sunflowers",
+    "A": "Water",
+    "B": "Carbon dioxide",
+    "C": "Magnets",
+    "D": "Sunflowers",
+    "Description": "Scientists have discovered that sunflowers can pull radioactive contaminants out of the soil."
+  },
+  {
+    "Question": "What is it called when one celestial body obscures another?",
+    "Answer": "Eclipse",
+    "A": "Equinox",
+    "B": "Apogee",
+    "C": "Eclipse",
+    "D": "Sunspot",
+    "Description": "An eclipse is an astronomical event that occurs when an astronomical object is temporarily obscured, either by passing into the shadow of another body or by having another body pass between it and the viewer."
+  },
+  {
+    "Question": "What do you call an interstellar cloud of dust?",
+    "Answer": "Nebula",
+    "A": "Penumbra",
+    "B": "Parsec",
+    "C": "Ionosphere",
+    "D": "Nebula",
+    "Description": "A nebula is an interstellar cloud of dust, hydrogen, helium and other ionized gases. Contrary to fictional depictions where starships hide in nebulae as thick as cloud banks, in reality a nebula that is barely visible to the human eye from Earth would appear larger, but no brighter, from close by."
+  },
+  {
+    "Question": "A mushroom is an example of _______.",
+    "Answer": "Fungus",
+    "A": "Mold",
+    "B": "Fungus",
+    "C": "Algae",
+    "D": "Yeast",
+    "Description": "A mushroom (or toadstool) is the fleshy, spore-bearing fruiting body of a fungus."
+  },
+  {
+    "Question": "Which of the following is biggest?",
+    "Answer": "Universe",
+    "A": "Nebula",
+    "B": "Galaxy",
+    "C": "Universe",
+    "D": "Solar System",
+    "Description": "The Universe is all of time and space and its contents."
+  },
+  {
+    "Question": "How many chambers does the human heart have?",
+    "Answer": "4",
+    "A": "1",
+    "B": "2",
+    "C": "3",
+    "D": "4",
+    "Description": "The human heart has four chambers, which are the left and right atria and the left and right ventricles."
+  },
+  {
+    "Question": "What temperature is absolute zero?",
+    "Answer": "minus 273.15°C",
+    "A": "minus 273.15°C",
+    "B": "minus 333.33°C",
+    "C": "0°C",
+    "D": "minus 459.67°C",
+    "Description": "Absolute zero is the lowest temperature that is theoretically possible, at which the motion of particles that constitutes heat would be minimal. It is zero on the Kelvin scale, equivalent to -273.15°C or -459.67°F."
+  },
+  {
+    "Question": "What is the longest bone in the human body?",
+    "Answer": "Femur",
+    "A": "Humerus",
+    "B": "Femur",
+    "C": "Tibia",
+    "D": "Fibula",
+    "Description": "The femur connects to the knee at one end and fits into the hip socket at the other. It's the longest bone in many other mammals as well."
+  },
+  {
+    "Question": "What term describes the center of gravity of the Earth and moon?",
+    "Answer": "Barycenter",
+    "A": "Aphelion",
+    "B": "Bolide",
+    "C": "Apogee",
+    "D": "Barycenter",
+    "Description": "The barycenter is the center of mass of two or more bodies that are orbiting each other, or the point around which they both orbit. It is an important concept in fields such as astronomy and astrophysics."
+  },
+  {
+    "Question": "What do you call the application of science to criminal investigation?",
+    "Answer": "Forensic science",
+    "A": "Protoscience",
+    "B": "Forensic science",
+    "C": "Epidemiology",
+    "D": "Etymology",
+    "Description": "Forensic scientists collect, preserve, and analyze scientific evidence during the course of an investigation. While some forensic scientists travel to the scene to collect the evidence themselves, others work from a laboratory, performing analysis on objects brought to them by other investigators."
+  },
+  {
+    "Question": "Which extinction event was caused by human activity?",
+    "Answer": "Halocene extinction",
+    "A": "Halocene extinction",
+    "B": "Pliocene-pleistocene extinction",
+    "C": "Quaternary extinction",
+    "D": "Aptian extinction",
+    "Description": "The Holocene extinction, otherwise referred to as the Sixth extinction, is the ongoing extinction event of species during the present epoch (beginning approximately 10,000 BC) mainly due to human activity. The present rate of extinction may be up to 140,000 species per year, making it the greatest loss of biodiversity since the Cretaceous-Paleogene extinction event."
+  },
+  {
+    "Question": "Stephen Hawking is a vigorous supporter of what interpretation of quantum mechanics?",
+    "Answer": "Many-worlds",
+    "A": "Many-worlds",
+    "B": "Mindful universe",
+    "C": "Copenhagen",
+    "D": "Objective collapse",
+    "Description": "The many-worlds interpretation implies that all possible alternate histories and futures are real, each representing an actual \"world\" (or \"universe\"). In layman's terms, the hypothesis states there is a very large--perhaps infinite--number of universes, and everything that could possibly have happened in our past, but did not, has occurred in the past of some other universe or universes."
+  },
+  {
+    "Question": "Which scientific term refers to the formation of a new species?",
+    "Answer": "Speciation",
+    "A": "Speciesism",
+    "B": "Mutation",
+    "C": "Evolution",
+    "D": "Speciation",
+    "Description": "Speciation is the formation of new and distinct species in the course of evolution."
+  },
+  {
+    "Question": "What science combines computer science, statistics, engineering, and biology?",
+    "Answer": "Bioinformatics",
+    "A": "Microbiology",
+    "B": "Bioenergetics",
+    "C": "Bioinformatics",
+    "D": "Biohacking",
+    "Description": "As an interdisciplinary field of science, bioinformatics combines computer science, statistics, mathematics, and engineering to analyze and interpret biological data."
+  },
+  {
+    "Question": "What is the scientific study of animal biology?",
+    "Answer": "Zoology",
+    "A": "Animalogy",
+    "B": "Zoology",
+    "C": "Herpetology",
+    "D": "Entomology",
+    "Description": "Zoology is the branch of biology that studies the animal kingdom, including the structure, embryology, evolution, classification, habits, and distribution of all animals, both living and extinct."
+  },
+  {
+    "Question": "Which theory explains the movement of the Earth's continents?",
+    "Answer": "Continental Drift",
+    "A": "Rift Divergence",
+    "B": "Earthquakes",
+    "C": "Continental Drift",
+    "D": "Active coast",
+    "Description": "Continental drift is the movement of the Earth's continents relative to each other, thus appearing to \"drift\" across the ocean bed. The speculation that continents might have drifted was first put forward by Abraham Ortelius in 1596."
+  },
+  {
+    "Question": "What scientist's book laid the foundations for classical mechanics?",
+    "Answer": "Isaac Newton",
+    "A": "Michael Faraday",
+    "B": "Galileo Galilei",
+    "C": "Isaac Newton",
+    "D": "Nicolaus Copernicus",
+    "Description": "Isaac Newton's Philosophiae Naturalis Principia Mathematica formulated the laws of motion and universal gravitation, which dominated scientists' view of the physical universe for the next three centuries."
+  },
+  {
+    "Question": "What scientist may have been driven mad by exposure to mercury?",
+    "Answer": "Isaac Newton",
+    "A": "Albert Einstein",
+    "B": "Galileo Galilei",
+    "C": "Marie Curie",
+    "D": "Isaac Newton",
+    "Description": "Late in life, Isaac Newton suffered a nervous breakdown, but it probably wasn't his fault. A 1979 examination of Newton's hair showed astronomical amounts of mercury, probably as a result of all of his alchemy experiments. Too much mercury can drive a man mad, and that may have been exactly what it did to Newton."
+  },
+  {
+    "Question": "Why is the study of water called?",
+    "Answer": "Hydrology",
+    "A": "Aqualogy",
+    "B": "Hydrology",
+    "C": "Meterology",
+    "D": "Oceanography",
+    "Description": "Hydrology is the scientific study of the movement, distribution, and quality of water on Earth and other planets."
+  },
+  {
+    "Question": "How far does the average person walk in a lifetime?",
+    "Answer": "5 times around the earth",
+    "A": "2 times around the earth",
+    "B": "1 times around the earth",
+    "C": "5 times around the earth",
+    "D": "10 times around the earth",
+    "Description": "The average moderately active person takes about 7,500 step per day. If you maintain that daily average and live until 80 years of age, you'll have walked about 216,262,500 steps in your lifetime -- the equivalent of walking about 5 times around the Earth."
+  },
+  {
+    "Question": "Whose tomb did archaeologist Howard Carter discover in 1922?",
+    "Answer": "King Tut",
+    "A": "Genghis Khan",
+    "B": "Julius Caesar",
+    "C": "King Tut",
+    "D": "Jesus",
+    "Description": "Howard Carter became world-famous after discovering the intact tomb of the 18th Dynasty Pharaoh, Tutankhamun."
+  },
+  {
+    "Question": "What is the only human organ that can regenerate itself?",
+    "Answer": "Liver",
+    "A": "Lungs",
+    "B": "Liver",
+    "C": "Stomach",
+    "D": "Pancreas",
+    "Description": "The liver is the only organ that can regenerate itself thus making it possible for one person to donate part of their liver to another person. When a portion of the liver is transplanted, the donor's liver will regenerate back to its original size while the transplanted portion will grow to the appropriate size for the recipient"
+  },
+  {
+    "Question": "What does the \"c\" in E=mc2 stand for?",
+    "Answer": "Speed of light",
+    "A": "Energy",
+    "B": "Speed of light",
+    "C": "Chaos",
+    "D": "Planck constant",
+    "Description": "Einstein's famous equation shows that the increased relativistic mass (m) of a body comes from the energy of motion of the body--that is, its kinetic energy (E)--divided by the speed of light squared (c2)."
+  },
+  {
+    "Question": "What is the only human organ that can float in water?",
+    "Answer": "Lungs",
+    "A": "Lungs",
+    "B": "Liver",
+    "C": "Brain",
+    "D": "Skin",
+    "Description": "Each of your lungs contains about 300 million balloon-like structures called alveoli, which replace the carbon-dioxide waste in your blood with oxygen."
+  },
+  {
+    "Question": "What element can form up to 10 million different compounds?",
+    "Answer": "Carbon",
+    "A": "Oxygen",
+    "B": "Argon",
+    "C": "Carbon",
+    "D": "Hydrogen",
+    "Description": "Carbon is unique in that it is known to form up to 10 million different compounds."
+  },
+  {
+    "Question": "Which organ cannot feel pain?",
+    "Answer": "Brain",
+    "A": "Stomach",
+    "B": "Brain",
+    "C": "Liver",
+    "D": "Heart",
+    "Description": "Although the brain is the tool we use to detect pain, there are no pain receptors in the brain itself -- so the brain cannot actually feel pain."
+  },
+  {
+    "Question": "What percent of the Universe is visible?",
+    "Answer": "4%",
+    "A": "77%",
+    "B": "96%",
+    "C": "12%",
+    "D": "4%",
+    "Description": "All the stars, planets and galaxies that can be seen today make up just 4 percent of the universe. The other 96 percent is made of stuff astronomers can't see, detect or even comprehend. These mysterious substances are called dark energy and dark matter."
+  },
+  {
+    "Question": "How many scents can the average person remember?",
+    "Answer": "50000",
+    "A": "50000",
+    "B": "5000",
+    "C": "500",
+    "D": "500000",
+    "Description": "Your nose can remember 50,000 different scents."
+  },
+  {
+    "Question": "What is the name of the closest large spiral galaxy to our own Milky Way?",
+    "Answer": "Andromeda",
+    "A": "Canis Major Dwarf",
+    "B": "Andromeda",
+    "C": "Centaurus",
+    "D": "Messier 83",
+    "Description": "Andromeda, also known as M31 and NGC224 is a spiral galaxy similar to our own but twice as large. It contains about 400 billion stars."
+  },
+  {
+    "Question": "What is the most slippery substance in the world?",
+    "Answer": "Polytetrafluoroethene",
+    "A": "Crude oil",
+    "B": "Quasicrystals",
+    "C": "Water",
+    "D": "Polytetrafluoroethene",
+    "Description": "Polytetrafluoroethene, also known as Teflon, is often used as a non-stick coating for pans and other cookware. It's resistance to van der Waals forces means that it is the only known surface to which a gecko cannot stick."
+  },
+  {
+    "Question": "What is the world's hottest chili pepper?",
+    "Answer": "Caroline Reaper",
+    "A": "Trinidad Scorpion",
+    "B": "Caroline Reaper",
+    "C": "Naga Viper",
+    "D": "Ghost Pepper",
+    "Description": "The Carolina Reaper has been certified as the world's hottest chili pepper by Guinness World Records since August 7, 2013. The original crossbreed was between a Ghost pepper (a former world record holder) and a red habanero."
+  },
+  {
+    "Question": "What acid gives lemons, limes, oranges, and grapfruit their distinctive taste?",
+    "Answer": "Citric",
+    "A": "Sulfuric",
+    "B": "Citric",
+    "C": "Carbonic",
+    "D": "Nitric",
+    "Description": "Lemons and limes have particularly high concentrations of citric acid."
+  },
+  {
+    "Question": "How big was the largest earthquake on record?",
+    "Answer": "9.5 magnitude",
+    "A": "8.5 magnitude",
+    "B": "9 magnitude",
+    "C": "9.5 magnitude",
+    "D": "10 magnitude",
+    "Description": "The largest recorded earthquake in the world was a magnitude 9.5 quake in Chile on May 22, 1960."
+  },
+  {
+    "Question": "Which chemical element is named after the creator of dynamite?",
+    "Answer": "Nobelium",
+    "A": "Strontium",
+    "B": "Uranium",
+    "C": "Beryllium",
+    "D": "Nobelium",
+    "Description": "Nobelium, a synthetic chemical element with symbol No and atomic number 102, is named in honor of Alfred Nobel, the inventor of dynamite who bequeathed his fortune to institute the Nobel Prizes."
+  },
+  {
+      "Question": "What manned U.S. space program eventually put 12 men on the Moon?",
+      "Answer": "Apollo",
+      "A": "Voyager",
+      "B": "Gemini",
+      "C": "Apollo",
+      "D": "Mercury",
+      "Description": "The first Apollo mission to circle the Moon was Apollo 8, and the first to land was Apollo 11. Apollo 13 never landed because of an accident en route that required the spacecraft to return to Earth after swinging around the far side of the Moon. The last Apollo mission to land on the Moon was Apollo 17."
+    },
+    {
+      "Question": "What color is the sunset on Mars?",
+      "Answer": "Blue",
+      "A": "Blue",
+      "B": "Green",
+      "C": "Red",
+      "D": "Yellow",
+      "Description": "Dust in the Martian atmosphere has fine particles that permit blue light to penetrate the atmosphere more efficiently than longer-wavelength colors."
+    },
+    {
+      "Question": "How old is the Universe?",
+      "Answer": "13.7 billion years",
+      "A": "1.37 billion years",
+      "B": "13.7 billion years",
+      "C": "137 Billion years",
+      "D": "6000 years",
+      "Description": "Measurements made by NASA's WMAP spacecraft have shown that the universe is 13.7 billion years old, plus or minus about 130,000 years."
+    },
+    {
+      "Question": "Which planet has the largest ocean?",
+      "Answer": "Jupiter",
+      "A": "Earth",
+      "B": "Jupiter",
+      "C": "Neptune",
+      "D": "Uranus",
+      "Description": "Computer models show that not only is Jupiter's ocean (made of liquid hydrogen) the largest in the solar system, but that it is about 25,000 miles (40,000 km) deep -- roughly as deep as the Earth is around!"
+    },
+    {
+      "Question": "How many Earths could fit inside the sun?",
+      "Answer": "1 million",
+      "A": "100 thousand",
+      "B": "10 million",
+      "C": "1 thousand",
+      "D": "1 million",
+      "Description": "About a million duplicates of Earth could comfortably fit inside the sun."
+    },
+    {
+      "Question": "How far from Earth is the closest star other than the sun?",
+      "Answer": "4.24 light years",
+      "A": "0.424 light years",
+      "B": "42.4 light years",
+      "C": "424 light years",
+      "D": "4.24 light years",
+      "Description": "Faint Proxima Centauri claims the honor of being our nearest stellar neighbor at only 4.24 light years away."
+    },
+    {
+      "Question": "How long is a day on Jupiter?",
+      "Answer": "9 hours 55 minutes",
+      "A": "9 hours 55 minutes",
+      "B": "90 hours 55 minutes",
+      "C": "900 hours 55 minutes",
+      "D": "9000 hours 55 minutes",
+      "Description": "Jupiter has the shortest day of all the planets. It turns on its axis once every 9 hours and 55 minutes."
+    },
+    {
+      "Question": "Every second, the sun releases energy equivalent to how many nuclear bombs?",
+      "Answer": "100 billion",
+      "A": "100 million",
+      "B": "1 billion",
+      "C": "10 billion",
+      "D": "100 billion",
+      "Description": "A one megaton nuclear bomb -- the equivalent of a million tons of TNT -- detonates with an energy of about 4 x 10^22 ergs. That means the amount of energy emitted by the Sun (4x10^33 / 4 x 10^22) equals 100 billion one-megaton nuclear bombs exploding every second."
+    },
+    {
+      "Question": "What color is Saturn?",
+      "Answer": "Yellow",
+      "A": "Green",
+      "B": "Purple",
+      "C": "Yellow",
+      "D": "Blue",
+      "Description": "Saturn has a pale yellow hue due to ammonia crystals in its upper atmosphere."
+    },
+    {
+      "Question": "What is a Martian day called?",
+      "Answer": "Sol",
+      "A": "Erg",
+      "B": "Nova",
+      "C": "Dyne",
+      "D": "Sol",
+      "Description": "The term sol is used by planetary scientists to refer to the duration of a solar day on Mars. The term was adopted during the Viking project in order to avoid confusion with an Earth day."
+    },
+    {
+      "Question": "What accounts for approximately 85% of the matter in the universe?",
+      "Answer": "Dark Matter",
+      "A": "Matter",
+      "B": "Antimatter",
+      "C": "Quantum Matter",
+      "D": "Dark Matter",
+      "Description": "The majority of dark matter is thought to be non-baryonic in nature, possibly being composed of some as-yet undiscovered subatomic particles."
+    },
+    {
+      "Question": "What kind of star is our sun?",
+      "Answer": "Yellow dwarf",
+      "A": "Yellow dwarf",
+      "B": "White dwarf",
+      "C": "Red dwarf",
+      "D": "Red giant",
+      "Description": "At the end of its life, a yellow dwarf star becomes a red giant and white dwarf. Our Sun is a typical yellow dwarf."
+    },
+    {
+      "Question": "Which of Jupiter's moons has about 400 active volcanos?",
+      "Answer": "Io",
+      "A": "Europa",
+      "B": "Ganymede",
+      "C": "Io",
+      "D": "Callisto",
+      "Description": "Io is the most volcanically active body in the Solar System."
+    }
+]

@@ -85,4 +85,12 @@ struct RuleBook {
         WhosMostLikelyRule(image: Images.Nr.three, title: "Game", rule: "The person, who's turn it is, reads out loud the text on the card. Everyone will nominate someone, who they think matches that descrption the best"),
         WhosMostLikelyRule(image: Images.Nr.four, title: "Play", rule: "Play however long you choose to. There is no concrete ending to this game.")
     ]
+    
+    let trivia: [TriviaRule] = [
+        TriviaRule(image: Images.Nr.one, title: "Objective", rule: "The general objective of the game is to answer questions on various topics"),
+        TriviaRule(image: Images.Nr.two, title: "Topics", rule: "There are 6 different categories: geography, sports, movies, history, science, and music"),
+        TriviaRule(image: Images.Nr.three, title: "Choice", rule: "Pick a category that appeals to you the most"),
+        TriviaRule(image: Images.Nr.four, title: "Game", rule: "The question will be presented to you, with 4 possible answers. Only one is a right answer. Tell your friends what you think is a right answer"),
+        TriviaRule(image: Images.Nr.five, title: "Reveal", rule: "Reveal the answer and see if you got it right")
+    ]
 }

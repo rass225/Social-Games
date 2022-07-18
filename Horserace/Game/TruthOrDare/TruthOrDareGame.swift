@@ -13,41 +13,13 @@ struct TruthOrDareGame: View {
     var body: some View {
         VStack{
             PlayersBoard(currentPlayer: $model.currentPlayer, hasPlayersShuffled: $hasPlayersShuffled, players: model.players)
-            HStack(spacing: 0){
-                Button(action: {
-                    model.selectTier(tier: .friendly)
-                }) {
-                    Text("Friendly")
-                        .maxWidth()
-                        .foregroundColor(model.tier == .friendly ? .white : .gray)
-                }
-                Divider().background(.white)
-                Button(action: {
-                    model.selectTier(tier: .challenging)
-                }) {
-                    Text("Challenging")
-                        .maxWidth()
-                        .foregroundColor(model.tier == .challenging ? .white : .gray)
-                }
-                Divider().background(.white)
-                Button(action: {
-                    model.selectTier(tier: .naughty)
-                }) {
-                    Text("Naughty")
-                        .maxWidth()
-                        .foregroundColor(model.tier == .naughty ? .white : .gray)
-                }
-            }
-            .font(.subheadline.weight(.medium))
-            .frame(maxHeight: 36)
-            .background(game.game.gradient)
-            .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
-            .padding(.top, 8)
             GeometryReader { geo in
                 let size = geo.size
-                let desiredWidth = size.width / 1.3
+                let desiredWidth = size.width / 1.25
                 if model.status == .activity {
-                    Ticket(desiredWidth: desiredWidth, title: $model.title, subtitle: $model.label, footnote: model.tier.rawValue)
+                    Ticket(desiredWidth: desiredWidth, title: model.title, subtitle: $model.label, footnote: model.tier.rawValue)
+                        .maxWidth()
+                        .maxHeight()
                 } else {
                     Text(model.title)
                         .font(.title.weight(.semibold))
@@ -97,7 +69,41 @@ struct TruthOrDareGame: View {
                 HomeButton()
             }
             ToolbarItem(placement: .navigationBarTrailing) {
-                RulesButton(isOpen: $isRulesOpen)
+                Menu(content: {
+                    Section{
+                        Button(action: {
+                            isRulesOpen.toggle()
+                        }) {
+                            Text("Rules")
+                            Images.rulesFill
+                                .symbolRenderingMode(.palette)
+                                .foregroundStyle(.white, game.game.gradient)
+                        }
+                    }
+                    Section{
+                        Button(action: {
+                            model.selectTier(tier: .friendly)
+                        }) {
+                            Image(systemName: model.tier == .friendly ? Images.Tiers.Friendly.selected : Images.Tiers.Friendly.unselected)
+                            Text("Friendly")
+                        }
+                        Button(action: {
+                            model.selectTier(tier: .challenging)
+                        }) {
+                            Image(systemName: model.tier == .challenging ? Images.Tiers.Challenging.selected : Images.Tiers.Challenging.unselected)
+                            Text("Challenging")
+                        }
+                        Button(action: {
+                            model.selectTier(tier: .naughty)
+                        }) {
+                            Image(systemName: model.tier == .naughty ? Images.Tiers.Naughty.selected : Images.Tiers.Naughty.unselected)
+                            Text("Naughty")
+                        }
+                    }
+                }, label: {
+                    GameMenuButton()
+                })
+//
             }
             ToolbarItem(placement: .principal) {
                 GameTitle()

@@ -170,14 +170,32 @@ struct PyramidGame: View {
                 HomeButton()
             }
             ToolbarItem(placement: .navigationBarTrailing) {
-                Button(action: {
-                    restart()
-                }) {
-                    RestartButton()
-                }
-            }
-            ToolbarItem(placement: .navigationBarTrailing) {
-                RulesButton(isOpen: $isRulesOpen)
+                Menu(content: {
+                    Section{
+                        Button(action: {
+                            isRulesOpen.toggle()
+                        }) {
+                            Text("Rules")
+                            Images.rulesFill
+                                .symbolRenderingMode(.palette)
+                                .foregroundStyle(.white, game.game.gradient)
+                        }
+                    }
+                    Section{
+                        Button(action: {
+                            restart()
+                        }) {
+                            Text("Restart")
+                            Images.restart
+                                .symbolRenderingMode(.palette)
+                                .foregroundStyle(.white, game.game.gradient)
+                                .font(.title)
+                        }
+                    }
+                }, label: {
+                    GameMenuButton()
+                })
+                
             }
             ToolbarItem(placement: .principal) {
                 GameTitle()

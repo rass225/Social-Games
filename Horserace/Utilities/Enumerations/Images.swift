@@ -17,6 +17,7 @@ enum Images {
     static let crown = Image(systemName: "crown.fill")
     static let hexagon = Image(systemName: "hexagon.fill")
     static let pentagon = Image(systemName: "pentagon.fill")
+    static let octagon = Image(systemName: "octagon.fill")
     static let seal = Image(systemName: "seal.fill")
     static let pyramid = Image(systemName: "pyramid.fill")
     static let pyramidBig = Image("Pyramid")
@@ -38,6 +39,22 @@ enum Images {
     static let landingIndicator = Image(systemName: "arrowtriangle.down.fill")
     static let rouletteTable = Image("RouletteTable")
     static let mancala = Image("mancala")
+    static let shield = Image(systemName: "shield.fill")
+    
+    enum Tiers {
+        enum Friendly {
+            static let selected = "1.circle.fill"
+            static let unselected = "1.circle"
+        }
+        enum Challenging {
+            static let selected = "2.circle.fill"
+            static let unselected = "2.circle"
+        }
+        enum Naughty {
+            static let selected = "3.circle.fill"
+            static let unselected = "3.circle"
+        }
+    }
     
     enum Nr {
         static let one = Image(systemName: "1.circle")

@@ -15,7 +15,13 @@ class RouletteModel: ObservableObject {
     @Published var title: String = "Welcome to roulette"
     @Published var placedBet: BetType = .none
     @Published var status: GameStatus = .notStarted
-    @Published var mainButtonLabel: String = ""
+    var mainButtonLabel: String {
+        switch status {
+        case .notStarted: return "Play"
+        case .betting: return "Spin"
+        case .roulette: return "Next Player"
+        }
+    }
     @Published var hasPlayersShuffled: Bool = false
     
     let halfSector = 360.0 / 37.0 / 2.0
@@ -23,7 +29,6 @@ class RouletteModel: ObservableObject {
     
     init(players: [String]) {
         self.players = players
-        setMainButtonLabel()
     }
     
     struct Sector: Equatable {
@@ -50,24 +55,12 @@ class RouletteModel: ObservableObject {
         case roulette
     }
     
-    func setMainButtonLabel() {
-        switch status {
-        case .notStarted:
-            mainButtonLabel = "Play"
-        case .betting:
-            mainButtonLabel = "Spin"
-        case .roulette:
-            mainButtonLabel = "Next player"
-        }
-    }
-    
     func mainAction() {
         switch status {
         case .notStarted:
             self.status = .betting
             self.title = "Place your bet"
             self.currentPlayer = 0
-            setMainButtonLabel()
             hasPlayersShuffled = true
         case .betting:
             status = .roulette
@@ -79,14 +72,12 @@ class RouletteModel: ObservableObject {
                 self.isAnimating = false
                 self.sectorFromAngle(angle: self.newAngle)
             }
-            setMainButtonLabel()
         case .roulette:
             incrementPlayer()
             status = .betting
             placedBet = .none
             landingSector = nil
             title = "Place your bet"
-            setMainButtonLabel()
         }
     }
     

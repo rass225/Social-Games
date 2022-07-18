@@ -23,6 +23,8 @@ struct GameSetup: View {
             case .roulette: SetupView()
             case .wheel: SetupView()
             case .mancala: SetupView()
+            case .trivia: TriviaGame()
+            case .millionaire: MillionaireGame(player: "Rasmus")
             }
         }
         .background(DefaultBackground())

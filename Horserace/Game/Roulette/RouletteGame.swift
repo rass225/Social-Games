@@ -19,31 +19,11 @@ struct RouletteGame: View {
                
             betBoard
             
-            switch model.status {
-            case .notStarted:
-                Button(action: {
-                    model.mainAction()
-                }) {
-                    MainButton(label: "Play")
-                }
-            case .betting:
-                Button(action: {
-                    model.mainAction()
-                }) {
-                    MainButton(label: "Spin")
-                }
-                .opacity(model.placedBet == .none ? 0.5 : 1)
-                .disabled(model.placedBet == .none ? true : false)
-                .animation(.linear(duration: 0.5), value: model.placedBet)
-            case .roulette:
-                Button(action: {
-                    model.mainAction()
-                }) {
-                    MainButton(label: "Next Player")
-                }
-                .disabled(model.isAnimating == true)
-                .opacity(model.isAnimating ? 0.5 : 1)
-            }
+            Button(action: {
+                model.mainAction()
+            }) {
+                MainButton(label: model.mainButtonLabel)
+            }.modifier(MainButtonModifier(model: model))
         }
         .navigationModifier(game: .roulette)
         .gameViewModifier(game: game.game)
@@ -60,6 +40,27 @@ struct RouletteGame: View {
         }
         .sheet(isPresented: $isRulesOpen) {
             RuleView(isOpen: $isRulesOpen)
+        }
+    }
+    
+    struct MainButtonModifier: ViewModifier {
+        
+        @ObservedObject var model: RouletteModel
+        
+        public func body(content: Content) -> some View {
+            switch model.status {
+            case .notStarted:
+                content
+            case .betting:
+                content
+                    .opacity(model.placedBet == .none ? 0.5 : 1)
+                    .disabled(model.placedBet == .none ? true : false)
+                    .animation(.linear(duration: 0.5), value: model.placedBet)
+            case .roulette:
+                content
+                    .disabled(model.isAnimating == true)
+                    .opacity(model.isAnimating ? 0.5 : 1)
+            }
         }
     }
 }

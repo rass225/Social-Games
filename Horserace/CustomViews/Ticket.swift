@@ -4,9 +4,9 @@ struct Ticket: View {
     
     @EnvironmentObject var game: Game
     let desiredWidth: Double
-    @Binding var title: String
+    var title: String
     @Binding var subtitle: String
-    let footnote: String
+    @State var footnote: String = ""
     
     private let ticketColors = [Colors.ticketColor, Color.init(light: .init(red: 0.95, green: 0.95, blue: 0.95), dark: .init(red: 0.2, green: 0.2, blue: 0.2))]
     
@@ -38,8 +38,6 @@ struct Ticket: View {
             .clipShape(TicketShape())
             .shadow(color: Colors.darkShadow, radius: 6, x: 0, y: 0)
         }
-        .maxWidth()
-        .maxHeight()
     }
     
     struct TicketShape: Shape {

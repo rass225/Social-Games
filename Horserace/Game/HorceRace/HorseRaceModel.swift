@@ -7,7 +7,7 @@ class HorseRaceModel: ObservableObject {
     
     @Published var deck = Constant.deck.shuffled()
     @Published var deckIndex: Int = 5
-    @Published var hasGameStarted: Bool = false
+    
     @Published var isThereAWinner: Bool = false
     @Published var state: GameState = .notStarted
     @Published var mainLabel = "Play"
@@ -16,12 +16,14 @@ class HorseRaceModel: ObservableObject {
     @Published var heartOffset: CGFloat = 0
     @Published var spadeOffset: CGFloat = 0
     @Published var clubOffset: CGFloat = 0
-    @Published var penaltyBase: Base = .zero
+    
     @Published var firstBase = CardRotation(front: -90, back: 0)
     @Published var secondBase = CardRotation(front: -90, back: 0)
     @Published var thirdBase = CardRotation(front: -90, back: 0)
     @Published var fourthBase = CardRotation(front: -90, back: 0)
     @Published var fifthBase = CardRotation(front: -90, back: 0)
+    private var hasGameStarted: Bool = false
+    private var penaltyBase: Base = .zero
     
     init(players: [HorseRacePlayers]) {
         self.players = players

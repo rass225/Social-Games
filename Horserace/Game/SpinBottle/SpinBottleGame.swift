@@ -26,13 +26,7 @@ struct SpinBottleGame: View {
                     .animation(spinAnimation, value: model.spinDegrees)
                     .overlay{
                         if !model.hasGameStarted {
-                            Text("Tap to spin")
-                                .font(.title3.weight(.regular))
-                                .foregroundColor(Colors.text)
-                                .padding(.horizontal)
-                                .padding(.vertical, 8)
-                                .background(.ultraThinMaterial)
-                                .cornerRadius(8)
+                            overlay
                         }
                     }
                     .onTapGesture {
@@ -56,5 +50,15 @@ struct SpinBottleGame: View {
         .sheet(isPresented: $isRulesOpen) {
             RuleView(isOpen: $isRulesOpen)
         }
+    }
+    
+    var overlay: some View {
+        Text("Tap to spin")
+            .font(.title3.weight(.regular))
+            .foregroundColor(Colors.text)
+            .padding(.horizontal)
+            .padding(.vertical, 8)
+            .background(.ultraThinMaterial)
+            .cornerRadius(8)
     }
 }

@@ -1,0 +1,902 @@
+[
+  {
+    "Question": "Who was awarded the very first gold record?",
+    "Answer": "Perry Como",
+    "A": "The Beatles",
+    "B": "Perry Como",
+    "C": "Elvis Presley",
+    "D": "Nat King Cole",
+    "Description": "Although there were earlier publicity stunts involving records sprayed with gold lacquer, the actual award recognized today as a Gold Record was first awarded to Perry Como in 1958 for his recording of \"Catch a Falling Star\"."
+  },
+  {
+    "Question": "What pop singer is known as \"The Material Girl\"?",
+    "Answer": "Madonna",
+    "A": "Madonna",
+    "B": "Britney Spears",
+    "C": "Celine Dion",
+    "D": "Taylor Swift",
+    "Description": "Madonna became known as \"The Material Girl\" after her hit single of the same name hit the charts in 1984. She hates it, claiming she would never have done the song if she knew the name would stick."
+  },
+  {
+    "Question": "What Depeche Mode song was inspired by Priscilla Presley's book Elvis and Me?",
+    "Answer": "Personal Jesus",
+    "A": "Strangelove",
+    "B": "World in my eyes",
+    "C": "Sweetest perfection",
+    "D": "Personal Jesus",
+    "Description": "Personal Jesus' was inspired by Priscilla Presley's book Elvis And Me, in which she describes her relationship with Elvis Presley."
+  },
+  {
+    "Question": "How much pressure do the strings in a grand piano exert on the frame?",
+    "Answer": "30 tons",
+    "A": "40 tons",
+    "B": "30 tons",
+    "C": "850 kg",
+    "D": "12 tons",
+    "Description": "Each string has a tension of 160-200 lbs, resulting in a total combined force of up to 30 tons in a concert grand."
+  },
+  {
+    "Question": "What is the oldest surviving musical instrument?",
+    "Answer": "Flute",
+    "A": "Flute",
+    "B": "Drum",
+    "C": "Violin",
+    "D": "Trumpet",
+    "Description": "An ancient bone flute, estimated to be about 43,000-82,000 years old, was found by Dr Ivan Turk, a palaeontologist at the Slovenian Academy of Science at a Neanderthal campsite in Ljubljana, Slovenia, in 1998. The oldest known musical instrument, it is made of an old cavebear femur segment with four holes (two complete and two partial)."
+  },
+  {
+    "Question": "What singer holds the world record for most words in a hit single?",
+    "Answer": "Eminem",
+    "A": "50 cent",
+    "B": "Kanye West",
+    "C": "Eminem",
+    "D": "Dr Dre",
+    "Description": "The Detroit rapper achieved a world record with \"Rap God\". The six-minute track contains 1,560 words which means that Eminem is rapping a tongue-twisting 4.28 words per second."
+  },
+  {
+    "Question": "Which jazz musician was known for playing a bent trumpet?",
+    "Answer": "Dizzy Gillespie",
+    "A": "Chet Baker",
+    "B": "Louis Armstrong",
+    "C": "Dizzy Gillepsie",
+    "D": "Miles Davies",
+    "Description": "On January 6, 1953, Gillespie threw a party for his wife Lorraine at Snookie's, a club in Manhattan, where his trumpet's bell got bent upward in an accident. He liked the sound so much he had a special trumpet made with a 45 degree raised bell, which became his trademark."
+  },
+  {
+    "Question": "Which rapper is famous for wearing parachute pants?",
+    "Answer": "Mc Hammer",
+    "A": "Mc Hammer",
+    "B": "Snoop Dogg",
+    "C": "Vanilla Ice",
+    "D": "Ice cube",
+    "Description": "After breaking onto the hip-hop scene in 1990 with the chart-topping tune \"U Can't Touch This\", MC Hammer became synonymous with the flashy pants--billowy trousers that droop in the crotch and taper to the lower leg. But don't call them parachute pants in his presence. \"I detest the term,\" he told Racked in 2016. \"They're called Hammer pants."
+  },
+  {
+    "Question": "What did Freddie Mercury attribute his enhanced vocal range to?",
+    "Answer": "Extra teeth",
+    "A": "Larger lungs",
+    "B": "Genetics",
+    "C": "Lots of practice",
+    "D": "Extra teeth",
+    "Description": "Mercury was born with four extra teeth and attributed his enhanced vocal range to this. He refused to have his teeth fixed, fearing it would affect his vocal ability."
+  },
+  {
+    "Question": "What was the first rock-n-roll song to hit #1 on the charts?",
+    "Answer": "Rock around the clock",
+    "A": "Tutti-fruti",
+    "B": "Heartbreak hotel",
+    "C": "Rock around the clock",
+    "D": "That's all right",
+    "Description": "The first rock 'n' roll song to hit #1 was \"Rock Around the Clock\" by Bill Haley and His Comets. It held the top spot for 8 weeks."
+  },
+  {
+    "Question": "What band did Jimi Hendrix tour with in 1967?",
+    "Answer": "The Monkees",
+    "A": "The Monkees",
+    "B": "The Rolling Stones",
+    "C": "The Beatles",
+    "D": "The Grateful Dead",
+    "Description": "Jimi managed to get through a total of only seven dates with the Monkees, culminating in his final show on July 17, 1967, which may or may not have ended with Hendrix saluting the crowd with his middle finger."
+  },
+  {
+    "Question": "Which character in Hamilton sings \"The Room Where It Happens\"?",
+    "Answer": "Aaron Burr",
+    "A": "Alexander Hamilton",
+    "B": "George Washington",
+    "C": "Aaron Burr",
+    "D": "Thomas Jefferson",
+    "Description": "Aaron Burr expresses his envy of Alexander Hamilton's influence in the newly-formed government and wishes he had similar power. He decides to rectify this by running for political office in an effort to be in the metaphorical \"room where it happens\"."
+  },
+  {
+    "Question": "Richard Wagner was primarily known for his _____.",
+    "Answer": "Operas",
+    "A": "Operas",
+    "B": "Symphonies",
+    "C": "Ballets",
+    "D": "Organ music",
+    "Description": "Unlike most opera composers, Wagner wrote both the libretto and the music for each of his stage works. Initially establishing his reputation as a composer of works in the romantic vein of Carl Maria von Weber and Giacomo Meyerbeer, Wagner revolutionized opera through his concept of the Gesamtkunstwerk (\"total work of art\"), by which he sought to synthesize the poetic, visual, musical and dramatic arts, with music subsidiary to drama."
+  },
+  {
+    "Question": "Who did the vocals for Pink Floyd's \"Great Gig in the Sky\"?",
+    "Answer": "Clare Torry",
+    "A": "Roger Waters",
+    "B": "Janis Joplin",
+    "C": "Clare Torry",
+    "D": "Vicki Brown",
+    "Description": "Great Gig in the Sky' is one of the few Pink Floyd songs to use a female vocal. The band wanted a girl who could sing like she was having an orgasm. Their engineer, Alan Parsons, brought in a singer he knew named Clare Torry who provided the hauntingly beautiful improvised vocal on the song. Thirty years later, she would sue Pink Floyd over rights to the song."
+  },
+  {
+    "Question": "U2's \"Angel of Harlem\" was written about what singer?",
+    "Answer": "Billie Holiday",
+    "A": "Janis Joplin",
+    "B": "Billie Holiday",
+    "C": "Josephine Baker",
+    "D": "Aretha Franklin",
+    "Description": "U2's \"Angel of Harlem\" was written about Billie Holiday, a Jazz singer who moved to Harlem as a teenager in 1928. She had a difficult childhood which affected her life and career, but she went on to play a variety of nightclubs and became famous for her spectacular voice and ability to move her audience to tears. Her final years, however, were tragic. She became addicted to heroine, was swindled out of her earnings, and died of cirrhosis of the liver at age 44 with only $0.70 in the bank. She was arrested on her deathbed, in 1959, as narcotic addiction at that time was considered a crime, not an illness."
+  },
+  {
+    "Question": "What singer is known as the \"Empress of the Blues\"?",
+    "Answer": "Bessie Smith",
+    "A": "Bessie Smith",
+    "B": "Etta James",
+    "C": "Aretha Franklin",
+    "D": "Dinah Washington",
+    "Description": "Bessie Smith, the greatest of all blues singers, is known as the \"Empress of the Blues\". A protégé of an earlier blues singer named Ma Rainey, Bessie recorded during the 1920s. Her flair and dramatic style would set the stage for many artists to come, including other transitional favorites from the 1950's, such as Etta James and Dinah Washington. Bessie Smith died at the young age of forty-three in a tragic automobile accident."
+  },
+  {
+    "Question": "Who was rocketed to super-stardom in 1998 by the hit single \"Baby One More Time\"?",
+    "Answer": "Britney Spears",
+    "A": "Christina Aguilera",
+    "B": "Madonna",
+    "C": "Britney Spears",
+    "D": "Beyonce",
+    "Description": "Baby One More Time' was Britney Spears' first hit. The album sold over 13 million copies in the US and rocketed Britney to super-stardom."
+  },
+  {
+    "Question": "Which of Sheryl Crow's hit singles was adapted from the poem \"Fun\" by Wyn Cooper?",
+    "Answer": "All I wanna do",
+    "A": "Soak up the sun",
+    "B": "Leaving Las Vegas",
+    "C": "If it makes you happy",
+    "D": "All I wanna do",
+    "Description": "All I Wanna Do' is adapted from the poem \"Fun\" by Wyn Cooper. Sheryl Crow had written music for the song but was unhappy with her original lyrics. Her producer bought her ten random books of poetry, and Crow adapted \"Fun\" to accompany the music. Cooper is listed as a co-writer and receives royalties from the song."
+  },
+  {
+    "Question": "What was the band known as Linkin Park originally called?",
+    "Answer": "Xero",
+    "A": "Xero",
+    "B": "Meteora",
+    "C": "Hybrid Theory",
+    "D": "Drive my car",
+    "Description": "While Linkin Park was at one time called \"Hybrid Theory\", they started out as \"Xero\". For legal reasons, they eventually dropped both of the original names and settled on \"Linkin Park\" (a deliberate misspelling of the Santa Monica, California landmark Lincoln Park)."
+  },
+  {
+    "Question": "What are piano keys made out of?",
+    "Answer": "Plastic",
+    "A": "Marble",
+    "B": "Ivory",
+    "C": "Plastic",
+    "D": "Porcelain",
+    "Description": "Even though piano keys are referred to as the \"ivories,\" they haven't been made out of ivory since the 1940s to protect endangered species. Today, they are most often made of plastic or resin."
+  },
+  {
+    "Question": "What famous composer has two skulls in his tomb?",
+    "Answer": "Joseph Haydn",
+    "A": "Edvard Grieg",
+    "B": "Joseph Haydn",
+    "C": "Wolfgang Amadeus Mozart",
+    "D": "Franz Schubert",
+    "Description": "After his burial in 1809, Joseph Haydn's head was stolen by phrenologists and a replacement skull was left in his tomb. In 1954, the real skull was finally returned, but the substitute was not removed. Thus Haydn's tomb now contains two skulls."
+  },
+  {
+    "Question": "What was Rossini reportedly doing when he wrote the aria 'Di Tanti Palpiti'?",
+    "Answer": "Waiting for his food at a restaurant",
+    "A": "Walking his dog",
+    "B": "Sitting on a park bench",
+    "C": "Waiting for his food at a restaurant",
+    "D": "Playing cards",
+    "Description": "Rossini wrote the aria 'Di Tanti Palpiti' while waiting for some risotto in a Venice restaurant."
+  },
+  {
+    "Question": "How many pieces of wood are there in a modern violin?",
+    "Answer": "70",
+    "A": "8",
+    "B": "34",
+    "C": "16",
+    "D": "70",
+    "Description": "A single violin is made from over 70 individual pieces of wood."
+  },
+  {
+    "Question": "Who is the only member of ZZ Top who doesn't have a beard?",
+    "Answer": "Frank Beard",
+    "A": "Billy Gibbons",
+    "B": "Frank Beard",
+    "C": "Dusty Hill",
+    "D": "John Dyer Baizley",
+    "Description": "The only member of ZZ Top who doesn't have a beard is drummer Frank Beard."
+  },
+  {
+    "Question": "What was the name of the airplane Buddy Holly died in?",
+    "Answer": "American Pie",
+    "A": "Happiness",
+    "B": "American Pie",
+    "C": "So long",
+    "D": "Rave on",
+    "Description": "The airplane that Buddy Holly died in was named American Pie. Don McLean would later write a song about the accident with the same title. The single was a number-one hit in the U.S. for four weeks in 1972."
+  },
+  {
+    "Question": "What is the recommended drying or \"seasoning\" time for wood used to make a violin?",
+    "Answer": "10 years",
+    "A": "10 days",
+    "B": "10 months",
+    "C": "10 weeks",
+    "D": "10 years",
+    "Description": "The drying or seasoning time for a piece of violin wood is generally ten years or more, depending on its size and thickness. Fifty year old wood is even better!"
+  },
+  {
+    "Question": "What movie did Duran Duran get their name from?",
+    "Answer": "Barbarella",
+    "A": "Dr. Strangelove",
+    "B": "Casablanca",
+    "C": "Barbarella",
+    "D": "On the Riviera",
+    "Description": "Duran Duran was named after a mad scientist from the Jane Fonda movie Barbarella."
+  },
+  {
+    "Question": "Which musical term means to play a piece of music lively and fast?",
+    "Answer": "Allegro",
+    "A": "Allegro",
+    "B": "Largo",
+    "C": "Presto",
+    "D": "Allegretto",
+    "Description": "The term \"allegro\" means to play lively and fast."
+  },
+  {
+    "Question": "What kind of guitar is carved into Jimi Hendrix's tombstone?",
+    "Answer": "Fender Stratocaster",
+    "A": "Fender Telecaster",
+    "B": "Fender Stratocaster",
+    "C": "Gibson Les Paul",
+    "D": "Schecter Hellraiser",
+    "Description": "Jimi Hendrix's tombstone has a Fender Stratocaster carved on it."
+  },
+  {
+    "Question": "What was Bob Marley's song \"I Shot the Sheriff\" really about?",
+    "Answer": "Birth control",
+    "A": "His record label",
+    "B": "The media",
+    "C": "Birth control",
+    "D": "Police",
+    "Description": "In the 2012 documentary Bob Marley: The Making of a Legend, Marley's ex-girlfriend reveals the origin of the lyrics. To the surprise of many, she explains that the lyrics, \"Sheriff John Brown always hated me, For what, I don't know: Every time I plant a seed, He said kill it before it grow\" was actually in response to the fact that Marley was very opposed to her use of birth control pills."
+  },
+  {
+    "Question": "How many notes are included in a chromatic scale?",
+    "Answer": "12",
+    "A": "12",
+    "B": "8",
+    "C": "9",
+    "D": "15",
+    "Description": "A chromatic scale includes all twelve notes of an octave."
+  },
+  {
+    "Question": "What instrument is David Oistrakh mostly associated with?",
+    "Answer": "Violin",
+    "A": "Piano",
+    "B": "Violin",
+    "C": "Trumpet",
+    "D": "Flute",
+    "Description": "David Oistrakh was a renowned Soviet classical violinist."
+  },
+  {
+    "Question": "What is the most number of valves you will usually see on a tuba?",
+    "Answer": "6",
+    "A": "3",
+    "B": "4",
+    "C": "5",
+    "D": "6",
+    "Description": "Tubas generally have from three to six valves, though some rare exceptions exist."
+  },
+  {
+    "Question": "Who was the oldest living artist to top the UK Singles Chart?",
+    "Answer": "Tom Jones",
+    "A": "Tom Jones",
+    "B": "Madonna",
+    "C": "Cher",
+    "D": "Louis Armstrong",
+    "Description": "The oldest artist to top the UK singles chart was Tom Jones, who was 68 when \"(Barry) Islands in the Stream\" reached the top in 2009."
+  },
+  {
+    "Question": "How many different instruments did Prince play on his debut album?",
+    "Answer": "27",
+    "A": "8",
+    "B": "16",
+    "C": "4",
+    "D": "27",
+    "Description": "Prince's first album, For You, was recorded at Record Plant Studios. The album was mixed in Los Angeles and released on April 7, 1978. According to the album notes, Prince wrote, produced, arranged, composed, and played all 27 instruments on the recording."
+  },
+  {
+    "Question": "What 1985 charity single sold more than 20 million copies?",
+    "Answer": "We are the world",
+    "A": "Candle in the wind",
+    "B": "That's what friends are for",
+    "C": "We are the world",
+    "D": "Do they know it's christmas",
+    "Description": "We Are the World' raised over $63 million for humanitarian aid in Africa and the US."
+  },
+  {
+    "Question": "Which Beatle had dyslexia?",
+    "Answer": "John Lennon",
+    "A": "John Lennon",
+    "B": "Ringo Starr",
+    "C": "George Harrison",
+    "D": "Paul McCartney",
+    "Description": "John Lennon's beautiful music with the Beatles would not have existed without his perseverance through dyslexia. Lennon excelled at art and music while attending high school, but his grades were poor and he had trouble spelling."
+  },
+  {
+    "Question": "What other name has Pink Floyd performed under?",
+    "Answer": "Leonrad's Lodgers",
+    "A": "Tea set",
+    "B": "Screaming abdabs",
+    "C": "Leonard's Lodgers",
+    "D": "All of the above",
+    "Description": "Pink Floyd performed under various monikers in their early years, including Tea Set, Sigma 6, The Screaming Abdabs and Leonard's Lodgers (after their landlord Mike Leonard)."
+  },
+  {
+    "Question": "What is the longest running stage musical?",
+    "Answer": "The Fantasticks",
+    "A": "Chicago",
+    "B": "The Fantasticks",
+    "C": "Phantom of the opera",
+    "D": "Cats",
+    "Description": "The off-Broadway musical The Fantasticks by Tom Jones and Harvey Schmidt, opened on May 3, 1960 and finally closed on January 13, 2002, having been performed a record 17,162 times at the Sullivan Street Playhouse, Greenwich Village, New York."
+  },
+  {
+    "Question": "What band was originally recruited with an ad that read: \"Macho types wanted: must have moustache\"?",
+    "Answer": "Village people",
+    "A": "Led Zeppelin",
+    "B": "Backstreet Boys",
+    "C": "Village people",
+    "D": "AC/DC",
+    "Description": "The original Village People line-up was recruited via an advert that read \"Macho types wanted: must have moustache\". The group scored a number of disco and dance hits, including \"Macho Man\", \"In the Navy\", and their greatest hit, \"Y.M.C.A.\"."
+  },
+  {
+    "Question": "The largest game of musical chairs included how many participants?",
+    "Answer": "8238",
+    "A": "10678",
+    "B": "8238",
+    "C": "4436",
+    "D": "7901",
+    "Description": "On 5 August 1989, the largest game of musical chairs began with 8,238 participants at the Anglo-Chinese School in Singapore. Three and a half hours later, the game ended with the lucky 15-year-old winner Xu Chong Wei on the last remaining chair."
+  },
+  {
+    "Question": "What musician holds the record for most Top 10 hits on the UK Singles Chart?",
+    "Answer": "Elvis Presley",
+    "A": "Madonna",
+    "B": "John Lennon",
+    "C": "Elvis Presley",
+    "D": "Justin Bieber",
+    "Description": "Elvis Presley holds the record with 77 Top 10 hits."
+  },
+  {
+    "Question": "Which Johnny Cash song did an advertising company want to use for a hemorrhoids ad?",
+    "Answer": "Ring of fire",
+    "A": "Hurt",
+    "B": "Cry cry cry",
+    "C": "All I do is drive",
+    "D": "Ring of fire",
+    "Description": "Johnny Cash's estate was approached by an advertising company seeking permission to use Ring Of Fire in an ad for hemorrhoid cream. The request was refused."
+  },
+  {
+    "Question": "What is the most instruments (different kinds) used in a single piece of music?",
+    "Answer": "315",
+    "A": "429",
+    "B": "315",
+    "C": "220",
+    "D": "178",
+    "Description": "The most instruments (different kinds) used in a single piece of music was 315 and was achieved by Rupam Sarmah and his team, performing a symphony at Jorhat Sports Complex, Assam, India, on 24 February 2013."
+  },
+  {
+    "Question": "What band did Prince form in 1981?",
+    "Answer": "The Time",
+    "A": "Space",
+    "B": "The Revolution",
+    "C": "Earth",
+    "D": "The Time",
+    "Description": "In 1981, Prince formed a side project band called The Time. The band released four albums between 1981 and 1990, with Prince writing and performing most of the instrumentation and backing vocals (sometimes credited under the pseudonyms \"Jamie Starr\" or \"The Starr Company\"), with lead vocals by Morris Day."
+  },
+  {
+    "Question": "What band was originally named Tony Flow and the Miraculously Majestic Masters of Mayhem?",
+    "Answer": "Red Hot Chili Peppers",
+    "A": "AC/DC",
+    "B": "Metallica",
+    "C": "Red Hot Chili Peppers",
+    "D": "The Rolling Stones",
+    "Description": "Originally named Tony Flow and the Miraculously Majestic Masters of Mayhem, the Red Hot Chili Peppers first incarnation featured guitarist Hillel Slovak and drummer Jack Irons, alongside Anthony Kiedis and Flea."
+  },
+  {
+    "Question": "Which of the following was NOT a founding member of the UK Music Hall of Fame?",
+    "Answer": "David Bowie",
+    "A": "David Bowie",
+    "B": "Elvis Presley",
+    "C": "Madonna",
+    "D": "Bob Marley",
+    "Description": "David Bowie was never inducted into the short-loved UK Music Hall of Fame. The five founding members were: Elvis Presley, The Beatles, Bob Marley, Madonna, and U2."
+  },
+  {
+    "Question": "Who played drums on the Beatles \"Love Me Do\"?",
+    "Answer": "Andy White",
+    "A": "Ringo Starr",
+    "B": "Andy White",
+    "C": "Paul McCartney",
+    "D": "Pete Best",
+    "Description": "Andy White, the drummer who played on the definitive version of The Beatles' Love Me Do, never earned more than his original session fee of £7 from the track"
+  },
+  {
+    "Question": "What member of the Red Hot Chili Peppers grew up with Cher as his babysitter?",
+    "Answer": "Anthony Kiedis",
+    "A": "Flea",
+    "B": "Anthony Kiedis",
+    "C": "Chad Smith",
+    "D": "Josh Klinghoffer",
+    "Description": "In his youth, Red Hot Chili Peppers frontman Anthony Kiedis's babysitters included Cher and Sonny Bono."
+  },
+  {
+    "Question": "Who holds the record for the shortest song ever recorded?",
+    "Answer": "Napalm Death",
+    "A": "David Bowie",
+    "B": "The Beatles",
+    "C": "Napalm Death",
+    "D": "Eminem",
+    "Description": "Napalm Death's \"You Suffer\" is the shortest song ever recorded at 1.316 seconds long. Songwriter Justin Broadrick has described it as \"utterly retarded ... ridiculous, but it was hilarious\". The band even released it as a 7-inch single in 1989."
+  },
+  {
+    "Question": "Which country artist recorded two of his best-selling albums in prison?",
+    "Answer": "Johnny Cash",
+    "A": "Johnny Cash",
+    "B": "Merle Haggard",
+    "C": "Randy Travis",
+    "D": "Hank Williams",
+    "Description": "Cash's most popular and best-selling albums were the live albums he recorded in prisons: namely, Johnny Cash at Folsom Prison in 1968 and Johnny Cash at San Quentin in 1969. Throughout his career, he performed in prisons, sympathetic to the plight of inmates who ran afoul of society. Although he himself was arrested seven times on a variety of charges, he only spent a few nights in jail."
+  },
+  {
+    "Question": "The Dixie Chicks ignited a firestorm of controversy by criticizing which U.S. president?",
+    "Answer": "George W. Bush",
+    "A": "Bill Clinton",
+    "B": "George W. Bush",
+    "C": "Donald Trump",
+    "D": "Barack Obama",
+    "Description": "On March 10, 2003, during a London concert, nine days before the 2003 invasion of Iraq, lead vocalist Natalie Maines told the audience: \"We don't want this war, this violence, and we're ashamed that the President of the United States (George W. Bush) is from Texas,\" which garnered a positive reaction from the British audience but led to public protests and boycotts in the United States."
+  },
+  {
+    "Question": "Which rapper is known for her alter egos, which include \"Cookie\", \"Harajuku Barbie\", and \"Roman Zolanski\"?",
+    "Answer": "Nicki Minaj",
+    "A": "Cardi B",
+    "B": "Missy Elliott",
+    "C": "Nicki Minaj",
+    "D": "Lil' Kim",
+    "Description": "With her parents frequently fighting during her childhood, Minaj lived through characters she created as a means of escape. Her first identity was Cookie, who became Harajuku Barbie and (later) Nicki Minaj. For Pink Friday, Minaj created another alter ego: Roman Zolanski, \"a demon inside her\", Minaj's \"twin brother\" whose character she assumes when she is angry. Roman has been compared to Eminem's alter ego Slim Shady, and on \"Roman's Revenge\" Minaj and Eminem collaborate as their alter egos."
+  },
+  {
+    "Question": "What kind of album did Snoop Dogg release in 2018?",
+    "Answer": "Gospel album",
+    "A": "Reggae album",
+    "B": "Hip hop album",
+    "C": "Blues album",
+    "D": "Gospel album",
+    "Description": "In 2018, Snoop announced that he was \"a born-again Christian\" and released his first gospel album, Bible of Love."
+  },
+  {
+    "Question": "What former \"American Idol\" runner-up has been touring with Queen since 2011?",
+    "Answer": "Adam Lambert",
+    "A": "Scott McCeery",
+    "B": "Adam Lambert",
+    "C": "Clay Aiken",
+    "D": "David Archuleta",
+    "Description": "Alongside his solo career, Adam Lambert has collaborated with Queen as lead vocalist for Queen + Adam Lambert since 2011, including several worldwide tours from 2014 to 2020."
+  },
+  {
+    "Question": "What is the name of Eminem's alter ego?",
+    "Answer": "Slim Shady",
+    "A": "Roman Zolanski",
+    "B": "Swity McVay",
+    "C": "Slim Shady",
+    "D": "Sticky Fingaz",
+    "Description": "Slim Shady is the evil and mischievous side of Eminem. He was created when Mathers joined the rap group D12, or the Dirty Dozen. Since there were supposed to be 12 rappers and they only had six, they each came up with an alter ego, and Slim Shady was born. When Eminem raps through the point of view of Slim, his songs are violent and dark, with a comic twist."
+  },
+  {
+    "Question": "Which Beatles song did Mick Jagger sing backup on?",
+    "Answer": "Baby, you're a rich man",
+    "A": "Baby, you're a rich man",
+    "B": "Fixing a hole",
+    "C": "With a little help from my friends",
+    "D": "Getting better",
+    "Description": "Jagger contributed backing vocals and Brian Jones played the oboe on the Beatles' \"Baby You're a Rich Man\". In return, Lennon and McCartney provided high harmonies on \"We Love You\"."
+  },
+  {
+    "Question": "Which member of Pink Floyd was forced out of the band due to mental illness?",
+    "Answer": "Syd Barrett",
+    "A": "Roger Waters",
+    "B": "Nick Mason",
+    "C": "Richard Wright",
+    "D": "Syd Barrett",
+    "Description": "Syd Barrett was the group leader until he gradually lost his mind due to excessive drug use and had to be kicked out of the band. Once described as joyful, friendly, and extroverted, he became increasingly depressed and socially withdrawn, and experienced hallucinations, disorganized speech, memory lapses, intense mood swings, and periods of catatonia. It got to the point where he would stand on stage and refuse to play his guitar. When Barrett couldn't contribute musically, the remaining members hoped he could stay on as a songwriter, similar to what Brian Wilson did for The Beach Boys, but he was too far gone."
+  },
+  {
+    "Question": "Which rock opera did the Who compose?",
+    "Answer": "Tommy",
+    "A": "Jesus Christ Superstar",
+    "B": "Tommy",
+    "C": "The Wall",
+    "D": "American Idiot",
+    "Description": "The Who's Tommy is an exhilarating story of hope, healing and the human spirit. The story of the pinball-playing, deaf, dumb and blind boy who triumphs over his adversities has inspired, amazed and puzzled audiences for more than 50 years."
+  },
+  {
+    "Question": "Which TV show inspired Billie Eilish's first song?",
+    "Answer": "The Walking Dead",
+    "A": "Breaking Bad",
+    "B": "American Horror Story",
+    "C": "South Park",
+    "D": "The Walking Dead",
+    "Description": "\\\"My first real song was about the zombie apocalypse actually,\" Eilish told Harper's Bazaar, \"which is weird because it's out and nobody knows that that's what it's about. It's called 'Fingers Crossed'. I literally just watched The Walking Dead and I took little lines from it. Just watch all of The Walking Dead and you'll find some things that are in my song and some episode titles that are in my song."
+  },
+  {
+    "Question": "Which Madonna song mentions 16 Hollywood icons?",
+    "Answer": "Vogue",
+    "A": "Take a bow",
+    "B": "Vogue",
+    "C": "Materiaö girl",
+    "D": "Who's that girl",
+    "Description": "\\\"Vogue\", which popularized a highly stylized dance trend known as voguing in the 1990s, contains a spoken section, in which Madonna name-checks various golden-era Hollywood celebrities."
+  },
+  {
+    "Question": "Whose music catalog did Michael Jackson purchase the rights to in 1985?",
+    "Answer": "The Beatles",
+    "A": "Etta James",
+    "B": "Diana Ross",
+    "C": "The Beatles",
+    "D": "Elvis Presley",
+    "Description": "During their collaboration on 1983's \"Say Say Say\", former Beatle Paul McCartney advised Michael to invest some of his enormous wealth in music publishing. It was sound financial advice that McCartney may have come to regret in 1985, when Jackson purchased the publishing rights to the vast majority of the Beatles' catalog for $47 million, outbidding McCartney himself."
+  },
+  {
+    "Question": "Which song did Michael Jackson want to sing as a duet with Prince?",
+    "Answer": "Bad",
+    "A": "Beat it",
+    "B": "Bad",
+    "C": "Smooth Criminal",
+    "D": "Man in a mirror",
+    "Description": "Jackson originally envisioned \"Bad\" as a duet with Prince, pitting the two superstars against each other in a musical duel. Producer Quincy Jones arranged a meeting, but Prince took issue with the song's opening line, \"Your butt is mine.\" He responded to the King of Pop by saying, \"Who's singing that to whom? Because you sure ain't singing that to me--and I sure ain't singing that to you."
+  },
+  {
+    "Question": "Which character sings \"Luck Be a Lady\" in Guys and Dolls?",
+    "Answer": "Sky Masterson",
+    "A": "Joey Biltmore",
+    "B": "Nathan Detroit",
+    "C": "Lt. Brannigan",
+    "D": "Sky Masterson",
+    "Description": "Before betting everything on a roll of the dice, Sky Masterson sings \"Luck Be a Lady\"."
+  },
+  {
+    "Question": "Where does Sally Bowles perform in Cabaret?",
+    "Answer": "Kit Kat Klub",
+    "A": "Moulin Rouge",
+    "B": "Kit Kat Klub",
+    "C": "Europahaus",
+    "D": "Crazy Horse",
+    "Description": "Set in 1931 Berlin as the Nazis are rising to power, Cabaret focuses on the nightlife at the seedy Kit Kat Klub."
+  },
+  {
+    "Question": "The Phantom of the Opera begins with _______.",
+    "Answer": "An auction",
+    "A": "A wedding",
+    "B": "An opera",
+    "C": "A funeral",
+    "D": "An auction",
+    "Description": "In 1905 Paris, the Opéra Populaire hosts an auction of old theatrical memorabilia. Among the attendees is the elderly Vicomte Raoul de Chagny, who purchases a papier-mâché music box with a monkey figurine that has sentimental value to him. The auctioneer then presents a shattered chandelier that has been renovated with electrical wiring, alluding to a connection with \"the strange affair of the Phantom of the Opera, a mystery never fully explained."
+  },
+  {
+    "Question": "Which musical with an all-black cast broke the record for most Broadway performances?",
+    "Answer": "Shuffle along",
+    "A": "Shuffle along",
+    "B": "Dreamgirls",
+    "C": "Once on this island",
+    "D": "The wiz",
+    "Description": "Shuffle Along premiered on Broadway in 1921 and marked the first full-fledged Broadway musical with an all-black cast, playwright, composer and lyricist. The show was a hit, running for a then-record 484 nights on Broadway. It launched the careers of Josephine Baker, Adelaide Hall, Florence Mills, Fredi Washington and Paul Robeson, and became such a hit that it caused \"curtain time traffic jams\" on West 63rd Street."
+  },
+  {
+    "Question": "What was Disney's first Broadway musical?",
+    "Answer": "Beauty and the beast",
+    "A": "The little mermaid",
+    "B": "The lion king",
+    "C": "Beauty and the beast",
+    "D": "Mulan",
+    "Description": "Beauty and the Beast premiered on Broadway on April 18, 1994. A massive commercial success, it ran on Broadway for thirteen years (1994-2007) and became Broadway's tenth longest-running production in history."
+  },
+  {
+    "Question": "Which Broadway musical is based on the 1924 trials of accused murderers Beulah Annan and Belva Gaertner?",
+    "Answer": "Chicago",
+    "A": "Sweeney Todd",
+    "B": "Little shop of horrors",
+    "C": "Chicago",
+    "D": "A gentleman's guide to love and murder",
+    "Description": "Chicago is based on a play of the same name by reporter and playwright Maurine Dallas Watkins, who was assigned to cover the 1924 trials of Annan and Gaertner for the Chicago Tribune. In the early 1920s, Chicago's press and public became riveted by the subject of homicides committed by women. Several high-profile cases arose, which generally involved women killing their lovers or husbands. These cases were tried against a backdrop of changing views of women in the jazz age, and a long string of acquittals by Cook County juries of female murderers (juries at the time were all male). A lore arose that, in Chicago, feminine or attractive women could not be convicted."
+  },
+  {
+    "Question": "Which musical tells the story of two friends named Elphaba and Galinda?",
+    "Answer": "Wicked",
+    "A": "Cats",
+    "B": "Wicked",
+    "C": "The prom",
+    "D": "She loves me",
+    "Description": "Wicked tells the story of two unlikely friends, Elphaba (the Wicked Witch of the West) and Galinda (whose name later changes to Glinda the Good Witch), who struggle through conflicting personalities and viewpoints, rivalry over the same love-interest, reactions to the Wizard's corrupt government, and, ultimately, Elphaba's private fall from grace."
+  },
+  {
+    "Question": "Where are the Sharks from in West Side Story?",
+    "Answer": "Puerto Rico",
+    "A": "Puerto Rico",
+    "B": "Cuba",
+    "C": "Mexico",
+    "D": "Dominican Republic",
+    "Description": "When they encounter members of a Puerto Rican street gang called the Sharks, the Jets, a local white gang, decide to challenge the Sharks to a rumble for undisputed control of the neighborhood."
+  },
+  {
+    "Question": "Which musical is based on the songs of ABBA?",
+    "Answer": "Mamma Mia!",
+    "A": "Gimme gimme gimme",
+    "B": "Mamma mia!",
+    "C": "Waterloo",
+    "D": "Dancing queen",
+    "Description": "Mamma Mia! is a jukebox musical based on the songs of ABBA composed by Benny Andersson and Björn Ulvaeus. The title of the musical is taken from the group's 1975 chart-topper \"Mamma Mia\"."
+  },
+  {
+    "Question": "Who does the Wicked Witch of the West run off with at the end of Wicked?",
+    "Answer": "Scarecrow",
+    "A": "Scarecrow",
+    "B": "Tin woodman",
+    "C": "The wizard of Oz",
+    "D": "Cowardly lion",
+    "Description": "After faking her own death, Elphaba, also known as the \"Wicked Witch of the West,\" runs of with Fiyero, her lover who was transformed into the scarecrow by a spell she cast to save him from the Wizard's guards."
+  },
+  {
+    "Question": "What was one of the first Broadway musicals to center on a homosexual relationship?",
+    "Answer": "La Cage aux Folles",
+    "A": "Avenue Q",
+    "B": "The prom",
+    "C": "Falsettos",
+    "D": "La Cage aux Folles",
+    "Description": "Opening on Broadway in 1983, La Cage aux Folles broke barriers for gay representation on Broadway. It tells the story of a gay couple, Georges, the manager of a Saint-Tropez nightclub featuring drag entertainment, and Albin, his romantic partner and star attraction, and the farcical adventures that ensue when Georges's son, Jean-Michel, brings home his fiancée's ultra-conservative parents to meet them. The show's Act One finale, \"I Am What I Am\", received praise as a \"gay anthem,\" and has been widely recorded."
+  },
+  {
+    "Question": "What was the first Broadway musical with an all-female creative team?",
+    "Answer": "Waitress",
+    "A": "Mean girls",
+    "B": "Waitress",
+    "C": "Fun home",
+    "D": "Wicked",
+    "Description": "Waitress premiered at the Brooks Atkinson Theatre on Broadway in April 2016, becoming the first Broadway musical with an all-female creative team: book by Jessie Nelson, music and lyrics by Sara Bareilles, direction by Diane Paulus, and choreography by Lorin Latarro. \"It's a historic and long overdue moment for Broadway,\" said Paulus in a statement, \"and I'm honored to be working alongside such passionate and inspiring women."
+  },
+  {
+    "Question": "What violinist was rumored to have sold his soul to the devil?",
+    "Answer": "Niccolo Paganini",
+    "A": "Yehudi Menuhin",
+    "B": "George Enescu",
+    "C": "Niccolo Paganini",
+    "D": "Itzhak Perlman",
+    "Description": "At the height of his fame and fortune, Niccolò Paganini (1782-1840) was considered the greatest violinist in the world. In fact, he was such a gifted musician that some people actually believed that he'd sold his soul to the devil for his talent. The rumors of his association with the devil were so persistent that when he died, the Catholic Church denied his body a Catholic burial."
+  },
+  {
+    "Question": "What game did Mozart like to play while he composed symphonies?",
+    "Answer": "Billiards",
+    "A": "Pokker",
+    "B": "Chess",
+    "C": "Checkers",
+    "D": "Billiards",
+    "Description": "Mozart loved to play Billiards, and would sometimes play all night, composing symphonies as he played."
+  },
+  {
+    "Question": "Which composer kept a frog figurine in his pocket?",
+    "Answer": "Edvard Grieg",
+    "A": "Gustav Mahler",
+    "B": "Johannes Brahms",
+    "C": "Edvard Grieg",
+    "D": "Richard Wagner",
+    "Description": "Edvard Grieg (1843-1907) had a collection of small dolls and one of them, a \"lucky frog,\" was his concert companion. Before stepping onto the stage as a pianist or a conductor, he would rub the lucky frog in his pocket for good luck."
+  },
+  {
+    "Question": "Who composed the music for The Nutcracker?",
+    "Answer": "Pyotr Tchaikovsky",
+    "A": "Pyotr Tchaikovsky",
+    "B": "Sergei Prokofiev",
+    "C": "Igor Stravinsky",
+    "D": "Nikolai Rimsky-Korsakov",
+    "Description": "Tchaikovsky's famous ballets (Swan Lake, The Nutcracker and Sleeping Beauty) have some of the best known tunes in all of romantic music."
+  },
+  {
+    "Question": "What church did Bach write much of his music for?",
+    "Answer": "Lutheran",
+    "A": "Anglican",
+    "B": "Lutheran",
+    "C": "Catholic",
+    "D": "Methodist",
+    "Description": "He composed music for the principal Lutheran churches of Leipzig, composing hundreds of four-part harmonizations of Lutheran chorales, as well as several masses, including Mass in B minor, which is among his most popular vocal works."
+  },
+  {
+    "Question": "What is the title of Beethoven's only opera?",
+    "Answer": "Fidelio",
+    "A": "Croesus",
+    "B": "Fidelio",
+    "C": "Capriccio",
+    "D": "Marriage of Figaro",
+    "Description": "Fidelio tells the story of Leonore who, disguised as a prison guard named \"Fidelio\", rescues her husband Florestan from death in a political prison."
+  },
+  {
+    "Question": "What name did Lil Wayne go by originally?",
+    "Answer": "Shrimp Daddy",
+    "A": "Shrimp Daddy",
+    "B": "Baby Daddy",
+    "C": "Lil' Daddy",
+    "D": "Pimp Daddy",
+    "Description": "Yup. Before Dwayne Michael Carter Jr. was known as Lil Wayne, Weezy, or Tunechi, he called himself Shrimp Daddy, with inspiration for the pseudonym coming from former Cash Money artist Pimp Daddy."
+  },
+  {
+    "Question": "How many copies of Eminem's debut album Infinite did he sell?",
+    "Answer": "1000",
+    "A": "100",
+    "B": "1000",
+    "C": "10000",
+    "D": "100000",
+    "Description": "Sales for the album, which he recorded for the independent Web Entertainment label, were not ... ummm ... infinite. In fact, he only sold about 1,000 copies. But poor sales and indifferent reviews led him to craft the angrier, moodier tracks for which he would become famous."
+  },
+  {
+    "Question": "What was the name of Snoop Dogg's debut album?",
+    "Answer": "Doggystyle",
+    "A": "The Doggfather",
+    "B": "Dogg is back in town",
+    "C": "Doggystyle",
+    "D": "To dogg to die",
+    "Description": "The distinctive sounds of Doggystyle helped introduce the hip-hop subgenre of g-funk to a mainstream audience."
+  },
+  {
+    "Question": "What does the \"B\" in Cardi B stand for?",
+    "Answer": "Bacardi",
+    "A": "Beatbox",
+    "B": "Boss",
+    "C": "Bitch",
+    "D": "Bacardi",
+    "Description": "\\\"My sister's name is Hennessy,\" the rapper explained to talk show host Jimmy Fallon. \"So everyone used to call me Bacardi, and I started calling myself Bacardi,\" which eventually was shortened to Cardi B."
+  },
+  {
+    "Question": "What form of vocal percussion is common in hip hop?",
+    "Answer": "Beatboxing",
+    "A": "Freestyling",
+    "B": "Beatboxing",
+    "C": "Chopbusting",
+    "D": "Mouthdrumming",
+    "Description": "Beatboxing is connected with hip-hop culture, often referred to as \"the fifth element\" of hip-hop, although it is not limited to hip-hop music."
+  },
+  {
+    "Question": "Which rapper attempted suicide at the age of 12?",
+    "Answer": "Lil Wayne",
+    "A": "Jay-Z",
+    "B": "Nicki Minaj",
+    "C": "Lil Wayne",
+    "D": "Cardi B",
+    "Description": "In the outro of \"Let It All Work Out\", Wayne opens up about the self-inflicted gunshot wound when he was just 12 years old: \"I aimed where my heart was pounding / I shot it, and I woke up with blood all around me / It's mine, I didn't die, but as I was dying / God came to my side and we talked about it / He sold me another life and he made a prophet."
+  },
+  {
+    "Question": "Who did Jay-Z marry in 2008?",
+    "Answer": "Beyonce",
+    "A": "Rihanna",
+    "B": "Missy Elliott",
+    "C": "Beyonce",
+    "D": "Kelly Rowland",
+    "Description": "Their relationship became a matter of public record on April 22, 2008, but Beyoncé did not publicly debut her $5 million Lorraine Schwartz-designed wedding ring until the Fashion Rocks concert on September 5, 2008."
+  },
+  {
+    "Question": "What rapper ran for President of the United States in 2020?",
+    "Answer": "Kanye West",
+    "A": "Kanye West",
+    "B": "Jay-Z",
+    "C": "Snoop Dogg",
+    "D": "Kendrick Lamar",
+    "Description": "On July 4, 2020, Kanye West announced on Twitter that he would be running in the 2020 presidential election. On July 7, he was interviewed by Forbes about his presidential run and confirmed that he would run as an independent under the \"Birthday Party\", explaining that he chose the name \"Because when we win, it's everybody's 'birthday'.\" Skeptics have suggested that his presidential run may have been a publicity stunt to promote his latest music. West responded to these critics by announcing that he would run again in 2024."
+  },
+  {
+    "Question": "What virtual world did Travis Scott perform live shows in?",
+    "Answer": "Fortnite",
+    "A": "League of Legends",
+    "B": "Minecraft",
+    "C": "Second life",
+    "D": "Fortnite",
+    "Description": "Scott performed five virtual live shows in the video game Fortnite Battle Royale from April 23 to 25, 2020 with visuals based on his Astroworld tour. It received more than 27 million viewers and boosted the sales of Fortnite-branded Cactus Jack products."
+  },
+  {
+    "Question": "Who is considered the \"King of Pop\"?",
+    "Answer": "Michael Jackson",
+    "A": "Michael Jackson",
+    "B": "Freddie Mercury",
+    "C": "Elton John",
+    "D": "Elvis Presley",
+    "Description": "On June 25, 2009, the music world stopped spinning when news broke of the death of Michael Jackson. Dubbed the \"King of Pop\", he is regarded as one of the most significant cultural figures of the 20th century and one of the greatest entertainers in the history of music."
+  },
+  {
+    "Question": "Lady Gaga got her stage name from a _____ song.",
+    "Answer": "Queen",
+    "A": "Michael Jackson",
+    "B": "Queen",
+    "C": "Elton John",
+    "D": "The Beatles",
+    "Description": "In May 2006, Stefani Joanne Angelina Germanotta began dating producer Rob Fusari, who claims he was the first person to call her \"Lady Gaga\", which he derived from the Queen song \"Radio Ga Ga\"."
+  },
+  {
+    "Question": "Which singer was NOT a Mouseketeer on The All-New Mickey Mouse Club?",
+    "Answer": "Ricky Martin",
+    "A": "Britney Spears",
+    "B": "Christina Aguilera",
+    "C": "Justin Timberlake",
+    "D": "Ricky Martin",
+    "Description": "The All-New Mickey Mouse Club ran on the Disney Channel from 1989 to 1994 and featured a number of cast members who went on to become big stars, including Britney Spears, Christina Aguilera, and Justin Timberlake."
+  },
+  {
+    "Question": "What dance craze did Michael Jackson popularize in 1983?",
+    "Answer": "The moonwalk",
+    "A": "The robot",
+    "B": "The moonwalk",
+    "C": "The jerk",
+    "D": "The floss",
+    "Description": "On May 16, 1983, during a performance of \"Billie Jean\" on Motown 25: Yesterday, Today, Forever, Jackson appeared in his signature black trousers, silver socks, silver shirt, black-sequined jacket, rhinestoned glove, and black fedora, spun around, posed, and began moonwalking. From that point forward, the moonwalk became Jackson's signature move."
+  },
+  {
+    "Question": "Where did Billie Eilish record her first studio album?",
+    "Answer": "Her brother's bedroom",
+    "A": "Her uncle's home studio",
+    "B": "Cave",
+    "C": "Her brother's bedroom",
+    "D": "Her grandma's basement",
+    "Description": "When We Fall Asleep, Where Do We Go? was recorded in her brother Finneas' small bedroom studio in Highland Park, Los Angeles. The pair explained that they chose this recording location rather than a professional studio due to the bedroom's intimate and homely nature as well as the manner in which the bedroom affects vocals."
+  },
+  {
+    "Question": "Who is the youngest solo artist with a No. 1 hit on the Billboard Hot 100?",
+    "Answer": "Stevie Wonder",
+    "A": "Stevie Wonder",
+    "B": "Billie Eilish",
+    "C": "Lorde",
+    "D": "Michal Jackson",
+    "Description": "In 1963, the single \"Fingertips\" was a number-one hit on the Billboard Hot 100 when Stevie Wonder was just 13, making him the youngest artist ever to top the chart."
+  },
+  {
+    "Question": "What was the title of Taylor Swift's first album?",
+    "Answer": "Taylor Swift",
+    "A": "Fearless",
+    "B": "Beautiful Eyes",
+    "C": "Taylor Swift",
+    "D": "Speak Now",
+    "Description": "Her self-titled debut album in 2006 peaked at number five on the Billboard 200 and spent the most weeks on the chart in the 2000s."
+  },
+  {
+    "Question": "How big is Mariah Carey's vocal range?",
+    "Answer": "5 octaves",
+    "A": "3 octaves",
+    "B": "4 octaves",
+    "C": "5 octaves",
+    "D": "6 octaves",
+    "Description": "Mariah has a five octave range, with the ability to reach notes beyond the 7th octave. Ron Givens of Entertainment Weekly described it this way: \"First, a rippling, soulful ooh comes rolling effortlessly from her throat: alto. Then, after a quick breath, she goes for the stratosphere, with a sound that nearly changes the barometric pressure in the room. In one brief swoop, she seems to squeal and roar at the same time."
+  },
+  {
+    "Question": "What did Prince change his name to in 1993?",
+    "Answer": "An unpronounceable symbol",
+    "A": "Baron",
+    "B": "A unpronounceable symbol",
+    "C": "King",
+    "D": "Duke",
+    "Description": "In the midst of a contractual dispute with Warner Bros. in 1993, Prince changed his stage name to an unpronounceable symbol (known to fans as the \"Love Symbol\"), and was sometimes referred to as \"The Artist Formerly Known as Prince\" or simply \"The Artist\". He signed with Arista Records in 1998 and began referring to himself by his own name again in 2000."
+  },
+  {
+    "Question": "What band's lead singer is credited with popularizing stage diving?",
+    "Answer": "The Stooges",
+    "A": "The Stooges",
+    "B": "The Clash",
+    "C": "The Who",
+    "D": "The Kinks",
+    "Description": "There are earlier cases of performers throwing themselves into the crowd, but in the early 1970s, stage diving became a regular occurrence for Iggy Pop of the Stooges, and he is often credited with popularizing the practice."
+  }
+]

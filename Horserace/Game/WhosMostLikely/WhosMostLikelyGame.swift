@@ -13,46 +13,28 @@ struct WhosMostLikelyGame: View {
     
     var body: some View {
         VStack{
-            HStack(spacing: 0){
-                Button(action: {
-                    model.selectTier(tier: .friendly)
-                }) {
-                    Text("Friendly")
+            switch model.status {
+            case .notStarted:
+                Spacer()
+                Text(model.currentTitle)
+                    .font(.title.weight(.semibold))
+                    .foregroundColor(Colors.text)
+                    .maxWidth()
+                Spacer()
+            case .activity:
+                GeometryReader { geo in
+                    let size = geo.size
+                    let desiredWidth = size.width / 1.25
+                    Ticket(desiredWidth: desiredWidth, title: model.currentTitle, subtitle: $model.currentStatement, footnote: model.tier.rawValue)
                         .maxWidth()
-                        .foregroundColor(model.tier == .friendly ? .white : .gray)
-                        .font(.subheadline.weight(.regular))
-                }
-                Divider().background(.white)
-                Button(action: {
-                    model.selectTier(tier: .challenging)
-                }) {
-                    Text("Challenging")
-                        .maxWidth()
-                        .foregroundColor(model.tier == .challenging ? .white : .gray)
-                        .font(.subheadline.weight(.medium))
+                        .maxHeight()
                 }
             }
-            .frame(maxHeight: 36)
-            .background(game.game.gradient)
-            .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
-            .padding(.top, 8)
-            GeometryReader { geo in
-                let size = geo.size
-                let desiredWidth = size.width / 1.3
-                if model.status == .activity {
-                    Ticket(desiredWidth: desiredWidth, title: $model.currentTitle, subtitle: $model.currentStatement, footnote: model.tier.rawValue)
-                } else {
-                    Text(model.currentTitle)
-                        .font(.title.weight(.semibold))
-                        .foregroundColor(Colors.text)
-                        .maxWidth()
-                        .padding(.top, size.height / 4)
-                }
-            }
+            
             Button(action: {
                 model.mainButtonAction()
             }) {
-                MainButton(label: model.mainButtonLabel())
+                MainButton(label: model.mainButtonLabel)
             }
         }
         .gameViewModifier(game: .whosMostLikely)
@@ -62,7 +44,34 @@ struct WhosMostLikelyGame: View {
                 HomeButton()
             }
             ToolbarItem(placement: .navigationBarTrailing) {
-                RulesButton(isOpen: $isRulesOpen)
+                Menu(content: {
+                    Section{
+                        Button(action: {
+                            isRulesOpen.toggle()
+                        }) {
+                            Text("Rules")
+                            Images.rulesFill
+                                .symbolRenderingMode(.palette)
+                                .foregroundStyle(.white, game.game.gradient)
+                        }
+                    }
+                    Section{
+                        Button(action: {
+                            model.selectTier(tier: .friendly)
+                        }) {
+                            Image(systemName: model.tier == .friendly ? Images.Tiers.Friendly.selected : Images.Tiers.Friendly.unselected)
+                            Text("Friendly")
+                        }
+                        Button(action: {
+                            model.selectTier(tier: .challenging)
+                        }) {
+                            Image(systemName: model.tier == .challenging ? Images.Tiers.Challenging.selected : Images.Tiers.Challenging.unselected)
+                            Text("Challenging")
+                        }
+                    }
+                }, label: {
+                    GameMenuButton()
+                })
             }
             ToolbarItem(placement: .principal) {
                 GameTitle()

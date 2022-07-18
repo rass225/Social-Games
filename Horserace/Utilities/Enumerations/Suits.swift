@@ -9,14 +9,10 @@ enum Suit: String {
     
     var color: Color {
         switch self {
-        case .heart:
-            return .red
-        case .diamond:
-            return .red
-        case .spades:
-            return .black
-        case .clubs:
-            return .black
+        case .heart: return .red
+        case .diamond: return .red
+        case .spades: return .black
+        case .clubs: return .black
         }
     }
     

@@ -22,6 +22,15 @@ class NeverEverModel: ObservableObject {
     @Published var currentTitle: String = ""
     @Published var statementCollection: [NeverHaveIEverQuestion] = []
     
+    var mainButtonLabel: String {
+        switch status {
+        case .notStarted:
+            return "Play"
+        case .activity:
+            return "Next"
+        }
+    }
+    
     private var currentStatementIndex: Int = 0
     
     init() {
@@ -51,15 +60,6 @@ class NeverEverModel: ObservableObject {
         case .activity:
 //            incrementPlayer()
             statementHandler()
-        }
-    }
-    
-    func mainButtonLabel() -> String {
-        switch status {
-        case .notStarted:
-            return "Play"
-        case .activity:
-            return "Next"
         }
     }
     

@@ -14,6 +14,8 @@ enum Games: String {
     case roulette = "Roulette"
     case wheel = "Wheel"
     case mancala = "Mancala"
+    case trivia = "Trivia"
+    case millionaire = "Who wants to be a millionaire"
     
     var icon : Image {
         switch self {
@@ -29,6 +31,8 @@ enum Games: String {
         case .wheel: return Images.wheel
         case .roulette: return Images.roulette
         case .mancala: return Images.mancala
+        case .trivia: return Images.octagon
+        case .millionaire: return Images.shield
         }
     }
     
@@ -46,6 +50,8 @@ enum Games: String {
         case .roulette: return Text("Roulette")
         case .wheel: return Text("Wheel")
         case .mancala: return Text("Mancala")
+        case .trivia: return Text("Trivia")
+        case .millionaire: return Text("Who wants to be a millionaire")
         }
     }
     
@@ -63,6 +69,8 @@ enum Games: String {
         case .roulette: return Colors.Foregrounds.theme6
         case .wheel: return Colors.Foregrounds.theme5
         case .mancala: return Colors.Foregrounds.theme11
+        case .trivia: return Colors.Foregrounds.theme14
+        case .millionaire: return Colors.Foregrounds.theme13
         }
     }
     
@@ -80,10 +88,55 @@ enum Games: String {
         case .roulette: return Colors.Backgrounds.theme6
         case .wheel: return Colors.Backgrounds.theme5
         case .mancala: return Colors.Backgrounds.theme11
+        case .trivia: return Colors.Backgrounds.theme14
+        case .millionaire: return Colors.Backgrounds.theme13
         }
     }
     
     var gradient : LinearGradient {
         LinearGradient(gradient: Gradient(colors: background), startPoint: .bottom, endPoint: .top)
     }
+    
+    var maxPlayers: PlayerCount {
+        switch self {
+        case .horseRace: return .six
+        case .truthDare: return .six
+        case .neverHaveIEver: return .infintiy
+        case .pyramid: return .six
+        case .spinBottle: return .infintiy
+        case .whosMostLikely: return .infintiy
+        case .higherLower: return .six
+        case .chooser: return .five
+        case .explain: return .infintiy
+        case .roulette: return .six
+        case .wheel: return .six
+        case .mancala: return .two
+        case .trivia: return .infintiy
+        case .millionaire: return .infintiy
+        }
+    }
+    
+    enum PlayerCount {
+        case one
+        case two
+        case three
+        case four
+        case five
+        case six
+        case infintiy
+        
+        var image: Image {
+            switch self {
+            case .one: return Image(systemName: "1.circle.fill")
+            case .two: return Image(systemName: "2.circle.fill")
+            case .three: return Image(systemName: "3.circle.fill")
+            case .four: return Image(systemName: "4.circle.fill")
+            case .five: return Image(systemName: "5.circle.fill")
+            case .six: return Image(systemName: "6.circle.fill")
+            case .infintiy: return Image(systemName: "infinity.circle.fill")
+            }
+        }
+    }
 }
+
+

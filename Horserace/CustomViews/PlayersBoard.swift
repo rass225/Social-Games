@@ -43,15 +43,19 @@ struct PlayersBoard: View {
                     players.shuffle()
                     hasPlayersShuffled.toggle()
                 }) {
-                    Images.shuffle
-                        .symbolRenderingMode(.palette)
-                        .foregroundStyle(.white, game.game.gradient)
-                        .font(.title)
-                        .offset(y: -16)
+                    shuffle
                 }
             }
         }
         .padding(.vertical, 8)
+    }
+    
+    var shuffle: some View {
+        Images.shuffle
+            .symbolRenderingMode(.palette)
+            .foregroundStyle(.white, game.game.gradient)
+            .font(.title)
+            .offset(y: -16)
     }
     
     struct ForegroundModifier: ViewModifier {

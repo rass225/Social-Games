@@ -77,3 +77,17 @@ struct WhosMostLikelyRule: Identifiable {
     let title: String
     let rule: String
 }
+
+struct TriviaRule: Identifiable {
+    var id = UUID()
+    let image: Image
+    let title: String
+    let rule: String
+}
+
+struct MillionaireRule: Identifiable {
+    var id = UUID()
+    let image: Image
+    let title: String
+    let rule: String
+}

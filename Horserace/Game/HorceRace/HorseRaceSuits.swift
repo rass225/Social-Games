@@ -12,6 +12,13 @@ struct HorseRaceSuits: View {
     @State var isRulesOpened: Bool = false
     @State var playerSuits: [HorseRacePlayers] = []
     @State var toGame: Bool = false
+    private var allSet: Bool {
+        if playerSuits.contains(where: { $0.suit == nil }) {
+            return false
+        } else {
+            return true
+        }
+    }
     
     var body: some View {
         VStack{
@@ -66,8 +73,8 @@ struct HorseRaceSuits: View {
             }) {
                 MainButton(label: "Play")
             }
-            .opacity(allSet() ? 1 : 0.7)
-            .disabled(allSet() ? false : true)
+            .opacity(allSet ? 1 : 0.7)
+            .disabled(allSet ? false : true)
             .buttonStyle(PlainButtonStyle())
         }
         .padding(.horizontal, 20)
@@ -106,14 +113,6 @@ struct HorseRaceSuits: View {
                 .padding(.vertical, 12)
                 .font(.headline.weight(.regular))
                 .foregroundColor(Color.white)
-        }
-    }
-    
-    private func allSet() -> Bool {
-        if playerSuits.contains(where: { $0.suit == nil }) {
-            return false
-        } else {
-            return true
         }
     }
 }

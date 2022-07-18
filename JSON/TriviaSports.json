@@ -1,0 +1,866 @@
+[
+  {
+    "Question": "What is the record for red cards given in a single soccer game?",
+    "Answer": "36",
+    "A": "36",
+    "B": "24",
+    "C": "12",
+    "D": "6",
+    "Description": "In 2011, referee Damien Rubino set a world record by giving out THIRTY-SIX (36) red cards in a single match between Claypole and Victoriano Arenas. After a brawl erupted, Rubino sent off all 22 players, every substitute and some technical staff."
+  },
+  {
+    "Question": "Which two countries participated in the first international soccer match?",
+    "Answer": "Scotland & England",
+    "A": "Scotland & England",
+    "B": "France & England",
+    "C": "Germany & France",
+    "D": "Germany & Scotland",
+    "Description": "On November 30, 1872, the national teams of Scotland and England went head to head at West of Scotland Cricket Club's ground at Hamilton Crescent in Partick, Scotland. The match, which was watched by 4,000 spectators, finished in a 0-0 draw."
+  },
+  {
+    "Question": "What was the largest margin of victory in an international soccer match?",
+    "Answer": "31 points",
+    "A": "11 points",
+    "B": "31 points",
+    "C": "21 points",
+    "D": "17 points",
+    "Description": "Some international soccer matches have produced high-scoring thrillers, but nothing can match the 2002 FIFA World Cup qualifying match between Australia and American Samoa which ended with a 31-0 win for the Aussies."
+  },
+  {
+    "Question": "Who was the first player to score at five World Cup editions?",
+    "Answer": "Marta",
+    "A": "Pele",
+    "B": "Ronaldo",
+    "C": "Lothar Matth'us",
+    "D": "Marta",
+    "Description": "Marta is the first footballer of either gender to score at five World Cup editions. She is often regarded as the best female player of all time and was given the nickname \"Pelé in skirts\" by Pelé himself."
+  },
+  {
+    "Question": "What is a soccer field called?",
+    "Answer": "Pitch",
+    "A": "Box",
+    "B": "Court",
+    "C": "Pitch",
+    "D": "Paddock",
+    "Description": "The game is played on a rectangular field called a pitch with a goal at each end."
+  },
+  {
+    "Question": "Which country's soccer team helped secure a truce to the nation's civil war in 2006?",
+    "Answer": "Ivory Coast",
+    "A": "Ivory Coast",
+    "B": "Somalia",
+    "C": "Libya",
+    "D": "Congo",
+    "Description": "The Ivory Coast national football team helped further reduce tensions between government and rebel forces in 2007 by playing a match in the rebel capital of Bouaké, an occasion that brought both armies together peacefully for the first time."
+  },
+  {
+    "Question": "According to the official FIFA rulebook, how long can a goalkeeper hold the ball?",
+    "Answer": "6 seconds",
+    "A": "10 seconds",
+    "B": "12 seconds",
+    "C": "8 seconds",
+    "D": "6 seconds",
+    "Description": "If the goalkeeper holds the ball for more than 6 seconds, the opponent is awarded an indirect free kick."
+  },
+  {
+    "Question": "Who kicked the longest goal in soccer history?",
+    "Answer": "Asmir Begovic",
+    "A": "Tim Howard",
+    "B": "Andy Lonergan",
+    "C": "Mohd Syamsuri Mustafa",
+    "D": "Asmir Begovic",
+    "Description": "On November 2, 2013, the match between Stoke City and Southampton ended in a tie, but it was a tie no one would ever forget. Stoke City's goalkeeper Asmir Begovic shocked the entire stadium when he scored on a shot from his own penalty area. The goal earned him a spot in the Guinness Book of World Records, measuring in at 91.9 meters -- or 100.5 yards."
+  },
+  {
+    "Question": "Who was the first English player to win league titles in four countries?",
+    "Answer": "David Beckham",
+    "A": "Jimmy Greaves",
+    "B": "Peter Shilton",
+    "C": "Billy Wright",
+    "D": "David Beckham",
+    "Description": "David Beckham retired in May 2013 after a 20-year career, during which he won 19 major trophies, as well as league titles in England, Spain, the United States, and France."
+  },
+  {
+    "Question": "What was the fastest goal in World Cup history?",
+    "Answer": "10.8 seconds",
+    "A": "18.3 seconds",
+    "B": "10.8 seconds",
+    "C": "6.2 seconds",
+    "D": "14.7 seconds",
+    "Description": "Turkish soccer legend Hakan Sukur scored a goal against South Korea in the 2002 World Cup Bronze medal match just 10.8 seconds after the opening whistle was blown."
+  },
+  {
+    "Question": "Which country won the first women's World Cup?",
+    "Answer": "United States",
+    "A": "United States",
+    "B": "Sweden",
+    "C": "Germany",
+    "D": "Norway",
+    "Description": "The inaugural tournament, took place in Guangdong, China from 16 to 30 November 1991. It was won by the United States, whose captain April Heinrichs formed a forward line dubbed the \"triple-edged sword\" with Carin Jennings and Michelle Akers-Stahl."
+  },
+  {
+    "Question": "What was the fastest red card ever issued in a game?",
+    "Answer": "2 seconds",
+    "A": "16 seconds",
+    "B": "2 seconds",
+    "C": "8 seconds",
+    "D": "4 seconds",
+    "Description": "Cross Farm Park Celtic striker Lee Todd was sent off just two seconds after the start of a game in October 2000. Apparently Todd uttered a profanity about how loud the referee's whistle was, which provoked the official to send him off and helped Todd achieve this weird, seemingly unbreakable record."
+  },
+  {
+    "Question": "Premier League club Liverpool is also known by which nickname?",
+    "Answer": "The Reds",
+    "A": "The Foxes",
+    "B": "The Magpies",
+    "C": "The Reds",
+    "D": "The Gunners",
+    "Description": "Red has been the main Liverpool F.C. shirt colour since 1896."
+  },
+  {
+    "Question": "What country was home to the world's first soccer league?",
+    "Answer": "England",
+    "A": "Brazil",
+    "B": "England",
+    "C": "Italy",
+    "D": "Scotland",
+    "Description": "The English Football League (EFL), founded in 1888, was the top-level soccer league in England from its formation until 1992, when the top 22 clubs split away to form the Premier League."
+  },
+  {
+    "Question": "What country forfeited a World Cup Qualifier after failing to show up for the match?",
+    "Answer": "Estonia",
+    "A": "Estonia",
+    "B": "Morocoo",
+    "C": "Cameroon",
+    "D": "Scotland",
+    "Description": "In 1996, Scotland traveled to Tallinn to play Estonia in a World Cup Qualifier for France 98, but the home team failed to show up!"
+  },
+  {
+    "Question": "Which player collected the most red cards during his career?",
+    "Answer": "Gerardo Bedoya",
+    "A": "Cyril Rool",
+    "B": "Sergio Ramos",
+    "C": "Alexis Ruano Delgado",
+    "D": "Gerardo Bedoya",
+    "Description": "Arguably the dirtiest player ever to step onto a pitch, Gerardo Bedoya accumulated a whopping 46 red cards during his career. But he didn't stop there. After he retired as a player, Bedoya became manager for Colombian side Independiente Sante Fe and was sent off into the stands during his very first game!"
+  },
+  {
+    "Question": "What other team competes against Real Madrid in \"The Classic\" or \"El Clasico\"?",
+    "Answer": "Barcelona",
+    "A": "Sevilla",
+    "B": "Atletico Madrid",
+    "C": "Valencia",
+    "D": "Barcelona",
+    "Description": "There is often a fierce rivalry between the two strongest teams in a national league, and this is particularly the case in La Liga, where the game between Real Madrid and Barcelona is known as \"The Classic\" (El Clásico). Over the years, the record for Real Madrid and Barcelona is 97 victories for Madrid, 100 victories for Barcelona, and 51 draws."
+  },
+  {
+    "Question": "What soccer player holds the world record for most career goals by a keeper?",
+    "Answer": "Rogerio Ceni",
+    "A": "Rene Higuita",
+    "B": "Jose Luis Chilavert",
+    "C": "Jorge Campos",
+    "D": "Rogerio Ceni",
+    "Description": "Rogério Ceni scored 131 goals playing for São Paulo Futebol Clube in Brazil, from 1997 to 2015."
+  },
+  {
+    "Question": "How long is an international soccer match?",
+    "Answer": "90 minutes",
+    "A": "60 minutes",
+    "B": "45 minutes",
+    "C": "90 minutes",
+    "D": "120 minutes",
+    "Description": "The 90-minute match is divided into two 45-minute halves."
+  },
+  {
+    "Question": "Which national team is nicknamed Les Elephants?",
+    "Answer": "Ivory Coast",
+    "A": "Ivory Coast",
+    "B": "Ghana",
+    "C": "Sri Lanka",
+    "D": "Bangladesh",
+    "Description": "The Ivory Coast national football team earned its nickname when Alain Gouaméné was a goalkeeper for the 1992 team that won the African Cup of Nations. During that tournament, he reportedly kept an elephant's tooth in his cleat. As the story goes, a holy man from one of Ivory Coast's traditional religions told Gouaméné the tooth would make him as large as an elephant in goal. He went on to keep a clean sheet for the entire tournament."
+  },
+  {
+    "Question": "Who is the only soccer player in history to win five FIFA Ballons d'Or?",
+    "Answer": "Lionel Messi",
+    "A": "Diego Maradona",
+    "B": "Lionel Messi",
+    "C": "Pele",
+    "D": "Cristiano Ronaldo",
+    "Description": "Lionel Messi won five FIFA Ballons d'Or, four of which he won consecutively. He was also the first player to win three European Golden Shoes."
+  },
+  {
+    "Question": "What do Arsenal fans call themselves?",
+    "Answer": "Gooners",
+    "A": "Arsonists",
+    "B": "Gunners",
+    "C": "Goners",
+    "D": "Gooners",
+    "Description": "Ask any Arsenal fan, and they'll tell you they're a \"Gooner\" for life. The origin of the term is uncertain, although some sources say the name was started by Tottenham fans as an insult, but nevertheless was adopted by Arsenal fans who quite liked it."
+  },
+  {
+    "Question": "What Premier League club is involved with Manchester United in the \"Roses Rivalry\"?",
+    "Answer": "Leeds United",
+    "A": "Manchester City",
+    "B": "Arsenal",
+    "C": "Liverpool",
+    "D": "Leeds United",
+    "Description": "The \"Roses Rivalry\" with Leeds stems from the Wars of the Roses, fought between the House of Lancaster and the House of York, with Manchester United representing Lancashire and Leeds representing Yorkshire."
+  },
+  {
+    "Question": "Which manager is credited with introducing FC Barcelona to the famous tiki-taka style of play?",
+    "Answer": "Pep Guardiola",
+    "A": "Luis Aragones",
+    "B": "Pep Guardiola",
+    "C": "Johann Cruyff",
+    "D": "Frank Rijkaard",
+    "Description": "Although he is credited with bringing tiki-taka to Barcelona, Pep Guardiola would later distance himself from the style, saying: \"I loathe all that passing for the sake of it. Barça didn't do tiki-taka! You have to pass the ball with a clear intention, with the aim of making it into the opposition's goal\"."
+  },
+  {
+    "Question": "What team won the very first NBA game?",
+    "Answer": "New York Knicks",
+    "A": "Chicago Stags",
+    "B": "Philadelphia Warriors",
+    "C": "Toronto Huskies",
+    "D": "New York Knicks",
+    "Description": "The New York Knicks defeated the Toronto Huskies 68-66 in the very first NBA game on November 1, 1946. Any fan taller than Toronto center George Nostrand was granted free admission."
+  },
+  {
+    "Question": "What NBA player scored 100 points on March 2, 1962?",
+    "Answer": "Wilt Chamberlain",
+    "A": "Bill Russell",
+    "B": "Kareem Abdul-Jabbar",
+    "C": "Wilt Chamberlain",
+    "D": "Elgin Baylor",
+    "Description": "On March 2, 1962, Wilt Chamberlain of the Philadelphia Warriors scored 100 points, the most ever by an NBA player in a single game, during his team's 169-147 win over the New York Knicks. Chamberlain shot 36-of-63 from the field and 28 of 32 from the free-throw line. He also snagged 25 rebounds."
+  },
+  {
+    "Question": "Who was the first player in NBA history to be elected league MVP by a unanimous vote?",
+    "Answer": "Stephen Curry",
+    "A": "Stephen Curry",
+    "B": "Lebron James",
+    "C": "Magic Johnson",
+    "D": "Michael Jordan",
+    "Description": "In 2016, after a record-breaking season in which he led the Warriors to an NBA-record 73 wins and set an individual record of 402 three-point field goals (smashing his own previous league record of 286 set the year before), Golden State Warriors guard Stephen Curry became the NBA's first unanimous Most Valuable Player."
+  },
+  {
+    "Question": "Who was the youngest player to score 10,000 points in the NBA?",
+    "Answer": "Lebron James",
+    "A": "Michael Jordan",
+    "B": "Kobe Bryant",
+    "C": "Lebron James",
+    "D": "Wilt Chamberlain",
+    "Description": "At 23 years and 59 days, LeBron James became the youngest player to score 10,000 points in the NBA."
+  },
+  {
+    "Question": "What team owns the longest winning streak in NBA history?",
+    "Answer": "Los Angeles Lakers",
+    "A": "Miami Heat",
+    "B": "Los Angeles Lakers",
+    "C": "Chicago Bulls",
+    "D": "Golden State Warriors",
+    "Description": "The Los Angeles Lakers won 33 straight games in the 1971-72 season, the most in NBA history."
+  },
+  {
+    "Question": "Who is the all-time leading scorer in men's college basketball?",
+    "Answer": "Pete Maravich",
+    "A": "Freeman Williams",
+    "B": "Larry Bird",
+    "C": "Pete Maravich",
+    "D": "Stephen Curry",
+    "Description": "'Pistol' Pete Maravich, a guard from LSU, not only owns the three highest single-season averages in Division I history, but also the highest career total. Remarkably, he scored 3,667 points (over 400 more than the next closest player) in a mere 83 games."
+  },
+  {
+    "Question": "How many games did Wilt Chamberlain foul out of during his 14 year NBA career?",
+    "Answer": "0",
+    "A": "11",
+    "B": "94",
+    "C": "0",
+    "D": "25",
+    "Description": "Chamberlain never fouled out of a regular season or playoff game in his 14-year NBA career. In fact, his career average was only 2 fouls per game, despite averaging 45.8 minutes per game."
+  },
+  {
+    "Question": "Who is the youngest player in NBA history to record three triple-doubles?",
+    "Answer": "Luka Dončić",
+    "A": "Lebron James",
+    "B": "Luka Dončić",
+    "C": "Magic Johnson",
+    "D": "Michael Jordan",
+    "Description": "On February 6, 2019, at the age of 19, Dallas Maverick Luka Dončić recorded his third triple-double with 19 points, 10 rebounds and 11 assists in a 99-93 win over the Charlotte Hornets. Dončić has four of the five triple-doubles recorded by teenagers in NBA history."
+  },
+  {
+    "Question": "What player won All-Star Game MVP, NBA MVP, and NBA Finals MVP awards in 2000?",
+    "Answer": "Shaquille O'Neal",
+    "A": "Kobe Bryant",
+    "B": "Tim Duncan",
+    "C": "Michael Jordan",
+    "D": "Shaquille O'neil",
+    "Description": "In 2000, Shaquille O'Neal joined Willis Reed (1970) and Michael Jordan (1996), becoming just the third player to sweep MVP honors for the season, capturing the All-Star Game MVP (which he shared with San Antonio's Tim Duncan), NBA MVP, and NBA Finals MVP awards."
+  },
+  {
+    "Question": "Which player holds the NBA record for most assists in a single game?",
+    "Answer": "Scott Skiles",
+    "A": "Scott Skiles",
+    "B": "Rajon Rondo",
+    "C": "Jason Kidd",
+    "D": "John Stockton",
+    "Description": "On December 30, 1990, Magic point guard Scott Skiles racked up 30 assists in a 155-116 victory over the Denver Nuggets, breaking Kevin Porter's NBA single-game assists record (29). More than doubling his points, assists, and steals from the previous season, Skiles was named the NBA's Most Improved Player (1990-91)."
+  },
+  {
+    "Question": "Who is the oldest player to score 50+ points in a game?",
+    "Answer": "Steve Nash",
+    "A": "Michael Jordan",
+    "B": "Grant Hill",
+    "C": "Jamal Crawford",
+    "D": "Steve Nash",
+    "Description": "On April 9, 2019, in a 120-109 season finale loss to the Dallas Mavericks, Phoenix Suns guard Jamal Crawford made NBA history by recording 51 points at 39 years old and 20 days. He broke two NBA records: the oldest player to tally 50+ points--previously held by Michael Jordan at 38 years and 315 days--as well as the most points scored by a player, not in the starting lineup, previously held by Nick Anderson with 50 points."
+  },
+  {
+    "Question": "Who was the first player in NBA history to lead all players in a playoff series in points, rebounds, assists, steals, and blocks?",
+    "Answer": "Lebron James",
+    "A": "Larry Bird",
+    "B": "Michael Jordan",
+    "C": "Lebron James",
+    "D": "Wilt Chamberlain",
+    "Description": "In 2016, LeBron James was named the unanimous NBA Finals MVP after leading all players in points, rebounds, assists, steals, and blocks during the series, a feat that had never been accomplished in an NBA playoff series."
+  },
+  {
+    "Question": "Who was the first player in NBA history to make 400 three-pointers in a season?",
+    "Answer": "Stephen Curry",
+    "A": "Ray Allen",
+    "B": "James Harden",
+    "C": "Stephen Curry",
+    "D": "Dennis Scott",
+    "Description": "During the 2012-13 season, Golden State point guard Stephen Curry set the NBA record for three-pointers made in a regular season, with 272. He surpassed that record in 2015 with 286, and again in 2016 with 402."
+  },
+  {
+    "Question": "What NBA player has won the most league MVPs?",
+    "Answer": "Kareem Abdul-Jabbar",
+    "A": "Lebron James",
+    "B": "Stephen Curry",
+    "C": "Kareem Abdul-Jabbar",
+    "D": "Michael Jordan",
+    "Description": "Kareem Abdul-Jabbar won the award a record-setting six times in his career."
+  },
+  {
+    "Question": "How many points did LeBron James score in his first NBA game?",
+    "Answer": "25",
+    "A": "19",
+    "B": "41",
+    "C": "61",
+    "D": "25",
+    "Description": "In his first professional game, James recorded 25 points against the Sacramento Kings, setting an NBA record for most points scored by a prep-to-pro player in his debut outing."
+  },
+  {
+    "Question": "Who was the shortest player in NBA history?",
+    "Answer": "Muggsy Bogues",
+    "A": "Manute Bol",
+    "B": "Muggsy Bogues",
+    "C": "Earl Boykins",
+    "D": "Spud Webb",
+    "Description": "At 5 ft 3 in, point guard Muggsy Bogues was the shortest player in NBA history. While playing for the Washington Bullets, he was teammates with Manute Bol who was one of the tallest players in NBA history, standing at almost 7 ft 7 in."
+  },
+  {
+    "Question": "Who is the only coach to win both an NCAA national championship and an NBA title?",
+    "Answer": "Larry Brown",
+    "A": "Phil Jackson",
+    "B": "Larry Brown",
+    "C": "Pat Riley",
+    "D": "Red Auerbach",
+    "Description": "Larry Brown is the only coach in basketball history to win both an NCAA national championship (Kansas, 1988) and an NBA title (Pistons, 2004)."
+  },
+  {
+    "Question": "Who invented the game of basketball?",
+    "Answer": "James Naismith",
+    "A": "Walter Camp",
+    "B": "Frank Mahan",
+    "C": "James Naismith",
+    "D": "Abner Doubleday",
+    "Description": "The game of basketball was invented by Dr. James Naismith, a Canadian-American physician, in December 1891 in Springfield, Massachusetts to condition young athletes during cold months. It consisted of peach baskets and a soccer style ball. Naismith lived to see basketball adopted as an Olympic demonstration sport in 1904 and as an official event at the 1936 Summer Olympics in Berlin."
+  },
+  {
+    "Question": "Which NBA team plays at Madison Square Garden?",
+    "Answer": "New York Knicks",
+    "A": "Golden State Warriors",
+    "B": "Brooklyn Nets",
+    "C": "Miami Heat",
+    "D": "New York Knicks",
+    "Description": "Billed as the \"World's Most Famous Arena\", Madison Square Garden is home to the New York Knicks, New York Rangers, and New York Liberty."
+  },
+  {
+    "Question": "In what city were the Houston Rockets originally founded?",
+    "Answer": "San diego",
+    "A": "San diego",
+    "B": "Los Angeles",
+    "C": "Austin",
+    "D": "Houston",
+    "Description": "San Diego Rockets were founded as an expansion team in 1967. In 1971, the Rockets moved to Houston."
+  },
+  {
+    "Question": "What player holds the NBA record for most career assists?",
+    "Answer": "John Stockton",
+    "A": "Magic Johnson",
+    "B": "John Stockton",
+    "C": "Steve Nash",
+    "D": "Jason Kidd",
+    "Description": "John Stockton holds the NBA record for most career assists (15,806) by a margin of more than 3,000, as well as the record for most career steals (3,265)."
+  },
+  {
+    "Question": "Who was the first NBA player to record a triple-double in the All-Star Game?",
+    "Answer": "Michael Jordan",
+    "A": "Michael Jordan",
+    "B": "John Stockton",
+    "C": "Lebron James",
+    "D": "Dwayne Wade",
+    "Description": "In 1997, Michael Jordan became the first player to record a triple-double in All-Star Game history: 14 points, 11 rebounds, 11 assists in 26 minutes."
+  },
+  {
+    "Question": "What NBA team won eight consecutive championships from 1959 to 1966?",
+    "Answer": "Boston Celtics",
+    "A": "Minneapolis Lakers",
+    "B": "New York Knicks",
+    "C": "Boston Celtics",
+    "D": "Philadelphia Warriors",
+    "Description": "In 1959, the Celtics won the NBA Championship after sweeping the Minneapolis Lakers, the first of their record eight consecutive championships. During that time, the Celtics met the Lakers in the Finals five times, starting an intense and often bitter rivalry that has spanned generations."
+  },
+  {
+    "Question": "Which player produced a quadruple-double twice in one month?",
+    "Answer": "Hakeem Olajuwon",
+    "A": "Alvin Robertson",
+    "B": "Hakeem Olajuwon",
+    "C": "David Robinson",
+    "D": "Nate Thurmond",
+    "Description": "Only four players in the history of the NBA have managed to produce a quadruple-double. Hakeem Olajuwon did it twice in one month--first on March 3, 1990, when he recorded 29 points, 18 rebounds, 10 assists, and 11 blocks against the Golden State Warriors, then again on March 29, 1990, when he recorded 18 points, 16 rebounds, 10 assists, and 11 blocks against the Milwaukee Bucks."
+  },
+  {
+    "Question": "Who was the first player to have his jersey number retired by the Miami Heat?",
+    "Answer": "Michael Jordan",
+    "A": "Dwayne Wade",
+    "B": "Alonzo Mourning",
+    "C": "Michael Jordan",
+    "D": "Tim Hardaway",
+    "Description": "The Heat retired Michael Jordan's number 23 jersey on April 11, 2003, to honor Jordan's achievements and contributions in basketball even though he never played for the team. The Heat is the only NBA team other than the Chicago Bulls to have retired the number 23 jersey in honor of Jordan."
+  },
+  {
+    "Question": "Who once played for both the Indiana Pacers and the San Antonio Spurs in thesame game?",
+    "Answer": "Bob Netolicky",
+    "A": "Stephen Jackson",
+    "B": "Kawhi Leonard",
+    "C": "Bob Netolicky",
+    "D": "George Hill",
+    "Description": "On November 14, 1973,Bob Netolicky was playing for the San Antonio Spurs when they lost at home to the Indiana Pacers on a last-second shot. The Spurs protested the loss, and the ABA Commissioner ruled for San Antonio. The Pacers' last-second basket was disallowed, and the remaining 30 seconds of the game (which was the portion that San Antonio had protested) was ordered replayed immediately before the next Pacers-at-Spurs game, on December 2, 1973. By that time, however, Netolicky had been traded to Indiana, so he played the final 30 seconds of regulation for the Pacers, plus the subsequent overtime."
+  },
+  {
+    "Question": "Who is the only 40-year-old player to score 40+ points in a game?",
+    "Answer": "Michael Jordan",
+    "A": "Steve Nash",
+    "B": "Michael Jordan",
+    "C": "Kareem Abdul-Jabbar",
+    "D": "Grant Hill",
+    "Description": "On February 21, 2003, Washington Wizard Michael Jordan dropped 43 points four days after his 40th birthday in an 89-86 win over the New Jersey Nets. He also grabbed 10 rebounds and had 4 steals."
+  },
+  {
+    "Question": "What year was tennis originally introduced as an Olympic sport?",
+    "Answer": "1896",
+    "A": "1896",
+    "B": "1924",
+    "C": "1968",
+    "D": "1988",
+    "Description": "Tennis was originally introduced as an Olympic sport in 1896, but was removed from competition after the 1924 games. It reappeared as a demonstration sport in 1968 and 1984 before being re-introduced as an actual event in 1988."
+  },
+  {
+    "Question": "What is the name for the left side of the tennis court for each player?",
+    "Answer": "Ad court",
+    "A": "Od court",
+    "B": "Deuce court",
+    "C": "Base court",
+    "D": "Ad court",
+    "Description": "In tennis, the ad court is the left side of the court for each player, and the deuce court is the right side of the court for each player."
+  },
+  {
+    "Question": "Who was the first unseeded player to win Wimbledon?",
+    "Answer": "Boris Becker",
+    "A": "Richard Krajicek",
+    "B": "Bjorn Borg",
+    "C": "Boris Becker",
+    "D": "Michael Chang",
+    "Description": "In 1985, Boris Becker became the first unseeded player to win Wimbledon. Only seventeen-years-old at the time, he also became the youngest player to win the title, as well as the first German. In the finals, he overpowered eighth-seeded Kevin Curren 6-3, 6-7, 7-6, 6-4. Becker would go on to win a total of six grand slam events before retiring in 1999."
+  },
+  {
+    "Question": "How long was the longest singles match in recorded tennis history?",
+    "Answer": "11 hours, 5 minutes",
+    "A": "6 hours, 33 minutes",
+    "B": "11 hours, 5 minutes",
+    "C": "7 hours, 12 minutes",
+    "D": "8 hours, 49 minutes",
+    "Description": "John Isner of the United States won the longest tennis match in history on June 24, 2010 when he defeated France's Nicolas Mahut at Wimbledon. The first-round match took 11 hours and 5 minutes over three days, lasting so long it was suspended because of darkness--two nights in a row. Isner won the epic marathon 6-4, 3-6, 6-7 (7), 7-6 (3), 70-68."
+  },
+  {
+    "Question": "The Olympics are held every how many years?",
+    "Answer": "4 years",
+    "A": "3 years",
+    "B": "4 years",
+    "C": "5 years",
+    "D": "6 years",
+    "Description": ""
+  },
+  {
+    "Question": "What’s the national sport of Canada?",
+    "Answer": "Lacrosse",
+    "A": "Football",
+    "B": "Basketball",
+    "C": "Hockey",
+    "D": "Lacrosse",
+    "Description": ""
+  },
+  {
+    "Question": "What country has competed the most times in the Summer Olympics yet hasn’t won any kind of medal?",
+    "Answer": "Liechtenstein",
+    "A": "Liechtenstein",
+    "B": "Bolivia",
+    "C": "Andorra",
+    "D": "Malta",
+    "Description": ""
+  },
+  {
+    "Question": "Which boxer fought against Muhammad Ali and won?",
+    "Answer": "Joe Frazier",
+    "A": "Roberto Duran",
+    "B": "Carlos Monzon",
+    "C": "George Foreman",
+    "D": "Joe Frazier",
+    "Description": ""
+  },
+  {
+    "Question": "How many medals did China win at the Beijing Olympics?",
+    "Answer": "100",
+    "A": "63",
+    "B": "79",
+    "C": "100",
+    "D": "105",
+    "Description": ""
+  },
+  {
+    "Question": "How many holes are played in an average round of golf?",
+    "Answer": "18",
+    "A": "9",
+    "B": "12",
+    "C": "16",
+    "D": "18",
+    "Description": ""
+  },
+  {
+    "Question": "How long is a marathon?",
+    "Answer": "40 km",
+    "A": "28 km",
+    "B": "38.4 km",
+    "C": "40 km",
+    "D": "50 km",
+    "Description": ""
+  },
+  {
+    "Question": "What type of race is the Tour de France?",
+    "Answer": "Bicycle race",
+    "A": "Marathon",
+    "B": "Swimming",
+    "C": "Bicycle",
+    "D": "Running",
+    "Description": ""
+  },
+  {
+    "Question": "What was the first NHL team to win back-to-back Stanley Cup titles?",
+    "Answer": "Ottawa Senators",
+    "A": "New York Rangers",
+    "B": "Ottawa Senators",
+    "C": "Vancouver Millionaires",
+    "D": "Montreal Canadiens",
+    "Description": "On April 4, 1921, the Ottawa Senators defeated the Vancouver Millionaires 2-1 in the decisive fifth game of the 1921 Stanley Cup Final. Jack Darragh scored both goals for the Senators, who became the first NHL team to win back-to-back Stanley Cup titles."
+  },
+  {
+    "Question": "Who was the fastest player in NHL history to reach 1,000 career points?",
+    "Answer": "Wayne Gretzky",
+    "A": "Wayne Gretzky",
+    "B": "Guy Lefleur",
+    "C": "Mario Lemieux",
+    "D": "Eddie Shore",
+    "Description": "On December 19, 1984, while playing in just his 424th career game, Edmonton's Wayne Gretzky had two goals and four assists to become the fastest player in NHL history to reach 1000 career points (breaking Guy Lefleur's record of 720 games). The Oilers won 7-3 over the visiting Los Angeles Kings."
+  },
+  {
+    "Question": "Which NHL team once drafted a player that didn't exist?",
+    "Answer": "Buffalo Sabres",
+    "A": "Atlanta Flames",
+    "B": "Philadelphia Flyers",
+    "C": "Buffalo Sabres",
+    "D": "Pittsburgh Penguins",
+    "Description": "The biggest prank in NHL history occurred in 1974 when Buffalo Sabres GM Punch Imlach selected star center Taro Tsujimoto of the Japan Ice Hockey League's Tokyo Katanas in the 11th round of the NHL draft. The NHL made the pick official, and it was reported by media outlets including The Hockey News. But Taro Tsujimoto didn't exist. In fact, his team didn't exist either."
+  },
+  {
+    "Question": "What is a hockey puck sometimes called?",
+    "Answer": "Biscuit",
+    "A": "Wafer",
+    "B": "Cookie",
+    "C": "Biscuit",
+    "D": "Pretzel",
+    "Description": "A hockey puck is also referred to colloquially as a \"biscuit\". To put the \"biscuit in the basket\" (colloquial for the goal) is to score a goal."
+  },
+  {
+    "Question": "The Stanley Cup has been used as a _______.",
+    "Answer": "All of these",
+    "A": "Toilet",
+    "B": "Baptismal font",
+    "C": "Cereal Bowl",
+    "D": "All of these",
+    "Description": "Each player from the Stanley Cup winning team gets a day with the the trophy, and it has been used for a variety of purposes over the years. Chicago Blackhawks center Andrew Desjardins used it as a giant cereal bowl. Detroit Red Wings left winger Tomas Holmstrom let his cousin use it as a baptismal font for a christening. And Toronto Maple Leafs center Red Kelly placed his infant son in the Cup while posing for pictures, only to discover that his son had had \"an accident\" in the cup."
+  },
+  {
+    "Question": "Who is the youngest NHL captain to ever hoist the Stanley Cup?",
+    "Answer": "Sidney Crosby",
+    "A": "Connor McDavid",
+    "B": "Jonathan Toews",
+    "C": "Sidney Crosby",
+    "D": "Scott Niedermayer",
+    "Description": "Nicknamed \"Sid the Kid\", Sidney Crosby was selected first overall by the Penguins in the 2005 NHL Entry Draft. In 2009, he led the Penguins to their third championship and became the youngest captain in NHL history to win the Stanley Cup at 21 years 10 months."
+  },
+  {
+    "Question": "What was the longest shootout in NHL history?",
+    "Answer": "20 rounds",
+    "A": "18 rounds",
+    "B": "16 rounds",
+    "C": "20 rounds",
+    "D": "14 rounds",
+    "Description": "On December 16, 2014, Nick Bjugstad scored the game-winning goal in the longest shootout in NHL history to lift the Florida Panthers over the Washington Capitals 2-1. Bjugstad's goal came in the 20th round, beating Braden Holtby on the right side. The previous record was 15 rounds."
+  },
+  {
+    "Question": "How tall was the original Stanley Cup?",
+    "Answer": "7 inches",
+    "A": "37 inches",
+    "B": "17 inches",
+    "C": "27 inches",
+    "D": "7 inches",
+    "Description": "The Stanley Cup is named after Canadian Governor General Lord Stanley of Preston, who donated the trophy. The original bowl was only seven inches high and 11 inches wide."
+  },
+  {
+    "Question": "Who holds the NHL record for most points in a single period?",
+    "Answer": "Bryan Trottier",
+    "A": "Wayne Gretzky",
+    "B": "Sam Gagner",
+    "C": "Bryan Trottier",
+    "D": "Darryl Sittler",
+    "Description": "New York Islander Bryan Trottier scored an NHL-record six points (four goals and two assists) in a single period against the New York Rangers on December 23, 1978. He finished the game with eight points (five goals and three assists)."
+  },
+  {
+    "Question": "Which team has the longest undefeated streak?",
+    "Answer": "Philadelphia Flyers",
+    "A": "Pittsburgh Penguins",
+    "B": "Philadelphia Flyers",
+    "C": "Columbus Blue Jackets",
+    "D": "Buffalo Sabres",
+    "Description": "The 1979-80 Philadelphia Flyers put together an astonishing unbeaten streak that has never been matched: going 35 games without a loss (25 wins, 10 ties). It's the longest undefeated streak in NHL history and the longest in any U.S. professional sport."
+  },
+  {
+    "Question": "Where was boxing first introduced as an organized sport?",
+    "Answer": "Greece",
+    "A": "Greece",
+    "B": "Ethiopia",
+    "C": "Rome",
+    "D": "Babylon",
+    "Description": "The earliest evidence of boxing rules date back to Ancient Greece, where boxing was established as an Olympic game in 688 BC. One legend holds that the heroic ruler Theseus invented a form of boxing in which two men sat face to face and beat each other with their fists until one of them died. In time, the boxers began to fight while standing and wearing gloves, sometimes covered with spikes to facilitate greater damage."
+  },
+  {
+    "Question": "What is the fastest knockout ever recorded in a title fight?",
+    "Answer": "11 seconds",
+    "A": "17 seconds",
+    "B": "23 seconds",
+    "C": "5 seconds",
+    "D": "11 seconds",
+    "Description": "In 2017, the WBO bantamweight champion, Zolani Tete, knocked out his opponent, Siboniso Gonya, in 11 seconds. Tete landed the knockout punch just 6 seconds into the fight, but it took the referee another 5 seconds to call the fight."
+  },
+  {
+    "Question": "What boxer killed a man in the ring?",
+    "Answer": "Sugar Ray Robinson",
+    "A": "Jake Lamotta",
+    "B": "Mike Tyson",
+    "C": "Sonny Liston",
+    "D": "Sugar Ray Robinson",
+    "Description": "In June 1947, Sugar Ray Robinson was scheduled to defend his title in a bout against Jimmy Doyle. Robinson tried to back out of the fight after having a dream that he had killed Doyle, but a priest persuaded him to go ahead with the fight. Robinson scored a decisive knockout in the eighth round. Doyle was taken to St. Vincent's Charity Hospital immediately after the bout, where he failed to regain consciousness and died a few hours later."
+  },
+  {
+    "Question": "Who is the only heavyweight boxing champion to retire with an undefeated record?",
+    "Answer": "Rocky Marciano",
+    "A": "Sonny Liston",
+    "B": "Jack Dempsey",
+    "C": "Rocky Marciano",
+    "D": "Muhammad Ali",
+    "Description": "Rocky Marciano retired with a career record of 49-0, including 43 knockouts. His knockout-to-win percentage of 87.75 remains one of the highest in heavyweight boxing history."
+  },
+  {
+    "Question": "What unusual tactic did Mike Tyson try during a 1997 boxing match against Evander Holyfield?",
+    "Answer": "Biting his opponent's ear off",
+    "A": "Boxing one-handed",
+    "B": "Tickling his opponent",
+    "C": "Punching himself in the face",
+    "D": "Biting his opponent's ear off",
+    "Description": "Billed as \"The Sound and the Fury\", Mike Tyson's June 28, 1997 boxing match with Evander Holyfield for the WBA Heavyweight Championship was afterwards referred to as \"The Bite Fight\". Tyson was, of course, disqualified. Doctors performed a 90-minute surgical procedure to close up the wound on Holyfield's ear, but weren't able to reattach the missing portion which disappeared mysteriously during the ambulance ride."
+  },
+  {
+    "Question": "Who was the first fighter to defeat Mike Tyson as a professional?",
+    "Answer": "Buster Douglas",
+    "A": "Orlin Norris",
+    "B": "Buster Douglas",
+    "C": "Frank Bruno",
+    "D": "Evander Holyfield",
+    "Description": "Buster Douglas was a 42-to-1 underdog going into his 1990 fight against Tyson, who was undefeated and considered to be the best boxer in the world for his domination of the division over the previous three years. Defying expectations, Douglas knocked Tyson out in the 10th round to claim the WBC, WBA, and IBF titles."
+  },
+  {
+    "Question": "An Olympic gold medal is made mostly of what metal?",
+    "Answer": "Silver",
+    "A": "Golden State Warriors",
+    "B": "Copper",
+    "C": "Silver",
+    "D": "Nickel",
+    "Description": "The last Olympic medal that was actually solid gold was awarded in 1912. Today, \"gold\" medals are 92.5% silver."
+  },
+  {
+    "Question": "What country boycotted the 1980 Summer Olympics?",
+    "Answer": "United States",
+    "A": "United States",
+    "B": "Cuba",
+    "C": "Russia",
+    "D": "France",
+    "Description": "The United States boycotted the 1980 Summer Olympics to protest the Soviet invasion of Afghanistan."
+  },
+  {
+    "Question": "How old was the oldest Olympic medal winner?",
+    "Answer": "72",
+    "A": "48",
+    "B": "72",
+    "C": "64",
+    "D": "56",
+    "Description": "During the 1920 Summer Olympics, Swedish shooter Oscar Swahn won a silver medal in the double shot running deer contest. He was 72 years old."
+  },
+  {
+    "Question": "The longest wrestling match in Olympic history lasted how many hours?",
+    "Answer": "11 hours",
+    "A": "7 hours",
+    "B": "3 hours",
+    "C": "11 hours",
+    "D": "15 hours",
+    "Description": "In the wrestling semifinal of the 1912 Summer Olympics, Martin Klein and Alfred Asikainen grappled for 11 hours and 40 minutes before Klein finally managed to pin Asikainen. Klein was so exhausted from the bout that he was unable to wrestle for the gold the next day, leaving Swedish wrestler Claes Johansson with the gold medal."
+  },
+  {
+    "Question": "Approximately how many countries compete in the Olympics?",
+    "Answer": "200",
+    "A": "100",
+    "B": "200",
+    "C": "50",
+    "D": "400",
+    "Description": "The Olympic Games are considered the world's foremost sports competition with more than 200 nations participating."
+  },
+  {
+    "Question": "Where were the first Winter Olympics held?",
+    "Answer": "France",
+    "A": "France",
+    "B": "Greece",
+    "C": "Switzerland",
+    "D": "United States",
+    "Description": "Chamonix, France hosted the first Winter Olympics from January 25 to February 5, 1924."
+  },
+  {
+    "Question": "Which color is NOT one of the rings on the Olympic flag?",
+    "Answer": "Orange",
+    "A": "Green",
+    "B": "Yellow",
+    "C": "Orange",
+    "D": "Black",
+    "Description": "The rings, from left to right, are blue, yellow, black, green, and red. The colors were chosen because at least one of them appeared on the flag of every country in the world."
+  },
+  {
+    "Question": "Why was American marathon runner Fred Lorz disqualified during the 1904 Summer Olympics?",
+    "Answer": "Hitchhiking during the race",
+    "A": "Stopping to pee",
+    "B": "Running backwards",
+    "C": "Hitchhiking during the race",
+    "D": "Frinking strychnine",
+    "Description": "Lorz was banned for life by the Amateur Athletic Union after it was discovered that he had hitched a ride in a car for most of the race, then run the last four miles to claim victory."
+  },
+  {
+    "Question": "Actor Johnny Weissmuller won 5 gold medals in what sport?",
+    "Answer": "Swimming",
+    "A": "Swimming",
+    "B": "Boxing",
+    "C": "Gymnastics",
+    "D": "Archery",
+    "Description": "Best known for playing Tarzan in films of the 1930s and 1940s, Weissmuller also won five Olympic gold medals for swimming and one bronze medal for water polo."
+  },
+  {
+    "Question": "How old was the youngest Olympic champion?",
+    "Answer": "7",
+    "A": "13",
+    "B": "11",
+    "C": "9",
+    "D": "7",
+    "Description": "The youngest Olympian ever was a 7-year-old French boy who was a last-minute recruit to the Dutch team that won the coxed pairs rowing race in the 1900 Summer Olympics. His name was never recorded as he became bored waiting for his medal and wandered off."
+  },
+  {
+    "Question": "Which sport made its Olympic debut during the 1920 Summer Olympics?",
+    "Answer": "Ice hockey",
+    "A": "Ice hockey",
+    "B": "Tennis",
+    "C": "Figure skating",
+    "D": "Baseball",
+    "Description": "The 1920 Summer Olympics featured a week of winter sports, with figure skating appearing for the first time since the 1908 Olympics, and ice hockey making its Olympic debut."
+  },
+  {
+    "Question": "What year did baseball become an official Olympic sport?",
+    "Answer": "1992",
+    "A": "1992",
+    "B": "1976",
+    "C": "1928",
+    "D": "1904",
+    "Description": "Baseball unofficially debuted at the 1904 Summer Games, and became an official Olympic sport at the 1992 Summer Olympics."
+  },
+  {
+    "Question": "How many unique viewers watched the 2019 League of Legends World Championship?",
+    "Answer": "100 million",
+    "A": "1 million",
+    "B": "10 million",
+    "C": "50 million",
+    "D": "100 million",
+    "Description": ""
+  },
+  {
+    "Question": "Who was the first gamer on the cover of ESPN Magazine?",
+    "Answer": "Ninja",
+    "A": "PewDiePie",
+    "B": "Ninja",
+    "C": "Shroud",
+    "D": "Jghosty",
+    "Description": "In September 2018, Tyler Blevins. a.k.a. Ninja became the first professional esports player to be featured on the cover of ESPN The Magazine. Prior to retiring his Twitch profile as part of an exclusive partnership with Microsoft's Mixer streaming platform on August 1, 2019, Blevins had over 14 million followers and was the most-followed active Twitch channel."
+  },
+  {
+    "Question": "What type of golf clubs are used for long shots from the tee or fairway?",
+    "Answer": "Woods",
+    "A": "Woods",
+    "B": "Irons",
+    "C": "Wedges",
+    "D": "Putters",
+    "Description": "Woods are used for long shots from the tee or fairway. Irons are for precision shots. Wedges are used when playing from difficult ground such as a sand trap or the rough. Putters are used primarily on the green but can be used for certain approach shots."
+  },
+  {
+    "Question": "What year was NASCAR founded?",
+    "Answer": "1948",
+    "A": "1968",
+    "B": "1948",
+    "C": "1908",
+    "D": "1928",
+    "Description": "The National Association for Stock Car Auto Racing (NASCAR) was founded in 1948 by Ed Otto and William France Sr. for the purpose of promoting the sport of stock car racing. It is the largest sanctioning body of motorsports in the United States."
+  },
+  {
+    "Question": "What was the closest finish in NASCAR history?",
+    "Answer": "0.002",
+    "A": "0.02",
+    "B": "0.2",
+    "C": "0.0002",
+    "D": "0.002",
+    "Description": "The closest finish in NASCAR history took place at the Darlington Raceway on March 16, 2003, when Ricky Craven beat Kurt Busch by a mere .002 seconds. The two drivers actually finished the last stretch of the race with their cars touching!"
+  }
+]

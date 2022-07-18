@@ -16,12 +16,26 @@ class WhosMostLikelyModel: ObservableObject {
     @Published var tier: Tier = .friendly
     @Published var status: Status = .notStarted
     @Published var currentStatement: String = ""
-    @Published var currentTitle: String = ""
+    var currentTitle: String {
+        switch status {
+        case .notStarted:
+            return "Are you ready?"
+        case .activity:
+            return "Who's most likely"
+        }
+    }
+    var mainButtonLabel: String {
+        switch status {
+        case .notStarted:
+            return "Play"
+        case .activity:
+            return "Next"
+        }
+    }
     private var statementCollection: [WhosMostLikelyQuestion] = []
     private var statementIndex: Int = 0
     
     init() {
-        titleLabel()
     }
     
     private func statementHandler() {
@@ -49,7 +63,6 @@ class WhosMostLikelyModel: ObservableObject {
         if self.tier != tier {
             self.tier = tier
             status = .notStarted
-            titleLabel()
             statementIndex = 0
             switch tier {
             case .friendly:
@@ -57,15 +70,6 @@ class WhosMostLikelyModel: ObservableObject {
             case .challenging:
                 fetchWhosMostLikely(tier: .WhosMostLikelyTierTwo)
             }
-        }
-    }
-    
-    private func titleLabel() {
-        switch status {
-        case .notStarted:
-            currentTitle = "Are you ready?"
-        case .activity:
-            currentTitle = "Who's most likely"
         }
     }
     
@@ -78,18 +82,8 @@ class WhosMostLikelyModel: ObservableObject {
         case .notStarted:
                 startGame()
             currentStatement = statementCollection[statementIndex].question
-                titleLabel()
         case .activity:
             statementHandler()
-        }
-    }
-    
-    func mainButtonLabel() -> String {
-        switch status {
-        case .notStarted:
-            return "Play"
-        case .activity:
-            return "Next"
         }
     }
 }

@@ -1,0 +1,875 @@
+[
+    {
+        "Question": "What is Earth's largest continent?",
+        "Answer": "Asia",
+        "A": "Antarctica",
+        "B": "africa",
+        "C": "asia",
+        "D": "europe",
+        "Description": "Currently, Asia is Earth's largest continent at approximately 17,300,000 square miles (44,806,812 sq km). Africa comes in second at about 11,700,000 square miles (30,300,000 sq km)."
+    },
+    {
+        "Question": "What razor-thin country accounts for more than half of the western coastline of South America?",
+        "Answer": "Chile",
+        "A": "chile",
+        "B": "bolivia",
+        "C": "ecuador",
+        "D": "peru",
+        "Description": "With a toothy coastline of 2,650 miles (4,265 km), Chile accounts for more than half of the western coastline of South America. This razor-thin country is wedged between the Pacific Ocean and the Andes, the Earth's longest mountain range."
+    },
+    {
+        "Question": "What river runs through Baghdad?",
+        "Answer": "Tigris",
+        "A": "euphrates",
+        "B": "karun",
+        "C": "jordan",
+        "D": "tigris",
+        "Description": "The Tigris river runs through Baghdad. It is about 1,150 miles (1,800 km) long. The name \"Tigris\" comes from Old Persian and translates as \"the fast one\"."
+    },
+    {
+        "Question": "What country has the most natural lakes?",
+        "Answer": "Canada",
+        "A": "united  states",
+        "B": "Australia",
+        "C": "Canada",
+        "D": "India",
+        "Description": "Canada has more than half of all the natural lakes in the world. An impressive nine percent of the country is covered in fresh water."
+    },
+    {
+        "Question": "What is the only sea without any coasts?",
+        "Answer": "Sargasso sea",
+        "A": "Celebes sea",
+        "B": "Mediterranean sea",
+        "C": "Sargasso sea",
+        "D": "Adriatic sea",
+        "Description": "The Sargasso Sea is a region in the middle of the North Atlantic Ocean. Surrounded by ocean currents, it is the only sea on Earth which has no coastline. It is bounded on the west by the Gulf Stream; on the north, by the North Atlantic Current; on the east, by the Canary Current; and on the south, by the North Atlantic Equatorial Current."
+    },
+    {
+        "Question": "What percentage of the River Nile is located in Egypt?",
+        "Answer": "22%",
+        "A": "9%",
+        "B": "83%",
+        "C": "22%",
+        "D": "100%",
+        "Description": "Although it is generally associated with Egypt, only 22% of the Nile's course runs through Egypt."
+    },
+    {
+        "Question": "What is the driest place on Earth?",
+        "Answer": "McMurdo, Antarctica",
+        "A": "Atacama desert",
+        "B": "Sahara Desert",
+        "C": "McMurdo, Antarctica",
+        "D": "Kufra, Libya",
+        "Description": "The driest place on Earth: the McMurdo Dry Valleys in Antactica. It hasn't rained there for more than 2 million years!"
+    },
+    {
+        "Question": "In what country can you visit Machu Picchu?",
+        "Answer": "Peru",
+        "A": "Peru",
+        "B": "Bolivia",
+        "C": "Columbia",
+        "D": "Chile",
+        "Description": "Machu Picchu is a 15th-century Inca citadel located in the Cusco Region, Urubamba Province, Machupicchu District in Peru, above the Sacred Valley."
+    },
+    {
+        "Question": "Which African nation has the most pyramids?",
+        "Answer": "Sudan",
+        "A": "Algeria",
+        "B": "Libya",
+        "C": "Egypt",
+        "D": "Sudan",
+        "Description": "Sudan is home to over 200 pyramids, more than twice that of Egypt."
+    },
+    {
+        "Question": "What African country served as the setting for Tatooine in Star Wars?",
+        "Answer": "Tunisia",
+        "A": "Ghana",
+        "B": "Tunisia",
+        "C": "Ethiopia",
+        "D": "Gabon",
+        "Description": "Tatooine derived its name from Tataouine, a city in Tunisia located near the site where various scenes were filmed."
+    },
+    {
+        "Question": "What is the oldest city in the world?",
+        "Answer": "Damascus",
+        "A": "Jericho",
+        "B": "Damascus",
+        "C": "Athens",
+        "D": "Jerusalem",
+        "Description": "Damascus, the capital of Syria, is widely believed to be the oldest continuously inhabited city in the world, with evidence of habitation dating back at least 11,000 years."
+    },
+    {
+        "Question": "Which U.S. state has the most active volcanoes?",
+        "Answer": "Alaska",
+        "A": "California",
+        "B": "Washington",
+        "C": "Alaska",
+        "D": "Hawaii",
+        "Description": "There are about 169 volcanoes in the United States that scientists consider active. Most of these (about 130) are located in Alaska, where eruptions occur virtually every year."
+    },
+    {
+        "Question": "What is the flattest continent?",
+        "Answer": "Australia",
+        "A": "Australia",
+        "B": "Africa",
+        "C": "South America",
+        "D": "Antarctica",
+        "Description": "Australia is one of the oldest continents, and because of the effects of 250 million years of erosion it has become the flattest land mass on earth."
+    },
+    {
+        "Question": "What is the largest country on the Arabian Peninsula?",
+        "Answer": "Saudi Arabia",
+        "A": "Saudi Arabia",
+        "B": "United Arab Emirates",
+        "C": "Jordan",
+        "D": "Yemen",
+        "Description": "The Kingdom of Saudi Arabia occupies 80% of the Arabian Peninsula."
+    },
+    {
+        "Question": "What country has the most coastline?",
+        "Answer": "Canada",
+        "A": "China",
+        "B": "United States",
+        "C": "Canada",
+        "D": "Russia",
+        "Description": "If long walks on the beach are your thing, Canada's the place to be. The country's 243,000 km of coastline are the longest in the world. At a pace of about 20 km each day, the stroll would take 33 years. The shores of 52,455 islands are a big part of what makes the coastline so long."
+    },
+    {
+        "Question": "Which of the following volcanoes is NOT located in Antarctica?",
+        "Answer": "Mount Napier",
+        "A": "Mount Melbourne",
+        "B": "Mount Napier",
+        "C": "Mount Berlin",
+        "D": "Mount Hampton",
+        "Description": "Mount Napier is one of the youngest volcanoes in Australia."
+    },
+    {
+        "Question": "What country is home to Kangaroo Island?",
+        "Answer": "Australia",
+        "A": "Australia",
+        "B": "Japan",
+        "C": "Great Britain",
+        "D": "France",
+        "Description": "Kangaroo Island is one of Australia's biggest tourist attractions. Located 70 miles (110 km) southwest of Adelaide, it is the second largest of the southern Australian system of islands after Tasmania. Tens of thousands of people visit Kangaroo Island each year, drawn by its natural wonders, beaches, conservation parks and wildlife sanctuaries."
+    },
+    {
+        "Question": "What continent is located at Latitude 90° S Longitude 0.00° E?",
+        "Answer": "Antarctica",
+        "A": "Antarctica",
+        "B": "South America",
+        "C": "Asia",
+        "D": "Australia",
+        "Description": "Antarctica is located at 90° S Longitude 0.00° E. Not considered a continent until 1840, Antarctica is the coldest and windiest place on earth. On average, winter temperatures range from -40° to -94°F, and it is not uncommon for winds to be clocked at 200 miles per hour."
+    },
+    {
+        "Question": "What is the largest country in South America?",
+        "Answer": "Brazil",
+        "A": "Columbia",
+        "B": "Argentina",
+        "C": "Peru",
+        "D": "Brazil",
+        "Description": "Brazil is the largest and most populous country in South America. It is so large, in fact, that it borders every South American country except for Ecuador and Chile. Brazil covers nearly half of South America and is larger in area than the continental United States of America."
+    },
+    {
+        "Question": "What is the tallest mountain in the world?",
+        "Answer": "Mount Everest",
+        "A": "Aconcagua",
+        "B": "Mount Everest",
+        "C": "Qogir",
+        "D": "Mount Kilamanjaro",
+        "Description": "At 8,850 meters (29,035 ft), Mount Everest is the tallest mountain in the world. In Nepali, Everest is called Sagarmatha or \"Forehead of the Sky\" and in Tibetan it is known as Qomolangma or \"Mother of the Universe\". In 1953, Sir Edmund Hillary and Tenzing Norgay became the first climbers to reach the summit of Mount Everest and return to tell about it"
+    },
+    {
+        "Question": "What city is the capital of Australia?",
+        "Answer": "Canberra",
+        "A": "Melbourne",
+        "B": "Canberra",
+        "C": "Sydney",
+        "D": "Perth",
+        "Description": "In 1908 when Canberra replaced Melbourne as the capital of Australia. Located approximately 300 kilometers southwest of Sydney and 650 kilometers northeast of Melbourne, Canberra is the largest inland city in Australia."
+    },
+    {
+        "Question": "Riyadh is the capital of what Middle-Eastern country?",
+        "Answer": "Saudi Arabia",
+        "A": "Iraq",
+        "B": "Syria",
+        "C": "Saudi Arabia",
+        "D": "Yemen",
+        "Description": "Riyadh is the capital of the Kingdom of Saudi Arabia, the world's largest producer and exporter of oil. A fertile area set in the heartland of the Arabian peninsula, the name Riyadh comes from the Arabic word \"rawdah\" meaning \"a place of gardens and trees\"."
+    },
+    {
+        "Question": "Which of these African nations is NOT landlocked?",
+        "Answer": "Congo",
+        "A": "Burkina Faso",
+        "B": "Niger",
+        "C": "Chad",
+        "D": "Congo",
+        "Description": "The Republic of Congo is NOT landlocked. Located between Angola and Gabon, it borders the South Atlantic Ocean. Congo is one of Africa's largest petroleum producers and has significant potential for offshore development."
+    },
+    {
+        "Question": "What is the smallest independent country on Earth?",
+        "Answer": "Vatican City",
+        "A": "Monaco",
+        "B": "Vatican City",
+        "C": "Nauru",
+        "D": "Grenada",
+        "Description": "With an area of just 0.44 kilometers, Vatican City is the world's smallest country. Also known as the Holy See, it fits within the Italian capital city of Rome, and is the center of the Catholic Church."
+    },
+    {
+        "Question": "What is the deepest point in Earth's oceans?",
+        "Answer": "Mariana Trench",
+        "A": "Java Trench",
+        "B": "Mariana Trench",
+        "C": "Tonga Trench",
+        "D": "Eurasian Basin",
+        "Description": "The deepest part of the ocean is called the Mariana Trench. Located in the western Pacific Ocean, to the east of the Mariana Islands, it reaches a maximum depth of approximately 36,200 feet."
+    },
+    {
+        "Question": "What mountain is nicknamed the \"Savage Mountain\"?",
+        "Answer": "K2",
+        "A": "Annapurna",
+        "B": "K2",
+        "C": "Mount Everest",
+        "D": "Matterhorn",
+        "Description": "K2 is known as the Savage Mountain due to the extreme difficulty of ascent. It has the second-highest fatality rate among the eight thousanders--about one person dies on the mountain for every four who summit."
+    },
+    {
+        "Question": "Along with Spain and France, what is the other country to have both Atlantic and Mediterranean coastlines?",
+        "Answer": "Morocco",
+        "A": "Egypt",
+        "B": "Syria",
+        "C": "Morocco",
+        "D": "Lebanon",
+        "Description": "Morocco is one of only three countries (with Spain and France) to have both Atlantic and Mediterranean coastlines. Its distinct culture is a blend of Arab, indigenous Berber, Sub-Saharan African, and European influences."
+    },
+    {
+        "Question": "What country occupies the southern end of the Arabian Peninsula?",
+        "Answer": "Yemen",
+        "A": "Jordan",
+        "B": "Yemen",
+        "C": "Qatar",
+        "D": "Kuwait",
+        "Description": "Yemen occupies the southern end of the Arabian Peninsula. It is bordered by Saudi Arabia to the north, the Red Sea to the west, the Gulf of Aden and Arabian Sea to the south, and Oman to the east and northeast."
+    },
+    {
+        "Question": "What is the highest waterfall in Europe?",
+        "Answer": "Krimml",
+        "A": "Rhine",
+        "B": "Triberg",
+        "C": "Krimml",
+        "D": "Kjelfossen",
+        "Description": "With their impressive waterfall drop of 380 meters, the Krimml Waterfalls are the fifth highest in the world and Europe's tallest waterfalls. They are one of the most visited tourist features in Austria."
+    },
+    {
+        "Question": "What South American country shares the bulk of the Southern Cone with its neighbor Chile to the west?",
+        "Answer": "Argentina",
+        "A": "Bolivia",
+        "B": "Paraguay",
+        "C": "Argentina",
+        "D": "Brazil",
+        "Description": "Sharing the bulk of the Southern Cone with its neighbor Chile to the west, Argentina is also bordered by Bolivia and Paraguay to the north, Brazil to the northeast, Uruguay and the South Atlantic Ocean to the east, and the Drake Passage to the south."
+    },
+    {
+        "Question": "What is the tallest mountain in North America?",
+        "Answer": "Denali",
+        "A": "Denali",
+        "B": "Mount Steele",
+        "C": "Mount Rushmore",
+        "D": "King Peak",
+        "Description": "Denali (also known as Mount McKinley) is the highest mountain peak in North America. Located in the Alaska Range in the interior of the U.S. state of Alaska, Denali is the centerpiece of Denali National Park and Preserve."
+    },
+    {
+        "Question": "Montevideo is the capital of what South American country?",
+        "Answer": "Uruguay",
+        "A": "Peru",
+        "B": "Paraguay",
+        "C": "Uruguay",
+        "D": "Suriname",
+        "Description": "Montevideo is the capital and largest city of Uruguay. Montevideo has consistently been rated as having the highest quality of life of any city in Latin America."
+    },
+    {
+        "Question": "What are the only three countries completely surrounded by one other country?",
+        "Answer": "Lesotho, Vatican City & San Marino",
+        "A": "Liechtenstein, Tuvalu & Monaco",
+        "B": "Singapore, Tonga & Saint Lucia",
+        "C": "Malta, Granada & Vatican City",
+        "D": "Lesotho, Vatican City & San Marino",
+        "Description": "Lesotho is completely surrounded by South Africa, and Vatican City & San Marino are both completely surrounded by Italy."
+    },
+    {
+        "Question": "What U.S. state shares borders with Louisiana, Arkansas, Oklahoma, and New Mexico?",
+        "Answer": "Texas",
+        "A": "Missouri",
+        "B": "Kansas",
+        "C": "Colorado",
+        "D": "Texas",
+        "Description": "Texas shares borders with the Louisiana, Arkansas, Oklahoma, and New Mexico, as well as the Mexican states of Chihuahua, Coahuila, Nuevo León, and Tamaulipas."
+    },
+    {
+        "Question": "What is the only continent with land in all four hemispheres?",
+        "Answer": "Africa",
+        "A": "Australia",
+        "B": "Asia",
+        "C": "Antarctica",
+        "D": "Africa",
+        "Description": "Africa is the only continent that is in all four hemispheres: north, south, west, and east"
+    },
+    {
+        "Question": "What mountain is closest to the Moon?",
+        "Answer": "Mount Chimborazo",
+        "A": "Nanga Parbat",
+        "B": "Mount Pandim",
+        "C": "Mount Everest",
+        "D": "Mount Chimborazo",
+        "Description": "Although Mt. Everest has the highest altitude in terms of sea level on the planet, because of the equatorial bulge Mount Chimborazo is the closest to the moon."
+    },
+    {
+        "Question": "What are the westernmost and easternmost states in the United States?",
+        "Answer": "Alaska & Alaska",
+        "A": "California & Florida",
+        "B": "Hawaii & Maine",
+        "C": "Alaska & Alaska",
+        "D": "Washington & New York",
+        "Description": "Alaska is the westernmost and northernmost state in the United States, but parts of Alaska are so far west that the state actually stretches into the eastern hemisphere, making it the easternmost state as well!"
+    },
+    {
+        "Question": "What continent contains the most fresh water?",
+        "Answer": "Antarctica",
+        "A": "Africa",
+        "B": "Antarctica",
+        "C": "North America",
+        "D": "Asia",
+        "Description": "The ice sheet in Antarctica is the largest solid ice mass on the planet. The enormous frozen structure contains about 90 percent of all the fresh water on Earth."
+    },
+    {
+        "Question": "What ocean is home to 75% of the Earth's volcanoes?",
+        "Answer": "Pacific",
+        "A": "Pacific",
+        "B": "Indian",
+        "C": "Arctic",
+        "D": "Atlantic",
+        "Description": "The Pacific Ocean basin is home to 75% of the world's volcanoes. These volcanoes actually form a ring around the Pacific Ocean basin and are known as the Ring of Fire."
+    },
+    {
+        "Question": "What is the largest city in the world based on surface area?",
+        "Answer": "Hulunbuir",
+        "A": "Mumbai",
+        "B": "Shanghai",
+        "C": "Dhaka",
+        "D": "Hulunbuir",
+        "Description": "The largest city in the world, based on surface area, is Hulunbuir, Inner Mongolia (China) which is 263,953 km sq (102,000 sq mi)."
+    },
+    {
+        "Question": "What is the only major city located on two continents?",
+        "Answer": "Istanbul",
+        "A": "London",
+        "B": "Rome",
+        "C": "New Delhi",
+        "D": "Istanbul",
+        "Description": "Istanbul is the only major city located on two continents -- Europe and Asia. During its more almost 2,000-year history, it has been the capital of the Roman, Byzantine and Ottoman Empires."
+    },
+    {
+        "Question": "What is the coldest sea on Earth?",
+        "Answer": "White sea",
+        "A": "Persian gulf",
+        "B": "Baltic sea",
+        "C": "White sea",
+        "D": "Caspian sea",
+        "Description": "The White Sea, in Russia, has the lowest temperature, only -2 degrees centigrade."
+    },
+    {
+        "Question": "What is America's largest city by surface area?",
+        "Answer": "Yakutat",
+        "A": "Los Angeles",
+        "B": "Buford",
+        "C": "Yakutat",
+        "D": "New York",
+        "Description": "America's largest city (by landmass) is Yakutat, on a glacier-surrounded bay in southern Alaska. It may only have 660 residents, but it's six times as big as Rhode Island!"
+    },
+    {
+        "Question": "Which of the following lakes is located in an ancient meteorite impact crater?",
+        "Answer": "Lake Bosumtwi",
+        "A": "Lake Mweru",
+        "B": "Lake Bosumtwi",
+        "C": "Lake Poopo",
+        "D": "Lake Titicaca",
+        "Description": "Lake Bosumtwi, situated within an ancient meteorite impact crater, is the only natural lake in Ghana. The Ashanti consider Bosumtwi a sacred lake. According to traditional belief, the souls of the dead come here to bid farewell to the god Asase Ya."
+    },
+    {
+        "Question": "How many tributaries does the Amazon River have?",
+        "Answer": "1100",
+        "A": "560",
+        "B": "3500",
+        "C": "9",
+        "D": "1100",
+        "Description": "The Amazon River has over 1,100 tributaries, 17 of which are over 1,500 kilometres long."
+    },
+    {
+        "Question": "What is the oldest active volcano on Earth?",
+        "Answer": "Mount Etna",
+        "A": "Mount Yasur",
+        "B": "Mount Fuju",
+        "C": "Mount Olympus",
+        "D": "Mount Etna",
+        "Description": "Mount Etna of Italy is thought to be the world's oldest active volcano. The first record of its eruption dates back to 1500 BC. Since then, Etna has erupted 190 times."
+    },
+    {
+        "Question": "Of the eight major islands in the Hawaiian Archipelago, what is the only one that is uninhabited?",
+        "Answer": "Kaho'olawe",
+        "A": "Coconut island",
+        "B": "Molokai",
+        "C": "Niihau",
+        "D": "Kaho'olawe",
+        "Description": "Of the eight major islands in the Hawaiian Archipelago, Kaho'olawe is the only one that is uninhabited. It has always been sparsely populated due to its lack of fresh water, and was once used for target practice by the U.S. military."
+    },
+    {
+        "Question": "What river runs through Paris?",
+        "Answer": "Seine",
+        "A": "Danube",
+        "B": "Seine",
+        "C": "Elbe",
+        "D": "Thames",
+        "Description": "The Seine River runs through Paris. The Seine flows 482 miles through France. The river begins in northeast France near Dijon and ends at the English Channel."
+    },
+    {
+        "Question": "What mountain range stretches from the town of Seesen in northwest Germany to Eisleben in the east?",
+        "Answer": "Harz",
+        "A": "Pyranees",
+        "B": "Ural Mountains",
+        "C": "Harz",
+        "D": "Alps",
+        "Description": "The Harz has a length of 110 kilometres (68 mi), stretching from the town of Seesen in the northwest to Eisleben in the east."
+    },
+    {
+        "Question": "What mountains form part of the conventional boundary between the continents of Europe and Asia?",
+        "Answer": "Ural Mountains",
+        "A": "Ural Mountains",
+        "B": "Andes",
+        "C": "Appalachian Mountains",
+        "D": "Himalayas",
+        "Description": "The Ural Mountains form part of the conventional boundary between the continents of Europe and Asia."
+    },
+    {
+        "Question": "What is the fastest flowing river in the world?",
+        "Answer": "Amazon",
+        "A": "Mississippi",
+        "B": "Yangtze",
+        "C": "Congo",
+        "D": "Amazon",
+        "Description": "The fastest flowing river in the world is the Amazon River. At the height of the wet season, the current can reach a speed of 7 km/hr."
+    },
+    {
+        "Question": "How many countries are there in Africa?",
+        "Answer": "54",
+        "A": "42",
+        "B": "63",
+        "C": "39",
+        "D": "54",
+        "Description": "Africa, the planet's second largest continent and the second most-populous continent (after Asia), consists of 54 individual countries, and Western Sahara, a member state of the African Union whose statehood is disputed by Morocco."
+    },
+    {
+        "Question": "What is the most densely populated city on Earth?",
+        "Answer": "Monaco",
+        "A": "New York",
+        "B": "Monaco",
+        "C": "Shanghai",
+        "D": "Tokyo",
+        "Description": "Located on the French Riviera in Western Europe, Monaco has an area of 0.78 square miles and a population of about 37,800."
+    },
+    {
+        "Question": "What is the capital of Pakistan?",
+        "Answer": "Islamabad",
+        "A": "Bahawalpur",
+        "B": "Karachi",
+        "C": "Lahore",
+        "D": "Islamabad",
+        "Description": "Islamabad is the capital city of Pakistan located within the federal Islamabad Capital Territory."
+    },
+    {
+        "Question": "What is the most populated nation in South America?",
+        "Answer": "Brazil",
+        "A": "Colombia",
+        "B": "Argentina",
+        "C": "Venezuela",
+        "D": "Brazil",
+        "Description": "Brazil, officially the Federative Republic of Brazil, has the largest population in both South America and Latin America."
+    },
+    {
+        "Question": "What is the most populated country in Africa?",
+        "Answer": "Nigeria",
+        "A": "Ghana",
+        "B": "Ethiopia",
+        "C": "Nigeria",
+        "D": "South Africa",
+        "Description": "With approximately 184 million inhabitants (2016), Nigeria is the most populous country in Africa."
+    },
+    {
+        "Question": "What Asian country has Kuala Lumpur as its capital?",
+        "Answer": "Malaysia",
+        "A": "Cambodia",
+        "B": "Malaysia",
+        "C": "Thailand",
+        "D": "Bangladesh",
+        "Description": "Kuala Lumpur is the national capital of Malaysia as well as its largest city."
+    },
+    {
+        "Question": "What European country is home to Transylvania?",
+        "Answer": "Romania",
+        "A": "Bulgaria",
+        "B": "Romania",
+        "C": "Slovenia",
+        "D": "Croatia",
+        "Description": "The setting of Bram Stoker's famous novel Dracula, Transylvania is a historical region located in what is today the central part of Romania."
+    },
+    {
+        "Question": "What are the only landlocked countries in South America?",
+        "Answer": "Paraguay and Bolivia",
+        "A": "Paraguay and Bolivia",
+        "B": "Uruguay & Suriname",
+        "C": "Brazil & Argentina",
+        "D": "Peru & Colombia",
+        "Description": "Paraguay and Bolivia are the only landlocked countries in South America. Bolivia once had a coastline along the Pacific Ocean but lost its coastline territory to Chile during the War of the Pacific."
+    },
+    {
+        "Question": "What body of water separates Africa and Europe?",
+        "Answer": "Strait of Gibraltar",
+        "A": "Strait of Magellan",
+        "B": "Strait of Malacca",
+        "C": "Strait of Hormuz",
+        "D": "Strait of Gibraltar",
+        "Description": "The Strait of Gibraltar is a narrow strait that connects the Atlantic Ocean to the Mediterranean Sea and separates Gibraltar and Peninsular Spain in Europe from Morocco and Ceuta (Spain) in Africa."
+    },
+    {
+        "Question": "Which of the following continents is intersected by the Equator?",
+        "Answer": "South America",
+        "A": "North America",
+        "B": "South America",
+        "C": "Australia",
+        "D": "Europe",
+        "Description": "The Equator passes through three of the seven continents: South America, Africa and Asia. Although it does not pass through the mainland of Asia, it does run through Indonesia and the Maldives, which are part of the continent."
+    },
+    {
+        "Question": "What is the smallest country in South America?",
+        "Answer": "Suriname",
+        "A": "Guyana",
+        "B": "Suriname",
+        "C": "Aruba",
+        "D": "Bolivia",
+        "Description": "At just under 64,000 square miles, Suriname is the smallest country in South America."
+    },
+    {
+        "Question": "What is the capital of Nigeria?",
+        "Answer": "Abuja",
+        "A": "Kano",
+        "B": "Ibadan",
+        "C": "Abuja",
+        "D": "Lagos",
+        "Description": "Abuja officially became Nigeria's capital on December 12, 1991, replacing Lagos, though the latter remains the country's most populous city."
+    },
+    {
+        "Question": "Which country is NOT part of the Scaninavian Peninsula?",
+        "Answer": "Denmark",
+        "A": "Norway",
+        "B": "Finland",
+        "C": "Denmark",
+        "D": "Sweden",
+        "Description": "The Scandinavian Peninsula is a peninsula in Northern Europe, which generally comprises the mainland of Sweden, the mainland of Norway, the northwestern area of Finland, as well as a narrow area in the west of the Pechengsky District of Russia. Denmark is part of mainland Europe."
+    },
+    {
+        "Question": "What is the capital of Turkey?",
+        "Answer": "Ankara",
+        "A": "Ankara",
+        "B": "Istanbul",
+        "C": "Izmar",
+        "D": "Bursa",
+        "Description": "Ankara, formerly known as Ancyra or Angora, is the capital of the Republic of Turkey. With a population of 4,587,558 in the urban center (2014) and 5,150,072 in its province (2015), it is Turkey's second largest city after Istanbul."
+    },
+    {
+        "Question": "Lake Titicaca sits on the border between what two nations?",
+        "Answer": "Bolivia & Peru",
+        "A": "Ecuador & Colombia",
+        "B": "Argentina & Chile",
+        "C": "Brazil & Paraguay",
+        "D": "Bolivia & Peru",
+        "Description": "Lake Titicaca is a large, deep lake in the Andes on the border of Peru and Bolivia. By volume of water and by surface area, it is the largest lake in South America."
+    },
+    {
+        "Question": "What is the largest country in the world in terms of land area?",
+        "Answer": "Russia",
+        "A": "China",
+        "B": "United States",
+        "C": "Canada",
+        "D": "Russia",
+        "Description": "Russia is the largest country in the world, covering more than one eighth of Earth's inhabited land area."
+    },
+    {
+        "Question": "What U.S. state contains the world's largest flat-top mountain?",
+        "Answer": "Colorado",
+        "A": "Wyoming",
+        "B": "Utah",
+        "C": "Arizona",
+        "D": "Colorado",
+        "Description": "The Grand Mesa in Colorado is the largest flat-top mountain in the world, encompassing hundreds of square miles and standing more than 10,000 feet above sea level."
+    },
+    {
+        "Question": "What is the state capital of Oklahoma?",
+        "Answer": "Oklahoma City",
+        "A": "Tulsa",
+        "B": "Edmond",
+        "C": "Oklahoma City",
+        "D": "Guthrie",
+        "Description": "Oklahoma's first capital was Guthrie, but it moved to Oklahoma City in 1910."
+    },
+    {
+        "Question": "What is the oldest city in Texas?",
+        "Answer": "Nacogdoches",
+        "A": "De Kalb",
+        "B": "El Paso",
+        "C": "Nacogdoches",
+        "D": "San Antonio",
+        "Description": "Local promotional literature from the Nacogdoches Convention & Visitors Bureau describes Nacogdoches as \"the oldest town in Texas.\" Evidence of settlement at the same site dates back to 10,000 years ago. It is near or on the site of Nevantin, the primary village of the Nacogdoche tribe of Caddo Indians."
+    },
+    {
+        "Question": "What is the flattest U.S. state?",
+        "Answer": "Florida",
+        "A": "Illinois",
+        "B": "Kansas",
+        "C": "Florida",
+        "D": "Delaware",
+        "Description": "By any measure, Florida takes the prize for the flattest state in the U.S. In fact, the highest point in Florida is only 345 feet above sea level."
+    },
+    {
+        "Question": "What country borders the Caspian Sea, Persian Gulf, and Gulf of Oman?",
+        "Answer": "Iran",
+        "A": "Saudi Arabia",
+        "B": "Iran",
+        "C": "Pakistan",
+        "D": "Iraq",
+        "Description": "Iran borders the Caspian Sea, Persian Gulf, and Gulf of Oman."
+    },
+    {
+        "Question": "Which U.S. state has the most miles of rivers?",
+        "Answer": "Nebraska",
+        "A": "Texas",
+        "B": "Nebraska",
+        "C": "California",
+        "D": "Alaska",
+        "Description": "With four major rivers and several smaller ones, Nebraska has more miles of rivers than any other state in the U.S."
+    },
+    {
+        "Question": "What is the capital of Costa Rica",
+        "Answer": "San Jose",
+        "A": "San Jose",
+        "B": "Buenos Aires",
+        "C": "Santa Teresa",
+        "D": "Cartago",
+        "Description": "San José is the capital of Costa Rica and the nation's largest city. Though relatively few people live in the city center, it is the most important working area of the country, which brings in more than a million people daily."
+    },
+    {
+        "Question": "What is the earliest known walled city?",
+        "Answer": "Jericho",
+        "A": "Babylon",
+        "B": "Beijing",
+        "C": "Cairo",
+        "D": "Jericho",
+        "Description": "Fortifications unearthed in Jericho dating back to 6800 B.C. confirm that it is the earliest known walled city. Today 20,000 people call Jericho home."
+    },
+    {
+        "Question": "What is the oldest city in India?",
+        "Answer": "Varanasi",
+        "A": "Varanasi",
+        "B": "Madurai",
+        "C": "Ujjain",
+        "D": "Patna",
+        "Description": "According to Hindu legend, Varanasi is more than 5,000 years old and is considered the oldest city in the world, though evidence of habitation only goes back about 3,000 years. Located on the banks of the Ganges River, \"the city of temples\" is still the oldest city in India and is considered the holiest city in the world to Hindus."
+    },
+    {
+        "Question": "Which U.S. state has the largest aquifer?",
+        "Answer": "Nebraska",
+        "A": "Texas",
+        "B": "Alaska",
+        "C": "Nebraska",
+        "D": "Florida",
+        "Description": "Nebraska has the U.S.'s largest aquifer (underground lake/water supply) -- the Ogalala aquifer."
+    },
+    {
+        "Question": "What is the primary mountain range in Iran?",
+        "Answer": "Zagros Mountains",
+        "A": "Zagros Mountains",
+        "B": "Caucasus Mountains",
+        "C": "Asir Mountains",
+        "D": "Hejaz Mountains",
+        "Description": "he Zagros Mountains, a series of parallel ridges interspersed with plains that bisect Iran from northwest to southeast, have many peaks exceeding 3,000 metres (9,843 ft) above sea level, and in the south-central region of the country there are at least five peaks that are over 4,000 metres (13,123 ft)."
+    },
+    {
+        "Question": "What is the least populated U.S. state?",
+        "Answer": "Wyoming",
+        "A": "Montana",
+        "B": "Wyoming",
+        "C": "Rhode Island",
+        "D": "Delaware",
+        "Description": "Although it is the tenth largest state by area, Wyoming is the least populous of the 50 United States, with a population smaller than many major cities."
+    },
+    {
+        "Question": "What is the state capital of Oregon?",
+        "Answer": "Salem",
+        "A": "Portland",
+        "B": "Salem",
+        "C": "Eugene",
+        "D": "Hillsboro",
+        "Description": "Oregon has had three capitol buildings in Salem"
+    },
+    {
+        "Question": "What U.S. state is home to Yellowstone National Park?",
+        "Answer": "Wyoming",
+        "A": "Colorado",
+        "B": "Nebraska",
+        "C": "Wyoming",
+        "D": "Utah",
+        "Description": "Yellowstone National Park is located primarily in Wyoming, although it also extends into Montana and Idaho."
+    },
+    {
+        "Question": "What Canadian province boasts the longest freshwater beach in the world?",
+        "Answer": "Ontario",
+        "A": "Ontario",
+        "B": "Saskatchewan",
+        "C": "British Columbia",
+        "D": "Nova Scotia",
+        "Description": "Ontario's Wasaga Beach is the longest freshwater beach in the world. It stretches 14 km along the shore of Lake Huron's Georgian Bay."
+    },
+    {
+        "Question": "What is the longest river in the UK?",
+        "Answer": "Severn",
+        "A": "Thames",
+        "B": "Tay",
+        "C": "Bann",
+        "D": "Severn",
+        "Description": "The longest river in the UK is the River Severn (220 mi; 350 km) which flows through both Wales and England."
+    },
+    {
+        "Question": "What is the highest mountain in the British Isles?",
+        "Answer": "Ben Nevis",
+        "A": "Scafell Pike",
+        "B": "Ben Nevis",
+        "C": "Snowdon",
+        "D": "Glyder Fawr",
+        "Description": "Ben Nevis, the highest mountain in the British Isles, is located at the western end of the Grampian Mountains in the Lochaber area of the Scottish Highlands."
+    },
+    {
+        "Question": "What is the national river of Russia?",
+        "Answer": "Volga",
+        "A": "Rhine",
+        "B": "Ob",
+        "C": "Volga",
+        "D": "Danube",
+        "Description": "The Volga is widely viewed as the national river of Russia. Eleven of the twenty largest cities of Russia, including the capital, Moscow, are in the Volga's drainage basin."
+    },
+    {
+        "Question": "What is the longest river in Canada?",
+        "Answer": "Mackenzie",
+        "A": "Yukon",
+        "B": "St. Lawrence",
+        "C": "Columbia",
+        "D": "Mackenzie",
+        "Description": "The Mackenzie River is the longest river in Canada, and when combined with head streams, including the Peace River and the Slave River, is the second longest river system in North America"
+    },
+    {
+        "Question": "What Australian city boasts the world's largest natural harbor?",
+        "Answer": "Sydney",
+        "A": "Perth",
+        "B": "Melbourne",
+        "C": "Sydney",
+        "D": "Brisbane",
+        "Description": "Located on Australia's east coast, Sydney surrounds the world's largest natural harbor."
+    },
+    {
+        "Question": "What European country consists of a boot-shaped peninsula surrounded by four seas?",
+        "Answer": "Italy",
+        "A": "Norway",
+        "B": "Sweden",
+        "C": "Italy",
+        "D": "Greece",
+        "Description": "Italy is famous for its boot-shaped peninsula. The country is surrounded by four seas: the Adriatic Sea, the Ionian Sea, the Mediterranean Sea, and the Tyrrhenian Sea."
+    },
+    {
+        "Question": "What is Europe's longest river?",
+        "Answer": "Volga",
+        "A": "Rhine",
+        "B": "Loire",
+        "C": "Volga",
+        "D": "Thames",
+        "Description": "The Volga is Europe's longest river. It rises in the hills just northwest of Moscow and flows approximately 2,300 miles (3,700 km) to the Caspian Sea."
+    },
+    {
+        "Question": "Germany is divided into how many states?",
+        "Answer": "16 states",
+        "A": "8 states",
+        "B": "16 states",
+        "C": "24 states",
+        "D": "32 states",
+        "Description": "Germany is divided into 16 states including: Baden-Wuerttemberg, Bayern, Berlin, Brandenburg, Bremen, Hamburg, Hessen, Mecklenburg-Vorpommern, Niedersachsen, Nordrhein-Westfalen, Rheinland-Pfalz, Saarland, Sachsen, Sachsen-Anhalt, Schleswig-Holstein, and Thueringen."
+    },
+    {
+        "Question": "Poland is situated on the southern end of what sea?",
+        "Answer": "Baltic Sea",
+        "A": "Aegean Sea",
+        "B": "Black Sea",
+        "C": "Baltic Sea",
+        "D": "Norwegian Sea",
+        "Description": "Poland is situated on the southern end of the Baltic Sea. The Baltic is believed to be a very young sea, probably formed by the last ice age. Since Viking times, Scandinavians have referred to it as \"the Eastern Lake\"."
+    },
+    {
+        "Question": "What river begins in the Black Forest region of Germany, flows across central Europe and the countries of Austria, Hungary, Croatia, and Yugoslavia, and empties into the Black Sea?",
+        "Answer": "Danube",
+        "A": "Seine",
+        "B": "Danube",
+        "C": "Oder",
+        "D": "Elbe",
+        "Description": "The Danube River begins in the Black Forest region of Germany, flows across central Europe and the countries of Austria, Hunbary, Croatia and Yugoslavia, and empties into the Black Sea. It also forms the border between Romania and Bulgaria. At 1,771 miles (2,850 km), the Danube is one of the most significant commercial waterways in all of Europe."
+    },
+    {
+        "Question": "What is the capital of Lithuania?",
+        "Answer": "Vilnius",
+        "A": "Valmiera",
+        "B": "Taurage",
+        "C": "Vilnius",
+        "D": "Riga",
+        "Description": "Vilnius is the capital of Lithuania. Vilnius is also, interestingly, almost the precise \"geographical center\" of Europe."
+    },
+    {
+        "Question": "What is the tallest mountain in Europe?",
+        "Answer": "Mount Elbrus",
+        "A": "Mount Corno",
+        "B": "Mount Elbrus",
+        "C": "Mount Olympus",
+        "D": "Mount Blanc",
+        "Description": "At 5,633 meters (18,481 ft) Mount Elbrus is the tallest mountain in Europe. It is part of the Ural mountains which are considered to be the border between Europe and Asia. During ancient times, Mount Elbrus was known as Strobilus and it was believed to be the location where Zeus had Prometheus chained to a rock. The highest summit of Mount Elbrus was first climbed in 1874 by F. Crauford Grove."
+    },
+    {
+        "Question": "What is the highest inhabited country in Europe?",
+        "Answer": "Andorra",
+        "A": "Andorra",
+        "B": "Liechtenstein",
+        "C": "Croatia",
+        "D": "Switzerland",
+        "Description": "Andorra, located in the heart of the Pyrenees Mountains, is the hightest inhabited country in Europe. Although it is only about 1/5 the size of Rhode Island, it attracts thousands of tourists each year because of its gorgeous scenery, great skiing, and lack of taxes."
+    },
+    {
+        "Question": "What European country is bordered by Slovakia, Ukraine, Romania, Serbia, Croatia, Slovenia, and Austria?",
+        "Answer": "Hungary",
+        "A": "Bulgaria",
+        "B": "Hungary",
+        "C": "Russia",
+        "D": "France",
+        "Description": "Landlocked Hungary is bordered by seven countries: Slovakia, Ukraine, Romania, Serbia, Croatia, Slovenia, and Austria. It is no coincidence, perhaps, that Hungary has suffered through many invasions and unwanted occupations over the years. That's a lot of neighbors to keep track of!"
+    },
+    {
+        "Question": "What country is geographically separated from continental Europe by the Pyrenees mountains?",
+        "Answer": "Spain",
+        "A": "Spain",
+        "B": "France",
+        "C": "Italy",
+        "D": "Croatia",
+        "Description": "Spain is geographically separated from continental Europe by the Pyrenees mountains. It is also bound to the east by the Mediterranean Sea, to the north by the Bay of Biscay, and to the west by the Atlantic Ocean. In spite of these natural boundaries, however, Spain has played a major role in European affairs over the centuries."
+    }
+]

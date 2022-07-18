@@ -16,6 +16,12 @@ struct JSONClient {
         case NeverHaveIEverTierThree
         case WhosMostLikelyTierOne
         case WhosMostLikelyTierTwo
+        case TriviaGeography
+        case TriviaSports
+        case TriviaMovies
+        case TriviaHistory
+        case TriviaScience
+        case TriviaMusic
     }
     
     func fetch<T: Codable>(client: Client, completion: @escaping  (Result<T, Error>) -> ()) {

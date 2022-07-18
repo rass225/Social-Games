@@ -18,6 +18,14 @@ class TruthOrDareModel: ObservableObject {
         case friendly
         case challenging
         case naughty
+        
+        var label: String {
+            switch self {
+            case .friendly: return "Friendly"
+            case .challenging: return "Challenging"
+            case .naughty: return "Naughty"
+            }
+        }
     }
     
     let players: [String]
