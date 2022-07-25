@@ -25,7 +25,8 @@ struct Ticket: View {
                 Spacer()
                 Text(footnote)
                     .textCase(.uppercase)
-                    .font(.caption.weight(.semibold))
+                    .font(.footnote.weight(.semibold))
+//                    .foregroundStyle(game.game.gradient)
                     .foregroundColor(game.game.background[1])
                     .padding(.bottom, 8)
             }
@@ -42,8 +43,8 @@ struct Ticket: View {
     
     struct TicketShape: Shape {
         func path(in rect: CGRect) -> Path {
-            let arcRadius: CGFloat = 20
-            let smallArcRadius:CGFloat = 15
+            let arcRadius: CGFloat = 25
+            let smallArcRadius:CGFloat = 20
             var path = Path()
             path.move(to: CGPoint(x: rect.origin.x, y: rect.origin.y + arcRadius))
             path.addArc(center: CGPoint.zero, radius: arcRadius, startAngle: Angle(degrees: 90), endAngle: Angle(degrees: 0) , clockwise: true)

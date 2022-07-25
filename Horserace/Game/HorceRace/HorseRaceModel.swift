@@ -22,6 +22,7 @@ class HorseRaceModel: ObservableObject {
     @Published var thirdBase = CardRotation(front: -90, back: 0)
     @Published var fourthBase = CardRotation(front: -90, back: 0)
     @Published var fifthBase = CardRotation(front: -90, back: 0)
+   
     private var hasGameStarted: Bool = false
     private var penaltyBase: Base = .zero
     
@@ -100,7 +101,6 @@ class HorseRaceModel: ObservableObject {
         moveUp(suit: deck[deckIndex].suit)
         
         if heartOffset > 85 || diamondOffset > 85 || spadeOffset > 85 || clubOffset > 85 {
-            
             if heartOffset > 85 {
                 winnerSuit = .heart
             } else if diamondOffset > 85 {
@@ -110,9 +110,10 @@ class HorseRaceModel: ObservableObject {
             } else if clubOffset > 85 {
                 winnerSuit = .clubs
             }
-            DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1) { 
                 print("Game Over")
                 self.isThereAWinner.toggle()
+                
             }
         }
         
@@ -198,5 +199,9 @@ class HorseRaceModel: ObservableObject {
         } else {
             return false
         }
+    }
+    
+    func getWinner() ->  Suit?{
+        return winnerSuit
     }
 }

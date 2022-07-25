@@ -20,15 +20,18 @@ enum Images {
     static let octagon = Image(systemName: "octagon.fill")
     static let seal = Image(systemName: "seal.fill")
     static let pyramid = Image(systemName: "pyramid.fill")
+    static let pyramid2 = Image("pyramid")
     static let pyramidBig = Image("Pyramid")
     static let explain = Image(systemName: "person.wave.2")
     static let higherLower = Image(systemName: "arrow.up.arrow.down.circle.fill")
     static let chooser = Image(systemName: "dot.circle.and.hand.point.up.left.fill")
     static let bottle = Image("Bottle")
     static let horse = Image("Horses")
+    static let horse2 = Image("horse")
     static let horseBig = Image("HorseRace")
     static let roulette = Image("Roulette")
     static let wheel = Image(systemName: "gearshape.fill")
+    static let wheel2 = Image("wheel")
     static let edit = Image(systemName: "pencil.circle.fill")
     static let shuffle = Image(systemName: "shuffle.circle.fill")
     static let back = Image(systemName: "chevron.left.circle.fill")
@@ -40,6 +43,7 @@ enum Images {
     static let rouletteTable = Image("RouletteTable")
     static let mancala = Image("mancala")
     static let shield = Image(systemName: "shield.fill")
+    static let millionaire = Image("millionaire")
     
     enum Tiers {
         enum Friendly {

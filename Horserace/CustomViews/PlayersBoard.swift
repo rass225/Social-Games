@@ -7,7 +7,7 @@ struct PlayersBoard: View {
     @EnvironmentObject var game: Game
     @Environment(\.colorScheme) var scheme
     
-    @State var players: [String]
+    @Binding var players: [String]
     
     private let selectedFont: Font = .headline.weight(.medium)
     private let unselectedFont: Font = .subheadline.weight(.light)
@@ -35,7 +35,7 @@ struct PlayersBoard: View {
             }
             .padding(8)
             .background(.ultraThickMaterial)
-            .mask(RoundCorners())
+            .mask(RoundCorners(cornerRadius: 8))
             .shadow(color: Colors.darkShadow2, radius: 5, x: 0, y: 8)
             
             if !hasPlayersShuffled && players.count > 1 {
@@ -69,8 +69,15 @@ struct PlayersBoard: View {
                 content
                     .foregroundColor(currentPlayer == index ? (scheme == .light ? game.game.background[0] : game.game.color) : Colors.text)
             } else if game.game == .pyramid {
-                content
-                    .foregroundColor(currentPlayer == index ? game.game.background[0] : Colors.text)
+                if currentPlayer == index {
+                    content
+                        .foregroundStyle(game.game.gradient)
+                } else {
+                    content
+                        .foregroundColor(Colors.text)
+                }
+//                content
+//                    .foregroundColor(currentPlayer == index ? game.game.background[0] : Colors.text)
             } else if game.game == .wheel {
                 content
                     .foregroundColor(currentPlayer == index ? (scheme == .light ? game.game.background[0] : game.game.color) : Colors.text )

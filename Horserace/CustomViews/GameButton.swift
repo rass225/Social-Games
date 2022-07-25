@@ -138,3 +138,107 @@ struct GameButton: View {
         }
     }
 }
+
+
+struct GameButton2: View {
+    
+    let game: Games
+    var hasQuestionMark: Bool = false
+    let willPulse: Bool
+    let willRotete: Bool
+    
+    var rotationAnimation: Animation {
+        Animation.linear(duration: 20.0).repeatForever(autoreverses: false)
+    }
+    var pulseAnimation: Animation {
+        Animation.linear(duration: 2.5).repeatForever(autoreverses: true)
+    }
+    
+    @State var isPulsing: Bool = false
+    @State var isRotating: Bool = false
+    @State var rotationAngle: Angle = Angle(degrees: 0)
+    
+    init(
+        _ game: Games,
+        willRotate: Bool = false,
+        willPulse: Bool = false
+    ) {
+//        self.size = size
+        self.game = game
+//        self.tilt = Angle(degrees: tilt)
+        self.willRotete = willRotate
+        self.willPulse = willPulse
+        switch game {
+        case .truthDare, .neverHaveIEver, .whosMostLikely, .trivia:
+            hasQuestionMark = true
+        default:
+            break
+        }
+    }
+    
+    var body: some View {
+        NavigationLink(destination: GameSetup(game: game)) {
+            ZStack{
+                game.gradient
+//                    .overlay(alignment: .trailing) {
+//                        game.image
+//                            .resizable()
+//                            .aspectRatio(contentMode: .fit)
+//                            .frame(width: 60, height: 60)
+//                            .foregroundColor(.white.opacity(0.15))
+//                            .rotationEffect(Angle(degrees: isRotating ? 360.0 : 0.0))
+//                            .scaleEffect(isPulsing ? 0.90 : 1)
+//                            .animation(rotationAnimation, value: isRotating)
+//                            .animation(pulseAnimation, value: isPulsing)
+//                            .padding(.trailing)
+//                    }
+                HStack(spacing: 16){
+                    game.icon
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 40, height: 40)
+                        .foregroundColor(game.color)
+                        .overlay{
+                            if hasQuestionMark {
+                                questionMark
+                            }
+                        }
+                        
+                    VStack(alignment: .leading, spacing: 4){
+                        game.title
+                            .font(.headline.weight(.semibold))
+                        HStack(spacing: 4) {
+                            game.maxPlayers.image
+                            Text("Players max")
+                                .textCase(.uppercase)
+                        }
+                        .font(.caption2.weight(.medium))
+                        .foregroundColor(game.color)
+                    }
+                    Spacer()
+                }
+                .padding()
+                .foregroundColor(.white)
+            }
+            .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
+            .onAppear(perform: startAnimation)
+        }.buttonStyle(GameButtonStyle())
+    }
+    
+    var questionMark: some View {
+        Images.questionMark
+            .font(.body.weight(.bold))
+            .foregroundColor(.white)
+    }
+    
+    func startAnimation() {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+            if willRotete {
+                self.isRotating = true
+            }
+            if willPulse {
+                self.isPulsing = true
+            }
+        }
+    }
+}

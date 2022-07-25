@@ -29,20 +29,20 @@ enum Colors {
     static let indigo: Color = .init(light: Light.indigo, dark: Dark.indigo)
     
     enum Backgrounds {
-        static let theme1: [Color] = [.init(red: 117/255, green: 52/255, blue: 34/255), .init(red: 176/255, green: 91/255, blue: 59/255)]
+        static let theme1: [Color] = [.init(red: 107/255, green: 42/255, blue: 24/255), .init(red: 186/255, green: 101/255, blue: 69/255)]
         static let theme2: [Color] = [.init(red: 37/255, green: 29/255, blue: 58/255), .init(red: 42/255, green: 37/255, blue: 80/255)]
-        static let theme3: [Color] = [.init(red: 130/255, green: 149/255, blue: 75/255), .init(red: 186/255, green: 189/255, blue: 66/255)]
+        static let theme3: [Color] = [.init(red: 80/255, green: 99/255, blue: 25/255), .init(red: 206/255, green: 209/255, blue: 86/255)]
         static let theme4: [Color] = [.init(red: 84/255, green: 22/255, blue: 144/255), .init(red: 255/255, green: 73/255, blue: 73/255)]
-        static let theme5: [Color] = [.init(red: 95/255, green: 113/255, blue: 97/255), .init(red: 109/255, green: 139/255, blue: 116/255)]
+        static let theme5: [Color] = [.init(red: 55/255, green: 73/255, blue: 57/255), .init(red: 139/255, green: 169/255, blue: 146/255)]
         static let theme6: [Color] = [.init(red: 17/255, green: 45/255, blue: 78/255), .init(red: 63/255, green: 114/255, blue: 175/255)]
-        static let theme7: [Color] = [.init(red: 85/255, green: 104/255, blue: 168/255), .init(red: 209/255, green: 57/255, blue: 81/255)]
+        static let theme7: [Color] = [.init(red: 105/255, green: 104/255, blue: 168/255), .init(red: 209/255, green: 57/255, blue: 81/255)]
         static let theme8: [Color] = [.init(red: 31/255, green: 29/255, blue: 54/255), .init(red: 134/255, green: 72/255, blue: 121/255)]
-        static let theme9: [Color] = [.init(red: 25/255, green: 26/255, blue: 25/255), .init(red: 30/255, green: 81/255, blue: 40/255)]
+        static let theme9: [Color] = [.init(red: 30/255, green: 36/255, blue: 30/255), .init(red: 30/255, green: 81/255, blue: 40/255)]
         static let theme10: [Color] = [.init(red: 178/255, green: 6/255, blue: 0), .init(red: 255/255, green: 95/255, blue: 0)]
         static let theme11: [Color] = [.init(red: 25/255, green: 35/255, blue: 30/255), .init(red: 30/255, green: 81/255, blue: 40/255)]
         static let theme12: [Color] = [.init(red: 17/255, green: 45/255, blue: 78/255), .init(red: 63/255, green: 114/255, blue: 175/255)]
-        static let theme13: [Color] = [.init(red: 62/255, green: 42/255, blue: 42/255), .init(red: 107/255, green: 79/255, blue: 79/255) ]
-        static let theme14: [Color] = [.init(red: 31/255, green: 70/255, blue: 144/255), .init(red: 58/255, green: 91/255, blue: 160/255)]
+        static let theme13: [Color] = [.init(red: 52/255, green: 32/255, blue: 32/255), .init(red: 127/255, green: 99/255, blue: 99/255) ]
+        static let theme14: [Color] = [.init(red: 11/255, green: 50/255, blue: 124/255), .init(red: 78/255, green: 111/255, blue: 180/255)]
     }
     
     enum Foregrounds {

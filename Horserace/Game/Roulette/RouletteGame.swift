@@ -13,7 +13,7 @@ struct RouletteGame: View {
 
     var body: some View {
         VStack {
-            PlayersBoard(currentPlayer: $model.currentPlayer, hasPlayersShuffled: $model.hasPlayersShuffled, players: model.players)
+            PlayersBoard(currentPlayer: $model.currentPlayer, hasPlayersShuffled: $model.hasPlayersShuffled, players: $model.players)
                 
             rouletteTable
                
@@ -34,9 +34,9 @@ struct RouletteGame: View {
             ToolbarItem(placement: .navigationBarTrailing) {
                 RulesButton(isOpen: $isRulesOpen)
             }
-            ToolbarItem(placement: .principal) {
-                GameTitle()
-            }
+//            ToolbarItem(placement: .principal) {
+//                GameTitle()
+//            }
         }
         .sheet(isPresented: $isRulesOpen) {
             RuleView(isOpen: $isRulesOpen)
@@ -53,13 +53,13 @@ struct RouletteGame: View {
                 content
             case .betting:
                 content
-                    .opacity(model.placedBet == .none ? 0.5 : 1)
+                    .opacity(model.placedBet == .none ? 0.4 : 1)
                     .disabled(model.placedBet == .none ? true : false)
-                    .animation(.linear(duration: 0.5), value: model.placedBet)
+                    .animation(.linear(duration: 0.4), value: model.placedBet)
             case .roulette:
                 content
                     .disabled(model.isAnimating == true)
-                    .opacity(model.isAnimating ? 0.5 : 1)
+                    .opacity(model.isAnimating ? 0.4 : 1)
             }
         }
     }

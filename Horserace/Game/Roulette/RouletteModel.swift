@@ -3,18 +3,18 @@ import SwiftUI
 
 class RouletteModel: ObservableObject {
     
-    let players: [String]
+    @Published var players: [String]
     
     @Published var currentPlayer: Int = 0
     @Published var isAnimating: Bool = false
     @Published var spinDegrees: Double = 0.0
     @Published var rand: Double = 0.0
     @Published var newAngle: Double = 0.0
-    
     @Published var landingSector: Sector?
     @Published var title: String = "Welcome to roulette"
     @Published var placedBet: BetType = .none
     @Published var status: GameStatus = .notStarted
+    
     var mainButtonLabel: String {
         switch status {
         case .notStarted: return "Play"

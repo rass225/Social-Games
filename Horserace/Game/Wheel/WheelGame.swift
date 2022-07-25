@@ -3,14 +3,16 @@ import SwiftUI
 struct WheelGame: View {
     @EnvironmentObject var game: Game
     @Environment(\.presentationMode) var presentationMode
-    let players: [String]
+    @Environment(\.dismiss) var dismiss
+    @State var players: [String]
     let components: [String]
     @State var currentPlayer: Int = 0
     @State var isRulesOpen: Bool = false
     @State var hasPlayersShuffled: Bool = false
+    
     var body: some View {
         VStack(spacing: 0){
-            PlayersBoard(currentPlayer: $currentPlayer, hasPlayersShuffled: $hasPlayersShuffled, players: players)
+            PlayersBoard(currentPlayer: $currentPlayer, hasPlayersShuffled: $hasPlayersShuffled, players: $players)
             GeometryReader { geo in
                 let size = geo.size
                 VStack{
@@ -20,7 +22,7 @@ struct WheelGame: View {
                     })
                     Spacer()
                 }
-            }.padding(.horizontal)
+            }// .padding(.horizontal, 8)
         }
         .navigationModifier(game: .wheel)
         .gameViewModifier(game: .wheel)
@@ -29,13 +31,28 @@ struct WheelGame: View {
                 HomeButton()
             }
             ToolbarItem(placement: .navigationBarTrailing) {
-                EditButton()
-            }
-            ToolbarItem(placement: .navigationBarTrailing) {
-                RulesButton(isOpen: $isRulesOpen)
-            }
-            ToolbarItem(placement: .principal) {
-                GameTitle()
+                Menu(content: {
+                    Section{
+                        Button(action: {
+                            isRulesOpen.toggle()
+                        }) {
+                            Text("Rules")
+                            Images.rulesFill
+                                .symbolRenderingMode(.palette)
+                                .foregroundStyle(.white, game.game.gradient)
+                        }
+                    }
+                    Section{
+                        Button(action: {
+                            dismiss()
+                        }) {
+                            Images.edit
+                            Text("Edit Components")
+                        }
+                    }
+                }, label: {
+                    GameMenuButton()
+                })
             }
         }
         .sheet(isPresented: $isRulesOpen) {

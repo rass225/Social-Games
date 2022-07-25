@@ -24,7 +24,7 @@ struct WhosMostLikelyGame: View {
             case .activity:
                 GeometryReader { geo in
                     let size = geo.size
-                    let desiredWidth = size.width / 1.25
+                    let desiredWidth = size.width / 1.20
                     Ticket(desiredWidth: desiredWidth, title: model.currentTitle, subtitle: $model.currentStatement, footnote: model.tier.rawValue)
                         .maxWidth()
                         .maxHeight()
@@ -41,7 +41,7 @@ struct WhosMostLikelyGame: View {
         .navigationModifier(game: .whosMostLikely)
         .toolbar{
             ToolbarItem(placement: .navigationBarLeading) {
-                HomeButton()
+                BackButton()
             }
             ToolbarItem(placement: .navigationBarTrailing) {
                 Menu(content: {
@@ -72,9 +72,6 @@ struct WhosMostLikelyGame: View {
                 }, label: {
                     GameMenuButton()
                 })
-            }
-            ToolbarItem(placement: .principal) {
-                GameTitle()
             }
         }
         .sheet(isPresented: $isRulesOpen) {

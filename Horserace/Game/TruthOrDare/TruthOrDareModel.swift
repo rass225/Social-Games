@@ -28,7 +28,7 @@ class TruthOrDareModel: ObservableObject {
         }
     }
     
-    let players: [String]
+    @Published var players: [String]
     
     @Published var tier: TruthOrDareTier = .friendly
     @Published var status: GameStatus = .notStarted

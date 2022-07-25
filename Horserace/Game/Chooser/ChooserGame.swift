@@ -45,21 +45,16 @@ struct ChooserGame: View {
         .maxHeight()
         .gameViewModifier(game: game.game)
         .navigationBarTitleDisplayMode(.inline)
-        .navigationTitle(points.isEmpty ? game.game.title : Text(""))
         .navigationBarBackButtonHidden(true)
         .navigationBarHidden(!points.isEmpty)
         .ignoresSafeArea()
         .toolbar{
             ToolbarItem(placement: .navigationBarLeading) {
-                HomeButton()
+                BackButton()
                     .isHidden(points.isEmpty)
             }
             ToolbarItem(placement: .navigationBarTrailing) {
                 RulesButton(isOpen: $isRulesOpen)
-                    .isHidden(points.isEmpty)
-            }
-            ToolbarItem(placement: .principal) {
-                GameTitle()
                     .isHidden(points.isEmpty)
             }
         }
@@ -80,7 +75,7 @@ struct ChooserGame: View {
         
         var body: some View {
             Circle()
-                .strokeBorder(game.game.color.opacity(0.5), lineWidth: 1)
+                .strokeBorder(game.game.color.opacity(0.5), lineWidth: 7.5)
                 .background(Circle().fill(game.game.gradient))
                 .frame(width: size.width / 2.7, height: size.width / 2.7, alignment: .center)
                
@@ -89,7 +84,7 @@ struct ChooserGame: View {
                 .overlay{
                     Circle()
                         .fill(game.game.color)
-                        .frame(width: size.width / 3.5, height: size.width / 3.5, alignment: .center)
+                        .frame(width: size.width / 4, height: size.width / 4, alignment: .center)
                         .blur(radius: 15)
                         .scaleEffect(isInnerPulsing ? 0.7 : 1)
                         .animation(innerPulseAnimation, value: isInnerPulsing)

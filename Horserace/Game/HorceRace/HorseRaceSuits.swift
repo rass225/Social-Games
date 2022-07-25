@@ -12,6 +12,14 @@ struct HorseRaceSuits: View {
     @State var isRulesOpened: Bool = false
     @State var playerSuits: [HorseRacePlayers] = []
     @State var toGame: Bool = false
+    
+    @AppStorage("HorseraceHeartWins") var heartWins = 0
+    
+    @AppStorage("HorseraceDiamondWins") var diamondWins = 0
+    
+    @AppStorage("HorseraceSpadeWins") var spadeWins = 0
+    
+    @AppStorage("HorseraceClubWins") var clubWins = 0
     private var allSet: Bool {
         if playerSuits.contains(where: { $0.suit == nil }) {
             return false
@@ -25,6 +33,45 @@ struct HorseRaceSuits: View {
             NavigationLink(destination: HorceRaceGame(players: playerSuits).environmentObject(game), isActive: $toGame) {
                 EmptyView()
             }
+            VStack(spacing: 16){
+                Text("Historic wins")
+                    .font(.subheadline.weight(.semibold))
+                    .textCase(.uppercase)
+                HStack(spacing: 20){
+                    HStack(spacing: 2){
+                        Images.heart
+                            .font(.title2)
+                            .foregroundColor(Colors.red)
+                        Text("\(heartWins)")
+                    }
+                    HStack(spacing: 2){
+                        Images.diamond
+                            .font(.title2)
+                            .foregroundColor(Colors.red)
+                        Text("\(diamondWins)")
+                    }
+                    HStack(spacing: 2){
+                        Images.club
+                            .font(.title2)
+                            .foregroundColor(.black)
+                        Text("\(clubWins)")
+                    }
+                    HStack(spacing: 2){
+                        Images.spade
+                            .font(.title2)
+                            .foregroundColor(.black)
+                        Text("\(spadeWins)")
+                    }
+                }
+            }
+            .font(.body.weight(.regular))
+            .padding(.top, 8)
+            .padding(.bottom)
+            .maxWidth()
+            .background(.ultraThickMaterial)
+            .mask(RoundCorners(cornerRadius: 12))
+            .shadow(color: Colors.darkShadow2, radius: 5, x: 0, y: 8)
+            .padding(.bottom)
             LazyVGrid(columns: columns, alignment: .leading, spacing: 16) {
                 ForEach(playerSuits.indices, id: \.self) { index in
                     VStack(spacing: 0){
@@ -32,29 +79,38 @@ struct HorseRaceSuits: View {
                         Divider()
                             .background(.ultraThickMaterial)
                         HStack{
-                            Button(action: {
-                                playerSuits[index].suit = .heart
-                            }) {
-                                Images.heart
-                                    .foregroundColor(.red.opacity(playerSuits[index].suit == .heart ? 1 : 0.4))
+                            if playerSuits[index].suit == nil || playerSuits[index].suit == .heart {
+                                Button(action: {
+                                    pickSuit(index: index, suit: .heart)
+                                }) {
+                                    Images.heart
+                                        .foregroundColor(.red.opacity(playerSuits[index].suit == .heart ? 1 : 0.4))
+                                }
                             }
-                            Button(action: {
-                                playerSuits[index].suit = .diamond
-                            }) {
-                                Images.diamond
-                                    .foregroundColor(.red.opacity(playerSuits[index].suit == .diamond ? 1 : 0.4))
+                            if playerSuits[index].suit == nil || playerSuits[index].suit == .diamond {
+                                Button(action: {
+                                    pickSuit(index: index, suit: .diamond)
+                                }) {
+                                    Images.diamond
+                                        .foregroundColor(.red.opacity(playerSuits[index].suit == .diamond ? 1 : 0.4))
+                                }
                             }
-                            Button(action: {
-                                playerSuits[index].suit = .clubs
-                            }) {
-                                Images.club
-                                    .foregroundColor(.black.opacity(playerSuits[index].suit == .clubs ? 1 : 0.4))
+                            if playerSuits[index].suit == nil || playerSuits[index].suit == .clubs {
+                                Button(action: {
+                                    pickSuit(index: index, suit: .clubs)
+                                }) {
+                                    Images.club
+                                        .foregroundColor(.black.opacity(playerSuits[index].suit == .clubs ? 1 : 0.4))
+                                }
                             }
-                            Button(action: {
-                                playerSuits[index].suit = .spades
-                            }) {
-                                Images.spade
-                                    .foregroundColor(.black.opacity(playerSuits[index].suit == .spades ? 1 : 0.4))
+                            
+                            if playerSuits[index].suit == nil || playerSuits[index].suit == .spades {
+                                Button(action: {
+                                    pickSuit(index: index, suit: .spades)
+                                }) {
+                                    Images.spade
+                                        .foregroundColor(.black.opacity(playerSuits[index].suit == .spades ? 1 : 0.4))
+                                }
                             }
                         }
                         .padding(.vertical, 12)
@@ -65,6 +121,7 @@ struct HorseRaceSuits: View {
                 }
             }
             Spacer()
+            
             Button(action: {
                 for item in playerSuits {
                     print("\(item.name) picked \(item.suit ?? .diamond)")
@@ -93,7 +150,10 @@ struct HorseRaceSuits: View {
                 BackButton()
             }
             ToolbarItem(placement: .principal) {
-                GameTitle()
+                Text("Pick a Horse")
+                    .textCase(.uppercase)
+                    .font(.callout.weight(.semibold))
+                    .foregroundColor(Colors.text)
             }
         }
         .sheet(isPresented: $isRulesOpened) {
@@ -114,6 +174,19 @@ struct HorseRaceSuits: View {
                 .font(.headline.weight(.regular))
                 .foregroundColor(Color.white)
         }
+    }
+    
+    func pickSuit(index: Int, suit: Suit) {
+        if playerSuits[index].suit != nil {
+            withAnimation(.easeOut(duration: 0.5)) {
+                playerSuits[index].suit = nil
+            }
+        } else {
+            withAnimation(.easeOut(duration: 0.5)) {
+                playerSuits[index].suit = suit
+            }
+        }
+        
     }
 }
 

@@ -12,10 +12,10 @@ struct TruthOrDareGame: View {
     
     var body: some View {
         VStack{
-            PlayersBoard(currentPlayer: $model.currentPlayer, hasPlayersShuffled: $hasPlayersShuffled, players: model.players)
+            PlayersBoard(currentPlayer: $model.currentPlayer, hasPlayersShuffled: $hasPlayersShuffled, players: $model.players)
             GeometryReader { geo in
                 let size = geo.size
-                let desiredWidth = size.width / 1.25
+                let desiredWidth = size.width / 1.20
                 if model.status == .activity {
                     Ticket(desiredWidth: desiredWidth, title: model.title, subtitle: $model.label, footnote: model.tier.rawValue)
                         .maxWidth()
@@ -104,9 +104,6 @@ struct TruthOrDareGame: View {
                     GameMenuButton()
                 })
 //
-            }
-            ToolbarItem(placement: .principal) {
-                GameTitle()
             }
         }
         .sheet(isPresented: $isRulesOpen) {

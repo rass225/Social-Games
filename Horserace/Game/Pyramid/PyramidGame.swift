@@ -15,7 +15,7 @@ struct PyramidGame: View {
     @State private var currentPlayer: Int = 0
     @State var isRulesOpen: Bool = false
     
-    let players: [String]
+    @State var players: [String]
     @State private var deck = Constant.deck.shuffled()
     @State private var substituteIndex: Int = 15
     @State private var currentPath: [Int] = []
@@ -47,7 +47,7 @@ struct PyramidGame: View {
     
     var body: some View {
         VStack(spacing: 16){
-            PlayersBoard(currentPlayer: $currentPlayer, hasPlayersShuffled: $hasPlayersShuffled, players: players)
+            PlayersBoard(currentPlayer: $currentPlayer, hasPlayersShuffled: $hasPlayersShuffled, players: $players)
                 .padding(.bottom, 32)
                 .padding(.horizontal, 20)
             GeometryReader { geometry in
@@ -195,10 +195,6 @@ struct PyramidGame: View {
                 }, label: {
                     GameMenuButton()
                 })
-                
-            }
-            ToolbarItem(placement: .principal) {
-                GameTitle()
             }
         }
     }

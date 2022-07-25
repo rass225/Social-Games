@@ -35,7 +35,7 @@ struct SetupView: View {
                 EmptyView()
             }
             ScrollView(showsIndicators: false){
-                VStack(spacing: 20){
+                VStack(spacing: 12){
                     TextField("", text: $player1)
                         .placeholder(when: player1.isEmpty) {
                             Text("Player 1")
@@ -45,8 +45,8 @@ struct SetupView: View {
                         .padding(.horizontal)
                         .padding(.vertical, 12)
                         .background(BlurEffect().opacity(focusField == .player1 ? 0.4 : 1))
-                        .mask(RoundCorners())
-                        .overlay(RoundedRectangle(cornerRadius: 16, style: .continuous).stroke(lineWidth: 0.5).fill(Colors.buttonBorder))
+                        .mask(RoundCorners(cornerRadius: 8))
+                        .overlay(RoundedRectangle(cornerRadius: 8, style: .continuous).stroke(lineWidth: 0.5).fill(Colors.buttonBorder))
                         .focused($focusField, equals: .player1)
                     
                     if revealPlayer2 {
@@ -59,8 +59,8 @@ struct SetupView: View {
                             .padding(.horizontal)
                             .padding(.vertical, 12)
                             .background(BlurEffect().opacity(focusField == .player2 ? 0.4 : 1))
-                            .mask(RoundCorners())
-                            .overlay(RoundedRectangle(cornerRadius: 16, style: .continuous).stroke(lineWidth: 0.5).fill(Colors.buttonBorder))
+                            .mask(RoundCorners(cornerRadius: 8))
+                            .overlay(RoundedRectangle(cornerRadius: 8, style: .continuous).stroke(lineWidth: 0.5).fill(Colors.buttonBorder))
                             .focused($focusField, equals: .player2)
                             .overlay(Remove(player: $revealPlayer2), alignment: .trailing)
                     }
@@ -75,8 +75,8 @@ struct SetupView: View {
                             .padding(.horizontal)
                             .padding(.vertical, 12)
                             .background(BlurEffect().opacity(focusField == .player3 ? 0.4 : 1))
-                            .mask(RoundCorners())
-                            .overlay(RoundedRectangle(cornerRadius: 16, style: .continuous).stroke(lineWidth: 0.5).fill(Colors.buttonBorder))
+                            .mask(RoundCorners(cornerRadius: 8))
+                            .overlay(RoundedRectangle(cornerRadius: 8, style: .continuous).stroke(lineWidth: 0.5).fill(Colors.buttonBorder))
                             .focused($focusField, equals: .player3)
                             .overlay(Remove(player: $revealPlayer3), alignment: .trailing)
                     }
@@ -91,8 +91,8 @@ struct SetupView: View {
                             .padding(.horizontal)
                             .padding(.vertical, 12)
                             .background(BlurEffect().opacity(focusField == .player4 ? 0.4 : 1))
-                            .mask(RoundCorners())
-                            .overlay(RoundedRectangle(cornerRadius: 16, style: .continuous).stroke(lineWidth: 0.5).fill(Colors.buttonBorder))
+                            .mask(RoundCorners(cornerRadius: 8))
+                            .overlay(RoundedRectangle(cornerRadius: 8, style: .continuous).stroke(lineWidth: 0.5).fill(Colors.buttonBorder))
                             .focused($focusField, equals: .player4)
                             .overlay(Remove(player: $revealPlayer4), alignment: .trailing)
                     }
@@ -107,8 +107,8 @@ struct SetupView: View {
                             .padding(.horizontal)
                             .padding(.vertical, 12)
                             .background(BlurEffect().opacity(focusField == .player5 ? 0.4 : 1))
-                            .mask(RoundCorners())
-                            .overlay(RoundedRectangle(cornerRadius: 16, style: .continuous).stroke(lineWidth: 0.5).fill(Colors.buttonBorder))
+                            .mask(RoundCorners(cornerRadius: 8))
+                            .overlay(RoundedRectangle(cornerRadius: 8, style: .continuous).stroke(lineWidth: 0.5).fill(Colors.buttonBorder))
                             .focused($focusField, equals: .player5)
                             .overlay(Remove(player: $revealPlayer5), alignment: .trailing)
                     }
@@ -123,8 +123,8 @@ struct SetupView: View {
                             .padding(.horizontal)
                             .padding(.vertical, 12)
                             .background(BlurEffect().opacity(focusField == .player6 ? 0.4 : 1))
-                            .mask(RoundCorners())
-                            .overlay(RoundedRectangle(cornerRadius: 16, style: .continuous).stroke(lineWidth: 0.5).fill(Colors.buttonBorder))
+                            .mask(RoundCorners(cornerRadius: 8))
+                            .overlay(RoundedRectangle(cornerRadius: 8, style: .continuous).stroke(lineWidth: 0.5).fill(Colors.buttonBorder))
                             .focused($focusField, equals: .player6)
                             .overlay(Remove(player: $revealPlayer6), alignment: .trailing)
                     }
@@ -163,7 +163,10 @@ struct SetupView: View {
                 RulesButton(isOpen: $isRulesOpened)
             }
             ToolbarItem(placement: .principal) {
-                GameTitle()
+                Text("Players")
+                    .textCase(.uppercase)
+                    .font(.callout.weight(.semibold))
+                    .foregroundColor(Colors.text)
             }
             ToolbarItem(placement: .navigationBarLeading) {
                 BackButton()

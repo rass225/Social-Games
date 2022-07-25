@@ -19,19 +19,38 @@ enum Games: String {
     
     var icon : Image {
         switch self {
-        case .horseRace: return Images.horse
+        case .horseRace: return Images.horse2
         case .truthDare: return Images.hexagon
         case .neverHaveIEver: return Images.seal
-        case .pyramid: return Images.pyramid
+        case .pyramid: return Images.pyramid2
         case .spinBottle: return Images.bottle
         case .whosMostLikely: return Images.pentagon
         case .higherLower: return Images.higherLower
         case .chooser: return Images.chooser
         case .explain: return Images.explain
-        case .wheel: return Images.wheel
+        case .wheel: return Images.wheel2
         case .roulette: return Images.roulette
         case .mancala: return Images.mancala
-        case .trivia: return Images.octagon
+        case .trivia: return Images.shield
+        case .millionaire: return Images.millionaire
+        }
+    }
+    
+    var image: Image {
+        switch self {
+        case .horseRace: return Images.horse
+        case .truthDare: return Images.hexagon
+        case .neverHaveIEver: return Images.seal
+        case .pyramid: return Images.pyramid2
+        case .spinBottle: return Images.bottle
+        case .whosMostLikely: return Images.pentagon
+        case .higherLower: return Images.higherLower
+        case .chooser: return Images.chooser
+        case .explain: return Images.explain
+        case .wheel: return Images.wheel2
+        case .roulette: return Images.roulette
+        case .mancala: return Images.mancala
+        case .trivia: return Images.shield
         case .millionaire: return Images.shield
         }
     }
@@ -51,7 +70,7 @@ enum Games: String {
         case .wheel: return Text("Wheel")
         case .mancala: return Text("Mancala")
         case .trivia: return Text("Trivia")
-        case .millionaire: return Text("Who wants to be a millionaire")
+        case .millionaire: return Text("Who Wants to be a Millionaire")
         }
     }
     

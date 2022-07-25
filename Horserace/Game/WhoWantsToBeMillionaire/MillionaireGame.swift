@@ -17,123 +17,18 @@ struct MillionaireGame: View {
                 VStack{
                     ZStack(alignment: .center){
                         ProgressBar(value: $model.progress, size: size).frame(height: 9)
-                        HStack(alignment: .center, spacing: 0){
-                            Group{
-                                tierCell(position: .top, tier: .one, currentTier: $model.currentTier)
-                                Spacer()
-                                tierCell(position: .bottom, tier: .two, currentTier: $model.currentTier)
-                                Spacer()
-                                tierCell(position: .top, tier: .three, currentTier: $model.currentTier)
-                                Spacer()
-                                tierCell(position: .bottom, tier: .four, currentTier: $model.currentTier)
-                                Spacer()
-                            }
-                            Group{
-                                tierCell(position: .top, tier: .five, currentTier: $model.currentTier)
-                                Spacer()
-                                tierCell(position: .bottom, tier: .six, currentTier: $model.currentTier)
-                                Spacer()
-                                tierCell(position: .top, tier: .seven, currentTier: $model.currentTier)
-                                Spacer()
-                                tierCell(position: .bottom, tier: .eight, currentTier: $model.currentTier)
-                                Spacer()
-                            }
-                            Group{
-                                tierCell(position: .top, tier: .nine, currentTier: $model.currentTier)
-                                Spacer()
-                                tierCell(position: .bottom, tier: .ten, currentTier: $model.currentTier)
-                                Spacer()
-                                tierCell(position: .top, tier: .eleven, currentTier: $model.currentTier)
-                                Spacer()
-                                tierCell(position: .bottom, tier: .twelve, currentTier: $model.currentTier)
-                            }
-                            Group{
-                                Spacer()
-                                tierCell(position: .top, tier: .thirdteen, currentTier: $model.currentTier)
-                                Spacer()
-                                tierCell(position: .bottom, tier: .fourteen, currentTier: $model.currentTier)
-                                Spacer()
-                                tierCell(position: .top, tier: .fifthteen, currentTier: $model.currentTier)
-                                Spacer()
-                                tierCell(position: .bottom, tier: .sixteen, currentTier: $model.currentTier)
-                            }
-                        }
+                        tiers()
                     }.padding(.vertical)
-                    
-                    HStack(spacing: 0){
-                        Button(action: {
-                            model.handleLifeline(lifeline: .fiftyfifty)
-                        }) {
-                            LifelineCell(lifeline: "50/50")
-                        }
-                        .disabled(model.lifelines.fiftyfifty)
-                        .opacity(model.lifelines.fiftyfifty ? 0.4 : 1)
-                        Spacer()
-                        Button(action: {
-                            model.handleLifeline(lifeline: .skipQuestion)
-                        }) {
-                            LifelineCell(lifeline: "Skip Question")
-                        }
-                        .disabled(model.lifelines.skipQuestion)
-                        .opacity(model.lifelines.skipQuestion ? 0.4 : 1)
-                            
-                        Spacer()
-                        Button(action: {
-                            model.handleLifeline(lifeline: .askCrowd)
-                        }) {
-                            LifelineCell(lifeline: "Ask Crowd")
-                        }
-                        .disabled(model.lifelines.askCrowd)
-                        .opacity(model.lifelines.askCrowd ? 0.4 : 1)
-                    }
-                    
+                    lifelinesView(size: size)
                     Spacer()
-                    
                     display(size: size)
-                    
                     Spacer()
                 }
                 .onAppear{
                     model.size = size
                 }
             }
-            VStack(spacing: 8){
-                Button(action: {
-                    model.determineOutcome(answer: .A)
-                }) {
-                    PossibleAnswerCell(model: model, answerIndex: .A)
-                }
-                .disabled(model.gameState != .question)
-                .disabled(model.isAnswerDisabledByFiftyFifty(answer: .A))
-                .opacity(model.isAnswerDisabledByFiftyFifty(answer: .A) ? 0 : 1)
-                Button(action: {
-                    model.determineOutcome(answer: .B)
-                }) {
-                    PossibleAnswerCell(model: model, answerIndex: .B)
-                }
-                .disabled(model.gameState != .question)
-                .disabled(model.isAnswerDisabledByFiftyFifty(answer: .B))
-                .opacity(model.isAnswerDisabledByFiftyFifty(answer: .B) ? 0 : 1)
-                
-                Button(action: {
-                    model.determineOutcome(answer: .C)
-                }) {
-                    PossibleAnswerCell(model: model, answerIndex: .C)
-                }
-                .disabled(model.gameState != .question)
-                .disabled(model.isAnswerDisabledByFiftyFifty(answer: .C))
-                .opacity(model.isAnswerDisabledByFiftyFifty(answer: .C) ? 0 : 1)
-                Button(action: {
-                    model.determineOutcome(answer: .D)
-                }) {
-                    PossibleAnswerCell(model: model, answerIndex: .D)
-                }
-                .disabled(model.gameState != .question)
-                .disabled(model.isAnswerDisabledByFiftyFifty(answer: .D))
-                .opacity(model.isAnswerDisabledByFiftyFifty(answer: .D) ? 0 : 1)
-                
-            }
-            .padding(.bottom)
+            possibleAnswersView
         }
         .maxWidth()
         .maxHeight()
@@ -176,52 +71,175 @@ struct MillionaireGame: View {
         }
     }
     
-    @ViewBuilder
-    func display(size: CGSize) -> some View {
+    @ViewBuilder func lifelinesView(size: CGSize) -> some View {
+        HStack(spacing: 0){
+            Button(action: {
+                model.handleLifeline(lifeline: .fiftyfifty)
+            }) {
+                LifelineCell(lifeline: .fiftyfifty)
+            }
+            
+            .disabled(model.gameState != .question)
+            .disabled(model.lifelines.fiftyfifty)
+            .opacity(model.lifelines.fiftyfifty ? 0.3 : 1)
+            .buttonStyle(.plain)
+            .animation(.easeOut(duration: 0.25), value: model.lifelines.fiftyfifty)
+            Spacer()
+            Button(action: {
+                model.handleLifeline(lifeline: .skipQuestion)
+            }) {
+                LifelineCell(lifeline: .skipQuestion)
+            }
+            
+            .disabled(model.gameState != .question)
+            .disabled(model.lifelines.skipQuestion)
+            .opacity(model.lifelines.skipQuestion ? 0.3 : 1)
+            .buttonStyle(.plain)
+            .animation(.easeOut(duration: 0.25), value: model.lifelines.skipQuestion)
+            Spacer()
+            Button(action: {
+                model.handleLifeline(lifeline: .askCrowd)
+            }) {
+                LifelineCell(lifeline: .askCrowd)
+            }
+            
+            .disabled(model.gameState != .question)
+            .disabled(model.lifelines.askCrowd)
+            .opacity(model.lifelines.askCrowd ? 0.3 : 1)
+            .buttonStyle(.plain)
+            .animation(.easeOut(duration: 0.25), value: model.lifelines.askCrowd)
+        }.padding(.horizontal, size.width / 9)
+    }
+    
+    var possibleAnswersView: some View {
+        VStack(spacing: 8){
+            Button(action: {
+                model.determineOutcome(answer: .A)
+            }) {
+                PossibleAnswerCell(model: model, answerIndex: .A)
+            }
+            .disabled(model.gameState != .question)
+            .disabled(model.isAnswerDisabledByFiftyFifty(answer: .A))
+            .opacity(model.isAnswerDisabledByFiftyFifty(answer: .A) ? 0.3 : 1)
+            .animation(.easeOut(duration: 0.5), value: model.isAnswerDisabledByFiftyFifty(answer: .A))
+            Button(action: {
+                model.determineOutcome(answer: .B)
+            }) {
+                PossibleAnswerCell(model: model, answerIndex: .B)
+            }
+            .disabled(model.gameState != .question)
+            .disabled(model.isAnswerDisabledByFiftyFifty(answer: .B))
+            .opacity(model.isAnswerDisabledByFiftyFifty(answer: .B) ? 0.3 : 1)
+            .animation(.easeOut(duration: 0.5), value: model.isAnswerDisabledByFiftyFifty(answer: .B))
+            Button(action: {
+                model.determineOutcome(answer: .C)
+            }) {
+                PossibleAnswerCell(model: model, answerIndex: .C)
+            }
+            .disabled(model.gameState != .question)
+            .disabled(model.isAnswerDisabledByFiftyFifty(answer: .C))
+            .opacity(model.isAnswerDisabledByFiftyFifty(answer: .C) ? 0.3 : 1)
+            .animation(.easeOut(duration: 0.5), value: model.isAnswerDisabledByFiftyFifty(answer: .C))
+            Button(action: {
+                model.determineOutcome(answer: .D)
+            }) {
+                PossibleAnswerCell(model: model, answerIndex: .D)
+            }
+            .disabled(model.gameState != .question)
+            .disabled(model.isAnswerDisabledByFiftyFifty(answer: .D))
+            .opacity(model.isAnswerDisabledByFiftyFifty(answer: .D) ? 0.3 : 1)
+            .animation(.easeOut(duration: 0.5), value: model.isAnswerDisabledByFiftyFifty(answer: .D))
+        }
+    }
+    
+    @ViewBuilder func tiers() -> some View {
+        HStack(alignment: .center, spacing: 0){
+            Group{
+                tierCell(position: .top, tier: .one, currentTier: $model.currentTier)
+                Spacer()
+                tierCell(position: .bottom, tier: .two, currentTier: $model.currentTier)
+                Spacer()
+                tierCell(position: .top, tier: .three, currentTier: $model.currentTier)
+                Spacer()
+                tierCell(position: .bottom, tier: .four, currentTier: $model.currentTier)
+                Spacer()
+            }
+            Group{
+                tierCell(position: .top, tier: .five, currentTier: $model.currentTier)
+                Spacer()
+                tierCell(position: .bottom, tier: .six, currentTier: $model.currentTier)
+                Spacer()
+                tierCell(position: .top, tier: .seven, currentTier: $model.currentTier)
+                Spacer()
+                tierCell(position: .bottom, tier: .eight, currentTier: $model.currentTier)
+                Spacer()
+            }
+            Group{
+                tierCell(position: .top, tier: .nine, currentTier: $model.currentTier)
+                Spacer()
+                tierCell(position: .bottom, tier: .ten, currentTier: $model.currentTier)
+                Spacer()
+                tierCell(position: .top, tier: .eleven, currentTier: $model.currentTier)
+                Spacer()
+                tierCell(position: .bottom, tier: .twelve, currentTier: $model.currentTier)
+            }
+            Group{
+                Spacer()
+                tierCell(position: .top, tier: .thirdteen, currentTier: $model.currentTier)
+                Spacer()
+                tierCell(position: .bottom, tier: .fourteen, currentTier: $model.currentTier)
+                Spacer()
+                tierCell(position: .top, tier: .fifthteen, currentTier: $model.currentTier)
+                Spacer()
+                tierCell(position: .bottom, tier: .sixteen, currentTier: $model.currentTier)
+            }
+        }
+        .padding(.horizontal, 8)
+    }
+    
+    @ViewBuilder func display(size: CGSize) -> some View {
         Image(systemName: "display")
             .resizable()
             .aspectRatio(contentMode: .fit)
             .font(.largeTitle.weight(.ultraLight))
             .modifier(DisplayModifier(state: $model.gameState))
-            .frame(width: size.width - 32)
+            .frame(width: size.width / 1.05)
             .onTapGesture {
                 model.currentTier = .eleven
                 model.updateProgress()
             }
             .overlay(alignment: .top, content: {
-                QuestionLabel(model: model)
+                questionLabel()
             })
             .overlay{
                 GameStateLabel(state: $model.gameState)
             }
     }
     
-    struct QuestionLabel: View {
-        
-        @ObservedObject var model: MillionaireModel
-        
-        var body: some View {
-            VStack(spacing: 16){
+    @ViewBuilder func questionLabel() -> some View {
+        VStack(spacing: 20){
+            
+            if model.gameState == .question {
+                Text("For \(model.nextReward().valueString)")
+                    .textCase(.uppercase)
+                    .foregroundColor(Color.init(red: 0, green: 0.65, blue: 0))
                 
-                if model.gameState == .question {
-                    Text("For \(model.currentTier.valueString)")
-                        .textCase(.uppercase)
-                        .foregroundColor(.gray)
-                        .font(.callout.weight(.medium))
-                    Text(model.currentQuestion.question)
-                        .font(.title3.weight(.semibold))
-                        
-                }
+                    .font(.callout.weight(.semibold))
+                Text(model.currentQuestion.question)
+                    .font(.title2.weight(.semibold))
+                
             }
-            .padding(.vertical, 16)
-            .padding(.horizontal, 20)
         }
+        .padding(.vertical, 24)
+        .padding(.horizontal, 16)
     }
-
+    
     struct GameStateLabel: View {
         
         @Binding var state: MillionaireModel.GameState
-        
+        @State var askCrowdTimeRemaining = 15
+        @State var showTimer: Bool = false
+        let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
         
         var image: String {
             switch state {
@@ -238,7 +256,9 @@ struct MillionaireGame: View {
             switch state {
             case .question: return ""
             case .answerLocked: return "You locked your answer"
-            case .lifeline(let choice): return "\(choice)"
+            case .lifeline(let choice):
+                
+                return "\(choice.label)"
             case .moveUp: return "You have progressed to the next stage"
             case .gameover: return "Game over"
             case .correctAnswer: return "Correct Answer"
@@ -252,20 +272,53 @@ struct MillionaireGame: View {
                 let localFrame = geometry.frame(in: .local)
                 let localSize = geometry.size
                 let padding = localSize.height / 10
+                
+                
                 VStack{
-                    if state != .question {
-                        Image(systemName: image)
-                            .resizable()
-                            .font(.largeTitle.weight(.light))
-                            .aspectRatio(contentMode: .fit)
-                            .frame(width: localSize.height / 5, height: localSize.height / 5)
+                    if state == .lifeline(.askCrowd) {
+                        VStack{
+                            if showTimer {
+                                Text("\(askCrowdTimeRemaining)")
+                                    .font(.system(size: 54).weight(.semibold))
+                                    .onReceive(timer) { _ in
+                                        if askCrowdTimeRemaining > 0 {
+                                            askCrowdTimeRemaining -= 1
+                                        }
+                                    }
+                            } else {
+                                Image(systemName: image)
+                                    .resizable()
+                                    .font(.largeTitle.weight(.light))
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: localSize.height / 5, height: localSize.height / 5)
+                                    .foregroundColor(.white)
+                                Text(label)
+                                    .font(.body.weight(.medium))
+                                    .foregroundColor(.white)
+                            }
+                        }
+                        .onAppear{
+                            DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                                showTimer.toggle()
+                            }
+                        }
+                        
+                    } else {
+                        if state != .question {
+                            Image(systemName: image)
+                                .resizable()
+                                .font(.largeTitle.weight(.light))
+                                .aspectRatio(contentMode: .fit)
+                                .frame(width: localSize.height / 5, height: localSize.height / 5)
+                                .foregroundColor(.white)
+                        }
+                        
+                        
+                        Text(label)
+                            .font(.body.weight(.medium))
                             .foregroundColor(.white)
                     }
                     
-                
-                    Text(label)
-                        .font(.body.weight(.medium))
-                        .foregroundColor(.white)
                 }.position(x: localFrame.midX, y: localFrame.midY - padding)
             }
         }
@@ -293,7 +346,7 @@ struct MillionaireGame: View {
                 return .gray
             }
         }
-        @State private var weight: Font.Weight = .medium
+        @State private var weight: Font.Weight = .semibold
         
         private var circleSize: Double {
             switch isMilestoneTier() {
@@ -307,23 +360,23 @@ struct MillionaireGame: View {
                 switch position {
                 case .top:
                     Text(tier.valueString)
-                        .font(.footnote.weight(weight))
+                        .font(.caption2.weight(weight))
                         .fixedSize()
                         .frame(alignment: .leading)
                         .foregroundColor(color)
                     circle
                     Text("X")
-                        .font(.footnote.weight(weight))
+                        .font(.caption2.weight(weight))
                         .fixedSize()
                         .opacity(0)
                 case .bottom:
                     Text("X")
-                        .font(.footnote.weight(weight))
+                        .font(.caption2.weight(weight))
                         .fixedSize()
                         .opacity(0)
                     circle
                     Text(tier.valueString)
-                        .font(.footnote.weight(weight))
+                        .font(.caption2.weight(weight))
                         .fixedSize()
                         .frame(alignment: .leading)
                         .foregroundColor(color)
@@ -336,8 +389,7 @@ struct MillionaireGame: View {
         var circle: some View {
             Circle()
                 .frame(width: circleSize, height: circleSize)
-                .foregroundStyle(LinearGradient(colors: [game.game.color, Colors.text], startPoint: .bottom, endPoint: .top))
-                
+                .foregroundColor(Colors.text)
         }
         
         func isMilestoneTier() -> Bool {
@@ -369,6 +421,7 @@ struct MillionaireGame: View {
                         .modifier(IndexForeground(model: model, answerIndex: answerIndex))
                         .padding(.leading, 12)
                 }
+                .opacity(model.gameState == .lifeline(.skipQuestion) ? 0 : 1)
         }
         
         func displayLabel() -> String {
@@ -526,17 +579,47 @@ struct MillionaireGame: View {
     struct LifelineCell: View {
         @EnvironmentObject var game: Game
         
-        let lifeline: String
+        let lifeline: MillionaireModel.Lifeline
         
         var body: some View {
-            Text(lifeline)
-                .padding(.vertical, 8)
-                .padding(.horizontal, 8)
-                .maxWidth()
-                .background(game.game.gradient)
-                .clipShape(RoundedRectangle(cornerRadius: 8, style: .continuous))
-                .font(.footnote.weight(.semibold))
-                .foregroundColor(.white)
+            switch lifeline {
+            case .fiftyfifty:
+                Text("50/50")
+                    .font(.caption2.weight(.semibold))
+                    .frame(width: 44, height: 44)
+                    .background(game.game.gradient)
+                    .clipShape(Circle())
+                    .foregroundColor(.white)
+            case .skipQuestion:
+                Circle()
+                    .frame(width: 44, height: 44)
+                    .foregroundStyle(game.game.gradient)
+                    .overlay(alignment: .center) {
+                        Image(systemName: "arrow.counterclockwise")
+                            .font(.subheadline.weight(.medium))
+                            .foregroundColor(.white)
+                    }
+            case .askCrowd:
+                Circle()
+                    .frame(width: 44, height: 44)
+                    .foregroundStyle(game.game.gradient)
+                    .overlay(alignment: .center) {
+                        Image(systemName: "person.2.wave.2.fill")
+                            .font(.footnote.weight(.regular))
+                            .foregroundColor(.white)
+                            .offset(x: -4, y: 0)
+                    }
+            }
+            
+            //            Text(lifeline)
+            //                .padding(.vertical, 8)
+            //                .padding(.horizontal, 8)
+            //                .maxWidth()
+            //                .background(game.game.gradient)
+            //                .clipShape(RoundedRectangle(cornerRadius: 8, style: .continuous))
+            //                .textCase(.uppercase)
+            //                .font(.caption2.weight(.semibold))
+            //                .foregroundColor(.white)
         }
     }
     
@@ -584,20 +667,19 @@ struct MillionaireGame: View {
         let size: CGSize
         
         var body: some View {
-                ZStack(alignment: .leading) {
-                    Rectangle().frame(width: size.width , height: size.height)
-                        .opacity(0.5)
-                        .foregroundColor(.gray)
-                        .frame(height: 10)
-                    
-                    Rectangle().frame(width: min(CGFloat(self.value)*size.width, size.width), height: size.height)
-                        .foregroundStyle(LinearGradient(colors: [.green, Colors.green, .init(red: 0, green: 0.5, blue: 0)], startPoint: .leading, endPoint: .trailing))
-                        .animation(.linear(duration: 1), value: value)
-                        .frame(height: 10)
-                }
-                .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
+            ZStack(alignment: .leading) {
+                Rectangle().frame(width: size.width - 16 , height: size.height)
+                    .opacity(0.5)
+                    .foregroundColor(.gray)
+                    .frame(height: 10)
+                
+                Rectangle().frame(width: min(CGFloat(self.value)*size.width, size.width - 16), height: size.height)
+                    .foregroundStyle(LinearGradient(colors: [.green, Colors.green, .init(red: 0, green: 0.5, blue: 0)], startPoint: .leading, endPoint: .trailing))
+                    .animation(.linear(duration: 1), value: value)
+                    .frame(height: 10)
+                
+            }
+            .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
         }
     }
 }
-
-

@@ -1,6 +1,5 @@
 import SwiftUI
 
-@available(iOS 14.0, *)
 public struct FortuneWheel: View {
     var titles: [String]
     var onSpinEnd: ((Int) -> ())?
@@ -151,7 +150,7 @@ struct SpinWheelView: View {
         let radius = min(size.width, size.height) / 3
         let dataRatio = (2 * data[..<index].reduce(0, +) + data[index]) / (2 * data.reduce(0, +))
         let angle = CGFloat(sliceOffset + 2 * .pi * dataRatio)
-        let response = CGSize(width: radius * cos(angle), height: radius * sin(angle))
+        let response = CGSize(width: (radius / 1.2) * cos(angle), height: (radius / 1.2) * sin(angle))
         return response
     }
 }

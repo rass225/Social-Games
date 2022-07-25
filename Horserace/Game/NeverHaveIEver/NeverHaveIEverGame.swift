@@ -14,21 +14,25 @@ struct NeverHaveIEverGame: View {
     
     var body: some View {
         VStack{
-            GeometryReader { geo in
-                let size = geo.size
-                let desiredWidth = size.width / 1.25
-                if model.status == .activity {
+            switch model.status {
+            case .notStarted:
+                Spacer()
+                Text(model.currentTitle)
+                    .font(.title.weight(.semibold))
+                    .foregroundColor(Colors.text)
+                    .maxWidth()
+                Spacer()
+            case .activity:
+                GeometryReader { geo in
+                    let size = geo.size
+                    let desiredWidth = size.width / 1.20
                     Ticket(desiredWidth: desiredWidth, title: title, subtitle: $model.currentStatement, footnote: model.tier.rawValue)
                         .maxWidth()
                         .maxHeight()
-                } else {
-                    Text(model.currentTitle)
-                        .font(.title.weight(.semibold))
-                        .foregroundColor(Colors.text)
-                        .maxWidth()
-                        .padding(.top, size.height / 3)
+                    
                 }
             }
+            
             Button(action: {
                 model.mainButtonAction()
             }) {
@@ -39,7 +43,7 @@ struct NeverHaveIEverGame: View {
         .navigationModifier(game: .neverHaveIEver)
         .toolbar{
             ToolbarItem(placement: .navigationBarLeading) {
-                HomeButton()
+                BackButton()
             }
             ToolbarItem(placement: .navigationBarTrailing) {
                 Menu(content: {
@@ -77,9 +81,6 @@ struct NeverHaveIEverGame: View {
                     GameMenuButton()
                     
                 })
-            }
-            ToolbarItem(placement: .principal) {
-                GameTitle()
             }
         }
         .sheet(isPresented: $isRulesOpen) {

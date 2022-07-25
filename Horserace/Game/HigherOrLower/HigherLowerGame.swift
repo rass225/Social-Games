@@ -2,20 +2,15 @@ import SwiftUI
 
 struct HigherLowerGame: View {
     
-//    @ObservedObject var model: HigherLowerModel
     @State var isRulesOpen: Bool = false
     @EnvironmentObject var game: Game
-    
-//    init(players: [String]) {
-//        model = HigherLowerModel(players: players)
-//    }
     
     enum Choice {
         case higher
         case lower
     }
     
-    let players: [String]
+    @State var players: [String]
     @State var currentPlayer = 0
     @State var deck = Constant.deck.shuffled()
     @State var hasPlayersShuffled: Bool = false
@@ -30,18 +25,70 @@ struct HigherLowerGame: View {
     @State var nextCardToAddIndex = 0
     @State var choiceMade: Choice = .higher
     @State var isAnimating: Bool = false
-    @State var mainLabel: String = "Higher or lower?"
+    @State var mainLabel: String = ""
     @State var currentStreak: Int = 0
+    @AppStorage("HigherLowerRecord") private var record = 0
+    @State var currentRecord: Int = 0
     
     
     var body: some View {
-        VStack{
-            PlayersBoard(currentPlayer: $currentPlayer, hasPlayersShuffled: $hasPlayersShuffled, players: players)
+        VStack(spacing: 0){
+            PlayersBoard(currentPlayer: $currentPlayer, hasPlayersShuffled: $hasPlayersShuffled, players: $players)
+            HStack(spacing: 8){
+                HStack(spacing: 4){
+                    Image(systemName: "crown.fill")
+                        .font(.title2)
+                        .foregroundStyle(game.game.gradient)
+                        .frame(height: 25)
+                    Text("\(record)")
+                        .font(.title3.weight(.medium))
+                        .textCase(.uppercase)
+                }
+                .padding(.vertical, 8)
+                .padding(.horizontal, 12)
+                .background(.ultraThickMaterial)
+                .mask(RoundCorners(cornerRadius: 8))
+                .shadow(color: Colors.darkShadow2, radius: 5, x: 0, y: 8)
+                
+                HStack(spacing: 4){
+                    Image(systemName: "flame.fill")
+                        .font(.title2)
+                        .foregroundStyle(game.game.gradient)
+                        .frame(height: 25)
+                    Text("\(currentRecord)")
+                        .font(.title3.weight(.medium))
+                        .textCase(.uppercase)
+                }
+                .padding(.vertical, 8)
+                .padding(.horizontal)
+                .background(.ultraThickMaterial)
+                .mask(RoundCorners(cornerRadius: 8))
+                .shadow(color: Colors.darkShadow2, radius: 5, x: 0, y: 8)
+                
+                HStack(spacing: 4){
+                    Image(systemName: "flame")
+                        .font(.title2)
+                        .foregroundStyle(game.game.gradient)
+                        .frame(height: 25)
+                    Text("\(currentStreak)")
+                        .font(.title3.weight(.medium))
+                        .textCase(.uppercase)
+                }
+                .padding(.vertical, 8)
+                .padding(.horizontal)
+                .background(.ultraThickMaterial)
+                .mask(RoundCorners(cornerRadius: 8))
+                .shadow(color: Colors.darkShadow2, radius: 5, x: 0, y: 8)
+               
+                
+                
+            }
             
             GeometryReader { geo in
                 let size = geo.size
                 Text(mainLabel)
-                    .font(.title3.weight(.regular))
+                    .font(.title.weight(.regular))
+//                    .foregroundStyle(game.game.gradient)
                     .foregroundColor(Colors.text)
                     .maxWidth(alignment: .center)
                     .padding(.top, 32)
@@ -49,9 +96,9 @@ struct HigherLowerGame: View {
                    
                 VStack{
                     Spacer()
-                    Text("Current streak: \(currentStreak)")
-                        .textCase(.uppercase)
-                        .font(.headline.weight(.medium))
+//                    Text("Current streak: \(currentStreak)")
+//                        .textCase(.uppercase)
+//                        .font(.headline.weight(.medium))
                     HStack(spacing: 20){
                         ZStack{
                             ForEach($dealtCards) { item in
@@ -131,9 +178,17 @@ struct HigherLowerGame: View {
                 })
             }
             
-            ToolbarItem(placement: .principal) {
-                GameTitle()
-            }
+//            ToolbarItem(placement: .principal) {
+//                HStack(alignment: .bottom, spacing: 0){
+//
+//                        Image(systemName: "crown.fill")
+//                            .font(.title)
+//                        Text("\(record)")
+//                            .font(.title)
+//
+//                }
+//                .foregroundStyle(game.game.gradient)
+//            }
         }
         .sheet(isPresented: $isRulesOpen) {
             RuleView(isOpen: $isRulesOpen)
@@ -188,7 +243,16 @@ struct HigherLowerGame: View {
             } else {
                 let penalty = currentStreak
                 let currentPlayer = players[currentPlayer]
-                mainLabel = "\(currentPlayer) lost with \(penalty) penalty points."
+                mainLabel = "\(currentPlayer) lost on streak \(penalty)"
+                if currentStreak > record {
+                    record = currentStreak
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                        mainLabel = "New record!!"
+                    }
+                }
+                if currentStreak > currentRecord {
+                    currentRecord = currentStreak
+                }
                 currentStreak = 0
                 print("loser")
             }
@@ -198,7 +262,16 @@ struct HigherLowerGame: View {
             } else {
                 let penalty = currentStreak
                 let currentPlayer = players[currentPlayer]
-                mainLabel = "\(currentPlayer) lost with \(penalty) penalty points."
+                mainLabel = "\(currentPlayer) lost on streak \(penalty)"
+                if currentStreak > record {
+                    record = currentStreak
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                        mainLabel = "New record!!"
+                    }
+                }
+                if currentStreak > currentRecord {
+                    currentRecord = currentStreak
+                }
                 currentStreak = 0
                 print("loser")
             }

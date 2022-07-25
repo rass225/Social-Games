@@ -22,7 +22,7 @@ class MillionaireModel: ObservableObject {
         case sixteen
         
         var percent: Float {
-            let percent: Float = 1 / 15
+            let percent: Float = 1 / 15.75
             switch self {
             case .one: return 0.0
             case .two: return percent
@@ -98,7 +98,7 @@ class MillionaireModel: ObservableObject {
     enum GameState: Equatable {
         case question
         case answerLocked
-        case lifeline(String)
+        case lifeline(Lifeline)
         case correctAnswer
         case wrongAnswer
         case moveUp
@@ -109,6 +109,14 @@ class MillionaireModel: ObservableObject {
         case fiftyfifty
         case skipQuestion
         case askCrowd
+        
+        var label: String {
+            switch self {
+            case .fiftyfifty: return "50/50"
+            case .skipQuestion: return "Skip Question"
+            case .askCrowd: return "Ask Crowd"
+            }
+        }
     }
     
     enum PickedAnswer: String, CaseIterable {
@@ -139,6 +147,11 @@ class MillionaireModel: ObservableObject {
     
     var size = CGSize(width: 0, height: 0)
     let player: String
+    private let testQuestions: [MillionaireQuestion] = [
+        MillionaireQuestion(question: "Who is the top assiter of all time?", answer1: "Özil", answer2: "Kevin De Bruyne", answer3: "Messi", answer4: "Zidane", correctAnswer: "Messi"),
+        MillionaireQuestion(question: "Who scored the only goal in the world cup 2010 final?", answer1: "Robben", answer2: "Iniesta", answer3: "Higuain", answer4: "Ronaldo", correctAnswer: "Iniesta"),
+        MillionaireQuestion(question: "Who scored the goal labeld as 'The hand of god'?", answer1: "Pele", answer2: "Beckenbauer", answer3: "Romario", answer4: "Maradona", correctAnswer: "Maradona")
+    ]
     
     
     init(player: String) {
@@ -162,38 +175,50 @@ class MillionaireModel: ObservableObject {
         switch lifeline {
         case .fiftyfifty:
             lifelines.fiftyfifty.toggle()
-            gameState = .lifeline("50/50")
-            let correctAnswer = currentQuestion.correctAnswer
-            var allAnswers = PickedAnswer.allCases
-            if currentQuestion.answer1 == correctAnswer {
-                fiftyfiftyAnswers.append(.A)
-                allAnswers.removeAll(where: { $0 == .A })
-            } else if currentQuestion.answer2 == correctAnswer {
-                fiftyfiftyAnswers.append(.B)
-                allAnswers.removeAll(where: { $0 == .B })
-            } else if currentQuestion.answer3 == correctAnswer {
-                fiftyfiftyAnswers.append(.C)
-                allAnswers.removeAll(where: { $0 == .C })
-            } else if currentQuestion.answer4 == correctAnswer {
-                fiftyfiftyAnswers.append(.D)
-                allAnswers.removeAll(where: { $0 == .D })
-            }
+            gameState = .lifeline(.fiftyfifty)
             
-//
-            let remainingAnswers = extractRandomElementsFromArray(allAnswers, numberOfElements: 1)
-            if let remainingAnswers = remainingAnswers {
-                fiftyfiftyAnswers.append(remainingAnswers[0])
-            }
             DispatchQueue.main.asyncAfter(deadline: .now() + 2) { [self] in
                 gameState = .question
+                let correctAnswer = currentQuestion.correctAnswer
+                var allAnswers = PickedAnswer.allCases
+                if currentQuestion.answer1 == correctAnswer {
+                    fiftyfiftyAnswers.append(.A)
+                    allAnswers.removeAll(where: { $0 == .A })
+                } else if currentQuestion.answer2 == correctAnswer {
+                    fiftyfiftyAnswers.append(.B)
+                    allAnswers.removeAll(where: { $0 == .B })
+                } else if currentQuestion.answer3 == correctAnswer {
+                    fiftyfiftyAnswers.append(.C)
+                    allAnswers.removeAll(where: { $0 == .C })
+                } else if currentQuestion.answer4 == correctAnswer {
+                    fiftyfiftyAnswers.append(.D)
+                    allAnswers.removeAll(where: { $0 == .D })
+                }
+            
+                let remainingAnswers = extractRandomElementsFromArray(allAnswers, numberOfElements: 1)
+                if let remainingAnswers = remainingAnswers {
+                    fiftyfiftyAnswers.append(remainingAnswers[0])
+                }
             }
             
         case .skipQuestion:
             lifelines.skipQuestion.toggle()
-            gameState = .lifeline("Skip Question")
+            gameState = .lifeline(.skipQuestion)
+            
+            currentQuestion = testQuestions[.random(in: 0...testQuestions.count - 1)]
+            //fetch new question from the same tier
+            
+            DispatchQueue.main.asyncAfter(deadline: .now() + 2) { [self] in
+                fiftyfiftyAnswers.removeAll()
+                gameState = .question
+                
+            }
         case .askCrowd:
             lifelines.askCrowd.toggle()
-            gameState = .lifeline("Ask Crowd")
+            gameState = .lifeline(.askCrowd)
+            DispatchQueue.main.asyncAfter(deadline: .now() + 14.5) { [self] in
+                gameState = .question
+            }
         }
     }
     
@@ -271,6 +296,27 @@ class MillionaireModel: ObservableObject {
         DispatchQueue.main.asyncAfter(deadline: .now() + 4) { [self] in
             fiftyfiftyAnswers.removeAll()
             gameState = .question
+        }
+    }
+    
+    func nextReward() -> Tier {
+        switch currentTier {
+        case .one: return .two
+        case .two: return .three
+        case .three: return .four
+        case .four: return .five
+        case .five: return .six
+        case .six: return .seven
+        case .seven: return .eight
+        case .eight: return .nine
+        case .nine: return .ten
+        case .ten: return .eleven
+        case .eleven: return .twelve
+        case .twelve: return .thirdteen
+        case .thirdteen: return .fourteen
+        case .fourteen: return .fifthteen
+        case .fifthteen: return .sixteen
+        case .sixteen: return .one
         }
     }
 }

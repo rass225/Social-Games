@@ -6,6 +6,15 @@ struct HorceRaceGame: View {
     @EnvironmentObject var game: Game
     @ObservedObject var model: HorseRaceModel
     @State var isRulesOpen: Bool = false
+    @AppStorage("HorseraceHeartWins") var heartWins = 0
+    @AppStorage("HorseraceDiamondWins") var diamondWins = 0
+    @AppStorage("HorseraceSpadeWins") var spadeWins = 0
+    @AppStorage("HorseraceClubWins") var clubWins = 0
+    
+    
+    var winner: Suit? {
+        return model.winnerSuit
+    }
     
     let columns = [
         GridItem(.flexible(maximum: .infinity), spacing: 0, alignment: .center),
@@ -24,7 +33,7 @@ struct HorceRaceGame: View {
                 let size = geometry.size
                 ZStack(alignment: .bottomTrailing){
                     Finishline(size: size)
-                    
+                        
                     VStack{
                         Spacer()
                         HStack(spacing: 16){
@@ -84,14 +93,31 @@ struct HorceRaceGame: View {
                 HomeButton()
             }
             ToolbarItem(placement: .navigationBarTrailing) {
-                Button(action: {
-                    model.restart()
-                }) {
-                    RestartButton()
-                }
-            }
-            ToolbarItem(placement: .navigationBarTrailing) {
-                RulesButton(isOpen: $isRulesOpen)
+                Menu(content: {
+                    Section{
+                        Button(action: {
+                            isRulesOpen.toggle()
+                        }) {
+                            Text("Rules")
+                            Images.rulesFill
+                                .symbolRenderingMode(.palette)
+                                .foregroundStyle(.white, game.game.gradient)
+                        }
+                    }
+                    Section{
+                        Button(action: {
+                            model.restart()
+                        }) {
+                            Text("Restart")
+                            Images.restart
+                                .symbolRenderingMode(.palette)
+                                .foregroundStyle(.white, game.game.gradient)
+                                .font(.title)
+                        }
+                    }
+                }, label: {
+                    GameMenuButton()
+                })
             }
             ToolbarItem(placement: .principal) {
                 GameTitle()

@@ -24,13 +24,23 @@ struct SpinBottleGame: View {
                     .shadow(color: Color.black.opacity(0.4), radius: 10, x: 0, y: 0)
                     .rotationEffect(Angle(degrees: model.spinDegrees))
                     .animation(spinAnimation, value: model.spinDegrees)
+                    .gesture(
+                        DragGesture()
+                            .onChanged({ (value) in
+                                let width = value.translation.width
+                                let height = value.translation.height
+                                if height > width {
+                                    model.spinBottle(value: value.translation.height)
+                                } else {
+                                    model.spinBottle(value: value.translation.width)
+                                }
+                                
+                            })
+                    )
                     .overlay{
                         if !model.hasGameStarted {
                             overlay
                         }
-                    }
-                    .onTapGesture {
-                        model.spinBottle()
                     }
             }.padding(.horizontal)
         }
@@ -38,14 +48,14 @@ struct SpinBottleGame: View {
         .gameViewModifier(game: .spinBottle)
         .toolbar{
             ToolbarItem(placement: .navigationBarLeading) {
-                HomeButton()
+                BackButton()
             }
             ToolbarItem(placement: .navigationBarTrailing) {
                 RulesButton(isOpen: $isRulesOpen)
             }
-            ToolbarItem(placement: .principal) {
-                GameTitle()
-            }
+//            ToolbarItem(placement: .principal) {
+//                GameTitle()
+//            }
         }
         .sheet(isPresented: $isRulesOpen) {
             RuleView(isOpen: $isRulesOpen)
@@ -53,7 +63,7 @@ struct SpinBottleGame: View {
     }
     
     var overlay: some View {
-        Text("Tap to spin")
+        Text("Swipe to spin")
             .font(.title3.weight(.regular))
             .foregroundColor(Colors.text)
             .padding(.horizontal)

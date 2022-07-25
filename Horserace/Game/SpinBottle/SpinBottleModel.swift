@@ -8,10 +8,16 @@ class SpinBottleModel: ObservableObject {
     private var rand: Double = 0.0
     private var newAngle: Double = 0.0
     
-    func spinBottle() {
+    func spinBottle(value: Double) {
+        print(value)
         hasGameStarted = true
         rand = Double.random(in: 1...540)
-        spinDegrees += 1260.0 + rand
+        if value < 0 {
+            spinDegrees += value * -3
+        } else {
+            spinDegrees += value * 3
+        }
+        
         newAngle = getAngle(angle: spinDegrees)
     }
     

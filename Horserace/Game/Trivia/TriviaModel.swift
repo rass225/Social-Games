@@ -100,14 +100,13 @@ class TriviaModel: ObservableObject {
     
     func revealAnswer() {
         isAnswerRevealed.toggle()
-        
     }
     
     func nextQuestion() {
         withAnimation(.easeOut(duration: 0.5)){
             state = .category
         }
-        isAnswerRevealed.toggle()
+        
         switch pickedCategory {
         case .geography:
             if geographyIndex < geographyQuestions.count - 1 {
@@ -153,6 +152,7 @@ class TriviaModel: ObservableObject {
             }
         case .none: break
         }
+        isAnswerRevealed.toggle()
     }
     
     func fetchCategory(tier: JSONClient.Client = .TriviaGeography, category: Category) {
