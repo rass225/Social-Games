@@ -7,7 +7,7 @@ class HorseRaceModel: ObservableObject {
     
     @Published var deck = Constant.deck.shuffled()
     @Published var deckIndex: Int = 5
-    
+    @Published var isRulesOpen: Bool = false
     @Published var isThereAWinner: Bool = false
     @Published var state: GameState = .notStarted
     @Published var mainLabel = "Play"

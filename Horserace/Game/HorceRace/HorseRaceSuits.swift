@@ -122,17 +122,10 @@ struct HorseRaceSuits: View {
             }
             Spacer()
             
-            Button(action: {
-                for item in playerSuits {
-                    print("\(item.name) picked \(item.suit ?? .diamond)")
-                }
-                toGame.toggle()
-            }) {
-                MainButton(label: "Play")
-            }
-            .opacity(allSet ? 1 : 0.7)
-            .disabled(allSet ? false : true)
-            .buttonStyle(PlainButtonStyle())
+            Button("Play", action: routeToGame)
+                .buttonStyle(MainButtonStyle())
+                .opacity(allSet ? 1 : 0.7)
+                .disabled(allSet ? false : true)
         }
         .padding(.horizontal, 20)
         .padding(.vertical)
@@ -187,6 +180,13 @@ struct HorseRaceSuits: View {
             }
         }
         
+    }
+    
+    func routeToGame() {
+        for item in playerSuits {
+            print("\(item.name) picked \(item.suit ?? .diamond)")
+        }
+        toGame.toggle()
     }
 }
 

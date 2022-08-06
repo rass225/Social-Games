@@ -3,9 +3,6 @@ import SwiftUI
 
 struct HigherLowerRules: View {
     
-    @Environment(\.colorScheme) var colorScheme
-    @EnvironmentObject var game: Game
-    
     private let rules: RuleBook = RuleBook()
     
     var body: some View {

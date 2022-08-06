@@ -127,6 +127,7 @@ class MillionaireModel: ObservableObject {
     }
     
     @Published var progress: Float = 0.0
+    @Published var isRulesOpen = false
     @Published var currentTier: Tier = .one
     @Published var gameState: GameState = .question
     @Published var pickedAnswer: String = ""
@@ -318,5 +319,9 @@ class MillionaireModel: ObservableObject {
         case .fifthteen: return .sixteen
         case .sixteen: return .one
         }
+    }
+    
+    func showRules() {
+        isRulesOpen.toggle()
     }
 }

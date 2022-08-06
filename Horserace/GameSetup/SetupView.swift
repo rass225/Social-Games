@@ -144,13 +144,9 @@ struct SetupView: View {
                     }.padding(.top)
                 }
             }
-            Button(action: {
-                finalizePlayers()
-            }) {
-                MainButton(label: "Next")
-            }
-            .buttonStyle(PlainButtonStyle())
-            .padding(.horizontal, 20)
+            Button("Next", action: finalizePlayers)
+                .buttonStyle(MainButtonStyle())
+                .padding(.horizontal, 20)
         }
         .sheet(isPresented: $isRulesOpened) {
             RuleView(isOpen: $isRulesOpened)

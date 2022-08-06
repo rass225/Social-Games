@@ -29,7 +29,7 @@ class TruthOrDareModel: ObservableObject {
     }
     
     @Published var players: [String]
-    
+    @Published var isRulesOpen: Bool = false
     @Published var tier: TruthOrDareTier = .friendly
     @Published var status: GameStatus = .notStarted
     @Published var truthOrDare: TruthOrDare = .truth
@@ -150,6 +150,10 @@ class TruthOrDareModel: ObservableObject {
             }
             
         }
+    }
+    
+    func showRules() {
+        isRulesOpen.toggle()
     }
 }
 

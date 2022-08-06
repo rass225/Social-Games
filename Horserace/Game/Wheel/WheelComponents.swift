@@ -175,15 +175,11 @@ struct WheelComponents: View {
                 .padding(.bottom, 32)
             }
             
-            Button(action: {
-                finalizeComponents()
-            }) {
-                MainButton(label: "Next")
-            }
-            .buttonStyle(PlainButtonStyle())
-            .padding(.horizontal, 20)
-            .padding(.top, 8)
-            .padding(.bottom)
+            Button("Next", action: finalizeComponents)
+                .buttonStyle(MainButtonStyle())
+                .padding(.horizontal, 20)
+                .padding(.top, 8)
+                .padding(.bottom)
         }
         .padding(.top, 1)
         .background(DefaultBackground())

@@ -172,24 +172,13 @@ struct PyramidGame: View {
             ToolbarItem(placement: .navigationBarTrailing) {
                 Menu(content: {
                     Section{
-                        Button(action: {
-                            isRulesOpen.toggle()
-                        }) {
-                            Text("Rules")
-                            Images.rulesFill
-                                .symbolRenderingMode(.palette)
-                                .foregroundStyle(.white, game.game.gradient)
+                        Button(action: showRules) {
+                            MenuLabel(.rules)
                         }
                     }
                     Section{
-                        Button(action: {
-                            restart()
-                        }) {
-                            Text("Restart")
-                            Images.restart
-                                .symbolRenderingMode(.palette)
-                                .foregroundStyle(.white, game.game.gradient)
-                                .font(.title)
+                        Button(action: restart) {
+                            MenuLabel(.restart)
                         }
                     }
                 }, label: {
@@ -440,6 +429,10 @@ struct PyramidGame: View {
             fourthBaseOpacity = 0.6
             fifthBaseOpacity = 1
         }
+    }
+    
+    func showRules() {
+        isRulesOpen.toggle()
     }
 }
 

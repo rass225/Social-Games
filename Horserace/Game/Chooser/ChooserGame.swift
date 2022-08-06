@@ -78,7 +78,6 @@ struct ChooserGame: View {
                 .strokeBorder(game.game.color.opacity(0.5), lineWidth: 7.5)
                 .background(Circle().fill(game.game.gradient))
                 .frame(width: size.width / 2.7, height: size.width / 2.7, alignment: .center)
-               
                 .scaleEffect(isOuterPulsing ? 1 : 1.1)
                 .animation(outerPulseAnimation, value: isOuterPulsing)
                 .overlay{
@@ -88,14 +87,15 @@ struct ChooserGame: View {
                         .blur(radius: 15)
                         .scaleEffect(isInnerPulsing ? 0.7 : 1)
                         .animation(innerPulseAnimation, value: isInnerPulsing)
-                        .onAppear{
-                            DispatchQueue.main.asyncAfter(deadline: .now() + 0.05) {
-                                self.isOuterPulsing = true
-                                self.isInnerPulsing = true
-                            }
-                            
-                        }
+                        .onAppear(perform: startPulsing)
                 }
+        }
+        
+        func startPulsing() {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.05) {
+                isOuterPulsing = true
+                isInnerPulsing = true
+            }
         }
     }
 }

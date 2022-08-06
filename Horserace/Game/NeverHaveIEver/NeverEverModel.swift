@@ -16,7 +16,7 @@ class NeverEverModel: ObservableObject {
     
     @Published var tier: GameTier = .friendly
     
-//    @Published var players: [String]
+    @Published var isRulesOpen: Bool = false
     @Published var status: GameStatus = .notStarted
     @Published var currentStatement: String = ""
     @Published var currentTitle: String = ""
@@ -99,5 +99,9 @@ class NeverEverModel: ObservableObject {
                 print(failure)
             }
         }
+    }
+    
+    func showRules() {
+        isRulesOpen.toggle()
     }
 }

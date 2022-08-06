@@ -32,20 +32,6 @@ struct ContentView: View {
                                 .isGameDisabled($showingAlert)
                         }
                         .padding([.horizontal, .bottom], spacing)
-                        
-                       
-//                        ScrollView(.horizontal, showsIndicators: false) {
-//                            HStack(spacing: spacing){
-//                                GameButton(.truthDare, size: size, willPulse: true)
-//                                GameButton(.neverHaveIEver, size: size, willPulse: true)
-//                                GameButton(.whosMostLikely, size: size, willPulse: true)
-//                                GameButton(.trivia, size: size, willPulse: true)
-//                                GameButton(.millionaire, size: size, willPulse: true)
-////                                    .isGameDisabled($showingAlert)
-//                                GameButton(.explain, size: size, willPulse: true)
-//                                    .isGameDisabled($showingAlert)
-//                            }.padding([.horizontal, .bottom], spacing)
-//                        }
                     }
                     .padding(.top, spacing + 10)
                    
@@ -56,13 +42,6 @@ struct ContentView: View {
                             GameButton2(.pyramid, willPulse: true)
                             GameButton2(.higherLower, willRotate: true)
                         }.padding([.horizontal, .bottom], spacing)
-//                        ScrollView(.horizontal, showsIndicators: false) {
-//                            HStack(spacing: spacing){
-//                                GameButton(.horseRace, size: size)
-//                                GameButton(.pyramid, size: size, willPulse: true)
-//                                GameButton(.higherLower, size: size, willRotate: true)
-//                            }.padding([.horizontal, .bottom], spacing)
-//                        }
                     }
                     VStack(alignment: .leading, spacing: 12) {
                         SectionHeader(title: "Spinning Games")
@@ -71,26 +50,12 @@ struct ContentView: View {
                             GameButton2(.roulette, willRotate: true)
                             GameButton2(.wheel, willRotate: true)
                         }.padding([.horizontal, .bottom], spacing)
-//                        ScrollView(.horizontal, showsIndicators: false) {
-//                            HStack(spacing: spacing){
-//                                GameButton(.spinBottle, size: size, tilt: 45, willRotate: true)
-//                                GameButton(.roulette, size: size, willRotate: true)
-//                                GameButton(.wheel, size: size, willRotate: true)
-//                            }.padding([.horizontal, .bottom], spacing)
-//                        }
                     }
                     VStack(alignment: .leading, spacing: 12) {
                         SectionHeader(title: "Other Games")
                         VStack(spacing: 16){
                             GameButton2(.chooser, willPulse: true)
                         }.padding([.horizontal, .bottom], spacing)
-//                        ScrollView(.horizontal, showsIndicators: false) {
-//                            HStack(spacing: spacing){
-//                                GameButton(.chooser, size: size, willPulse: true)
-//                                GameButton(.mancala, size: size, tilt: -45, willPulse: true)
-//                                    .isGameDisabled($showingAlert)
-//                            }.padding([.horizontal, .bottom], spacing)
-//                        }
                     }
                 }
                 copyright
@@ -101,6 +66,12 @@ struct ContentView: View {
             Alert(title: Text("Coming Soon"), message: Text(alertMessage), dismissButton: .default(Text("Done")))
         }
     }
+    
+    
+    func rotate() -> Void {
+            let value = UIInterfaceOrientation.landscapeRight.rawValue
+            UIDevice.current.setValue(value, forKey: "orientation")
+        }
     
     var copyright: some View {
         VStack{
@@ -120,7 +91,6 @@ struct ContentView: View {
         }
         .padding(.top, 48)
         .padding(.bottom)
-        
     }
     
     private struct SectionHeader: View {
@@ -131,5 +101,5 @@ struct ContentView: View {
                 .font(.title.weight(.semibold))
                 .padding(.horizontal, spacing)
         }
-    } 
+    }
 }

@@ -4,7 +4,6 @@ struct MillionaireGame: View {
     
     @EnvironmentObject var game: Game
     @ObservedObject var model: MillionaireModel
-    @State var isRulesOpen = false
     
     init(player: String) {
         model = MillionaireModel(player: player)
@@ -41,24 +40,13 @@ struct MillionaireGame: View {
             ToolbarItem(placement: .navigationBarTrailing) {
                 Menu(content: {
                     Section{
-                        Button(action: {
-                            isRulesOpen.toggle()
-                        }) {
-                            Text("Rules")
-                            Images.rulesFill
-                                .symbolRenderingMode(.palette)
-                                .foregroundStyle(.white, game.game.gradient)
+                        Button(action: model.showRules) {
+                            MenuLabel(.rules)
                         }
                     }
                     Section{
-                        Button(action: {
-                            model.restart()
-                        }) {
-                            Text("Restart")
-                            Images.restart
-                                .symbolRenderingMode(.palette)
-                                .foregroundStyle(.white, game.game.gradient)
-                                .font(.title)
+                        Button(action: model.restart) {
+                            MenuLabel(.restart)
                         }
                     }
                 }, label: {

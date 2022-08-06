@@ -6,7 +6,6 @@ struct SpinBottleGame: View {
     @StateObject var model = SpinBottleModel()
     @State var isRulesOpen: Bool = false
     
-    
     private let spinAnimation: Animation = Animation.easeOut(duration: 4.0)
     
     var body: some View {
@@ -42,10 +41,13 @@ struct SpinBottleGame: View {
                             overlay
                         }
                     }
-            }.padding(.horizontal)
+            }
         }
         .navigationModifier(game: .spinBottle)
-        .gameViewModifier(game: .spinBottle)
+        .padding(.horizontal, 12)
+        .padding(.bottom)
+        .padding(.top)
+        .background(DefaultBackground())
         .toolbar{
             ToolbarItem(placement: .navigationBarLeading) {
                 BackButton()
@@ -53,9 +55,6 @@ struct SpinBottleGame: View {
             ToolbarItem(placement: .navigationBarTrailing) {
                 RulesButton(isOpen: $isRulesOpen)
             }
-//            ToolbarItem(placement: .principal) {
-//                GameTitle()
-//            }
         }
         .sheet(isPresented: $isRulesOpen) {
             RuleView(isOpen: $isRulesOpen)

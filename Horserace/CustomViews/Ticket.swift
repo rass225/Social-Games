@@ -13,22 +13,10 @@ struct Ticket: View {
     var body: some View {
         VStack{
             VStack(spacing: 16){
-                Text(title)
-                    .textCase(.uppercase)
-                    .font(.title3.weight(.semibold))
-                    .padding(.top, 32)
-                    .foregroundColor(Colors.text)
-                Text(subtitle)
-                    .font(.title3.weight(.medium))
-                    .foregroundColor(.gray)
-                    .padding(.horizontal, 8)
+                ticketTitle
+                ticketSubtitle
                 Spacer()
-                Text(footnote)
-                    .textCase(.uppercase)
-                    .font(.footnote.weight(.semibold))
-//                    .foregroundStyle(game.game.gradient)
-                    .foregroundColor(game.game.background[1])
-                    .padding(.bottom, 8)
+                ticketFootnote
             }
             .padding(.top)
             .padding(.horizontal, 8)
@@ -39,6 +27,29 @@ struct Ticket: View {
             .clipShape(TicketShape())
             .shadow(color: Colors.darkShadow, radius: 6, x: 0, y: 0)
         }
+    }
+    
+    var ticketTitle: some View {
+        Text(title)
+            .textCase(.uppercase)
+            .font(.title3.weight(.semibold))
+            .padding(.top, 32)
+            .foregroundColor(Colors.text)
+    }
+    
+    var ticketSubtitle: some View {
+        Text(subtitle)
+            .font(.title3.weight(.medium))
+            .foregroundColor(.gray)
+            .padding(.horizontal, 8)
+    }
+    
+    var ticketFootnote: some View {
+        Text(footnote)
+            .textCase(.uppercase)
+            .font(.footnote.weight(.semibold))
+            .foregroundColor(game.game.background[1])
+            .padding(.bottom, 8)
     }
     
     struct TicketShape: Shape {

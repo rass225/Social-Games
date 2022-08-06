@@ -109,6 +109,7 @@
 		C0D9C72B281A51BA009B5001 /* HorseRaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D9C72A281A51BA009B5001 /* HorseRaceModel.swift */; };
 		C0D9C72D281A5789009B5001 /* NeverEverModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D9C72C281A5789009B5001 /* NeverEverModel.swift */; };
 		C0D9C72F281A5E6B009B5001 /* TitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D9C72E281A5E6B009B5001 /* TitleLabel.swift */; };
+		C0E271F5289F20FD001CCDCD /* MenuLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E271F4289F20FD001CCDCD /* MenuLabel.swift */; };
 		C0E77760281646AA007CE89F /* ChooserGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E7775F281646AA007CE89F /* ChooserGame.swift */; };
 		C0E777632816F6ED007CE89F /* HigherLowerGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E777622816F6ED007CE89F /* HigherLowerGame.swift */; };
 		C0E77765281700F6007CE89F /* RouletteGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E77764281700F6007CE89F /* RouletteGame.swift */; };
@@ -250,6 +251,7 @@
 		C0D9C72A281A51BA009B5001 /* HorseRaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorseRaceModel.swift; sourceTree = "<group>"; };
 		C0D9C72C281A5789009B5001 /* NeverEverModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeverEverModel.swift; sourceTree = "<group>"; };
 		C0D9C72E281A5E6B009B5001 /* TitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleLabel.swift; sourceTree = "<group>"; };
+		C0E271F4289F20FD001CCDCD /* MenuLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuLabel.swift; sourceTree = "<group>"; };
 		C0E7775F281646AA007CE89F /* ChooserGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooserGame.swift; sourceTree = "<group>"; };
 		C0E777622816F6ED007CE89F /* HigherLowerGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HigherLowerGame.swift; sourceTree = "<group>"; };
 		C0E77764281700F6007CE89F /* RouletteGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouletteGame.swift; sourceTree = "<group>"; };
@@ -350,6 +352,7 @@
 				C05F54B5285E44EB00949E98 /* Ticket.swift */,
 				C07F1156287C7E3500429838 /* GameMenuButton.swift */,
 				C0E93B46287D736900055283 /* GameButton.swift */,
+				C0E271F4289F20FD001CCDCD /* MenuLabel.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -500,6 +503,7 @@
 		C0A9EE2C27FFEF2100E69993 /* Game */ = {
 			isa = PBXGroup;
 			children = (
+				C0D8187E288F27F20061E646 /* Impossible Cross */,
 				C0E93B48287DA5FC00055283 /* WhoWantsToBeMillionaire */,
 				C0BB5F2528757FF00018E998 /* Trivia */,
 				C00A91D3286D974900DC62FF /* WhosMostLikely */,
@@ -617,6 +621,13 @@
 				C0D9C728281A4FAD009B5001 /* WheelRules.swift */,
 			);
 			path = Wheel;
+			sourceTree = "<group>";
+		};
+		C0D8187E288F27F20061E646 /* Impossible Cross */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Impossible Cross";
 			sourceTree = "<group>";
 		};
 		C0E7775E28164699007CE89F /* Chooser */ = {
@@ -909,6 +920,7 @@
 				C044B81328089C9E00A112C2 /* MainButton.swift in Sources */,
 				C0D9C72D281A5789009B5001 /* NeverEverModel.swift in Sources */,
 				C0E77765281700F6007CE89F /* RouletteGame.swift in Sources */,
+				C0E271F5289F20FD001CCDCD /* MenuLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

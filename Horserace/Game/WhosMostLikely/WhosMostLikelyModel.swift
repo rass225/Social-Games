@@ -16,6 +16,8 @@ class WhosMostLikelyModel: ObservableObject {
     @Published var tier: Tier = .friendly
     @Published var status: Status = .notStarted
     @Published var currentStatement: String = ""
+    @Published var isRulesOpen: Bool = false
+    
     var currentTitle: String {
         switch status {
         case .notStarted:
@@ -85,5 +87,9 @@ class WhosMostLikelyModel: ObservableObject {
         case .activity:
             statementHandler()
         }
+    }
+    
+    func showRules() {
+        isRulesOpen.toggle()
     }
 }

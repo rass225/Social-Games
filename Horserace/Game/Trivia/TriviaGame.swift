@@ -17,12 +17,9 @@ struct TriviaGame: View {
             case .game:
                 gameView
                     .padding(.bottom)
-                Button(action: {
-                    model.mainButtonAction()
-                }) {
-                    MainButton(label: model.mainButtonLabel)
-                        .padding(.horizontal, 20)
-                }
+                Button(model.mainButtonLabel ,action: model.mainButtonAction)
+                    .buttonStyle(MainButtonStyle())
+                    .padding(.horizontal, 20)
             }
         }
         .navigationModifier(game: .trivia)

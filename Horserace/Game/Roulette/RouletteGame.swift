@@ -19,11 +19,9 @@ struct RouletteGame: View {
                
             betBoard
             
-            Button(action: {
-                model.mainAction()
-            }) {
-                MainButton(label: model.mainButtonLabel)
-            }.modifier(MainButtonModifier(model: model))
+            Button(model.mainButtonLabel ,action: model.mainAction)
+                .buttonStyle(MainButtonStyle())
+                .modifier(MainButtonModifier(model: model))
         }
         .navigationModifier(game: .roulette)
         .gameViewModifier(game: game.game)
@@ -34,9 +32,6 @@ struct RouletteGame: View {
             ToolbarItem(placement: .navigationBarTrailing) {
                 RulesButton(isOpen: $isRulesOpen)
             }
-//            ToolbarItem(placement: .principal) {
-//                GameTitle()
-//            }
         }
         .sheet(isPresented: $isRulesOpen) {
             RuleView(isOpen: $isRulesOpen)

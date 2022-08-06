@@ -141,49 +141,47 @@ extension HorceRaceGame {
                 
                 VStack(spacing: 16){
                     Spacer()
-                    Button(action: {
-                        switch winner {
-                        case .clubs:
-                            clubWins += 1
-                        case .spades:
-                            spadeWins += 1
-                        case .heart:
-                            heartWins += 1
-                        case .diamond:
-                            diamondWins += 1
-                        case .none:
-                            break
-                        }
-                        model.restart()
-                        
-                        
-                    }) {
-                        MainButton(label: "Restart")
-                    }.buttonStyle(PlainButtonStyle())
-                    Button(action: {
-                        model.isThereAWinner.toggle()
-                        appState.toMainMenu(withDelay: true)
-                        switch winner {
-                        case .clubs:
-                            clubWins += 1
-                        case .spades:
-                            spadeWins += 1
-                        case .heart:
-                            heartWins += 1
-                        case .diamond:
-                            diamondWins += 1
-                        case .none:
-                            break
-                        }
-                    }) {
-                        MainButton(label: "Main Menu")
-                            
-                    }.buttonStyle(PlainButtonStyle())
+                    Button("Restart", action: toRestart)
+                        .buttonStyle(MainButtonStyle())
+                    Button("Main Menu", action: toMainMenu) .buttonStyle(MainButtonStyle())
                 }
             }
         }
         .padding([.horizontal, .bottom])
         .background(Colors.background)
         .interactiveDismissDisabled(true)
+    }
+    
+    func toMainMenu() {
+        model.isThereAWinner.toggle()
+        appState.toMainMenu(withDelay: true)
+        switch winner {
+        case .clubs:
+            clubWins += 1
+        case .spades:
+            spadeWins += 1
+        case .heart:
+            heartWins += 1
+        case .diamond:
+            diamondWins += 1
+        case .none:
+            break
+        }
+    }
+    
+    func toRestart() {
+        switch winner {
+        case .clubs:
+            clubWins += 1
+        case .spades:
+            spadeWins += 1
+        case .heart:
+            heartWins += 1
+        case .diamond:
+            diamondWins += 1
+        case .none:
+            break
+        }
+        model.restart()
     }
 }

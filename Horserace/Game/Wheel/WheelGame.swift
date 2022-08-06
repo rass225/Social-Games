@@ -22,7 +22,7 @@ struct WheelGame: View {
                     })
                     Spacer()
                 }
-            }// .padding(.horizontal, 8)
+            }
         }
         .navigationModifier(game: .wheel)
         .gameViewModifier(game: .wheel)
@@ -33,21 +33,13 @@ struct WheelGame: View {
             ToolbarItem(placement: .navigationBarTrailing) {
                 Menu(content: {
                     Section{
-                        Button(action: {
-                            isRulesOpen.toggle()
-                        }) {
-                            Text("Rules")
-                            Images.rulesFill
-                                .symbolRenderingMode(.palette)
-                                .foregroundStyle(.white, game.game.gradient)
+                        Button(action: showRules) {
+                            MenuLabel(.rules)
                         }
                     }
                     Section{
-                        Button(action: {
-                            dismiss()
-                        }) {
-                            Images.edit
-                            Text("Edit Components")
+                        Button(action: editComponents) {
+                            MenuLabel(.edit)
                         }
                     }
                 }, label: {
@@ -66,5 +58,13 @@ struct WheelGame: View {
         } else {
             currentPlayer += 1
         }
+    }
+    
+    func showRules() {
+        isRulesOpen.toggle()
+    }
+    
+    func editComponents() {
+        dismiss()
     }
 }

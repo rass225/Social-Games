@@ -4,7 +4,7 @@ struct TruthOrDareGame: View {
     
     @EnvironmentObject var game: Game
     @ObservedObject var model: TruthOrDareModel
-    @State var isRulesOpen: Bool = false
+    
     @State var hasPlayersShuffled: Bool = false
     init(players: [String]) {
         self.model = TruthOrDareModel(players: players)
@@ -31,35 +31,27 @@ struct TruthOrDareGame: View {
             
             switch model.status {
             case .notStarted:
-                Button(action: {
+                Button("Play", action: {
                     model.status = .truthOrDare
                     model.titleHandler()
-                }) {
-                    MainButton(label: "Play")
-                }.buttonStyle(PlainButtonStyle())
+                }).buttonStyle(MainButtonStyle())
             case .truthOrDare:
                 HStack(spacing: 16){
-                    Button(action: {
+                    Button("Truth", action: {
                         model.truthHandler()
                         model.titleHandler()
-                    }) {
-                        MainButton(label: "Truth")
-                    }
-                    Button(action: {
+                    }).buttonStyle(MainButtonStyle())
+                    Button("Dare", action: {
                         model.dareHandler()
                         model.titleHandler()
-                    }) {
-                        MainButton(label: "Dare")
-                    }
-                }.buttonStyle(PlainButtonStyle())
+                    }).buttonStyle(MainButtonStyle())
+                }
             case .activity:
-                Button(action: {
+                Button("Next Player", action: {
                     model.status = .truthOrDare
                     model.incrementPlayer()
                     model.titleHandler()
-                }) {
-                    MainButton(label: "Next Player")
-                }.buttonStyle(PlainButtonStyle())
+                }).buttonStyle(MainButtonStyle())
             }
         }
         .gameViewModifier(game: .truthDare)
@@ -71,33 +63,25 @@ struct TruthOrDareGame: View {
             ToolbarItem(placement: .navigationBarTrailing) {
                 Menu(content: {
                     Section{
-                        Button(action: {
-                            isRulesOpen.toggle()
-                        }) {
-                            Text("Rules")
-                            Images.rulesFill
-                                .symbolRenderingMode(.palette)
-                                .foregroundStyle(.white, game.game.gradient)
+                        Button(action: model.showRules) {
+                            MenuLabel(.rules)
                         }
                     }
                     Section{
                         Button(action: {
                             model.selectTier(tier: .friendly)
                         }) {
-                            Image(systemName: model.tier == .friendly ? Images.Tiers.Friendly.selected : Images.Tiers.Friendly.unselected)
-                            Text("Friendly")
+                            MenuLabel(.tierFriendly(model.tier == .friendly))
                         }
                         Button(action: {
                             model.selectTier(tier: .challenging)
                         }) {
-                            Image(systemName: model.tier == .challenging ? Images.Tiers.Challenging.selected : Images.Tiers.Challenging.unselected)
-                            Text("Challenging")
+                            MenuLabel(.tierChallenging(model.tier == .challenging))
                         }
                         Button(action: {
                             model.selectTier(tier: .naughty)
                         }) {
-                            Image(systemName: model.tier == .naughty ? Images.Tiers.Naughty.selected : Images.Tiers.Naughty.unselected)
-                            Text("Naughty")
+                            MenuLabel(.tierNaughty(model.tier == .naughty))
                         }
                     }
                 }, label: {
@@ -106,12 +90,14 @@ struct TruthOrDareGame: View {
 //
             }
         }
-        .sheet(isPresented: $isRulesOpen) {
-            RuleView(isOpen: $isRulesOpen)
+        .sheet(isPresented: $model.isRulesOpen) {
+            RuleView(isOpen: $model.isRulesOpen)
         }
         .onAppear{
             model.fetchTruth()
             model.fetchDare()
         }
     }
+    
+
 }

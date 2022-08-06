@@ -4,7 +4,6 @@ struct WhosMostLikelyGame: View {
     
     @EnvironmentObject var game: Game
     @ObservedObject var model: WhosMostLikelyModel
-    @State var isRulesOpen: Bool = false
     @State var hasPlayersShuffled: Bool = false
     
     init() {
@@ -31,11 +30,8 @@ struct WhosMostLikelyGame: View {
                 }
             }
             
-            Button(action: {
-                model.mainButtonAction()
-            }) {
-                MainButton(label: model.mainButtonLabel)
-            }
+            Button(model.mainButtonLabel ,action: model.mainButtonAction)
+                .buttonStyle(MainButtonStyle())
         }
         .gameViewModifier(game: .whosMostLikely)
         .navigationModifier(game: .whosMostLikely)
@@ -46,27 +42,20 @@ struct WhosMostLikelyGame: View {
             ToolbarItem(placement: .navigationBarTrailing) {
                 Menu(content: {
                     Section{
-                        Button(action: {
-                            isRulesOpen.toggle()
-                        }) {
-                            Text("Rules")
-                            Images.rulesFill
-                                .symbolRenderingMode(.palette)
-                                .foregroundStyle(.white, game.game.gradient)
+                        Button(action: model.showRules) {
+                            MenuLabel(.rules)
                         }
                     }
                     Section{
                         Button(action: {
                             model.selectTier(tier: .friendly)
                         }) {
-                            Image(systemName: model.tier == .friendly ? Images.Tiers.Friendly.selected : Images.Tiers.Friendly.unselected)
-                            Text("Friendly")
+                            MenuLabel(.tierFriendly(model.tier == .friendly))
                         }
                         Button(action: {
                             model.selectTier(tier: .challenging)
                         }) {
-                            Image(systemName: model.tier == .challenging ? Images.Tiers.Challenging.selected : Images.Tiers.Challenging.unselected)
-                            Text("Challenging")
+                            MenuLabel(.tierChallenging(model.tier == .challenging))
                         }
                     }
                 }, label: {
@@ -74,8 +63,8 @@ struct WhosMostLikelyGame: View {
                 })
             }
         }
-        .sheet(isPresented: $isRulesOpen) {
-            RuleView(isOpen: $isRulesOpen)
+        .sheet(isPresented: $model.isRulesOpen) {
+            RuleView(isOpen: $model.isRulesOpen)
         }
         .onAppear{
             model.fetchWhosMostLikely()

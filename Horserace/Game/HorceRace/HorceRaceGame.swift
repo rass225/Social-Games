@@ -5,12 +5,11 @@ struct HorceRaceGame: View {
     @EnvironmentObject var appState: AppState
     @EnvironmentObject var game: Game
     @ObservedObject var model: HorseRaceModel
-    @State var isRulesOpen: Bool = false
+    
     @AppStorage("HorseraceHeartWins") var heartWins = 0
     @AppStorage("HorseraceDiamondWins") var diamondWins = 0
     @AppStorage("HorseraceSpadeWins") var spadeWins = 0
     @AppStorage("HorseraceClubWins") var clubWins = 0
-    
     
     var winner: Suit? {
         return model.winnerSuit
@@ -75,16 +74,12 @@ struct HorceRaceGame: View {
                     }
                 }
             }
-            
-            Button(action: {
-                model.gameLogic()
-            }) {
-                MainButton(label: model.mainLabel)
-            }
-            .opacity(model.winnerSuit == nil ? 1 : 0)
-            .disabled(model.winnerSuit == nil ? false : true)
-            .buttonStyle(PlainButtonStyle())
-            .padding(.top)
+            Button(model.mainLabel, action: model.gameLogic)
+                .buttonStyle(MainButtonStyle())
+                .opacity(model.winnerSuit == nil ? 1 : 0)
+                .disabled(model.winnerSuit == nil ? false : true)
+                .buttonStyle(PlainButtonStyle())
+                .padding(.top)
         }
         .gameViewModifier(game: .horseRace)
         .navigationModifier(game: .horseRace)
@@ -95,24 +90,13 @@ struct HorceRaceGame: View {
             ToolbarItem(placement: .navigationBarTrailing) {
                 Menu(content: {
                     Section{
-                        Button(action: {
-                            isRulesOpen.toggle()
-                        }) {
-                            Text("Rules")
-                            Images.rulesFill
-                                .symbolRenderingMode(.palette)
-                                .foregroundStyle(.white, game.game.gradient)
+                        Button(action: showRules) {
+                            MenuLabel(.rules)
                         }
                     }
                     Section{
-                        Button(action: {
-                            model.restart()
-                        }) {
-                            Text("Restart")
-                            Images.restart
-                                .symbolRenderingMode(.palette)
-                                .foregroundStyle(.white, game.game.gradient)
-                                .font(.title)
+                        Button(action: model.restart) {
+                            MenuLabel(.restart)
                         }
                     }
                 }, label: {
@@ -126,9 +110,13 @@ struct HorceRaceGame: View {
         .sheet(isPresented: $model.isThereAWinner) {
             gameOver
         }
-        .sheet(isPresented: $isRulesOpen) {
-            RuleView(isOpen: $isRulesOpen)
+        .sheet(isPresented: $model.isRulesOpen) {
+            RuleView(isOpen: $model.isRulesOpen)
         }
+    }
+    
+    func showRules() {
+        model.isRulesOpen.toggle()
     }
 }
 //Mariah is my love
