@@ -1,0 +1,403 @@
+[
+    {
+      "question": "The Earth is approximately how many miles away from the Sun?",
+      "answer1": "93 million",
+      "answer2": "930 million",
+      "answer3": "9.3 million",
+      "answer4": "193 million",
+      "correctAnswer": "93 million"
+    },
+    {
+      "question": "Which of the following landlocked countries is entirely contained within another country?",
+      "answer1": " Luxembourg",
+      "answer2": "Burkina Faso",
+      "answer3": "Lesotho",
+      "answer4": "Mongolia",
+      "correctAnswer": "Lesotho"
+    },
+    {
+      "question": "In a popular video game, Ms. Pac-Man gobbles up pellets while pursued by four ghosts named Inky, Binky, Pinky, and what?",
+      "answer1": "Sue",
+      "answer2": "Jane",
+      "answer3": "Meg",
+      "answer4": "Anne",
+      "correctAnswer": "Sue"
+    },
+    {
+      "question": "While visiting a museum in 2013, Justin Bieber caused a controversy when he stated he hoped who would have been a \"belieber?\"",
+      "answer1": "Anne Frank",
+      "answer2": "Eva Brown",
+      "answer3": "Eleanor Roosevelt",
+      "answer4": "Rita Hayworth",
+      "correctAnswer": "Anne Frank"
+    },
+    {
+      "question": "At the closest point, which island group is only 50 miles south-east of the coast of Florida?",
+      "answer1": "Turks and Caicos Islands",
+      "answer2": "US Virgin Islands",
+      "answer3": "Bermuda",
+      "answer4": "Bahamas",
+      "correctAnswer": "Bahamas"
+    },
+    {
+      "question": "Obstetrics is a branch of medicine particularly concerned with what?",
+      "answer1": "Heart conditions",
+      "answer2": "Broken bones",
+      "answer3": "Childbirth",
+      "answer4": "Old age",
+      "correctAnswer": "Childbirth"
+    },
+    {
+      "question": "Why are the colors of the Olympic Rings yellow, green, red, black, and blue?",
+      "answer1": "Colours representing all humans",
+      "answer2": "Colours of the founding countries of the Olympic Committee",
+      "answer3": "Colours representing natural artifacts",
+      "answer4": "Colours of every flag in the world",
+      "correctAnswer": "Colours of every flag in the world"
+    },
+    {
+      "question": "What year did Cambodia gain its independence from France?",
+      "answer1": "1953",
+      "answer2": "1958",
+      "answer3": "1964",
+      "answer4": "1949",
+      "correctAnswer": "1953"
+    },
+    {
+      "question": "Who was the first lawyer to become US President?",
+      "answer1": "John F. Kennedy",
+      "answer2": "Bill Clinton",
+      "answer3": "Aaron Burr",
+      "answer4": "John Adams",
+      "correctAnswer": "John Adams"
+    },
+    {
+      "question": "In the 1988 movie \"Die Hard\", what does John McClane leave in the limo?",
+      "answer1": "An umbrella",
+      "answer2": "His suitcase",
+      "answer3": "A gun",
+      "answer4": "A teddy bear",
+      "correctAnswer": "A teddy bear"
+    },
+    {
+      "question": "What is the name of the school in the 1989 movie \"Dead Poets Society\"?",
+      "answer1": "Hillman Academy",
+      "answer2": "The Welton Academy",
+      "answer3": "Harrison University",
+      "answer4": "Rushmore Academy",
+      "correctAnswer": "The Welton Academy"
+    },
+    {
+      "question": "What is a group of locusts called?",
+      "answer1": "Field",
+      "answer2": "Plague",
+      "answer3": "Archipelago",
+      "answer4": "Conifers",
+      "correctAnswer": "Plague"
+    },
+    {
+      "question": "What was the name of the first hominid chimp in space?",
+      "answer1": "Rock",
+      "answer2": "Bob",
+      "answer3": "Ham",
+      "answer4": "Kip",
+      "correctAnswer": "Ham"
+    },
+    {
+      "question": "Who was murdered along with OJ Simpson’s estranged wife Nicole?",
+      "answer1": "Chris Darden",
+      "answer2": "Marcia Clarke",
+      "answer3": "Alan Dershowitz",
+      "answer4": "Ronald Goldman",
+      "correctAnswer": "Ronald Goldman"
+    },
+    {
+      "question": "Who was the first person to swim across Lake Ontario?",
+      "answer1": "Marilyn Bell",
+      "answer2": "Dawn Fraser",
+      "answer3": "Kristin Otto",
+      "answer4": "Mark Spitz",
+      "correctAnswer": "Marilyn Bell"
+    },
+    {
+      "question": "Who invented the lint roller?",
+      "answer1": "Nicholas McKay",
+      "answer2": "Patricia Bath",
+      "answer3": "Ralph H. Baer",
+      "answer4": "Lonnie Johnson",
+      "correctAnswer": "Nicholas McKay"
+    },
+    {
+      "question": "Whose final opera was called \"Death in Venice\"?",
+      "answer1": "Benjamin Britten",
+      "answer2": "Giuseppe Verdi",
+      "answer3": "Giacomo Puccini",
+      "answer4": "Leonard Bernstein",
+      "correctAnswer": "Benjamin Britten"
+    },
+    {
+      "question": "What color is the car that Starsky drives in the TV show \"Starsky & Hutch\"?",
+      "answer1": "Red",
+      "answer2": "Black",
+      "answer3": "Blue",
+      "answer4": "Green",
+      "correctAnswer": "Red"
+    },
+    {
+      "question": "In the comic book series \"Strangers in Paradise\", what item of clothing does Francine struggle to keep on during a high school play?",
+      "answer1": "Her toga",
+      "answer2": "Her wig",
+      "answer3": "Her heels",
+      "answer4": "Her glasses",
+      "correctAnswer": "Her toga"
+    },
+    {
+      "question": "Which German city was the birthplace of the poet Heinrich Heine?",
+      "answer1": "Düsseldorf",
+      "answer2": "Munich",
+      "answer3": "Hamburg",
+      "answer4": "Frankfurt",
+      "correctAnswer": "Düsseldorf"
+    },
+    {
+      "question": "Erik Rotheim patented the first aerosol spray can in Oslo in what year?",
+      "answer1": "1927",
+      "answer2": "1946",
+      "answer3": "1903",
+      "answer4": "1955",
+      "correctAnswer": "1927"
+    },
+    {
+      "question": "Which villain spoke the line \"Make like a tree, and get out of here\"?",
+      "answer1": "Biff Tannen",
+      "answer2": "Johnny Lawrence",
+      "answer3": "Ace Merrill",
+      "answer4": "Ed Rooney",
+      "correctAnswer": "Biff Tannen"
+    },
+    {
+      "question": "What former musician played bass on Madonna's \"Like a Prayer\"?",
+      "answer1": "Randy Jackson",
+      "answer2": "Geddy Lee",
+      "answer3": "Flea",
+      "answer4": "Jack Bruce",
+      "correctAnswer": "Randy Jackson"
+    },
+    {
+      "question": "Where is the world’s largest parking lot?",
+      "answer1": "Edmonton, Canada",
+      "answer2": "Seattle, US",
+      "answer3": "Toronto, Canada",
+      "answer4": "Detroit, US",
+      "correctAnswer": "Edmonton, Canada"
+    },
+    {
+      "question": "What famous World War II general went into battle wearing two ivory-handled revolvers on his hips?",
+      "answer1": "General George Patton",
+      "answer2": "General Heinz Guderian",
+      "answer3": "General Georgy Zhukov",
+      "answer4": "General Douglas MacArthur",
+      "correctAnswer": "General George Patton"
+    },
+    {
+      "question": "In 1964, who became the first running back in NFL history to rush for more than 10,000 career yards?",
+      "answer1": "Jim Brown",
+      "answer2": "John Mackey",
+      "answer3": "Jim Ringo",
+      "answer4": "Gale Sayers",
+      "correctAnswer": "Jim Brown"
+    },
+    {
+      "question": "Whose \"Small House\" is the subject of the play acted out during \"The King and I\"?",
+      "answer1": "Uncle Thomas'",
+      "answer2": "Uncle Carl's",
+      "answer3": "Uncle Bill's",
+      "answer4": "Uncle Peter's",
+      "correctAnswer": "Uncle Thomas'"
+    },
+    {
+      "question": "Who served as the United States Ambassador to Japan from 2013-2017?",
+      "answer1": "Caroline Bouvier Kennedy",
+      "answer2": "John Roos",
+      "answer3": "Bill Hagerty",
+      "answer4": "Howard Baker",
+      "correctAnswer": "Caroline Bouvier Kennedy"
+    },
+    {
+      "question": "What actor was the executive producer of the mystery series \"Push, Nevada\"?",
+      "answer1": "Ben Affleck",
+      "answer2": "George Clooney",
+      "answer3": "Brad Pitt",
+      "answer4": "Chris Pine",
+      "correctAnswer": "Ben Affleck"
+    },
+    {
+      "question": "Who said: \"Santa has the right idea. Visit people once a year.\"?",
+      "answer1": "Victor Borge",
+      "answer2": "Bill Burr",
+      "answer3": "Lenny Bruce",
+      "answer4": "Jerry Seinfeld",
+      "correctAnswer": "Victor Borge"
+    },
+    {
+      "question": "Where is the Swimming Hall of Fame located?",
+      "answer1": "Fort Lauderdale, Florida",
+      "answer2": "New Orleans, Louisiana",
+      "answer3": "Austin, Texas",
+      "answer4": "San Diego, California",
+      "correctAnswer": "Fort Lauderdale, Florida"
+    },
+    {
+      "question": "What kind of wine accompanies Hannibal Lecter's liver and fava bean dinner?",
+      "answer1": "Chianti",
+      "answer2": "Pinot Noir",
+      "answer3": "Syrah",
+      "answer4": "Zinfandel",
+      "correctAnswer": "Chianti"
+    },
+    {
+      "question": "Which French fashion designer created the conical bra for Madonna's \"Blond Ambition\" tour?",
+      "answer1": "Jean-Paul Gaultier",
+      "answer2": "Thierry Mugler",
+      "answer3": "Pierre Cardin",
+      "answer4": "Yves Saint Laurent",
+      "correctAnswer": "Jean-Paul Gaultier"
+    },
+    {
+      "question": "The Dude from \"The Big Lebowski\" liked to drink what?",
+      "answer1": "White Russians",
+      "answer2": "Cosmopolitans",
+      "answer3": "Long Island Iceteas",
+      "answer4": "Espresso Martinis",
+      "correctAnswer": "White Russians"
+    },
+    {
+      "question": "Which two armies fought in the Battle of Blood River?",
+      "answer1": "Boers & Zulus",
+      "answer2": "Hutus & Tutsis",
+      "answer3": "Hupas & Monos",
+      "answer4": "Cados & Diggers",
+      "correctAnswer": "Boers & Zulus"
+    },
+    {
+      "question": "The world's longest tunnel, that is also used to supply water to New York City, is called what?",
+      "answer1": "The Delaware Aqueduct",
+      "answer2": "St. Gotthard",
+      "answer3": "Mount Ovit",
+      "answer4": "Micangshan",
+      "correctAnswer": "The Delaware Aqueduct"
+    },
+    {
+      "question": "What is the fear of washing or bathing called?",
+      "answer1": "Ablutophobia",
+      "answer2": "Alektorophobia",
+      "answer3": "Atelophobia",
+      "answer4": "Anthophobia",
+      "correctAnswer": "Ablutophobia"
+    },
+    {
+      "question": "What scientist proposed the theory of continental drift?",
+      "answer1": "Alfred Wegener",
+      "answer2": "John Williams",
+      "answer3": "Masaru Emoto",
+      "answer4": "Joan Rose",
+      "correctAnswer": "Alfred Wegener"
+    },
+    {
+      "question": "Who was the first female American in space?",
+      "answer1": "Sally Ride",
+      "answer2": "Mae Jemison",
+      "answer3": "Krista Jennings",
+      "answer4": "Nicole Mann",
+      "correctAnswer": "Sally Ride"
+    },
+    {
+      "question": "What US city is home to Pike Place Market?",
+      "answer1": "Seattle",
+      "answer2": "Chicago",
+      "answer3": "Austin",
+      "answer4": "Oklahoma City",
+      "correctAnswer": "Seattle"
+    },
+    {
+      "question": "Who follows Godel and Escher in the title of a 1979 book by Douglas Hofstadter?",
+      "answer1": "Bach",
+      "answer2": "Chopin",
+      "answer3": "Mozart",
+      "answer4": "Beethoven",
+      "correctAnswer": "Bach"
+    },
+    {
+      "question": "Whose famous horse was named Buttermilk?",
+      "answer1": "Dale Evans",
+      "answer2": "Roy Rogers",
+      "answer3": "Robin Rogers",
+      "answer4": "Pat Brady's",
+      "correctAnswer": "Roy Rogers"
+    },
+    {
+      "question": "Selenophobia is the fear of what?",
+      "answer1": "The Moon",
+      "answer2": "The ocean",
+      "answer3": "Mermaids",
+      "answer4": "Chemicals",
+      "correctAnswer": "The Moon"
+    },
+    {
+      "question": "Upon his death, what convicted killer donated his corneas?",
+      "answer1": "Gary Gilmore",
+      "answer2": "Ronnie Lee Gardner",
+      "answer3": "John Spenkelink",
+      "answer4": "John Albert Taylor",
+      "correctAnswer": "Gary Gilmore"
+    },
+    {
+      "question": "What common household object appears in the opening scene of the film \"The Sixth Sense\"?",
+      "answer1": "A light bulb",
+      "answer2": "A door knob",
+      "answer3": "A curtain",
+      "answer4": "A fork",
+      "correctAnswer": "A light bulb"
+    },
+    {
+      "question": "What position was first held by Steve Allen?",
+      "answer1": "Tonight Show host",
+      "answer2": "First secretary general of US",
+      "answer3": "The creative director of Vogue",
+      "answer4": "CEO of Google",
+      "correctAnswer": "Tonight Show host"
+    },
+    {
+      "question": "In which country was Greta Garbo born?",
+      "answer1": "Sweden",
+      "answer2": "Germany",
+      "answer3": "Bulgaria",
+      "answer4": "France",
+      "correctAnswer": "Sweden"
+    },
+    {
+      "question": "The journey in Roald Dahl's \"James and the Giant Peach\" ends with the peach impaled on what?",
+      "answer1": "The Empire State Building",
+      "answer2": "A grocery store",
+      "answer3": "The Hollywood sign",
+      "answer4": "A grandma's house",
+      "correctAnswer": "The Empire State Building"
+    },
+    {
+      "question": "How did Robert Frost sum up everything he learned about life?",
+      "answer1": "'It goes on'",
+      "answer2": "'Money can't buy life'",
+      "answer3": "'I'm bored with it all'",
+      "answer4": "'I want nothing but death'",
+      "correctAnswer": "'It goes on'"
+    },
+    {
+      "question": "Which literary work's title character is named Prince Myshkin?",
+      "answer1": "The Idiot",
+      "answer2": "A Clockwork Orange",
+      "answer3": "Crime and Punishment",
+      "answer4": "The Trial",
+      "correctAnswer": "The Idiot"
+    }
+]
+

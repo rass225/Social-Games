@@ -1,0 +1,482 @@
+[
+    {
+        "question": "Filled with journalists, Hollywood luminaries and politicians, the White House Correspondents' Dinner goes by what hashtag on Twitter?",
+        "answer1": "#NerdProm",
+        "answer2": "#Loser'sNightOut",
+        "answer3": "#NerdProm",
+        "answer4": "#GalaForGeeks",
+        "correctAnswer": "#NerdProm"
+    },
+    {
+        "question": "Targeting viewers 18-34 years old, in what year will MTV turn 35 and therefore be too old to watch itself?",
+        "answer1": "2016",
+        "answer2": "2022",
+        "answer3": "2024",
+        "answer4": "2030",
+        "correctAnswer": "2016"
+    },
+    {
+        "question": "In Doctor Who, what was the signature look of the fourth Doctor, as portrayed by Tom Baker?",
+        "answer1": "Wide-brimmed hat and extra long scarf",
+        "answer2": "Bow-tie, braces and tweed jacket",
+        "answer3": "Pinstripe suit and trainers",
+        "answer4": "Cape, velvet jacket and frilly shirt",
+        "correctAnswer": "Wide-brimmed hat and extra long scarf"
+    },
+    {
+        "question": "What two planets in our solar system have no moons?",
+        "answer1": "Mercury and Venus",
+        "answer2": "Uranus and Neptune",
+        "answer3": "Mercury and Neptune",
+        "answer4": "Mars and Venus",
+        "correctAnswer": "Mercury and Venus"
+    },
+    {
+        "question": "What is the only sport that was played on the moon?",
+        "answer1": "Darts",
+        "answer2": "Basketball",
+        "answer3": "Football",
+        "answer4": "Golf",
+        "correctAnswer": "Golf"
+    },
+    {
+        "question": "What do the letters of K-pop group BTS's name stand for?",
+        "answer1": "All of the above",
+        "answer2": "Bulletproof Boyscouts",
+        "answer3": "Bangtan boys",
+        "answer4": "Beyond the scene",
+        "correctAnswer": "All of the above"
+    },
+    {
+        "question": "Which city is home to the Blue Jays baseball team?",
+        "answer1": "Ottawa",
+        "answer2": "Toronto",
+        "answer3": "Vancouver",
+        "answer4": "Hamilton",
+        "correctAnswer": "Toronto"
+    },
+    {
+        "question": "Which famous number was dreaded by people in Orwell’s 1984?",
+        "answer1": "101",
+        "answer2": "100",
+        "answer3": "0",
+        "answer4": "99",
+        "correctAnswer": "101"
+    },
+    {
+        "question": "Which fish attacks its prey with a stream of spit?",
+        "answer1": "Common thresher",
+        "answer2": "Porbeagle",
+        "answer3": "Archerfish",
+        "answer4": "Chain pickerel",
+        "correctAnswer": "Archerfish"
+    },
+    {
+        "question": "Who was originally created from a green spring coat that Elizabeth Henson had thrown out?",
+        "answer1": "Kermit the frog",
+        "answer2": "Yoda",
+        "answer3": "Mike Wazowski",
+        "answer4": "Grinch",
+        "correctAnswer": "Kermit the frog"
+    },
+    {
+        "question": "Who had the highest grossing tour of 2018?",
+        "answer1": "Justin Bieber",
+        "answer2": "Taylor Swift",
+        "answer3": "Beyonce",
+        "answer4": "Ed Sheeran",
+        "correctAnswer": "Ed Sheeran"
+    },
+    {
+        "question": "Which constellation appears on Australia's flag?",
+        "answer1": "Lupus",
+        "answer2": "Scutum",
+        "answer3": "The Southern Cross",
+        "answer4": "Australis",
+        "correctAnswer": "The Southern Cross"
+    },
+    {
+        "question": "In which European country did the direct action group The Red Brigade originate?",
+        "answer1": "Spain",
+        "answer2": "England",
+        "answer3": "France",
+        "answer4": "Italy",
+        "correctAnswer": "Italy"
+    },
+    {
+        "question": "What's the more common name for the retinal scotoma caused by the optic nerve?",
+        "answer1": "Glaucoma",
+        "answer2": "Vision",
+        "answer3": "Blind spot",
+        "answer4": "Cataract",
+        "correctAnswer": "Blind spot"
+    },
+    {
+        "question": "How long is the Golden Gate Bridge?",
+        "answer1": "956 m",
+        "answer2": "3455 m",
+        "answer3": "1788 m",
+        "answer4": "2737 m",
+        "correctAnswer": "2737 m"
+    },
+    {
+        "question": "What year did tropical storms and hurricanes start earning names?",
+        "answer1": "1972",
+        "answer2": "1927",
+        "answer3": "1946",
+        "answer4": "1953",
+        "correctAnswer": "1953"
+    },
+    {
+        "question": "What were the first animals in space?",
+        "answer1": "Mice",
+        "answer2": "Dogs",
+        "answer3": "Fruit flies",
+        "answer4": "Ants",
+        "correctAnswer": "Fruit flies"
+    },
+    {
+        "question": "Where was the largest fossil spider found?",
+        "answer1": "China",
+        "answer2": "Australia",
+        "answer3": "Mongolia",
+        "answer4": "Egypt",
+        "correctAnswer": "China"
+    },
+    {
+        "question": "Who officially made Valentine's Day a holiday?",
+        "answer1": "Henry VIII",
+        "answer2": "Edward VII",
+        "answer3": "George VI",
+        "answer4": "William IV",
+        "correctAnswer": "Henry VIII"
+    },
+    {
+        "question": "What musical term is indicates a chord where the notes are played one after another rather than all together?",
+        "answer1": "Arpeggio",
+        "answer2": "Adagio",
+        "answer3": "Rubato",
+        "answer4": "Agitato",
+        "correctAnswer": "Arpeggio"
+    },
+    {
+        "question": "China’s Terracotta Army includes the soldiers of what emperor?",
+        "answer1": "Qin Shi Huang",
+        "answer2": "Nan of Zhou",
+        "answer3": "Gaozu of Han",
+        "answer4": "Ziying",
+        "correctAnswer": "Qin Shi Huang"
+    },
+    {
+        "question": "What is the longest river in Australia?",
+        "answer1": "Warrego river",
+        "answer2": "Darling river",
+        "answer3": "Cooper creek",
+        "answer4": "Murray river",
+        "correctAnswer": "Murray river"
+    },
+    {
+        "question": "What was former US President William Taft’s pet cow named?",
+        "answer1": "Pauline",
+        "answer2": "Cassandra",
+        "answer3": "Mathilda",
+        "answer4": "Annabel",
+        "correctAnswer": "Pauline"
+    },
+    {
+        "question": "What is Glenn Close allergic to?",
+        "answer1": "Potatoes",
+        "answer2": "Dogs",
+        "answer3": "Tobacco",
+        "answer4": "Penuts",
+        "correctAnswer": "Tobacco"
+    },
+    {
+        "question": "What New York cardiologist published his bestselling \"Diet Revolution\" in 1972?",
+        "answer1": "Benjamin Spock",
+        "answer2": "Virginia Apgar",
+        "answer3": "Helen B. Taussig",
+        "answer4": "Robert Atkins",
+        "correctAnswer": "Robert Atkins"
+    },
+    {
+        "question": "Which Scotland Yard detective lead the hunt for Ronnie Biggs in the sixties?",
+        "answer1": "Jack Slipper",
+        "answer2": "Bruce Reynolds",
+        "answer3": "Buster Edwards",
+        "answer4": "Charmian Powell",
+        "correctAnswer": "Jack Slipper"
+    },
+    {
+        "question": "What is the smallest horse in the world?",
+        "answer1": "Guoxia",
+        "answer2": "Noma pony",
+        "answer3": "Thumbelina",
+        "answer4": "Fallabella",
+        "correctAnswer": "Fallabella"
+    },
+    {
+        "question": "In what comic strip would you find siblings Alexander and Cookie?",
+        "answer1": "Zits",
+        "answer2": "Blondie",
+        "answer3": "Peanuts",
+        "answer4": "Dilbert",
+        "correctAnswer": "Blondie"
+    },
+    {
+        "question": "Who invented the spinning Jenny?",
+        "answer1": "Richard Arkwright",
+        "answer2": "Eli Whitney",
+        "answer3": "David Bushnell",
+        "answer4": "James Hargreaves",
+        "correctAnswer": "James Hargreaves"
+    },
+    {
+        "question": "U.S. Marshal Bass Reeves may have inspired what fictional character?",
+        "answer1": "The Lone Ranger",
+        "answer2": "Butch Cavendish",
+        "answer3": "Captain America",
+        "answer4": "John McClane",
+        "correctAnswer": "The Lone Ranger"
+    },
+    {
+        "question": "Since 1949, what magazine has handed out the most prestigious \"Car of the Year\" Award?",
+        "answer1": "Top Gear",
+        "answer2": "Autocar",
+        "answer3": "Motor Trend",
+        "answer4": "Car and Motor",
+        "correctAnswer": "Motor Trend"
+    },
+    {
+        "question": "For how many years was the first generation Volkswagen Golf in production?",
+        "answer1": "9 years",
+        "answer2": "1 year",
+        "answer3": "6 months",
+        "answer4": "17 years",
+        "correctAnswer": "9 years"
+    },
+    {
+        "question": "James Hunt was disqualified after winning which Grand Prix?",
+        "answer1": "1976 British Grand Prix",
+        "answer2": "1952 British Grand Prix",
+        "answer3": "1961 British Grand Prix",
+        "answer4": "1982 British Grand Prix",
+        "correctAnswer": "1976 British Grand Prix"
+    },
+    {
+        "question": "What 2010 horror novel by Jeff Strand was nominated for a Bram Stoker Award?",
+        "answer1": "I Have a Bad Feeling About This",
+        "answer2": "The Haunted Forest Tour",
+        "answer3": "Dweller",
+        "answer4": "Bad Day for Voodoo",
+        "correctAnswer": "Dweller"
+    },
+    {
+        "question": "Who did Jersey Joe Walcott defeat at age 37 to win the heavyweight title?",
+        "answer1": "Evander Holyfield",
+        "answer2": "Rocky Marciano",
+        "answer3": "Lennox Lewis",
+        "answer4": "Ezzard Charles",
+        "correctAnswer": "Ezzard Charles"
+    },
+    {
+        "question": "What is an emasculated stallion called?",
+        "answer1": "Sriker",
+        "answer2": "Mule",
+        "answer3": "Gelding",
+        "answer4": "Mare",
+        "correctAnswer": "Gelding"
+    },
+    {
+        "question": "Which Irish poet, born in 1865, was instrumental in the founding of the Abbey Theatre in Dublin?",
+        "answer1": "Richard D'Alton Williams",
+        "answer2": "Edmund John Armstrong",
+        "answer3": "William Bonaparte-Wyse",
+        "answer4": "William Butler Yeats",
+        "correctAnswer": "William Butler Yeats"
+    },
+    {
+        "question": "Where is Europe’s largest banana farm?",
+        "answer1": "Iceland",
+        "answer2": "Italy",
+        "answer3": "Norway",
+        "answer4": "France",
+        "correctAnswer": "Iceland"
+    },
+    {
+        "question": "What is the fastest ocean fish?",
+        "answer1": "Sailfish",
+        "answer2": "Indo-Pacific Sailfish",
+        "answer3": "Tarpon",
+        "answer4": "Bonefish",
+        "correctAnswer": "Sailfish"
+    },
+    {
+        "question": "On what TV show did Alanis Morissette appear in the 1980's?",
+        "answer1": "Bug Juice",
+        "answer2": "The Real World",
+        "answer3": "Star Search",
+        "answer4": "You Can't Do that On Television",
+        "correctAnswer": "You Can't Do that On Television"
+    },
+    {
+        "question": "What term is applied to animals or plants that are not nocturnal?",
+        "answer1": "Darnal",
+        "answer2": "Suniral",
+        "answer3": "Diurnal",
+        "answer4": "Mornal",
+        "correctAnswer": "Diurnal"
+    },
+    {
+        "question": "To which color group does St. Charles Place belong on a standard US Monopoly board?",
+        "answer1": "Light purple",
+        "answer2": "Dark Green",
+        "answer3": "Red",
+        "answer4": "Brown",
+        "correctAnswer": "Light purple"
+    },
+    {
+        "question": "What is the tallest peak in Colorado?",
+        "answer1": "Mt. Sneffels",
+        "answer2": "Longs Peak",
+        "answer3": "Mt. Elbert",
+        "answer4": "Pikes Peak",
+        "correctAnswer": "Mt. Elbert"
+    },
+    {
+        "question": "What constant is equivalent to 96,485 coulombs per mole of electrons?",
+        "answer1": "Faraday",
+        "answer2": "Davy",
+        "answer3": "Dalton",
+        "answer4": "Sturgeon",
+        "correctAnswer": "Faraday"
+    },
+    {
+        "question": "What year did tennis player Martina Navratilova retire?",
+        "answer1": "2006",
+        "answer2": "2003",
+        "answer3": "2008",
+        "answer4": "2007",
+        "correctAnswer": "2006"
+    },
+    {
+        "question": "What everyday item did John Walker invent?",
+        "answer1": "Toaster",
+        "answer2": "Vacuum cleaner",
+        "answer3": "Friction matches",
+        "answer4": "Shoewax",
+        "correctAnswer": "Friction matches"
+    },
+    {
+        "question": "In season 16 of South Park, what chain store did Randy buy for $10,000?",
+        "answer1": "Blockbuster",
+        "answer2": "Best Buy",
+        "answer3": "Walmart",
+        "answer4": "Michael's",
+        "correctAnswer": "Blockbuster"
+    },
+    {
+        "question": "Margarita Carmen Cansino became famous as who?",
+        "answer1": "Paola Mori",
+        "answer2": "Rebecca Welles",
+        "answer3": "Ava Gardner",
+        "answer4": "Rita Hayworth",
+        "correctAnswer": "Rita Hayworth"
+    },
+    {
+        "question": "On the classic Monopoly board, which property has a misspelled name?",
+        "answer1": "Marvin Gardens",
+        "answer2": "Vermont Avenue",
+        "answer3": "St. James Palace",
+        "answer4": "Boardwalk",
+        "correctAnswer": "Marvin Gardens"
+    },
+    {
+        "question": "What 1975 #1 song by Van McCoy spawned a dance craze of the same name?",
+        "answer1": "The Robot",
+        "answer2": "The Worm",
+        "answer3": "The Hustle",
+        "answer4": "Moonwalk",
+        "correctAnswer": "The Hustle"
+    },
+    {
+        "question": "In what year did the Jerry Lewis Labor Day Telethon debut?",
+        "answer1": "1949",
+        "answer2": "1954",
+        "answer3": "1971",
+        "answer4": "1966",
+        "correctAnswer": "1966"
+    },
+    {
+        "question": "In 2001, David McCullough published a biography of which US Founding Father president?",
+        "answer1": "John Adams",
+        "answer2": "George Washington",
+        "answer3": "Alexander Hamilton",
+        "answer4": "Thomas Jefferson",
+        "correctAnswer": "John Adams"
+    },
+    {
+        "question": "Who preceded Fidel Castro as political leader of Cuba?",
+        "answer1": "Manuel Urrutia Lleó",
+        "answer2": "Raúl Castro",
+        "answer3": "Fulgencio Batista",
+        "answer4": "Osvaldo Dorticós Torrado",
+        "correctAnswer": "Fulgencio Batista"
+    },
+    {
+        "question": "What body of water separates Connecticut and Long Island?",
+        "answer1": "Long Island Strip",
+        "answer2": "Lake of Long Island",
+        "answer3": "Long Island Strait",
+        "answer4": "Long Island Canal",
+        "correctAnswer": "Long Island Strait"
+    },
+    {
+        "question": "Which First Lady was the first to graduate college?",
+        "answer1": "Lou Hoover",
+        "answer2": "Sarah Polk",
+        "answer3": "Lucy Hayes",
+        "answer4": "Ida McKinley",
+        "correctAnswer": "Lucy Hayes"
+    },
+    {
+        "question": "What brief tune was Chopin's attempt to describe a puppy chasing its tail?",
+        "answer1": "The Little Waltz",
+        "answer2": "The Dog Waltz",
+        "answer3": "The Minute Waltz",
+        "answer4": "The Children's Waltz",
+        "correctAnswer": "The Minute Waltz"
+    },
+    {
+        "question": "What are the tiny air sacs in the lungs called?",
+        "answer1": "Thorax",
+        "answer2": "Bronchi",
+        "answer3": "Trachea",
+        "answer4": "Alveoli",
+        "correctAnswer": "Alveoli"
+    },
+    {
+        "question": "A medical condition that has been caused by a physician or medical treatment is described as what?",
+        "answer1": "Gastroenteritis",
+        "answer2": "Conjunctivitis",
+        "answer3": "Iatrogenic",
+        "answer4": "Ewing sarcoma",
+        "correctAnswer": "Iatrogenic"
+    },
+    {
+        "question": "Which US First Lady was the first to give birth in the White House?",
+        "answer1": "Ida McKinley",
+        "answer2": "Sarah Polk",
+        "answer3": "Lucy Hayes",
+        "answer4": "Frances Cleveland",
+        "correctAnswer": "Frances Cleveland"
+    },
+    {
+        "question": "What sector of the Springfield nuclear power plant does Carl Carlson work in?",
+        "answer1": "7G",
+        "answer2": "3G",
+        "answer3": "6G",
+        "answer4": "9G",
+        "correctAnswer": "7G"
+    }
+]

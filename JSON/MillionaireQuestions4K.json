@@ -1,0 +1,722 @@
+[
+    {
+        "question": "Which movie studio currently owns the Star Wars franchise",
+        "correctAnswer": "Disney",
+        "answer1": "Warner Brothers",
+        "answer2": "Universal",
+        "answer3": "20th Century Fox",
+        "answer4": "Disney"
+    },
+    {
+        "question": "Which of these animals has the longest life span?",
+        "correctAnswer": "Greenland shark",
+        "answer1": "Greenland shark",
+        "answer2": "Red sea urchin",
+        "answer3": "Bowhead whale",
+        "answer4": "Aldabra tortoise"
+    },
+    {
+        "question": "Dr. Gregory House shares the same home address as which other fictional character?",
+        "correctAnswer": "Sherlock Holmes",
+        "answer1": "Dr. Meredith Grey",
+        "answer2": "Sherlock Holmes",
+        "answer3": "Mr Bean",
+        "answer4": "Harry Potter"
+    },
+    {
+        "question": "Which year was the first book in the Harry Potter series published?",
+        "correctAnswer": "1997",
+        "answer1": "1999",
+        "answer2": "2001",
+        "answer3": "1994",
+        "answer4": "1997"
+    },
+    {
+        "question": "Lake Tahoe straddles the border of which states?",
+        "correctAnswer": "California and Nevada",
+        "answer1": "California and Portland",
+        "answer2": "Portland and Seattle",
+        "answer3": "California and Nevada",
+        "answer4": "Nevada and New Mexico"
+    },
+    {
+        "question": "What comet can be seen from Earth about every 75 years?",
+        "correctAnswer": "Halley's comet",
+        "answer1": "Harvey's comet",
+        "answer2": "Halley's comet",
+        "answer3": "Hope's comet",
+        "answer4": "Harry's comet"
+    },
+    {
+        "question": "Saint Stephen's Day is better known as what?",
+        "correctAnswer": "Boxing day",
+        "answer1": "Boxing day",
+        "answer2": "Easter Sunday",
+        "answer3": "Good Friday",
+        "answer4": "Christmas eve"
+    },
+    {
+        "question": "In ancient Greece, what color hair was associated with prostitution?",
+        "correctAnswer": "Blonde",
+        "answer1": "Brown",
+        "answer2": "Red",
+        "answer3": "Black",
+        "answer4": "Blonde"
+    },
+    {
+        "question": "What decade witnessed the invention of the automatic bowling pinsetter?",
+        "correctAnswer": "1930s",
+        "answer1": "1920s",
+        "answer2": "1930s",
+        "answer3": "1940s",
+        "answer4": "1950s"
+    },
+    {
+        "question": "A group of herring is called what?",
+        "correctAnswer": "An army ",
+        "answer1": "A herd",
+        "answer2": "A flock",
+        "answer3": "A swarm",
+        "answer4": "An army"
+    },
+    {
+        "question": "What team retired Michael Jordan’s jersey despite him never playing for them?",
+        "correctAnswer": "Miami Heat",
+        "answer1": "Golden State Warriors",
+        "answer2": "Boston Celtics",
+        "answer3": "Miami Heat",
+        "answer4": "Philadelphia 76ers"
+    },
+    {
+        "question": "Complete the quote \"I have to remind myself that some birds aren't meant to be…\" from the movie \"The Shawshank Redemption\"?",
+        "correctAnswer": "Caged",
+        "answer1": "Shot",
+        "answer2": "Caged",
+        "answer3": "Flying",
+        "answer4": "Born"
+    },
+    {
+        "question": "The first Nobel Prize was awarded in which country?",
+        "correctAnswer": "Sweden",
+        "answer1": "Sweden",
+        "answer2": "Norway",
+        "answer3": "France",
+        "answer4": "Denmark"
+    },
+    {
+        "question": "What country consumes the most chocolate?",
+        "correctAnswer": "Switzerland",
+        "answer1": "Germany",
+        "answer2": "Switzerland",
+        "answer3": "Belgium",
+        "answer4": "The United States"
+    },
+    {
+        "question": "What weather event can be faster than a Formula One race car?",
+        "correctAnswer": "Tornado",
+        "answer1": "Tsunami",
+        "answer2": "Sand storm",
+        "answer3": "Tornado",
+        "answer4": "Earthquake"
+    },
+    {
+        "question": "How long are Neptune's days?",
+        "correctAnswer": "16 hours",
+        "answer1": "27 days",
+        "answer2": "72 hours",
+        "answer3": "1 week",
+        "answer4": "16 hours"
+    },
+    {
+        "question": "Where are more than 10% of a cat's bones located?",
+        "correctAnswer": "In its tail",
+        "answer1": "In its head",
+        "answer2": "In its paws",
+        "answer3": "In its tail",
+        "answer4": "In its spine"
+    },
+    {
+        "question": "What city in the United States has microclimates?",
+        "correctAnswer": "San Francisco",
+        "answer1": "Austin",
+        "answer2": "Washington DC",
+        "answer3": "San Francisco",
+        "answer4": "Seattle"
+    },
+    {
+        "question": "What is illegal to do while standing near the Queen?",
+        "correctAnswer": "Not war socks",
+        "answer1": "Burp",
+        "answer2": "Not wear socks",
+        "answer3": "Eat garlic",
+        "answer4": "Smoke"
+    },
+    {
+        "question": "Humans have unique fingerprints and what else?",
+        "correctAnswer": "Tounge prints",
+        "answer1": "Hair lines",
+        "answer2": "Tounge prints",
+        "answer3": "Palms",
+        "answer4": "Foot prints"
+    },
+    {
+        "question": "How many noses does a slug have?",
+        "correctAnswer": "4",
+        "answer1": "1",
+        "answer2": "2",
+        "answer3": "6",
+        "answer4": "4"
+    },
+    {
+        "question": "How many people in the world have played the board game \"Monopoly?\"",
+        "correctAnswer": "Around 480 million",
+        "answer1": "Around 1.2 billion",
+        "answer2": "Around 92 million",
+        "answer3": "Around 480 million",
+        "answer4": "Around 860 million"
+    },
+    {
+        "question": "How long does the average yawn last?",
+        "correctAnswer": "6 seconds",
+        "answer1": "2 seconds",
+        "answer2": "4 seconds",
+        "answer3": "10 seconds",
+        "answer4": "6 seconds"
+    },
+    {
+        "question": "What year was the first pizza delivery made?",
+        "correctAnswer": "1889",
+        "answer1": "1947",
+        "answer2": "1901",
+        "answer3": "1889",
+        "answer4": "1962"
+    },
+    {
+        "question": "How long can a crocodile hold its breath underwater?",
+        "correctAnswer": "2 hours",
+        "answer1": "45 minutes",
+        "answer2": "7 hours",
+        "answer3": "16 hours",
+        "answer4": "2 hours"
+    },
+    {
+        "question": "What are naked role rats sometimes referred to as?",
+        "correctAnswer": "Sand puppies",
+        "answer1": "Moles",
+        "answer2": "Sand puppies",
+        "answer3": "Cuties",
+        "answer4": "Peeks"
+    },
+    {
+        "question": "What year was popcorn first invented?",
+        "correctAnswer": "1612",
+        "answer1": "1922",
+        "answer2": "1818",
+        "answer3": "1612",
+        "answer4": "1777"
+    },
+    {
+        "question": "What was the first movie to win best picture at the Academy Awards?",
+        "correctAnswer": "Wings",
+        "answer1": "The Racket",
+        "answer2": "Wings",
+        "answer3": "7th Heaven",
+        "answer4": "Sunrise"
+    },
+    {
+        "question": "“Les Fauves” was a name given to a group of artists that also included Matisse. What is its literal meaning of “Les Fauves”?",
+        "correctAnswer": "Wild beasts",
+        "answer1": "Insanity",
+        "answer2": "Geniuses",
+        "answer3": "Wild beasts",
+        "answer4": "Freedom"
+    },
+    {
+        "question": "In which country is the Troi-Rivieres bridge?",
+        "correctAnswer": "Canada",
+        "answer1": "Canada",
+        "answer2": "France",
+        "answer3": "Algeria",
+        "answer4": "Senegal"
+    },
+    {
+        "question": "Caravaggio shared a first name with what other famous artist?",
+        "correctAnswer": "Michelangelo",
+        "answer1": "Raphael",
+        "answer2": "Donatello",
+        "answer3": "Michelangelo",
+        "answer4": "Titian"
+    },
+    {
+        "question": "What location served as the setting for many of John Hughes’ movies?",
+        "correctAnswer": "Shermer, Illinois",
+        "answer1": "Montgomery, Alabama",
+        "answer2": "Santa Fe, New Mexico",
+        "answer3": "Pembroke, Virginia",
+        "answer4": "Shermer, Illinois"
+    },
+    {
+        "question": "In Swedish, a skvader is a rabbit with what unusual feature?",
+        "correctAnswer": "Wings",
+        "answer1": "Two tails",
+        "answer2": "Wings",
+        "answer3": "One eye",
+        "answer4": "Sharp claws"
+    },
+    {
+        "question": "Sahti is a type of beer that’s trad­itionally flavored with juniper. Which country would you be most likely to find it in?",
+        "correctAnswer": "Finland",
+        "answer1": "Finland",
+        "answer2": "Estonia",
+        "answer3": "Sweden",
+        "answer4": "Norway"
+    },
+    {
+        "question": "Napoleon suffered defeat at Waterloo in what year?",
+        "correctAnswer": "1815",
+        "answer1": "1796",
+        "answer2": "1832",
+        "answer3": "1815",
+        "answer4": "1802"
+    },
+    {
+        "question": "During the mid-1970s, David Bowie’s diet reportedly consisted solely of milk, red peppers, and what else?",
+        "correctAnswer": "Cocaine",
+        "answer1": "Cocaine",
+        "answer2": "Hersey's chocolate",
+        "answer3": "Diet coke",
+        "answer4": "Raw eggs"
+    },
+    {
+        "question": "Which poison do apple seeds contain?",
+        "correctAnswer": "Cyanide",
+        "answer1": "Chlorine",
+        "answer2": "Cyanide",
+        "answer3": "Phosgene",
+        "answer4": "Arsenate"
+    },
+    {
+        "question": "What Italian sculptor\/architect is credited with creating the Baroque style?",
+        "correctAnswer": "Gian Lorenzo Bernini",
+        "answer1": "Caravaggio",
+        "answer2": "Federico Barocci",
+        "answer3": "Annibale Carracci",
+        "answer4": "Gian Lorenzo Bernini"
+    },
+    {
+        "question": "Who wrote Flowers for Algernon?",
+        "correctAnswer": "Daniel Keyes",
+        "answer1": "Daniel Keyes",
+        "answer2": "Anthony Burgess",
+        "answer3": "Peter Matthiessen",
+        "answer4": "Isaac Asimov"
+    },
+    {
+        "question": " Which two countries are connected by the Karakoram Pass?",
+        "correctAnswer": "China and India",
+        "answer1": "Switzerland and Italy",
+        "answer2": "China and India",
+        "answer3": "Oman and Saudi Arabia",
+        "answer4": "India and Pakistan"
+    },
+    {
+        "question": "Which U.S. state has the motto “Live Free or Die” on their license plate?",
+        "correctAnswer": "New Hampshire",
+        "answer1": "Nevada",
+        "answer2": "Maryland",
+        "answer3": "Maine",
+        "answer4": "New Hampshire"
+    },
+    {
+        "question": "What famous author tried to get his wife committed to an insane asylum so he could live with his 18-year-old mistress?",
+        "correctAnswer": "Chrales Dickens",
+        "answer1": "F Scott Fitzgerald ",
+        "answer2": "Ernst Hemmingway",
+        "answer3": "Charles Dickens",
+        "answer4": "Mark Twain"
+    },
+    {
+        "question": "The last leader of the Soviet Union, Mikhail Gorbachev, was in what restaurant commercial?",
+        "correctAnswer": "Pizza hut",
+        "answer1": "KFC",
+        "answer2": "McDonalds",
+        "answer3": "Subway",
+        "answer4": "Pizza hut"
+    },
+    {
+        "question": "In 1963, the New York Zoo’s Great Ape House was home to the “most dangerous animal in the world” exhibit. What was the exhibit?",
+        "correctAnswer": "A mirror",
+        "answer1": "A lion",
+        "answer2": "A bengal tiger",
+        "answer3": "A great white shark",
+        "answer4": "A bald eagle"
+    },
+    {
+        "question": "What is the capital city of Canada’s Yukon territory?",
+        "correctAnswer": "Whitehorse",
+        "answer1": "Whitehorse",
+        "answer2": "Yellowknife",
+        "answer3": "Halifax",
+        "answer4": "Regina"
+    },
+    {
+        "question": "Lenny Kravtiz is the son of what popular sitcom actress?",
+        "correctAnswer": "Roxie Roker",
+        "answer1": "Ethel Waters",
+        "answer2": "Janet Waldo",
+        "answer3": "Roxie Roker",
+        "answer4": "Hattie McDaniel"
+    },
+    {
+        "question": "Which famous actor is honored with a statue in Leicester Square?",
+        "correctAnswer": "Charlie Chaplin",
+        "answer1": "Harold Lloyd",
+        "answer2": "Charlie Chaplin",
+        "answer3": "John Barrymore",
+        "answer4": "Rudolph Valentino"
+    },
+    {
+        "question": "Which King of England was crowned on Christmas Day?",
+        "correctAnswer": "William I",
+        "answer1": "Charles II",
+        "answer2": "Edward III",
+        "answer3": "William I",
+        "answer4": "George V"
+    },
+    {
+        "question": "What year did Volkswagen debut the Golf?",
+        "correctAnswer": "1974",
+        "answer1": "1966",
+        "answer2": "1981",
+        "answer3": "1974",
+        "answer4": "1985"
+    },
+    {
+        "question": "What is the fear of fog known as?",
+        "correctAnswer": "Homichlophobia",
+        "answer1": "Mistophobia",
+        "answer2": "Aurophobia",
+        "answer3": "Holinphobia",
+        "answer4": "Homichlophobia"
+    },
+    {
+        "question": "What is a natural Christmas tree a good source of?",
+        "correctAnswer": "Vitamin C",
+        "answer1": "Amino acids",
+        "answer2": "Vitamin B",
+        "answer3": "Vitamin C",
+        "answer4": "Protein"
+    },
+    {
+        "question": "What is the name of the base twenty numbering system?",
+        "correctAnswer": "Vigesimal",
+        "answer1": "Trivela",
+        "answer2": "Wenrida",
+        "answer3": "Solvismal",
+        "answer4": "Vigesimal"
+    },
+    {
+        "question": "A toxophilite is a student or fan of what sport?",
+        "correctAnswer": "Archery",
+        "answer1": "Archery",
+        "answer2": "Fencing",
+        "answer3": "Shooting",
+        "answer4": "Chess"
+    },
+    {
+        "question": "What was the first US city to have a subway system?",
+        "correctAnswer": "Boston",
+        "answer1": "Chicago",
+        "answer2": "Boston",
+        "answer3": "New York",
+        "answer4": "Philadelphia"
+    },
+    {
+        "question": "In 1996, what action star was named a \"sacred vessel\" of Tibetan Buddhism?",
+        "correctAnswer": "Steven Seagal",
+        "answer1": "Jean-Claude Van Damme",
+        "answer2": "Sylvester Stallone",
+        "answer3": "Steven Seagal",
+        "answer4": "Dolph Lundgren"
+    },
+    {
+        "question": "What does Mount Snowdon's Welsh name \"Yr Wyddfe\" roughly translate to?",
+        "correctAnswer": "The borrow",
+        "answer1": "The borrow",
+        "answer2": "The medow",
+        "answer3": "The slope",
+        "answer4": "The river"
+    },
+    {
+        "question": "Besides \"Axis Sally\", who was another famous propaganda broadcaster for the Nazis?",
+        "correctAnswer": "Berlin Betty",
+        "answer1": "Munich Martha",
+        "answer2": "Frankfurt Frida",
+        "answer3": "Berlin Betty",
+        "answer4": "Hamburg Harriet"
+    },
+    {
+        "question": "The design of the package of which cigarette manufacturer reminds of the Japanese flag?",
+        "correctAnswer": "Lucky Strike",
+        "answer1": "Santa Fe",
+        "answer2": "Camel",
+        "answer3": "Lucky Strike",
+        "answer4": "Maverick"
+    },
+    {
+        "question": "What instrument does Meg White play in the band White Stripes?",
+        "correctAnswer": "Drums",
+        "answer1": "Drums",
+        "answer2": "Guitar",
+        "answer3": "Keyboard",
+        "answer4": "Bass"
+    },
+    {
+        "question": "How many hours would it take you to watch all of the Disney show Star Wars: The Clone Wars?",
+        "correctAnswer": "54h",
+        "answer1": "126h",
+        "answer2": "38h",
+        "answer3": "54h",
+        "answer4": "91h"
+    },
+    {
+        "question": "Which U.S. state is known as the Flickertail State?",
+        "correctAnswer": "North Dakota",
+        "answer1": "North Dakota",
+        "answer2": "South Dakota",
+        "answer3": "Alabama",
+        "answer4": "Wisconsin"
+    },
+    {
+        "question": "Which naturally occurring element is heaviest by atomic weight?",
+        "correctAnswer": "Uranium",
+        "answer1": "Titanium",
+        "answer2": "Uranium",
+        "answer3": "Rhenium",
+        "answer4": "Iron"
+    },
+    {
+        "question": "Who was U.S. President when electricity was installed in the White House, in 1891?",
+        "correctAnswer": "Benjamin Harrison",
+        "answer1": "William McKinley",
+        "answer2": "James Garfield",
+        "answer3": "Benjamin Harrison",
+        "answer4": "Grover Cleveland"
+    },
+    {
+        "question": "What is the capital of Kyrgyzstan?",
+        "correctAnswer": "Bishkek",
+        "answer1": "Astana",
+        "answer2": "Bishkek",
+        "answer3": "Ashgabat",
+        "answer4": "Tashkent"
+    },
+    {
+        "question": "Who painted \"The Persistence of Memory\"?",
+        "correctAnswer": "Salvador Dali",
+        "answer1": "Pablo Picasso",
+        "answer2": "René Magritte",
+        "answer3": "Salvador Dali",
+        "answer4": "Joan Miro"
+    },
+    {
+        "question": "What TV show's cops operate out of a converted church they call \"the Barn\"?",
+        "correctAnswer": "The Shield",
+        "answer1": "Renegade",
+        "answer2": "The Shield",
+        "answer3": "Nash Bridges",
+        "answer4": "Homicide"
+    },
+    {
+        "question": "What actress earned an Oscar nomination for her first screen appearance in \"Maria Full of Grace\"?",
+        "correctAnswer": "Catalina Sandino Moreno",
+        "answer1": "Yenny Paola Vega",
+        "answer2": "Guilied Lopez",
+        "answer3": "Catalina Sandino Moreno",
+        "answer4": "Orlando Tobón"
+    },
+    {
+        "question": "When blood becomes more acid than normal, what it is the condition called?",
+        "correctAnswer": "Acidosis",
+        "answer1": "Acidosis",
+        "answer2": "Blood cloth",
+        "answer3": "Oxitonis",
+        "answer4": "Acid flow"
+    },
+    {
+        "question": "What year was the film studio “20th Century Fox” founded?",
+        "correctAnswer": "1935",
+        "answer1": "1967",
+        "answer2": "1935",
+        "answer3": "1948",
+        "answer4": "1961"
+    },
+    {
+        "question": "How many people were killed in the Boston Massacre?",
+        "correctAnswer": "5",
+        "answer1": "22",
+        "answer2": "18",
+        "answer3": "5",
+        "answer4": "37"
+    },
+    {
+        "question": "What 1960s rock band inspired the vultures in the animated film \"The Jungle Book\"?",
+        "correctAnswer": "The Beatles",
+        "answer1": "Rolling Stones",
+        "answer2": "The Eagles",
+        "answer3": "The Who",
+        "answer4": "The Beatles"
+    },
+    {
+        "question": "Which settlers added an \"r\" to Arkansas?",
+        "correctAnswer": "French",
+        "answer1": "British",
+        "answer2": "Spanish",
+        "answer3": "German",
+        "answer4": "French"
+    },
+    {
+        "question": "A \"smack\" is one of the seven names for a group of what aquatic animal?",
+        "correctAnswer": "Jellyfish",
+        "answer1": "Seahorse",
+        "answer2": "Jellyfish",
+        "answer3": "Seal",
+        "answer4": "Sealion"
+    },
+    {
+        "question": "\"Destino\" is the name of an animated short film collaborated between Walt Disney and what Spanish artist?",
+        "correctAnswer": "Salvador Dali",
+        "answer1": "Salvador Dali",
+        "answer2": "Pablo Picasso",
+        "answer3": "Joan Miro",
+        "answer4": "Antoni Tapies"
+    },
+    {
+        "question": "The eldest sister in the TV series \"Charmed\", was played by who?",
+        "correctAnswer": "Shannon Doherty",
+        "answer1": "Alyssa Milano",
+        "answer2": "Shannon Doherty",
+        "answer3": "Melonie Diaz",
+        "answer4": "Madeleine Mantock"
+    },
+    {
+        "question": "Who was called in the Bible \"the disciple who Jesus loved\"?",
+        "correctAnswer": "John",
+        "answer1": "Olaf",
+        "answer2": "Peter",
+        "answer3": "John",
+        "answer4": "George"
+    },
+    {
+        "question": "Which materials is used along with iron ore and limestone to produce iron in a modern blast furnace?",
+        "correctAnswer": "Coke",
+        "answer1": "Coke",
+        "answer2": "Coal",
+        "answer3": "Bauxite",
+        "answer4": "Cementine"
+    },
+    {
+        "question": "What type of animal is the Japanese monster, Ebirah?",
+        "correctAnswer": "Shrimp",
+        "answer1": "Lizard",
+        "answer2": "Shrimp",
+        "answer3": "Moth",
+        "answer4": "Fox"
+    },
+    {
+        "question": "What US city is named for a Roman general famed for leaving his troops and retiring to his farm?",
+        "correctAnswer": "Cincinnati",
+        "answer1": "Naples",
+        "answer2": "Verona",
+        "answer3": "Cincinnati",
+        "answer4": "Detroit"
+    },
+    {
+        "question": "How long did China's one-child policy last?",
+        "correctAnswer": "35 years",
+        "answer1": "10 years",
+        "answer2": "52 years",
+        "answer3": "42 years",
+        "answer4": "35 years"
+    },
+    {
+        "question": "Which pop duo consisted of Fab Morvan and Rob Pilatus?",
+        "correctAnswer": "Milli Vanilli",
+        "answer1": "Eurythmics",
+        "answer2": "Milli Vanilli",
+        "answer3": "Pet Shop Boys",
+        "answer4": "Hall & Oates"
+    },
+    {
+        "question": "What is the name for the soft white layer that forms on teeth?",
+        "correctAnswer": "Plaque",
+        "answer1": "Gingiva",
+        "answer2": "Retromolar trigone",
+        "answer3": "Plaque",
+        "answer4": "Uvula"
+    },
+    {
+        "question": "Which US president was nicknamed \"Big Bill\"?",
+        "correctAnswer": "William Howard Taft",
+        "answer1": "Bill Clinton",
+        "answer2": "William Howard Taft",
+        "answer3": "William McKinley",
+        "answer4": "William Henry Harrison"
+    },
+    {
+        "question": "What TV show inspired the term \"spam\" for junk email?",
+        "correctAnswer": "Monty Python's Flying Circus",
+        "answer1": "Seinfeld",
+        "answer2": "Frasier",
+        "answer3": "Monty Python's Flying Circus",
+        "answer4": "NYPD Blue"
+    },
+    {
+        "question": "In the movie \"Clockwork Orange\", Alex DeLarge drank what?",
+        "correctAnswer": "Milk Plus",
+        "answer1": "Gin and coffee",
+        "answer2": "Acid",
+        "answer3": "Ethanol",
+        "answer4": "Milk Plus"
+    },
+    {
+        "question": "Architect Walter Gropius founded what famous German art school in Weimar in 1919?",
+        "correctAnswer": "The Bauhaus",
+        "answer1": "Berlin University of the Arts",
+        "answer2": "The Bauhaus",
+        "answer3": "Braunschweig University of Art",
+        "answer4": "Alanus University"
+    },
+    {
+        "question": "In the TV show \"The Simpsons\", in which foreign country did the Simpsons appear on a game show?",
+        "correctAnswer": "Japan",
+        "answer1": "South Korea",
+        "answer2": "China",
+        "answer3": "India",
+        "answer4": "Japan"
+    },
+    {
+        "question": "In the movie \"Basic Instinct\", Michael Douglas plays a cop in what city?",
+        "correctAnswer": "San Francisco",
+        "answer1": "New York",
+        "answer2": "Los Angeles",
+        "answer3": "Las Vegas",
+        "answer4": "San Francisco"
+    },
+    {
+        "question": "What Harvard dropout held 535 US patents upon his death in 1991, second only to Thomas Edison?",
+        "correctAnswer": "Edwin Land",
+        "answer1": "Henry Ford",
+        "answer2": "Linus Pauling",
+        "answer3": "Edwin Land",
+        "answer4": "Richard Feynman"
+    },
+    {
+        "question": "Which US state is home to Craters of the Moon National Monument?",
+        "correctAnswer": "Idaho",
+        "answer1": "Nebraska",
+        "answer2": "Nevada",
+        "answer3": "Oklahoma",
+        "answer4": "Idaho"
+    }
+]

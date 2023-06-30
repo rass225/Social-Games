@@ -39,7 +39,23 @@
 		C05060A427FF465700C35785 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05060A327FF465700C35785 /* Modifiers.swift */; };
 		C05060B527FF55B800C35785 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05060B427FF55B800C35785 /* View.swift */; };
 		C05060B727FF970400C35785 /* HorseRaceSuits.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05060B627FF970400C35785 /* HorseRaceSuits.swift */; };
+		C0522BF02A4EEAAB00DD331C /* MillionaireGame+Tiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0522BEF2A4EEAAB00DD331C /* MillionaireGame+Tiers.swift */; };
+		C0522BF22A4EEB3400DD331C /* MillionaireGame+Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0522BF12A4EEB3400DD331C /* MillionaireGame+Display.swift */; };
+		C0522BF42A4EEB8100DD331C /* MillionaireGame+Lifelines.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0522BF32A4EEB8100DD331C /* MillionaireGame+Lifelines.swift */; };
+		C0522BF62A4EEC5300DD331C /* MillionaireGame+PossibleAnswers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0522BF52A4EEC5300DD331C /* MillionaireGame+PossibleAnswers.swift */; };
 		C05F54B6285E44EB00949E98 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05F54B5285E44EB00949E98 /* Ticket.swift */; };
+		C06005E42A20BACD0080BBE9 /* MillionaireQuestions100.json in Resources */ = {isa = PBXBuildFile; fileRef = C06005E32A20BACD0080BBE9 /* MillionaireQuestions100.json */; };
+		C06005E62A20C5BE0080BBE9 /* MillionaireQuestions200.json in Resources */ = {isa = PBXBuildFile; fileRef = C06005E52A20C5BD0080BBE9 /* MillionaireQuestions200.json */; };
+		C06005E82A20CA570080BBE9 /* MillionaireQuestions300.json in Resources */ = {isa = PBXBuildFile; fileRef = C06005E72A20CA570080BBE9 /* MillionaireQuestions300.json */; };
+		C06005EA2A20CB5C0080BBE9 /* MillionaireQuestions1M.json in Resources */ = {isa = PBXBuildFile; fileRef = C06005E92A20CB5C0080BBE9 /* MillionaireQuestions1M.json */; };
+		C06005EC2A20CBFF0080BBE9 /* MillionaireQuestions500K.json in Resources */ = {isa = PBXBuildFile; fileRef = C06005EB2A20CBFF0080BBE9 /* MillionaireQuestions500K.json */; };
+		C06005EE2A20CCC60080BBE9 /* MillionaireQuestions250K.json in Resources */ = {isa = PBXBuildFile; fileRef = C06005ED2A20CCC60080BBE9 /* MillionaireQuestions250K.json */; };
+		C06005F02A20E53D0080BBE9 /* MillionaireQuestions125K.json in Resources */ = {isa = PBXBuildFile; fileRef = C06005EF2A20E53D0080BBE9 /* MillionaireQuestions125K.json */; };
+		C06005F22A20E5FC0080BBE9 /* MillionaireQuestions64K.json in Resources */ = {isa = PBXBuildFile; fileRef = C06005F12A20E5FC0080BBE9 /* MillionaireQuestions64K.json */; };
+		C06005F42A20E7BD0080BBE9 /* MillionaireQuestions32K.json in Resources */ = {isa = PBXBuildFile; fileRef = C06005F32A20E7BD0080BBE9 /* MillionaireQuestions32K.json */; };
+		C06005F62A20F7A80080BBE9 /* MillionaireQuestions16K.json in Resources */ = {isa = PBXBuildFile; fileRef = C06005F52A20F7A80080BBE9 /* MillionaireQuestions16K.json */; };
+		C06005F82A20FEE20080BBE9 /* MillionaireQuestions8K.json in Resources */ = {isa = PBXBuildFile; fileRef = C06005F72A20FEE20080BBE9 /* MillionaireQuestions8K.json */; };
+		C06005FA2A20FFA00080BBE9 /* MillionaireQuestions4K.json in Resources */ = {isa = PBXBuildFile; fileRef = C06005F92A20FFA00080BBE9 /* MillionaireQuestions4K.json */; };
 		C070361C2881E552003C68B2 /* MillionaireModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C070361B2881E552003C68B2 /* MillionaireModel.swift */; };
 		C07F114B28776DD000429838 /* TriviaSports.json in Resources */ = {isa = PBXBuildFile; fileRef = C07F114A28776DD000429838 /* TriviaSports.json */; };
 		C07F114D2877712A00429838 /* TriviaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07F114C2877712A00429838 /* TriviaModel.swift */; };
@@ -110,6 +126,9 @@
 		C0D9C72D281A5789009B5001 /* NeverEverModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D9C72C281A5789009B5001 /* NeverEverModel.swift */; };
 		C0D9C72F281A5E6B009B5001 /* TitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D9C72E281A5E6B009B5001 /* TitleLabel.swift */; };
 		C0E271F5289F20FD001CCDCD /* MenuLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E271F4289F20FD001CCDCD /* MenuLabel.swift */; };
+		C0E4D2EE2A21005700CBCFF0 /* MillionaireQuestions2K.json in Resources */ = {isa = PBXBuildFile; fileRef = C0E4D2ED2A21005700CBCFF0 /* MillionaireQuestions2K.json */; };
+		C0E4D2F02A2100BD00CBCFF0 /* MillionaireQuestions1K.json in Resources */ = {isa = PBXBuildFile; fileRef = C0E4D2EF2A2100BD00CBCFF0 /* MillionaireQuestions1K.json */; };
+		C0E4D2F22A2106FB00CBCFF0 /* MillionaireQuestions500.json in Resources */ = {isa = PBXBuildFile; fileRef = C0E4D2F12A2106FB00CBCFF0 /* MillionaireQuestions500.json */; };
 		C0E77760281646AA007CE89F /* ChooserGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E7775F281646AA007CE89F /* ChooserGame.swift */; };
 		C0E777632816F6ED007CE89F /* HigherLowerGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E777622816F6ED007CE89F /* HigherLowerGame.swift */; };
 		C0E77765281700F6007CE89F /* RouletteGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E77764281700F6007CE89F /* RouletteGame.swift */; };
@@ -181,7 +200,23 @@
 		C05060A327FF465700C35785 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
 		C05060B427FF55B800C35785 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		C05060B627FF970400C35785 /* HorseRaceSuits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorseRaceSuits.swift; sourceTree = "<group>"; };
+		C0522BEF2A4EEAAB00DD331C /* MillionaireGame+Tiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MillionaireGame+Tiers.swift"; sourceTree = "<group>"; };
+		C0522BF12A4EEB3400DD331C /* MillionaireGame+Display.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MillionaireGame+Display.swift"; sourceTree = "<group>"; };
+		C0522BF32A4EEB8100DD331C /* MillionaireGame+Lifelines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MillionaireGame+Lifelines.swift"; sourceTree = "<group>"; };
+		C0522BF52A4EEC5300DD331C /* MillionaireGame+PossibleAnswers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MillionaireGame+PossibleAnswers.swift"; sourceTree = "<group>"; };
 		C05F54B5285E44EB00949E98 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		C06005E32A20BACD0080BBE9 /* MillionaireQuestions100.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MillionaireQuestions100.json; sourceTree = "<group>"; };
+		C06005E52A20C5BD0080BBE9 /* MillionaireQuestions200.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MillionaireQuestions200.json; sourceTree = "<group>"; };
+		C06005E72A20CA570080BBE9 /* MillionaireQuestions300.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MillionaireQuestions300.json; sourceTree = "<group>"; };
+		C06005E92A20CB5C0080BBE9 /* MillionaireQuestions1M.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MillionaireQuestions1M.json; sourceTree = "<group>"; };
+		C06005EB2A20CBFF0080BBE9 /* MillionaireQuestions500K.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MillionaireQuestions500K.json; sourceTree = "<group>"; };
+		C06005ED2A20CCC60080BBE9 /* MillionaireQuestions250K.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MillionaireQuestions250K.json; sourceTree = "<group>"; };
+		C06005EF2A20E53D0080BBE9 /* MillionaireQuestions125K.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MillionaireQuestions125K.json; sourceTree = "<group>"; };
+		C06005F12A20E5FC0080BBE9 /* MillionaireQuestions64K.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MillionaireQuestions64K.json; sourceTree = "<group>"; };
+		C06005F32A20E7BD0080BBE9 /* MillionaireQuestions32K.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MillionaireQuestions32K.json; sourceTree = "<group>"; };
+		C06005F52A20F7A80080BBE9 /* MillionaireQuestions16K.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MillionaireQuestions16K.json; sourceTree = "<group>"; };
+		C06005F72A20FEE20080BBE9 /* MillionaireQuestions8K.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MillionaireQuestions8K.json; sourceTree = "<group>"; };
+		C06005F92A20FFA00080BBE9 /* MillionaireQuestions4K.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MillionaireQuestions4K.json; sourceTree = "<group>"; };
 		C070361B2881E552003C68B2 /* MillionaireModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MillionaireModel.swift; sourceTree = "<group>"; };
 		C07F114A28776DD000429838 /* TriviaSports.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TriviaSports.json; sourceTree = "<group>"; };
 		C07F114C2877712A00429838 /* TriviaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaModel.swift; sourceTree = "<group>"; };
@@ -252,6 +287,9 @@
 		C0D9C72C281A5789009B5001 /* NeverEverModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeverEverModel.swift; sourceTree = "<group>"; };
 		C0D9C72E281A5E6B009B5001 /* TitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleLabel.swift; sourceTree = "<group>"; };
 		C0E271F4289F20FD001CCDCD /* MenuLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuLabel.swift; sourceTree = "<group>"; };
+		C0E4D2ED2A21005700CBCFF0 /* MillionaireQuestions2K.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MillionaireQuestions2K.json; sourceTree = "<group>"; };
+		C0E4D2EF2A2100BD00CBCFF0 /* MillionaireQuestions1K.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MillionaireQuestions1K.json; sourceTree = "<group>"; };
+		C0E4D2F12A2106FB00CBCFF0 /* MillionaireQuestions500.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MillionaireQuestions500.json; sourceTree = "<group>"; };
 		C0E7775F281646AA007CE89F /* ChooserGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooserGame.swift; sourceTree = "<group>"; };
 		C0E777622816F6ED007CE89F /* HigherLowerGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HigherLowerGame.swift; sourceTree = "<group>"; };
 		C0E77764281700F6007CE89F /* RouletteGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouletteGame.swift; sourceTree = "<group>"; };
@@ -451,6 +489,21 @@
 				C07F1152287B433700429838 /* TriviaScience.json */,
 				C07F1154287C091000429838 /* TriviaHistory.json */,
 				C0E93B4D287EBF0400055283 /* TriviaMusic.json */,
+				C06005E92A20CB5C0080BBE9 /* MillionaireQuestions1M.json */,
+				C06005EB2A20CBFF0080BBE9 /* MillionaireQuestions500K.json */,
+				C06005ED2A20CCC60080BBE9 /* MillionaireQuestions250K.json */,
+				C06005EF2A20E53D0080BBE9 /* MillionaireQuestions125K.json */,
+				C06005F12A20E5FC0080BBE9 /* MillionaireQuestions64K.json */,
+				C06005F32A20E7BD0080BBE9 /* MillionaireQuestions32K.json */,
+				C06005F52A20F7A80080BBE9 /* MillionaireQuestions16K.json */,
+				C06005F72A20FEE20080BBE9 /* MillionaireQuestions8K.json */,
+				C06005F92A20FFA00080BBE9 /* MillionaireQuestions4K.json */,
+				C0E4D2ED2A21005700CBCFF0 /* MillionaireQuestions2K.json */,
+				C0E4D2EF2A2100BD00CBCFF0 /* MillionaireQuestions1K.json */,
+				C0E4D2F12A2106FB00CBCFF0 /* MillionaireQuestions500.json */,
+				C06005E72A20CA570080BBE9 /* MillionaireQuestions300.json */,
+				C06005E52A20C5BD0080BBE9 /* MillionaireQuestions200.json */,
+				C06005E32A20BACD0080BBE9 /* MillionaireQuestions100.json */,
 			);
 			path = JSON;
 			sourceTree = "<group>";
@@ -666,6 +719,10 @@
 			isa = PBXGroup;
 			children = (
 				C0E93B49287DA67200055283 /* MillionaireGame.swift */,
+				C0522BF52A4EEC5300DD331C /* MillionaireGame+PossibleAnswers.swift */,
+				C0522BF32A4EEB8100DD331C /* MillionaireGame+Lifelines.swift */,
+				C0522BF12A4EEB3400DD331C /* MillionaireGame+Display.swift */,
+				C0522BEF2A4EEAAB00DD331C /* MillionaireGame+Tiers.swift */,
 				C070361B2881E552003C68B2 /* MillionaireModel.swift */,
 				C0E93B4F287F0BFD00055283 /* MillionaireObject.swift */,
 			);
@@ -782,24 +839,39 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0E4D2EE2A21005700CBCFF0 /* MillionaireQuestions2K.json in Resources */,
 				C0A14BA528422599004DAC0E /* NeverHaveIEverTierThree.json in Resources */,
 				C050607F27FF421900C35785 /* Preview Assets.xcassets in Resources */,
 				C0A14BA428422599004DAC0E /* NeverHaveIEverTierOne.json in Resources */,
 				C0E93B4E287EBF0500055283 /* TriviaMusic.json in Resources */,
 				C09C3029287611AB00A4CD07 /* TriviaGeography.json in Resources */,
 				C0889DD528398611009015DB /* TruthTierOne.json in Resources */,
+				C06005EE2A20CCC60080BBE9 /* MillionaireQuestions250K.json in Resources */,
+				C06005F22A20E5FC0080BBE9 /* MillionaireQuestions64K.json in Resources */,
 				C0A14B9D28413381004DAC0E /* DareTierOne.json in Resources */,
 				C00A91D2286D971500DC62FF /* WhosMostLikelyTierOne.json in Resources */,
+				C0E4D2F22A2106FB00CBCFF0 /* MillionaireQuestions500.json in Resources */,
+				C06005F82A20FEE20080BBE9 /* MillionaireQuestions8K.json in Resources */,
 				C0A14B9C28413381004DAC0E /* DareTierThree.json in Resources */,
 				C07F114B28776DD000429838 /* TriviaSports.json in Resources */,
 				C07F1155287C091000429838 /* TriviaHistory.json in Resources */,
 				C0889DD9283989E3009015DB /* TruthTierThree.json in Resources */,
 				C0889DD7283987BA009015DB /* TruthTierTwo.json in Resources */,
+				C06005E42A20BACD0080BBE9 /* MillionaireQuestions100.json in Resources */,
 				C07F11512878D75700429838 /* TriviaMovies.json in Resources */,
 				C0A14B9B28413381004DAC0E /* DareTierTwo.json in Resources */,
+				C06005E62A20C5BE0080BBE9 /* MillionaireQuestions200.json in Resources */,
+				C06005E82A20CA570080BBE9 /* MillionaireQuestions300.json in Resources */,
+				C06005F62A20F7A80080BBE9 /* MillionaireQuestions16K.json in Resources */,
 				C07F1153287B433700429838 /* TriviaScience.json in Resources */,
+				C0E4D2F02A2100BD00CBCFF0 /* MillionaireQuestions1K.json in Resources */,
+				C06005EA2A20CB5C0080BBE9 /* MillionaireQuestions1M.json in Resources */,
 				C050607C27FF421900C35785 /* Assets.xcassets in Resources */,
+				C06005EC2A20CBFF0080BBE9 /* MillionaireQuestions500K.json in Resources */,
+				C06005FA2A20FFA00080BBE9 /* MillionaireQuestions4K.json in Resources */,
+				C06005F42A20E7BD0080BBE9 /* MillionaireQuestions32K.json in Resources */,
 				C00A91D1286D971500DC62FF /* WhosMostLikelyTierTwo.json in Resources */,
+				C06005F02A20E53D0080BBE9 /* MillionaireQuestions125K.json in Resources */,
 				C0A14BA328422599004DAC0E /* NeverHaveIEverTierTwo.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -830,14 +902,17 @@
 				C0ACBBDC28131093005D223D /* SetupView.swift in Sources */,
 				C00A91DD286DA7A400DC62FF /* WhosMostLikelyRules.swift in Sources */,
 				C0365548281E1FEA00CB8D00 /* SpinBottleModel.swift in Sources */,
+				C0522BF02A4EEAAB00DD331C /* MillionaireGame+Tiers.swift in Sources */,
 				C05060A427FF465700C35785 /* Modifiers.swift in Sources */,
 				C0ACBBEC2813AACE005D223D /* NeverHaveIEverRules.swift in Sources */,
 				C00A91DB286DA76F00DC62FF /* HigherLowerRules.swift in Sources */,
 				C0A14BAE284767F2004DAC0E /* DefaultRuleCell.swift in Sources */,
+				C0522BF62A4EEC5300DD331C /* MillionaireGame+PossibleAnswers.swift in Sources */,
 				C0BFC1EF2838F9C20079A6A1 /* RestartButton.swift in Sources */,
 				C044B80F280884CB00A112C2 /* Card.swift in Sources */,
 				C0E77760281646AA007CE89F /* ChooserGame.swift in Sources */,
 				C0884928282CF7F40074EC97 /* DefaultBackground.swift in Sources */,
+				C0522BF22A4EEB3400DD331C /* MillionaireGame+Display.swift in Sources */,
 				C09D90192833946A000E0B04 /* Gradients.swift in Sources */,
 				C0A9EE312801394F00E69993 /* HorceRaceSubviews.swift in Sources */,
 				C09D90202833972F000E0B04 /* EnvironmentValues.swift in Sources */,
@@ -854,6 +929,7 @@
 				C0ACBBF12813B400005D223D /* PyramidGame.swift in Sources */,
 				C05060A227FF43EB00C35785 /* GameSetup.swift in Sources */,
 				C0E93B4A287DA67200055283 /* MillionaireGame.swift in Sources */,
+				C0522BF42A4EEB8100DD331C /* MillionaireGame+Lifelines.swift in Sources */,
 				C0365546281E1FE000CB8D00 /* SpinBottleGame.swift in Sources */,
 				C0A14B9F28415E12004DAC0E /* NeverHaveIEverObject.swift in Sources */,
 				C05F54B6285E44EB00949E98 /* Ticket.swift in Sources */,

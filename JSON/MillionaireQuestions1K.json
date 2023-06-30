@@ -1,0 +1,882 @@
+[
+    {
+        "question": "Which toys have been marketed with the phrase “robots in disguise”?",
+        "correctAnswer": "Transformers",
+        "answer1": "Play mobile",
+        "answer2": "Transformers",
+        "answer3": "Nerf",
+        "answer4": "Lego"
+    },
+    {
+        "question": "The hammer and sickle is one of the most recognisable symbols of which political ideology?",
+        "correctAnswer": "Communism",
+        "answer1": "Liberalism",
+        "answer2": "Socialism",
+        "answer3": "Conservatism",
+        "answer4": "Communism"
+    },
+    {
+        "question": "Which two countries share the longest border?",
+        "correctAnswer": "Canada and The United States",
+        "answer1": "Russia and Mongolia",
+        "answer2": "Mexico and The United States",
+        "answer3": "Canada and The United States",
+        "answer4": "Russia and China"
+    },
+    {
+        "question": "What is the only continent that covers four hemispheres?",
+        "correctAnswer": "Africa",
+        "answer1": "South America",
+        "answer2": "Africa",
+        "answer3": "Europe",
+        "answer4": "Asia"
+    },
+    {
+        "question": "What country has more surface area than Pluto?",
+        "correctAnswer": "Russia",
+        "answer1": "Canada",
+        "answer2": "The United States",
+        "answer3": "China",
+        "answer4": "Russia"
+    },
+    {
+        "question": "How many syllables are there in Japanese haiku?",
+        "correctAnswer": "17",
+        "answer1": "17",
+        "answer2": "18",
+        "answer3": "19",
+        "answer4": "20"
+    },
+    {
+        "question": "What was Keanu Reeves' alias in the film \"The Matrix\"?",
+        "correctAnswer": "Neo",
+        "answer1": "Theo",
+        "answer2": "Uno",
+        "answer3": "Neo",
+        "answer4": "Nas"
+    },
+    {
+        "question": "What body of water lies between Stockholm and Riga?",
+        "correctAnswer": "The Baltic Sea",
+        "answer1": "The Ice Sea",
+        "answer2": "The Baltic Sea",
+        "answer3": "The North Sea",
+        "answer4": "The East Sea"
+    },
+    {
+        "question": "What material are jeans made of?",
+        "correctAnswer": "Cotton",
+        "answer1": "Polyester",
+        "answer2": "Nylon",
+        "answer3": "Acrylic",
+        "answer4": "Cotton"
+    },
+    {
+        "question": "What ocean does the Congo River flow into?",
+        "correctAnswer": "Atlantic Ocean",
+        "answer1": "Indian Ocean",
+        "answer2": "Atlantic Ocean",
+        "answer3": "Pacific Ocean",
+        "answer4": "Southern Ocean"
+    },
+    {
+        "question": "What sign of the zodiac is represented by a bull?",
+        "correctAnswer": "Taurus",
+        "answer1": "Aries",
+        "answer2": "Gemini",
+        "answer3": "Taurus",
+        "answer4": "Capricorn"
+    },
+    {
+        "question": "The world-renowned St. Paul's Cathedral is in what European city?",
+        "correctAnswer": "London",
+        "answer1": "London",
+        "answer2": "Paris",
+        "answer3": "Amsterdam",
+        "answer4": "Rome"
+    },
+    {
+        "question": "How many states are there in Australia?",
+        "correctAnswer": "6",
+        "answer1": "4",
+        "answer2": "6",
+        "answer3": "12",
+        "answer4": "8"
+    },
+    {
+        "question": "Which planet in our solar system is known as the Earth's twin?",
+        "correctAnswer": "Venus",
+        "answer1": "Mercury",
+        "answer2": "Mars",
+        "answer3": "Venus",
+        "answer4": "Uranus"
+    },
+    {
+        "question": "What is the most common atom in the universe?",
+        "correctAnswer": "Hydrogen",
+        "answer1": "Carbon",
+        "answer2": "Oxygen",
+        "answer3": "Hydrogen",
+        "answer4": "Lithium"
+    },
+    {
+        "question": "Where is over 90% of the world's fresh water supply located?",
+        "correctAnswer": "Antarctica",
+        "answer1": "Antarctica",
+        "answer2": "The arctic",
+        "answer3": "Himalayas",
+        "answer4": "Greenland"
+    },
+    {
+        "question": "What year did the first Barbie doll come out?",
+        "correctAnswer": "1959",
+        "answer1": "1964",
+        "answer2": "1947",
+        "answer3": "1959",
+        "answer4": "1976"
+    },
+    {
+        "question": "Who is the voice of Woody in Toy Story?",
+        "correctAnswer": "Tom Hanks",
+        "answer1": "Keanu Reeves",
+        "answer2": "Tom Hanks",
+        "answer3": "Robin Williams",
+        "answer4": "Mark Wahlberg"
+    },
+    {
+        "question": "Which fictional character does 30% of society believe is real?",
+        "correctAnswer": "Sherlock Holmes",
+        "answer1": "Sherlock Holmes",
+        "answer2": "Tony Stark",
+        "answer3": "Harry Potter",
+        "answer4": "Bruce Wayne"
+    },
+    {
+        "question": "What was ice cream once called?",
+        "correctAnswer": "Cream ice",
+        "answer1": "Ice pudding",
+        "answer2": "Cold blocks",
+        "answer3": "Cream ice",
+        "answer4": "Cold cream"
+    },
+    {
+        "question": "Name the only planet to spin clockwise?",
+        "correctAnswer": "Venus",
+        "answer1": "Mercury",
+        "answer2": "Saturn",
+        "answer3": "Uranus",
+        "answer4": "Venus"
+    },
+    {
+        "question": "What can grow four times faster than toenails?",
+        "correctAnswer": "Fingernails",
+        "answer1": "Fingernails",
+        "answer2": "Hair",
+        "answer3": "Armpit hair",
+        "answer4": "Nose hair"
+    },
+    {
+        "question": "Where do Acai berries originate from?",
+        "correctAnswer": "South America",
+        "answer1": "Africa",
+        "answer2": "Asia",
+        "answer3": "Oceania",
+        "answer4": "South America"
+    },
+    {
+        "question": "How many kinds of bats are in the world?",
+        "correctAnswer": "1000",
+        "answer1": "126",
+        "answer2": "82",
+        "answer3": "15",
+        "answer4": "1000"
+    },
+    {
+        "question": "How long would it take to drive to space?",
+        "correctAnswer": "1h",
+        "answer1": "23h",
+        "answer2": "40 min",
+        "answer3": "1h",
+        "answer4": "2 days"
+    },
+    {
+        "question": "How do frogs drink water?",
+        "correctAnswer": "Through their skin",
+        "answer1": "Through the skin",
+        "answer2": "With their nose",
+        "answer3": "With their feet",
+        "answer4": "Though their mouth"
+    },
+    {
+        "question": "What is the only bird that can fly backward?",
+        "correctAnswer": "Hummingbird",
+        "answer1": "Owls",
+        "answer2": "Hummingbird",
+        "answer3": "Blue jay",
+        "answer4": "Common blackbird"
+    },
+    {
+        "question": "What animal laughs when it's tickled?",
+        "correctAnswer": "Apes",
+        "answer1": "Koalas",
+        "answer2": "Dogs",
+        "answer3": "Apes",
+        "answer4": "Rabbits"
+    },
+    {
+        "question": "What is the dirtiest item in the common household?",
+        "correctAnswer": "TV remote",
+        "answer1": "TV remote",
+        "answer2": "Toilet",
+        "answer3": "Front door knob",
+        "answer4": "Fridge door"
+    },
+    {
+        "question": "How many bones do sharks have?",
+        "correctAnswer": "0",
+        "answer1": "127",
+        "answer2": "56",
+        "answer3": "18",
+        "answer4": "0"
+    },
+    {
+        "question": "What is the part of the human eye that controls the amount of light that passes through the pupil?",
+        "correctAnswer": "Iris",
+        "answer1": "Pupil",
+        "answer2": "Iris",
+        "answer3": "Sclera",
+        "answer4": "Lens"
+    },
+    {
+        "question": "What is the hardest natural substance?",
+        "correctAnswer": "Diamond",
+        "answer1": "Diamond",
+        "answer2": "Titan",
+        "answer3": "Iron",
+        "answer4": "Gold"
+    },
+    {
+        "question": "What is a professional wrestler, John Cena, catchphrase?",
+        "correctAnswer": "'You can't see me''",
+        "answer1": "'Can you smell what I'm cooking''",
+        "answer2": "'You can't see me''",
+        "answer3": "'Rest in peace''",
+        "answer4": "'To be the man, yot to beat the man''"
+    },
+    {
+        "question": "What year was the first Super Bowl played?",
+        "correctAnswer": "1967",
+        "answer1": "1978",
+        "answer2": "1952",
+        "answer3": "1967",
+        "answer4": "1944"
+    },
+    {
+        "question": "How many paintings did Vincent Van Gogh sell during his life?",
+        "correctAnswer": "1",
+        "answer1": "0",
+        "answer2": "1",
+        "answer3": "17",
+        "answer4": "36"
+    },
+    {
+        "question": "What was the first movie to be rated PG-13?",
+        "correctAnswer": "Red Dawn",
+        "answer1": "Karate Kid",
+        "answer2": "Ghostbusters",
+        "answer3": "Red Dawn",
+        "answer4": "Police Academy"
+    },
+    {
+        "question": "In 1547, who became the 1st Tsar of Russia?",
+        "correctAnswer": "Ivan IV ",
+        "answer1": "Feodor I",
+        "answer2": "Ivan IV ",
+        "answer3": "Vasili II",
+        "answer4": "Ivan III"
+    },
+    {
+        "question": "Who was the first person to suggest Daylight Savings Times?",
+        "correctAnswer": "Benjamin Franklin",
+        "answer1": "Nikola Tesla",
+        "answer2": "Thomas Edison",
+        "answer3": "Benjamin Franklin",
+        "answer4": "Archimedes"
+    },
+    {
+        "question": "If you order “murgh” from the menu at an Indian restaurant, what meat will you get?",
+        "correctAnswer": "Chicken",
+        "answer1": "Chicken",
+        "answer2": "Fish soup",
+        "answer3": "Yogurt",
+        "answer4": "Garlic bread"
+    },
+    {
+        "question": "Kersti Kaljulaid was 46 years old when she became the youngest president ever elected to lead which country?",
+        "correctAnswer": "Estonia",
+        "answer1": "Finland",
+        "answer2": "Hungary",
+        "answer3": "Estonia",
+        "answer4": "Netherlands"
+    },
+    {
+        "question": "What historical figure was assassinated near the Miljacka River in 1914?",
+        "correctAnswer": "Archduke Franz Ferdinand",
+        "answer1": "George I of Greece",
+        "answer2": "Tsar Nicholas II",
+        "answer3": "Emiliano Zapata",
+        "answer4": "Archduke Franz Ferdinand"
+    },
+    {
+        "question": "What comedy became the first film directed by a woman to gross over $100 million at the box office?",
+        "correctAnswer": "Big",
+        "answer1": "Big",
+        "answer2": "Jennifer's body",
+        "answer3": "Mamma mia",
+        "answer4": "Shrek"
+    },
+    {
+        "question": "In 1612, who became the first person to observe the planet Neptune?",
+        "correctAnswer": "Galileo",
+        "answer1": "Copernicus",
+        "answer2": "Leonardo Davinci",
+        "answer3": "Galileo",
+        "answer4": "Rheticus"
+    },
+    {
+        "question": " What is the world’s most venomous fish?",
+        "correctAnswer": "Stonefish",
+        "answer1": "Stonefish",
+        "answer2": "Red lionfish",
+        "answer3": "Luna lionfish",
+        "answer4": "Clearfin lionfish"
+    },
+    {
+        "question": "What insect has the shortest life span?",
+        "correctAnswer": "Mayflies",
+        "answer1": "Worker bee",
+        "answer2": "Mayflies",
+        "answer3": "Dragonfly",
+        "answer4": "Fruit fly"
+    },
+    {
+        "question": "What is the driest place on the earth?",
+        "correctAnswer": "The Dry Valleys in Antarctica",
+        "answer1": "Luxor in Egypt",
+        "answer2": "Iquique in Chile",
+        "answer3": "Wadi Halfa in Sudan",
+        "answer4": "The Dry Valleys in Antarctica"
+    },
+    {
+        "question": "Who was the first Time Magazine “Man of the Year”?",
+        "correctAnswer": "Charles Lindbergh",
+        "answer1": "Walter Chrysler",
+        "answer2": "Owen D. Young",
+        "answer3": "Charles Lindbergh",
+        "answer4": "Mahatma Gandhi"
+    },
+    {
+        "question": "Who was the first explorer to reach the North Pole?",
+        "correctAnswer": "Robert Peary",
+        "answer1": "James Clark Ross",
+        "answer2": "Robert Peary",
+        "answer3": "Robert Falcon Scott",
+        "answer4": "Ernst Shackleton"
+    },
+    {
+        "question": "On the periodic table, which element has an atomic weight of 1.00794?",
+        "correctAnswer": "Hydrogen",
+        "answer1": "Sodium ",
+        "answer2": "Hydrogen",
+        "answer3": "Carbon",
+        "answer4": "Oxygen"
+    },
+    {
+        "question": "Jimi Hendrix, Janis Joplin, Jim Morrison, and Amy Winehouse all died at what age?",
+        "correctAnswer": "27",
+        "answer1": "27",
+        "answer2": "36",
+        "answer3": "41",
+        "answer4": "32"
+    },
+    {
+        "question": "In 1952, the United States Air Force created Project Blue Book to study what?",
+        "correctAnswer": "UFOs",
+        "answer1": "Asteroids",
+        "answer2": "Air pressure",
+        "answer3": "UFOs",
+        "answer4": "Moons"
+    },
+    {
+        "question": "At the time of his assassination, what play was Abraham Lincoln watching?",
+        "correctAnswer": "Our american cousin",
+        "answer1": "Our american cousin",
+        "answer2": "A glass of water",
+        "answer3": "Farinelli and the king",
+        "answer4": "The way of the world"
+    },
+    {
+        "question": "“A la Crecy” is a French cooking term that describes a dish that is made or is garnished with what?",
+        "correctAnswer": "Carrots",
+        "answer1": "Onions",
+        "answer2": "Potatoes",
+        "answer3": "Carrots",
+        "answer4": "Eggs"
+    },
+    {
+        "question": "Who is in a tie with Cloris Leachman for the most Emmys won by a female performer?",
+        "correctAnswer": "Julia Louis-Dreyfus",
+        "answer1": "Julia Louis-Dreyfus",
+        "answer2": "Allison Janney",
+        "answer3": "Mary Tyler Moore",
+        "answer4": "Angela Lansbury"
+    },
+    {
+        "question": "What is the name of Donald Duck’s sister?",
+        "correctAnswer": "Della",
+        "answer1": "Judy",
+        "answer2": "Gina",
+        "answer3": "Della",
+        "answer4": "Masie"
+    },
+    {
+        "question": "Sydney Carton is the central character in what Charles Dickens novel?",
+        "correctAnswer": "A Tale of Two Cities",
+        "answer1": "Great Expectations",
+        "answer2": "Bleak House",
+        "answer3": "The Old Curiosity Shop",
+        "answer4": "A Tale of Two Cities"
+    },
+    {
+        "question": "What country has competitive office chair racing?",
+        "correctAnswer": "Japan",
+        "answer1": "South Korea",
+        "answer2": "Japan",
+        "answer3": "China",
+        "answer4": "Indonesia"
+    },
+    {
+        "question": "What Greek mathematician is considered the founder and father of Geometry?",
+        "correctAnswer": "Euclid",
+        "answer1": "Euclid",
+        "answer2": "Hipparchus",
+        "answer3": "Eratosthenes",
+        "answer4": "Pythagoras"
+    },
+    {
+        "question": "Buchaechum is a traditional Korean what?",
+        "correctAnswer": "Fan dance",
+        "answer1": "Tea ceremony",
+        "answer2": "Fan dance",
+        "answer3": "Head dress",
+        "answer4": "Holiday dish"
+    },
+    {
+        "question": "What was the first console video game that allowed the video game to be saved?",
+        "correctAnswer": "The Legend of Zelda",
+        "answer1": "Gun fight",
+        "answer2": "Super Mario Bros",
+        "answer3": "Duck Hunt",
+        "answer4": "The Legend of Zelda"
+    },
+    {
+        "question": "In the game Scrabble, how many points is the letter K?",
+        "correctAnswer": "5",
+        "answer1": "3",
+        "answer2": "4",
+        "answer3": "7",
+        "answer4": "5"
+    },
+    {
+        "question": "By what name is the musician, Charles Hardin, better known as?",
+        "correctAnswer": "Buddy Holly",
+        "answer1": "Buddy Holly",
+        "answer2": "Mick Jagger",
+        "answer3": "Ozzy Osbourne",
+        "answer4": "Alice Cooper"
+    },
+    {
+        "question": "What island is Pearl Harbor located on?",
+        "correctAnswer": "Oahu",
+        "answer1": "Kauai",
+        "answer2": "Maui",
+        "answer3": "Oahu",
+        "answer4": "Moloka"
+    },
+    {
+        "question": "Which country is the world’s most earthquake-prone country?",
+        "correctAnswer": "China",
+        "answer1": "Turkey",
+        "answer2": "China",
+        "answer3": "Japan",
+        "answer4": "The United States"
+    },
+    {
+        "question": "What author wore a trademark dyed-green carnation in their lapel in 1890s London?",
+        "correctAnswer": "Oscar Wilde",
+        "answer1": "Chales Dickens",
+        "answer2": "Emily Bronte",
+        "answer3": "Oscar Wilde",
+        "answer4": "Shirley Jackson"
+    },
+    {
+        "question": "When was \"The Catcher in the Rye\" published?",
+        "correctAnswer": "1951",
+        "answer1": "1946",
+        "answer2": "1960",
+        "answer3": "1951",
+        "answer4": "1958"
+    },
+    {
+        "question": "What tropic passes through Australia?",
+        "correctAnswer": "Tropic of capricorn",
+        "answer1": "Tropic of taurus",
+        "answer2": "Tropic of scorpio",
+        "answer3": "Tropic of leo",
+        "answer4": "Tropic of capricorn"
+    },
+    {
+        "question": "Where is the Volleyball Hall of Fame located?",
+        "correctAnswer": "Holyoke, Massachusetts",
+        "answer1": "Tucson, Arizona",
+        "answer2": "Frisco, Texas",
+        "answer3": "Holyoke, Massachusetts",
+        "answer4": "Eagle River, Wisconsin"
+    },
+    {
+        "question": "What was the last movie Walt Disney was able to work on before he died?",
+        "correctAnswer": "The jungle book",
+        "answer1": "Cinderella",
+        "answer2": "Dumbo",
+        "answer3": "The jungle book",
+        "answer4": "Fantasia"
+    },
+    {
+        "question": "What US president was raised in a spa town called Hot Springs?",
+        "correctAnswer": "Bill Clinton",
+        "answer1": "George W. Bush",
+        "answer2": "Bill Clinton",
+        "answer3": "Richard Nixon",
+        "answer4": "Ronald Reagan"
+    },
+    {
+        "question": "What sport's lingo uses the term \"Oche\"?",
+        "correctAnswer": "Darts",
+        "answer1": "Pool",
+        "answer2": "Snooker",
+        "answer3": "Poker",
+        "answer4": "Darts"
+    },
+    {
+        "question": "The Egyptian plover is a bird best known for its symbiotic relationship with what host animal?",
+        "correctAnswer": "A chef",
+        "answer1": "A fireman",
+        "answer2": "A chef",
+        "answer3": "A police officer",
+        "answer4": "A doctor"
+    },
+    {
+        "question": "What color is vermilion a shade of?",
+        "correctAnswer": "Red",
+        "answer1": "Red",
+        "answer2": "Blue",
+        "answer3": "Pink",
+        "answer4": "Yellow"
+    },
+    {
+        "question": "Who says, \"Frankly my dear, I don’t give a damn\" in \"Gone with the Wind\"?",
+        "correctAnswer": "Rhett Butler",
+        "answer1": "Clark Gable",
+        "answer2": "Melanie Hamilton",
+        "answer3": "Rhett Butler",
+        "answer4": "Gerald O'Hara"
+    },
+    {
+        "question": "The modern day sandwich was created during which century?",
+        "correctAnswer": "18the century",
+        "answer1": "17th century",
+        "answer2": "19th century",
+        "answer3": "18th century",
+        "answer4": "20th century"
+    },
+    {
+        "question": "In 2011, which music superstar launched her own social media website?",
+        "correctAnswer": "Lady Gaga",
+        "answer1": "Lady Gaga",
+        "answer2": "Katy Perry",
+        "answer3": "Taylor Swift",
+        "answer4": "Beyonce"
+    },
+    {
+        "question": "In what country was the world's first ATM installed?",
+        "correctAnswer": "United Kingdom",
+        "answer1": "United States",
+        "answer2": "France",
+        "answer3": "United Kingdom",
+        "answer4": "Germany"
+    },
+    {
+        "question": "What was Hawaii's main agricultural crop during the first half of the 20th century?",
+        "correctAnswer": "Sugarcane",
+        "answer1": "Corn",
+        "answer2": "Rice",
+        "answer3": "Seaweed",
+        "answer4": "Sugarcane"
+    },
+    {
+        "question": "Until World War II, solid blocks of what was commonly used as currency in Siberia?",
+        "correctAnswer": "Tea",
+        "answer1": "Tea",
+        "answer2": "Cigarettes",
+        "answer3": "Candy",
+        "answer4": "Coffee"
+    },
+    {
+        "question": "In what ominous numbered room is Winston Smith strapped to a chair at the end of \"Nineteen Eighty-Four\"?",
+        "correctAnswer": "Room 101",
+        "answer1": "Room 84",
+        "answer2": "Room 002",
+        "answer3": "Room 101",
+        "answer4": "Room 66"
+    },
+    {
+        "question": "Who played Jack Nicholson's wife in the 1980 film \"The Shining\"?",
+        "correctAnswer": "Shelley Duvall ",
+        "answer1": "Vivian Kubrick",
+        "answer2": "Diane Keaton",
+        "answer3": "Shelley Long",
+        "answer4": "Shelley Duvall "
+    },
+    {
+        "question": "Which US state has the highest relative humidity?",
+        "correctAnswer": "Alaska",
+        "answer1": "Alaska",
+        "answer2": "Hawaii",
+        "answer3": "Florida",
+        "answer4": "Arkansas"
+    },
+    {
+        "question": "What does the J.R.R in Tolkien’s name stand for?",
+        "correctAnswer": "John Ronald Reuel",
+        "answer1": "Jonathan Richard Ronald",
+        "answer2": "James Robert Raymond",
+        "answer3": "John Ronald Reuel",
+        "answer4": "Jeremy Raymond Reginald"
+    },
+    {
+        "question": "A group of apes is called what?",
+        "correctAnswer": "Shrewdness",
+        "answer1": "Skulk",
+        "answer2": "Shrewdness",
+        "answer3": "Pod",
+        "answer4": "Bloat"
+    },
+    {
+        "question": "How many red stripes are there on the American flag?",
+        "correctAnswer": "7",
+        "answer1": "10",
+        "answer2": "12",
+        "answer3": "7",
+        "answer4": "18"
+    },
+    {
+        "question": "What does ROM stand for in CD-ROM?",
+        "correctAnswer": "Read-Only Memory",
+        "answer1": "Royal Ontario Museum",
+        "answer2": "Roasted Over Email",
+        "answer3": "Romantic Comedy Aspects",
+        "answer4": "Read-Only Memory"
+    },
+    {
+        "question": "How many feet are there in a fathom?",
+        "correctAnswer": "6",
+        "answer1": "4",
+        "answer2": "2",
+        "answer3": "6",
+        "answer4": "9"
+    },
+    {
+        "question": "If nitrous oxide is added to an engine, what will the effect be?",
+        "correctAnswer": "Increase in oxygen",
+        "answer1": "Increase in oxygen",
+        "answer2": "Explosion",
+        "answer3": "Catches fire",
+        "answer4": "Nothing"
+    },
+    {
+        "question": "When was the first permanent photograph taken?",
+        "correctAnswer": "1826",
+        "answer1": "1826",
+        "answer2": "1901",
+        "answer3": "1867",
+        "answer4": "1879"
+    },
+    {
+        "question": "What is the term for low blood sugar?",
+        "correctAnswer": "Hypoglycemia",
+        "answer1": "Hypertension",
+        "answer2": "Anemia",
+        "answer3": "Hypoglycemia",
+        "answer4": "Rickets"
+    },
+    {
+        "question": "What kind of bones once stiffened corsets?",
+        "correctAnswer": "Whale",
+        "answer1": "Elephant",
+        "answer2": "Whale",
+        "answer3": "Wolf",
+        "answer4": "Bear"
+    },
+    {
+        "question": "What American won the Nobel Peace Prize in 2007?",
+        "correctAnswer": "Al Gore",
+        "answer1": "Al Gore",
+        "answer2": "Jimmy Carter",
+        "answer3": "Louise Arbour",
+        "answer4": "Dorothy Stang"
+    },
+    {
+        "question": "When was the tire company, Michelin, founded?",
+        "correctAnswer": "1889",
+        "answer1": "1872",
+        "answer2": "1922",
+        "answer3": "1889",
+        "answer4": "1905"
+    },
+    {
+        "question": "Ketchup was sold in the 1830’s as what?",
+        "correctAnswer": "Medicine",
+        "answer1": "Soup",
+        "answer2": "Medicine",
+        "answer3": "Drink",
+        "answer4": "Sweet"
+    },
+    {
+        "question": "What is the name of the point of no return around the edge of a black hole?",
+        "correctAnswer": "Event Horizon",
+        "answer1": "Accretion disc",
+        "answer2": "Photon sphere",
+        "answer3": "Event Horizon",
+        "answer4": "Stable orbit"
+    },
+    {
+        "question": "Eric the Red was a Viking from what period of time?",
+        "correctAnswer": "900s",
+        "answer1": "800s",
+        "answer2": "700s",
+        "answer3": "1000s",
+        "answer4": "900s"
+    },
+    {
+        "question": "What nationality is Denis Villeneuve, director of the 2016 film \"Arrival\"?",
+        "correctAnswer": "Canadian",
+        "answer1": "Canadian",
+        "answer2": "French",
+        "answer3": "American",
+        "answer4": "Algerian"
+    },
+    {
+        "question": "The TV show \"Frasier\" ran for how many seasons?",
+        "correctAnswer": "11",
+        "answer1": "9",
+        "answer2": "8",
+        "answer3": "7",
+        "answer4": "11"
+    },
+    {
+        "question": "What bird lays an egg that is roughly a quarter of its body weight?",
+        "correctAnswer": "Kiwi",
+        "answer1": "Dove",
+        "answer2": "Kiwi",
+        "answer3": "Cockatiel",
+        "answer4": "Seagull"
+    },
+    {
+        "question": "According to the song what did my true love give to me on the fifth day of Christmas?",
+        "correctAnswer": "Five golden rings",
+        "answer1": "Five calling birds",
+        "answer2": "Five swans a-swimming",
+        "answer3": "Five golden rings",
+        "answer4": "Five turtle doves"
+    },
+    {
+        "question": "A Sidecar cocktail contains triple sec, lemon juice and what?",
+        "correctAnswer": "Cognac",
+        "answer1": "Apple juice",
+        "answer2": "Red Bull",
+        "answer3": "Cognac",
+        "answer4": "Pear cider"
+    },
+    {
+        "question": "Which celebrity launched a perfume range entitled \"M\" in 2007?",
+        "correctAnswer": "Mariah Carey",
+        "answer1": "Mariah Carey",
+        "answer2": "Madonna",
+        "answer3": "Mila Kunis",
+        "answer4": "Kylie Minogue"
+    },
+    {
+        "question": "Which former NBA player went by the moniker Chocolate Thunder?",
+        "correctAnswer": "Darryl Dawkins",
+        "answer1": "Moses Malone",
+        "answer2": "Caldwell Jones",
+        "answer3": "Darryl Dawkins",
+        "answer4": "Julius Erving"
+    },
+    {
+        "question": "What is a smew?",
+        "correctAnswer": "A species of duck",
+        "answer1": "A species of duck",
+        "answer2": "A holiday soup",
+        "answer3": "A computer command",
+        "answer4": "A cat breed"
+    },
+    {
+        "question": "Who said, \"If you have ten thousand regulations you destroy all respect for the law.\"?",
+        "correctAnswer": "Winston Churchill",
+        "answer1": "John F. Kennedy",
+        "answer2": "Winston Churchill",
+        "answer3": "Neville Chamberlain",
+        "answer4": "Jean-Jacques Rousseau"
+    },
+    {
+        "question": "Where was the U.S. Contitutional Convention held?",
+        "correctAnswer": "Philadelphia",
+        "answer1": "Washington DC",
+        "answer2": "Richmond",
+        "answer3": "Philadelphia",
+        "answer4": "Montpelier"
+    },
+    {
+        "question": "How many cards comprise a pack of Tarot cards?",
+        "correctAnswer": "78",
+        "answer1": "78",
+        "answer2": "92",
+        "answer3": "65",
+        "answer4": "59"
+    },
+    {
+        "question": "Jambon is the French word for what food?",
+        "correctAnswer": "Ham",
+        "answer1": "Cheese",
+        "answer2": "Ham",
+        "answer3": "Salad",
+        "answer4": "Jam"
+    },
+    {
+        "question": "What was the name of the cat in Walt Disney's movie \"Cinderella\"?",
+        "correctAnswer": "Lucifer",
+        "answer1": "Lucifer",
+        "answer2": "Toto",
+        "answer3": "Salem",
+        "answer4": "Gus"
+    },
+    {
+        "question": "What does the orbital cavity contain?",
+        "correctAnswer": "Your eyes",
+        "answer1": "Heart",
+        "answer2": "Your eyes",
+        "answer3": "Your tongue",
+        "answer4": "Your brain"
+    }
+]

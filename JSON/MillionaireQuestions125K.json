@@ -1,0 +1,323 @@
+[
+  {
+    "question": "Which of these people was born the same year as Queen Elizabeth II?",
+    "answer1": "Marilyn Monroe",
+    "answer2": "Elizabeth Taylor",
+    "answer3": "Judy Garland",
+    "answer4": "Audrey Hepburn",
+    "correctAnswer": "Marilyn Monroe"
+  },
+  {
+    "question": "In what language was Anne Frank's original diary first published?",
+    "answer1": "Dutch",
+    "answer2": "English",
+    "answer3": "German",
+    "answer4": "French",
+    "correctAnswer": "Dutch"
+  },
+  {
+    "question": "What insect shorted out an early supercomputer and inspired the term \"computer bug\"?",
+    "answer1": "Moth",
+    "answer2": "Fly",
+    "answer3": "Ladybug",
+    "answer4": "Japanese beetle",
+    "correctAnswer": "Moth"
+  },
+  {
+    "question": "In the children's book series, where is Paddington Bear originally from?",
+    "answer1": "Peru",
+    "answer2": "England",
+    "answer3": "India",
+    "answer4": "Canada",
+    "correctAnswer": "Peru"
+  },
+  {
+    "question": "How many days make up a non-leap year in the Islamic calendar?",
+    "answer1": "354",
+    "answer2": "365",
+    "answer3": "472",
+    "answer4": "412",
+    "correctAnswer": "354"
+  },
+  {
+    "question": "According to the Population Reference Bureau, what is the approximate number of people who have ever lived on earth?",
+    "answer1": "100 billion",
+    "answer2": "50 billion",
+    "answer3": "1 trillion",
+    "answer4": "5 trillion",
+    "correctAnswer": "100 billion"
+  },
+  {
+    "question": "\"Nephelococcygia\" is the practice of doing what?",
+    "answer1": "Finding shapes in clouds",
+    "answer2": "Breaking glass with your voice",
+    "answer3": "Swimming in freezing water",
+    "answer4": "Sleeping with your eyes open",
+    "correctAnswer": "Finding shapes in clouds"
+  },
+  {
+    "question": "In a failed assassination attempt, what U.S. president was shot twice at point-blank range, but survived because both guns misfired?",
+    "answer1": "Andrew Jackson",
+    "answer2": "John Adams",
+    "answer3": "James Polk",
+    "answer4": "Martin Van Buren",
+    "correctAnswer": "Andrew Jackson"
+  },
+  {
+    "question": "Which of these religious observances lasts for the shortest period of time during the calendar year?",
+    "answer1": "Diwali",
+    "answer2": "Ramadan",
+    "answer3": "Lent",
+    "answer4": "Hanukkah",
+    "correctAnswer": "Diwali"
+  },
+  {
+    "question": "Continents shift at the same rate as what?",
+    "answer1": "Growing fingernails",
+    "answer2": "Menstrual cycles",
+    "answer3": "Children grow",
+    "answer4": "People have birthdays",
+    "correctAnswer": "Growing fingernails"
+  },
+  {
+    "question": "Saint Valentine is the patron saint of which specific disease?",
+    "answer1": "Epilepsy",
+    "answer2": "Cancer",
+    "answer3": "Lyme disease",
+    "answer4": "Plague",
+    "correctAnswer": "Epilepsy"
+  },
+  {
+    "question": "Which two countries took part in the \"Turbot War\" dispute between 1994 and 1996?",
+    "answer1": "Spain and Canada",
+    "answer2": "France and UK",
+    "answer3": "Spain and Portugal",
+    "answer4": "Brazil and Argentina",
+    "correctAnswer": "Spain and Canada"
+  },
+  {
+    "question": "In 2007, which comedian jumped from the roof of Cannes' Carlton Hotel wearing a giant bee costume?",
+    "answer1": "Jerry Seinfeld",
+    "answer2": "Tina Fey",
+    "answer3": "Seth Meyers",
+    "answer4": "Jimmy Fallon",
+    "correctAnswer": "Jerry Seinfeld"
+  },
+  {
+    "question": "The adjective \"cutaneous\" relates to which part of the human body?",
+    "answer1": "Skin",
+    "answer2": "Bones",
+    "answer3": "Muscles",
+    "answer4": "Hair",
+    "correctAnswer": "Skin"
+  },
+  {
+    "question": "What is the oldest building in New York City?",
+    "answer1": "Wyckoff House",
+    "answer2": "Staats House",
+    "answer3": "Bronck House",
+    "answer4": "Bowne House",
+    "correctAnswer": "Wyckoff House"
+  },
+  {
+    "question": "Which architect designed the Woolworth Building in New York City?",
+    "answer1": "Gilbert Cass",
+    "answer2": "Daniel Burnham",
+    "answer3": "Philip Johnson",
+    "answer4": "I.M. Pei",
+    "correctAnswer": "Gilbert Cass"
+  },
+  {
+    "question": "At which hospital did the first heart transplant take place?",
+    "answer1": "Groote Schuur Hospital",
+    "answer2": "Charité-Universitätsmedizin Berlin",
+    "answer3": "Karolinska Universitetssjukhuset",
+    "answer4": "Aarhus Universitetshospital",
+    "correctAnswer": "Groote Schuur Hospital"
+  },
+  {
+    "question": "Ken Thompson and Dennis Ritchie co-created which operating system?",
+    "answer1": "Unix",
+    "answer2": "Linux",
+    "answer3": "Solaris",
+    "answer4": "BSD",
+    "correctAnswer": "Unix"
+  },
+  {
+    "question": "Who discovered the life or death importance of washing hands while studying maternity wards?",
+    "answer1": "Ignaz Semmelweis",
+    "answer2": "Torsten Wiesel",
+    "answer3": "Robert Lefkowitz",
+    "answer4": "Baruj Benacerraf",
+    "correctAnswer": "Ignaz Semmelweis"
+  },
+  {
+    "question": "What was the name of Alexander the Great's horse?",
+    "answer1": "Bucephalus",
+    "answer2": "Marengo",
+    "answer3": "Arbitan",
+    "answer4": "Barbaros",
+    "correctAnswer": "Bucephalus"
+  },
+  {
+    "question": "The Caldecott Medal is an award given in what field?",
+    "answer1": "Children's book illustrations",
+    "answer2": "Furniture design",
+    "answer3": "Astrophysics",
+    "answer4": "Motor sports",
+    "correctAnswer": "Children's book illustrations"
+  },
+  {
+    "question": "In the 1998 movie \"The Man in the Iron Mask\", which character dies defending Philippe?",
+    "answer1": "D'Artagnan",
+    "answer2": "Athos",
+    "answer3": "Aramis",
+    "answer4": "Porthos",
+    "correctAnswer": "D'Artagnan"
+  },
+  {
+    "question": "What Soviet operation forced over 2,000 scientists and engineers to relocate from East Germany to Russia to work on missile design and production?",
+    "answer1": "Operation Osoaviakhim",
+    "answer2": "Operation Samland",
+    "answer3": "Operation Kutuzov",
+    "answer4": "Operation Iskra",
+    "correctAnswer": "Operation Osoaviakhim"
+  },
+  {
+    "question": "Which school's football players run onto the field behind \"Ralphie\", a live bison?",
+    "answer1": "University of Colorado",
+    "answer2": "University of Miami",
+    "answer3": "University of Wisconsin",
+    "answer4": "Washington University",
+    "correctAnswer": "University of Colorado"
+  },
+  {
+    "question": "Which star of \"Cheers\" also starred in the TV show \"Veronica's Closet\"?",
+    "answer1": "Kirstie Alley",
+    "answer2": "Shelley Long",
+    "answer3": "Rhea Perlmann",
+    "answer4": "Kelsey Grammer",
+    "correctAnswer": "Kirstie Alley"
+  },
+  {
+    "question": "Cricket stars Clyde Walcott, Everton Weekes and Frank Worrell were all born in which city within 18 months of each other?",
+    "answer1": "Bridgetown, Barbados",
+    "answer2": "Hamilton, Canada",
+    "answer3": "Lancaster, Pennsylvania",
+    "answer4": "Jalapa, Guatemala",
+    "correctAnswer": "Bridgetown, Barbados"
+  },
+  {
+    "question": "Who played the role of David Duchovny's daughter on the TV show \"Californication\"?",
+    "answer1": "Madeleine Martin",
+    "answer2": "Natascha McElhone",
+    "answer3": "Madeline Zima",
+    "answer4": "Addison Timlin",
+    "correctAnswer": "Madeleine Martin"
+  },
+  {
+    "question": "Beards were once taxed by what famous 17th-century ruler?",
+    "answer1": "Peter the Great",
+    "answer2": "Louis XIV",
+    "answer3": "Philip IV",
+    "answer4": "Charles III",
+    "correctAnswer": "Peter the Great"
+  },
+  {
+    "question": "What comic strip was set in the Okeefenokee Swamp?",
+    "answer1": "Pogo",
+    "answer2": "The Far Side",
+    "answer3": "Calvin and Hobbes",
+    "answer4": "Captain Kate",
+    "correctAnswer": "Pogo"
+  },
+  {
+    "question": "What was Betty Rubble's maiden name?",
+    "answer1": "McBricker",
+    "answer2": "McAdams",
+    "answer3": "McLean",
+    "answer4": "McDaniel",
+    "correctAnswer": "McBricker"
+  },
+  {
+    "question": "What company introduced the first radio with push-button tuning in 1927?",
+    "answer1": "Zenith",
+    "answer2": "Hublot",
+    "answer3": "Rolex",
+    "answer4": "Panerai",
+    "correctAnswer": "Zenith"
+  },
+  {
+    "question": "What actress earned an Oscar nomination for her first screen appearance in \"Gaslight\"?",
+    "answer1": "Angela Lansbury",
+    "answer2": "Maggie Smith",
+    "answer3": "Tom Bosley",
+    "answer4": "Angela Lansbury",
+    "correctAnswer": "Angela Lansbury"
+  },
+  {
+    "question": "Who won the Oscar for Best Director for the 1987 film \"The Last Emperor\"?",
+    "answer1": "Bernardo Bertolucci",
+    "answer2": "Pier Paolo Pasolini",
+    "answer3": "Sergio Leone",
+    "answer4": "Vittorio Storaro",
+    "correctAnswer": "Bernardo Bertolucci"
+  },
+  {
+    "question": "What year did Joseph Merrick, also known as Elephant Man, die?",
+    "answer1": "1890",
+    "answer2": "1907",
+    "answer3": "1931",
+    "answer4": "1869",
+    "correctAnswer": "1890"
+  },
+  {
+    "question": "The first vending machines in England dispensed what?",
+    "answer1": "Postcards",
+    "answer2": "Soft drinks",
+    "answer3": "Cigarettes",
+    "answer4": "Coffee",
+    "correctAnswer": "Postcards"
+  },
+  {
+    "question": "What year was the first black hole discovered?",
+    "answer1": "1971",
+    "answer2": "1966",
+    "answer3": "1952",
+    "answer4": "1980",
+    "correctAnswer": "1971"
+  },
+  {
+    "question": "What kind of animal attacked Jimmy Carter during an April 1979 fishing trip?",
+    "answer1": "A rabbit",
+    "answer2": "A badger",
+    "answer3": "An otter",
+    "answer4": "A mink",
+    "correctAnswer": "A rabbit"
+  },
+  {
+    "question": "What is the \"Davy Lamp\" commonly referred to as?",
+    "answer1": "Miner's lamp",
+    "answer2": "Buffer lamp",
+    "answer3": "Tripod lamp",
+    "answer4": "Piano lamp",
+    "correctAnswer": "Miner's lamp"
+  },
+  {
+    "question": "What was Yehudi Menuhin's main profession?",
+    "answer1": "Violinist",
+    "answer2": "Pianist",
+    "answer3": "Singer",
+    "answer4": "Cellist",
+    "correctAnswer": "Violinist"
+  },
+  {
+    "question": "This singer/musician was just fifteen years old when he joined the Spencer Davis Group and later had two number one hits on the Billboard Hot 100?",
+    "answer1": "Steve Winwood",
+    "answer2": "Jim Capaldi",
+    "answer3": "Ginger Baker",
+    "answer4": "Jeff Lynne",
+    "correctAnswer": "Steve Winwood"
+  }
+]
+

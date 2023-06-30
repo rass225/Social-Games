@@ -1,0 +1,563 @@
+[
+    {
+        "question": "Where did the first football world cup take place?",
+        "answer1": "Brazil",
+        "answer2": "England",
+        "answer3": "Uruguay",
+        "answer4": "Argentina",
+        "correctAnswer": "Uruguay"
+    },
+    {
+        "question": "What United States state has more people than all of Canada?",
+        "answer1": "Texas",
+        "answer2": "Florida",
+        "answer3": "New York",
+        "answer4": "California",
+        "correctAnswer": "California"
+    },
+    {
+        "question": "What percentage of the Earth's population lives in the Northern Hemisphere?",
+        "answer1": "Canada",
+        "answer2": "Russia",
+        "answer3": "The United Kingdom",
+        "answer4": "The United States",
+        "correctAnswer": "Canada"
+    },
+    {
+        "question": "In the TV show \"The Simpsons\", which character is allergic to regular milk?",
+        "answer1": "Bart",
+        "answer2": "Ned",
+        "answer3": "Milhouse",
+        "answer4": "Moe",
+        "correctAnswer": "Milhouse"
+    },
+    {
+        "question": "According to Irish superstition, what stands open during the 12 days of Christmas?",
+        "answer1": "The enterence to the North Pole",
+        "answer2": "The gates of hell",
+        "answer3": "The source of immortality",
+        "answer4": "The gates of heaven",
+        "correctAnswer": "The gates of heaven"
+    },
+    {
+        "question": "Venation is used to describe what item found in nature?",
+        "answer1": "Branches",
+        "answer2": "Soil",
+        "answer3": "Leaves",
+        "answer4": "Seeds",
+        "correctAnswer": "Leaves"
+    },
+    {
+        "question": "Who was the first pope to visit the White House?",
+        "answer1": "Pope Francis",
+        "answer2": "Benedict XVI",
+        "answer3": "Paul VI",
+        "answer4": "John Paul II",
+        "correctAnswer": "John Paul II"
+    },
+    {
+        "question": "How many letters are there in the German alphabet?",
+        "answer1": "28",
+        "answer2": "32",
+        "answer3": "26",
+        "answer4": "30",
+        "correctAnswer": "30"
+    },
+    {
+        "question": "Which city hosted the 2004 Summer Olympic Games?",
+        "answer1": "Sydney",
+        "answer2": "London",
+        "answer3": "Bejing",
+        "answer4": "Athens",
+        "correctAnswer": "Athens"
+    },
+    {
+        "question": "What animal's head appears on the handle of Mary Poppins' umbrella?",
+        "answer1": "A wolf",
+        "answer2": "A fox",
+        "answer3": "A parrot",
+        "answer4": "A cat",
+        "correctAnswer": "A parrot"
+    },
+    {
+        "question": "In which country did the first World War I battle take place?",
+        "answer1": "France",
+        "answer2": "Belgium",
+        "answer3": "Germany",
+        "answer4": "Austria",
+        "correctAnswer": "Belgium"
+    },
+    {
+        "question": "Until 1989, what European country was the world’s second largest exporter of bottled wine?",
+        "answer1": "Albania",
+        "answer2": "Portugal",
+        "answer3": "Greece",
+        "answer4": "Bulgaria",
+        "correctAnswer": "Bulgaria"
+    },
+    {
+        "question": "In German myth, what river hides the treasure of the Nibelung?",
+        "answer1": "Elbe",
+        "answer2": "Danube",
+        "answer3": "Main",
+        "answer4": "The Rhine",
+        "correctAnswer": "The Rhine"
+    },
+    {
+        "question": "In Norse mythology, what did Odin trade an eye for?",
+        "answer1": "Power",
+        "answer2": "Love",
+        "answer3": "Wisdom",
+        "answer4": "Resurrection",
+        "correctAnswer": "Wisdom"
+    },
+    {
+        "question": "What sport did Abe Lincoln play before he was president?",
+        "answer1": "Boxing",
+        "answer2": "Wrestling",
+        "answer3": "Polo",
+        "answer4": "Baseball",
+        "correctAnswer": "Wrestling"
+    },
+    {
+        "question": "How long is one day on Venus in comparison to Earth?",
+        "answer1": "17 hours",
+        "answer2": "14 days",
+        "answer3": "7 hours",
+        "answer4": "8 months",
+        "correctAnswer": "8 months"
+    },
+    {
+        "question": "In which sport are barani, rudolph, and randolph all techniques?",
+        "answer1": "Trampolining",
+        "answer2": "Skateboarding",
+        "answer3": "Wrestling",
+        "answer4": "Gymnastics",
+        "correctAnswer": "Trampolining"
+    },
+    {
+        "question": "Which instrument is associated with Earl ‘Bud’ Powell?",
+        "answer1": "Violin",
+        "answer2": "Chello",
+        "answer3": "Piano",
+        "answer4": "Flute",
+        "correctAnswer": "Piano"
+    },
+    {
+        "question": "The ‘girl in the polka dot dress’ was an eye witness in whose assassination?",
+        "answer1": "John F. Kennedy",
+        "answer2": "Franz Ferdinand",
+        "answer3": "Robert F. Kennedy",
+        "answer4": "James Garfield",
+        "correctAnswer": "Robert F. Kennedy"
+    },
+    {
+        "question": "Who’s the only athlete who ever lit the cauldron for an Olympics and then won a gold medal at those same games?",
+        "answer1": "Mark Spitz",
+        "answer2": "Cathy Freeman",
+        "answer3": "Usain Bolt",
+        "answer4": "Ray Ewry",
+        "correctAnswer": "Cathy Freeman"
+    },
+    {
+        "question": "In the Gilded Age, who was called the “witch of Wallstreet.?",
+        "answer1": "Nellie Bly",
+        "answer2": "Frank Leslie",
+        "answer3": "Caroline Astor",
+        "answer4": "Hetty Green",
+        "correctAnswer": "Hetty Green"
+    },
+    {
+        "question": "What is the largest religious monument in the world?",
+        "answer1": "Karnak temple complex",
+        "answer2": "Angkor Wat",
+        "answer3": "Borodubur",
+        "answer4": "Spring temple Buddha",
+        "correctAnswer": "Angkor Wat"
+    },
+    {
+        "question": "The red supergiant star, Betelgeuse, belongs to which constellation?",
+        "answer1": "Orion the Hunter",
+        "answer2": "Hercules",
+        "answer3": "Southern crow",
+        "answer4": "Perseus",
+        "correctAnswer": "Orion the Hunter"
+    },
+    {
+        "question": "The ancient Egyptian symbol “Ouroboros” depicts a serpent eating what?",
+        "answer1": "A human eyeball",
+        "answer2": "Its own tail",
+        "answer3": "A scorpion",
+        "answer4": "A rat",
+        "correctAnswer": "Its own tail"
+    },
+    {
+        "question": "Who patented the concept of a flat engine in 1896?",
+        "answer1": "Etienne Lenoir",
+        "answer2": "Karl Benz",
+        "answer3": "Alexander Winton",
+        "answer4": "Arthur Constantin Krebs",
+        "correctAnswer": "Karl Benz"
+    },
+    {
+        "question": "The highest peak of China’s Wuling Mountains is home to two Buddhist temples. How many steps must visitors take to reach the site of these temples called Fanjingshan?",
+        "answer1": "10459",
+        "answer2": "6066",
+        "answer3": "8888",
+        "answer4": "14754",
+        "correctAnswer": "8888"
+    },
+    {
+        "question": "What is the process by which a Komodo Dragon can reproduce asexually?",
+        "answer1": "Envirotyping",
+        "answer2": "Parthenogenesis",
+        "answer3": "Separatiosis",
+        "answer4": "Monomorphosis",
+        "correctAnswer": "Parthenogenesis"
+    },
+    {
+        "question": "Which author hosted a 1960 fishing competition that Fidel Castro won?",
+        "answer1": "Ernest Hemmingway",
+        "answer2": "Frank Herbert",
+        "answer3": "F. Scott Fitzgerald",
+        "answer4": "Erich Maria Remarque",
+        "correctAnswer": "Ernest Hemmingway"
+    },
+    {
+        "question": "In the movie \"True Romance\", what was the name of Clarence Worley's love interest?",
+        "answer1": "Browning Boyd",
+        "answer2": "London Harrison",
+        "answer3": "Alabama Whitman",
+        "answer4": "Harrold Oxwald",
+        "correctAnswer": "Alabama Whitman"
+    },
+    {
+        "question": "What baseball great was nicknamed the Iron Man?",
+        "answer1": "Babe Ruth",
+        "answer2": "Ty Cobb",
+        "answer3": "Willie Mays",
+        "answer4": "Cal Ripken Jr.",
+        "correctAnswer": "Cal Ripken Jr."
+    },
+    {
+        "question": "Globophobia is the irrational fear of what?",
+        "answer1": "Balloons",
+        "answer2": "Globes",
+        "answer3": "Traveling",
+        "answer4": "Waterparks",
+        "correctAnswer": "Balloons"
+    },
+    {
+        "question": "In the TV show \"The Simpsons\", where was Lenny born?",
+        "answer1": "Boston",
+        "answer2": "Chicago",
+        "answer3": "Portland",
+        "answer4": "Washington D.C.",
+        "correctAnswer": "Chicago"
+    },
+    {
+        "question": "What band released their 10th studio album under the name \"Back to Us\"?",
+        "answer1": "Lady A",
+        "answer2": "Dan + Shay",
+        "answer3": "Rascal Flatts",
+        "answer4": "Florida Georgia Line",
+        "correctAnswer": "Rascal Flatts"
+    },
+    {
+        "question": "The 2007 movie \"There Will Be Blood\" is based on which novel by Upton Sinclair?",
+        "answer1": "Oil",
+        "answer2": "Milk",
+        "answer3": "Strangers",
+        "answer4": "Visitor",
+        "correctAnswer": "Oil"
+    },
+    {
+        "question": "What element did Joseph Priestley discover in 1774?",
+        "answer1": "Hydrogen",
+        "answer2": "Helium",
+        "answer3": "Oxygen",
+        "answer4": "Nitrogen",
+        "correctAnswer": "Oxygen"
+    },
+    {
+        "question": "The Christmas carol \"Jingle Bells\" was first published in what year?",
+        "answer1": "1812",
+        "answer2": "1857",
+        "answer3": "1901",
+        "answer4": "1884",
+        "correctAnswer": "1857"
+    },
+    {
+        "question": "Who provided the original voice for Yogi Bear?",
+        "answer1": "Don Messick",
+        "answer2": "William Hanna",
+        "answer3": "Daws Butler",
+        "answer4": "Mel Blanc",
+        "correctAnswer": "Daws Butler"
+    },
+    {
+        "question": "Pteridophobia is the fear of what?",
+        "answer1": "Ferns",
+        "answer2": "Forests",
+        "answer3": "Roses",
+        "answer4": "Sand",
+        "correctAnswer": "Ferns"
+    },
+    {
+        "question": "What's the age limit for horses competing in the Kentucky Derby?",
+        "answer1": "5-years-old",
+        "answer2": "3-years-old",
+        "answer3": "4-years-old",
+        "answer4": "6-years-old",
+        "correctAnswer": "3-years-old"
+    },
+    {
+        "question": "What nearby galaxy is named for a mythological princess?",
+        "answer1": "Tucana III",
+        "answer2": "Reticulum II",
+        "answer3": "Andromeda Galaxy",
+        "answer4": "Sextans B",
+        "correctAnswer": "Andromeda Galaxy"
+    },
+    {
+        "question": "What boxer is memorialized by a giant fist outside Detroit's Renaissance Center?",
+        "answer1": "Sugar Ray Leonard",
+        "answer2": "Joe Louis",
+        "answer3": "Terence Crawford",
+        "answer4": "Andre Ward",
+        "correctAnswer": "Joe Louis"
+    },
+    {
+        "question": "What was the first country to declare internet a legal right?",
+        "answer1": "Finland",
+        "answer2": "Iceland",
+        "answer3": "Norway",
+        "answer4": "Denmark",
+        "correctAnswer": "Finland"
+    },
+    {
+        "question": "When did Mexico declare independence?",
+        "answer1": "1916",
+        "answer2": "1877",
+        "answer3": "1901",
+        "answer4": "1810",
+        "correctAnswer": "1810"
+    },
+    {
+        "question": "What did Lorraine Chase famously advertise on TV?",
+        "answer1": "Bacardi",
+        "answer2": "Campari",
+        "answer3": "Jack Daniels",
+        "answer4": "Aperol",
+        "correctAnswer": "Campari"
+    },
+    {
+        "question": "Who was the only two-term president of the Republic of Texas?",
+        "answer1": "David Burnet",
+        "answer2": "Mirabeau Lamar",
+        "answer3": "Sam Houston",
+        "answer4": "Anson Jones",
+        "correctAnswer": "Sam Houston"
+    },
+    {
+        "question": "Who is Melanie Griffith's mother?",
+        "answer1": "Jessica Tandy",
+        "answer2": "Tippi Hedren",
+        "answer3": "Suzanne Pleshette",
+        "answer4": "Veronica Cartwright",
+        "correctAnswer": "Tippi Hedren"
+    },
+    {
+        "question": "Tiger Woods set or tied 27 records at which 1997 PGA tournament?",
+        "answer1": "The Masters",
+        "answer2": "US Open",
+        "answer3": "PGA Championship",
+        "answer4": "The British Open Championship",
+        "correctAnswer": "The Masters"
+    },
+    {
+        "question": "Which artist was a fashion editor and a painter in the school of magic realism?",
+        "answer1": "Frida Kahlo",
+        "answer2": "Tichenor",
+        "answer3": "Paul Cadmus",
+        "answer4": "Werner Tübke",
+        "correctAnswer": "Tichenor"
+    },
+    {
+        "question": "Who wrote the poem \"Anthem for Doomed Youth\"?",
+        "answer1": "Wilfred Owen",
+        "answer2": "Siegfried Sassoon",
+        "answer3": "Rupert Brooke",
+        "answer4": "Isaac Rosenberg",
+        "correctAnswer": "Wilfred Owen"
+    },
+    {
+        "question": "What classic novel's subtitle is \"The Autobiography of a Horse\"?",
+        "answer1": "Who was Seabiscuit?",
+        "answer2": "Black Beauty",
+        "answer3": "The Black Stallion",
+        "answer4": "Riding Lessons",
+        "correctAnswer": "Black Beauty"
+    },
+    {
+        "question": "What conflict is sometimes called the African World War?",
+        "answer1": "Somali Civil War",
+        "answer2": "Nigerian Civil War",
+        "answer3": "Eritrean-Ethiopian War",
+        "answer4": "Second Congo War",
+        "correctAnswer": "Second Congo War"
+    },
+    {
+        "question": "Which TV show used the song \"Who Are You\" by the Who as its theme song?",
+        "answer1": "CSI Miami",
+        "answer2": "CSI",
+        "answer3": "NCIS",
+        "answer4": "Criminal Minds",
+        "correctAnswer": "CSI"
+    },
+    {
+        "question": "What is the name of the agreement that ended the Soviet Union?",
+        "answer1": "Tashkent Agreement",
+        "answer2": "Warsaw Pact",
+        "answer3": "Belavezha Accords",
+        "answer4": "Linggadjati Agreement",
+        "correctAnswer": "Belavezha Accords"
+    },
+    {
+        "question": "What does the \"touch of Midas\" turn everything into?",
+        "answer1": "Silver",
+        "answer2": "Ash",
+        "answer3": "Bronze",
+        "answer4": "Gold",
+        "correctAnswer": "Gold"
+    },
+    {
+        "question": "What is the real first name of the singer Boy George?",
+        "answer1": "James",
+        "answer2": "George",
+        "answer3": "Garrett",
+        "answer4": "Jeffrey",
+        "correctAnswer": "James"
+    },
+    {
+        "question": "Which Constitutional amendment gave Congress the power to levy tax on personal incomes?",
+        "answer1": "19th",
+        "answer2": "13th",
+        "answer3": "10th",
+        "answer4": "16th",
+        "correctAnswer": "16th"
+    },
+    {
+        "question": "Under what pseudonym did Charles Dickens write his first books?",
+        "answer1": "Lov",
+        "answer2": "Boz",
+        "answer3": "Kas",
+        "answer4": "Nes",
+        "correctAnswer": "Boz"
+    },
+    {
+        "question": "What is a plant with no internal system of tube-like structures called?",
+        "answer1": "Dicranum",
+        "answer2": "Polytrichum",
+        "answer3": "Nonvascular",
+        "answer4": "Sphagnum",
+        "correctAnswer": "Nonvascular"
+    },
+    {
+        "question": "What cut of steak got its name from the New York City coach stop where it was first served?",
+        "answer1": "Ribeye",
+        "answer2": "Hanger",
+        "answer3": "Porterhouse",
+        "answer4": "Sirloin",
+        "correctAnswer": "Porterhouse"
+    },
+    {
+        "question": "In which 1966 science fiction film did Stephen Boyd star alongside Raquel Welch?",
+        "answer1": "Barbarella",
+        "answer2": "Marooned",
+        "answer3": "War of the Planets",
+        "answer4": "Fantastic Voyage",
+        "correctAnswer": "Fantastic Voyage"
+    },
+    {
+        "question": "What late Texas blues rocker was backed by a group called Double Trouble?",
+        "answer1": "Eric Clapton",
+        "answer2": "Jeff Black",
+        "answer3": "Stevie Ray Vaughan",
+        "answer4": "Albert King",
+        "correctAnswer": "Stevie Ray Vaughan"
+    },
+    {
+        "question": "Who wrote the humorous novel \"The Life and Opinions of Tristram Shandy, Gentleman\"?",
+        "answer1": "Samuel Richardson",
+        "answer2": "Henry Fielding",
+        "answer3": "Jonathan Swift",
+        "answer4": "Laurence Sterne",
+        "correctAnswer": "Laurence Sterne"
+    },
+    {
+        "question": "Who recruits Tony to the F.D.A. in the comic series \"Chew\"?",
+        "answer1": "John Colby",
+        "answer2": "Mason Savoy",
+        "answer3": "D-Bear",
+        "answer4": "Mike Applebee",
+        "correctAnswer": "Mason Savoy"
+    },
+    {
+        "question": "What year saw the debut of the comic book character Wonder Woman?",
+        "answer1": "1956",
+        "answer2": "1962",
+        "answer3": "1939",
+        "answer4": "1941",
+        "correctAnswer": "1941"
+    },
+    {
+        "question": "What sci-fi series, which debuted in 1965, took place in the year 1997?",
+        "answer1": "Lost in Space",
+        "answer2": "Star Trek",
+        "answer3": "Dr. Who",
+        "answer4": "The Time Tunnel",
+        "correctAnswer": "Lost in Space"
+    },
+    {
+        "question": "What is the fear of the number 13 known as?",
+        "answer1": "Arachibutyrophobia",
+        "answer2": "Triskaidekaphobia",
+        "answer3": "Arithmophobia",
+        "answer4": "Ablutophobia",
+        "correctAnswer": "Triskaidekaphobia"
+    },
+    {
+        "question": "On what date did singer, songwriter, and actor David Bowie die?",
+        "answer1": "17-Sep-18",
+        "answer2": "23-Oct-16",
+        "answer3": "10-Jan-16",
+        "answer4": "18-Feb-14",
+        "correctAnswer": "10-Jan-16"
+    },
+    {
+        "question": "Where was the first mobile automaton, named \"Beast\", built in?",
+        "answer1": "Harvard University",
+        "answer2": "Duke University",
+        "answer3": "University of Texas, Austin",
+        "answer4": "John Hopkins University",
+        "correctAnswer": "John Hopkins University"
+    },
+    {
+        "question": "Who was the first performer at the Woodstock festival in 1969?",
+        "answer1": "Sweetwater",
+        "answer2": "Richie Havens",
+        "answer3": "Sri Swami Satchidananda",
+        "answer4": "Bert Sommer",
+        "correctAnswer": "Richie Havens"
+    },
+    {
+        "question": "In The Simpsons, who is Lisa's favorite jazz musician?",
+        "answer1": "Billie Holiday",
+        "answer2": "Charles Mingus",
+        "answer3": "Bleeding Gums Murphy",
+        "answer4": "Charlie Parker",
+        "correctAnswer": "Bleeding Gums Murphy"
+    }
+]
+

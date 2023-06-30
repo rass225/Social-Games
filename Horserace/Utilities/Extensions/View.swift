@@ -27,6 +27,12 @@ extension View {
             .background(DefaultBackground())
     }
     
+    func maxSize(alignment: Alignment = .center) -> some View {
+        return self
+            .maxWidth(alignment: alignment)
+            .maxHeight(alignment: alignment)
+    }
+    
     func maxWidth(alignment: Alignment = .center) -> some View {
         return self
             .frame(maxWidth: .infinity, alignment: alignment)

@@ -1,0 +1,1042 @@
+[
+    {
+        "question": "Which of the following is not a character on \"'Friends'?",
+        "correctAnswer": "Jackson",
+        "answer1": "Ross",
+        "answer2": "Monica",
+        "answer3": "Phoebe",
+        "answer4": "Rachel"
+    },
+    {
+        "question": "What is the Old English meaning of the word \"Earth?\"",
+        "correctAnswer": "Ground",
+        "answer1": "Dirt",
+        "answer2": "Center",
+        "answer3": "Ground",
+        "answer4": "Grass"
+    },
+    {
+        "question": "What are the three primary colors?",
+        "correctAnswer": "Red, blue, yellow",
+        "answer1": "Red, blue, green",
+        "answer2": "Red, blue, yellow",
+        "answer3": "Yellow, black, blue",
+        "answer4": "Red, blue, white"
+    },
+    {
+        "question": "What is the currency of Sweden?",
+        "correctAnswer": "Swedish krona",
+        "answer1": "Euro",
+        "answer2": "Swedish krona",
+        "answer3": "Swedish pound",
+        "answer4": "Swedish forint"
+    },
+    {
+        "question": "How many pockets are there on a snooker table?",
+        "correctAnswer": "6",
+        "answer1": "2",
+        "answer2": "4",
+        "answer3": "6",
+        "answer4": "8"
+    },
+    {
+        "question": "What is the tallest mountain in the world?",
+        "correctAnswer": "Mount Everest",
+        "answer1": "K2",
+        "answer2": "Mount Everest",
+        "answer3": "Manaslu",
+        "answer4": "Makalu"
+    },
+    {
+        "question": "What are the only two consecutive prime numbers?",
+        "correctAnswer": "2 & 3",
+        "answer1": "2 & 3",
+        "answer2": "1 & 2",
+        "answer3": "0 & 1",
+        "answer4": "3 & 4"
+    },
+    {
+        "question": "What was the name of Robin Williams film where he dressed up as an elderly nanny?",
+        "correctAnswer": "Mrs. Doubtfire",
+        "answer1": "Jumanji",
+        "answer2": "Mrs. Doubtfire",
+        "answer3": "Good Will Hunting",
+        "answer4": "Patch Adams"
+    },
+    {
+        "question": "How many points is a touchdown worth?",
+        "correctAnswer": "6",
+        "answer1": "4",
+        "answer2": "3",
+        "answer3": "5",
+        "answer4": "6"
+    },
+    {
+        "question": "Which Disney movie is the villain Clayton from?",
+        "correctAnswer": "Tarzan",
+        "answer1": "Tarzan ",
+        "answer2": "Beauty and the beast",
+        "answer3": "Sleeping beauty",
+        "answer4": "The little mermaid"
+    },
+    {
+        "question": "Which U.S. states is known for peaches?",
+        "correctAnswer": "Georgia",
+        "answer1": "Florida",
+        "answer2": "Maryland",
+        "answer3": "Georgia",
+        "answer4": "Arkansas"
+    },
+    {
+        "question": "Fe is the symbol of which chemical symbol?",
+        "correctAnswer": "Iron",
+        "answer1": "Silver",
+        "answer2": "Iron",
+        "answer3": "Gold",
+        "answer4": "Titanium"
+    },
+    {
+        "question": "What is the date of ''The Devils Night''?",
+        "correctAnswer": "30-Oct",
+        "answer1": "30-Oct",
+        "answer2": "31-Oct",
+        "answer3": "01-Nov",
+        "answer4": "29-Oct"
+    },
+    {
+        "question": "Which New York City neighborhood was ''Gossip Girl'' filmed in?",
+        "correctAnswer": "Upper East Side",
+        "answer1": "Upper West Side",
+        "answer2": "Soho",
+        "answer3": "Upper West Side",
+        "answer4": "Washington Heights"
+    },
+    {
+        "question": "When did World War I begin?",
+        "correctAnswer": "1914",
+        "answer1": "1918",
+        "answer2": "1909",
+        "answer3": "1921",
+        "answer4": "1914"
+    },
+    {
+        "question": "What is Han Solo's ship called in Star Wars?",
+        "correctAnswer": "Millennium Falcon",
+        "answer1": "Executor",
+        "answer2": "Imperial Star Destroyer",
+        "answer3": "Millennium Falcon",
+        "answer4": "Home One"
+    },
+    {
+        "question": "What's the name of the toy cowboy in the movie \"Toy Story?\"",
+        "correctAnswer": "Woody",
+        "answer1": "Buzz",
+        "answer2": "Rodney",
+        "answer3": "Willie",
+        "answer4": "Woody"
+    },
+    {
+        "question": "What was the name of Simba's father in the Lion King?",
+        "correctAnswer": "Mufasa",
+        "answer1": "Scar",
+        "answer2": "Pumba",
+        "answer3": "Mufasa",
+        "answer4": "Hamlet"
+    },
+    {
+        "question": "What is the first-ever Disney film?",
+        "correctAnswer": "Snow White and the Seven Dwarfs",
+        "answer1": "Cinderella",
+        "answer2": "Pinocchio",
+        "answer3": "Mary Poppins",
+        "answer4": "Snow White and the Seven Dwarfs"
+    },
+    {
+        "question": "What direction can kangaroos not walk?",
+        "correctAnswer": "Backwards",
+        "answer1": "Backwards",
+        "answer2": "Diagonally",
+        "answer3": "Sideways",
+        "answer4": "Forward"
+    },
+    {
+        "question": "What color blood does an octopus have?",
+        "correctAnswer": "Blue",
+        "answer1": "Red",
+        "answer2": "Blue",
+        "answer3": "Black",
+        "answer4": "Clear"
+    },
+    {
+        "question": "What percent of Antarctica is ice-free?",
+        "correctAnswer": "Less than 1%",
+        "answer1": "0.05",
+        "answer2": "Less than 1%",
+        "answer3": "0.02",
+        "answer4": "0.1"
+    },
+    {
+        "question": "What type of dog does the royal family famously own?",
+        "correctAnswer": "Corgi dogs",
+        "answer1": "Pugs",
+        "answer2": "English terriers",
+        "answer3": "Corgi dogs",
+        "answer4": "Dachshunds"
+    },
+    {
+        "question": "How many pairs of wings do bees have?",
+        "correctAnswer": "2",
+        "answer1": "1",
+        "answer2": "2",
+        "answer3": "3",
+        "answer4": "4"
+    },
+    {
+        "question": "What is a doe?",
+        "correctAnswer": "A female deer",
+        "answer1": "A male deer",
+        "answer2": "A female deer",
+        "answer3": "A male moose",
+        "answer4": "A female moose"
+    },
+    {
+        "question": "On the farm, what is a kid?",
+        "correctAnswer": "A baby goat",
+        "answer1": "A baby pig",
+        "answer2": "A baby cow",
+        "answer3": "A baby horse",
+        "answer4": "A baby goat"
+    },
+    {
+        "question": "Who is the patron saint of Ireland?",
+        "correctAnswer": "St Patrick",
+        "answer1": "St James",
+        "answer2": "St George",
+        "answer3": "St Patrick",
+        "answer4": "St Nicolas"
+    },
+    {
+        "question": "If you suffer from arachnophobia, which animal are you scared of?",
+        "correctAnswer": "Spiders",
+        "answer1": "Dogs",
+        "answer2": "Bugs",
+        "answer3": "Bats",
+        "answer4": "Spiders"
+    },
+    {
+        "question": "Which place is called \"the happiest place in the world?\"",
+        "correctAnswer": "Disneyland",
+        "answer1": "Hollywood",
+        "answer2": "Las Vegas",
+        "answer3": "Disneyland",
+        "answer4": "New York"
+    },
+    {
+        "question": "What is the smallest state in America?",
+        "correctAnswer": "Rhode Island",
+        "answer1": "Rhode Island",
+        "answer2": "Delaware",
+        "answer3": "Connecticut",
+        "answer4": "Hawaii"
+    },
+    {
+        "question": "What kind of tree do acorns come from?",
+        "correctAnswer": "Oak",
+        "answer1": "Pine",
+        "answer2": "Oak",
+        "answer3": "Birch",
+        "answer4": "Maple"
+    },
+    {
+        "question": "Who is not one of the seven dwarves in Snow White?",
+        "correctAnswer": "Lovely",
+        "answer1": "Lovely",
+        "answer2": "Grumpy",
+        "answer3": "Sneezy",
+        "answer4": "Sleepy"
+    },
+    {
+        "question": "Which movie is Prince Charming from?",
+        "correctAnswer": "Cinderella",
+        "answer1": "Snow White",
+        "answer2": "Cinderella",
+        "answer3": "Sleeping beauty",
+        "answer4": "Little mermaid"
+    },
+    {
+        "question": "What is the name of Mickey Mouse's pet dog?",
+        "correctAnswer": "Pluto",
+        "answer1": "Pluto",
+        "answer2": "Donald",
+        "answer3": "Minnie",
+        "answer4": "Scoopy"
+    },
+    {
+        "question": "What kind of tree do prunes come from?",
+        "correctAnswer": "Plum tree",
+        "answer1": "Apple tree",
+        "answer2": "Plum tree",
+        "answer3": "Pear tree",
+        "answer4": "Lemon tree"
+    },
+    {
+        "question": "Which state was the 50th state to join the union?",
+        "correctAnswer": "Hawaii",
+        "answer1": "Hawaii",
+        "answer2": "Alaska",
+        "answer3": "California",
+        "answer4": "Washington"
+    },
+    {
+        "question": "The Kangaroo Hoppet is a long distance cross-country skiing race that is held in which county?",
+        "correctAnswer": "Australia",
+        "answer1": "New Zealand",
+        "answer2": "Australia",
+        "answer3": "Canada",
+        "answer4": "China"
+    },
+    {
+        "question": "Which river flows through London?",
+        "correctAnswer": "The Themes",
+        "answer1": "The Loire",
+        "answer2": "The Seine",
+        "answer3": "The Themes",
+        "answer4": "The Main"
+    },
+    {
+        "question": "Which is the largest city in Wales?",
+        "correctAnswer": "Cardiff",
+        "answer1": "Cardiff",
+        "answer2": "Swansea",
+        "answer3": "Newport",
+        "answer4": "York"
+    },
+    {
+        "question": "What does the F stand for in FBI?",
+        "correctAnswer": "Federal",
+        "answer1": "Foreign",
+        "answer2": "Federal",
+        "answer3": "Fraud",
+        "answer4": "Flight"
+    },
+    {
+        "question": "So far, which continent has hosted the Olympics the most times?",
+        "correctAnswer": "Europe",
+        "answer1": "Asia",
+        "answer2": "Europe",
+        "answer3": "South America",
+        "answer4": "North America"
+    },
+    {
+        "question": "What sea is next to Saudi Arabia?",
+        "correctAnswer": "Red sea",
+        "answer1": "Black sea",
+        "answer2": "Arabian sea",
+        "answer3": "Red sea",
+        "answer4": "Persian gulf"
+    },
+    {
+        "question": "What is the little dot above a lowercase “i” or “j” called?",
+        "correctAnswer": "Tittle",
+        "answer1": "Tittle ",
+        "answer2": "Point",
+        "answer3": "Blop",
+        "answer4": "Finck"
+    },
+    {
+        "question": "In 1917, Finland declared its independence from which country?",
+        "correctAnswer": "Russia",
+        "answer1": "Sweden",
+        "answer2": "Denmark",
+        "answer3": "Russia",
+        "answer4": "Germany"
+    },
+    {
+        "question": "What is the name of a word that is spelled the same forwards and backward?",
+        "correctAnswer": "Palindrome",
+        "answer1": "Enneagram",
+        "answer2": "Palindrome",
+        "answer3": "Anagram",
+        "answer4": "Anonym"
+    },
+    {
+        "question": "The aardvark is native to which continent?",
+        "correctAnswer": "Africa",
+        "answer1": "South America",
+        "answer2": "North America",
+        "answer3": "Asia",
+        "answer4": "Africa"
+    },
+    {
+        "question": "Who created Iron Man?",
+        "correctAnswer": "Stan Lee",
+        "answer1": "Jack Kirby",
+        "answer2": "Stan Lee",
+        "answer3": "John Byrne",
+        "answer4": "Jim Lee"
+    },
+    {
+        "question": "What is the singular of timpani?",
+        "correctAnswer": "Timpano",
+        "answer1": "Timpano",
+        "answer2": "Timpan",
+        "answer3": "Timpaine",
+        "answer4": "Timper"
+    },
+    {
+        "question": "What South American animal is the world's largest rodent?",
+        "correctAnswer": "The capybara",
+        "answer1": "Nutria",
+        "answer2": "Cape porcupine",
+        "answer3": "The capybara",
+        "answer4": "Paca"
+    },
+    {
+        "question": "In the U.S., freedom of speech is guaranteed by which Constitutional Amendment?",
+        "correctAnswer": "1st",
+        "answer1": "1st",
+        "answer2": "2nd",
+        "answer3": "3rd",
+        "answer4": "4th"
+    },
+    {
+        "question": "Who was the fugitive in the 1993 movie by the same name?",
+        "correctAnswer": "Dr. Richard Kimble",
+        "answer1": "Cosmo Renfro",
+        "answer2": "Samuel Gerard",
+        "answer3": "Dr. Richard Kimble",
+        "answer4": "Dr. Charles Nichols"
+    },
+    {
+        "question": "What video game character was originally given the name Jumpman?",
+        "correctAnswer": "Mario",
+        "answer1": "Luigi",
+        "answer2": "Mario",
+        "answer3": "Link",
+        "answer4": "Donkey Kong"
+    },
+    {
+        "question": "Who wrote the young adult novel \"Holes\"?",
+        "correctAnswer": "Louis Sachar",
+        "answer1": "Markus Zusack",
+        "answer2": "Lauren Oliver",
+        "answer3": "Louis Sachar",
+        "answer4": "Maureen Johnson"
+    },
+    {
+        "question": "Who directed the 1974 film \"Chinatown\" starring Jack Nicholson?",
+        "correctAnswer": "Roman Polanski",
+        "answer1": "Woody Allen",
+        "answer2": "Steven Spielberg",
+        "answer3": "Rob Reiner",
+        "answer4": "Roman Polanski"
+    },
+    {
+        "question": "What is the NATO phonetic alphabet word for \"Q\"?",
+        "correctAnswer": "Quebec",
+        "answer1": "Queen",
+        "answer2": "Qatar",
+        "answer3": "Quebec",
+        "answer4": "Mozambique"
+    },
+    {
+        "question": "Which US state's official flower is the Saguato Cactus?",
+        "correctAnswer": "Arizona",
+        "answer1": "Nevada",
+        "answer2": "New Mexico",
+        "answer3": "Texas",
+        "answer4": "Arizona"
+    },
+    {
+        "question": "The Hugo Award is an award given in what field?",
+        "correctAnswer": "Science fiction",
+        "answer1": "History",
+        "answer2": "Science fiction",
+        "answer3": "Physics",
+        "answer4": "Mathematics"
+    },
+    {
+        "question": "What author created the character of Miss Marple?",
+        "correctAnswer": "Agatha Christie",
+        "answer1": "Arthur Conan Doyle",
+        "answer2": "Anna Katharine Green",
+        "answer3": "Agatha Christie",
+        "answer4": "Graham Greene"
+    },
+    {
+        "question": "Who sang the hit song \"Confide in Me\" in 1994?",
+        "correctAnswer": "Kylie Minogue",
+        "answer1": "Madonna",
+        "answer2": "Tina Turner",
+        "answer3": "Olivia Newton-John",
+        "answer4": "Kylie Minogue"
+    },
+    {
+        "question": "Which famous entrepreneur is credited with inventing the weekend?",
+        "correctAnswer": "Henry Ford",
+        "answer1": "Thomas Edison",
+        "answer2": "Willis Carrier",
+        "answer3": "Henry Ford",
+        "answer4": "Ken Olsen"
+    },
+    {
+        "question": "Who had a hit with the song and album \"Sweet Dreams (Are Made Of This)\"?",
+        "correctAnswer": "Eurythmics",
+        "answer1": "Dido ",
+        "answer2": "Kate Bush",
+        "answer3": "Sinead O'Connor",
+        "answer4": "Eurythmics"
+    },
+    {
+        "question": "Originally, Jack-O'-lanterns were made from which type of vegetable?",
+        "correctAnswer": "Turnip",
+        "answer1": "Potato",
+        "answer2": "Rutabaga",
+        "answer3": "Turnip",
+        "answer4": "Beet"
+    },
+    {
+        "question": "What fast food chain uses the slogan \"We Have The Meats\"?",
+        "correctAnswer": "Arby's",
+        "answer1": "Five guys",
+        "answer2": "Arby's",
+        "answer3": "Wendy's",
+        "answer4": "In-n-out"
+    },
+    {
+        "question": "Which king decided to transform Versailles into a royal court in 1661?",
+        "correctAnswer": "Louis XIV",
+        "answer1": "Louis XVI",
+        "answer2": "Louis X",
+        "answer3": "Louis XIV",
+        "answer4": "Louis IX"
+    },
+    {
+        "question": "\"Old Bill\" is a nickname or slang for whom?",
+        "correctAnswer": "Police offices",
+        "answer1": "Police officers",
+        "answer2": "Cowboys",
+        "answer3": "Alcoholics",
+        "answer4": "Firemen"
+    },
+    {
+        "question": "Rennet, an enzyme-filled juice from animal stomachs, is used in the making of what?",
+        "correctAnswer": "Cheese",
+        "answer1": "Yogurt",
+        "answer2": "Haggis",
+        "answer3": "Cheese",
+        "answer4": "Gummy bears"
+    },
+    {
+        "question": "In modern badminton, how many points typically win a singles game?",
+        "correctAnswer": "21",
+        "answer1": "21",
+        "answer2": "17",
+        "answer3": "35",
+        "answer4": "26"
+    },
+    {
+        "question": "Which TV series from the 1980s featured a character named Uncle Jesse?",
+        "correctAnswer": "Full House",
+        "answer1": "Full House",
+        "answer2": "Proud Family",
+        "answer3": "Cheers",
+        "answer4": "Growing Pains"
+    },
+    {
+        "question": "What body of water is between Scotland and Denmark?",
+        "correctAnswer": "The North Sea",
+        "answer1": "The Danish Sea",
+        "answer2": "The Balic Sea",
+        "answer3": "The North Sea",
+        "answer4": "The Scottish Sea"
+    },
+    {
+        "question": "Who provided the original voice for Shrek?",
+        "correctAnswer": "Mike Myers",
+        "answer1": "Mike Myers",
+        "answer2": "Chris Miller",
+        "answer3": "Eddie Murphy",
+        "answer4": "John Lithgow"
+    },
+    {
+        "question": "Who keeps telling Captain Kirk that Earthlings are \"highly illogical\"?",
+        "correctAnswer": "Spock",
+        "answer1": "Scotty",
+        "answer2": "Spock",
+        "answer3": "Leonard McCoy",
+        "answer4": "Christopher Pike"
+    },
+    {
+        "question": "What were the first two Western countries that the Nazis invaded during World War II?",
+        "correctAnswer": "Norway and Denmark",
+        "answer1": "Netherlands and Belgium",
+        "answer2": "Belgium and France",
+        "answer3": "Norway and Denmark",
+        "answer4": "Denmark and Netherlands"
+    },
+    {
+        "question": "In what non-Spanish-speaking city would you find the Spanish Steps?",
+        "correctAnswer": "Rome",
+        "answer1": "Lisbon",
+        "answer2": "Milano",
+        "answer3": "Cannes",
+        "answer4": "Rome"
+    },
+    {
+        "question": "What New York City avenue divides the east side from the west side?",
+        "correctAnswer": "Fifth",
+        "answer1": "Sixth",
+        "answer2": "Seventh",
+        "answer3": "Fifth",
+        "answer4": "Fourth"
+    },
+    {
+        "question": "How many squares are there on the traditional \"Snakes & Ladders\" board?",
+        "correctAnswer": "100",
+        "answer1": "80",
+        "answer2": "60",
+        "answer3": "100",
+        "answer4": "120"
+    },
+    {
+        "question": "What is the official language of Papua New Guinea?",
+        "correctAnswer": "English",
+        "answer1": "English",
+        "answer2": "Spanish",
+        "answer3": "French",
+        "answer4": "Portuguese"
+    },
+    {
+        "question": "What classic novel's subtitle is \"There and Back Again\"?",
+        "correctAnswer": "The Hobbit",
+        "answer1": "Treasure Island",
+        "answer2": "2000 Leagues Under The Sea",
+        "answer3": "Tom Sawyer",
+        "answer4": "The Hobbit"
+    },
+    {
+        "question": "In what month did Hurricane Katrina hit New Orleans?",
+        "correctAnswer": "August",
+        "answer1": "August",
+        "answer2": "March",
+        "answer3": "June",
+        "answer4": "October"
+    },
+    {
+        "question": "What iPod was the first without a screen or a scroll wheel?",
+        "correctAnswer": "Ipod shuffle",
+        "answer1": "Ipod mini",
+        "answer2": "Ipod 1",
+        "answer3": "Ipod shuffle",
+        "answer4": "Ipod original"
+    },
+    {
+        "question": "In what city would you find the infamous Alcatraz?",
+        "correctAnswer": "San Francisco",
+        "answer1": "San Diego",
+        "answer2": "San Francisco",
+        "answer3": "New York City",
+        "answer4": "Chicago"
+    },
+    {
+        "question": "In Germany, where would you be if you were in a \"Krankenhaus\"?",
+        "correctAnswer": "Hospital",
+        "answer1": "Bakery",
+        "answer2": "Police station",
+        "answer3": "Hotel",
+        "answer4": "Hospital"
+    },
+    {
+        "question": "What is the most mountainous country in Europe?",
+        "correctAnswer": "Switzerland",
+        "answer1": "Switzerland",
+        "answer2": "Austria",
+        "answer3": "France",
+        "answer4": "Italy"
+    },
+    {
+        "question": "What is eaten traditionally in the UK the day before Ash Wednesday?",
+        "correctAnswer": "Pancakes",
+        "answer1": "Beans",
+        "answer2": "Pancakes",
+        "answer3": "Waffles",
+        "answer4": "Pudding"
+    },
+    {
+        "question": "Which mixed drink was made famous by rapper Snoop Doggy Dogg in the 1990's?",
+        "correctAnswer": "Gin and Juice",
+        "answer1": "Weed juice",
+        "answer2": "Gin and juice",
+        "answer3": "Jack and coke",
+        "answer4": "Ginger beer"
+    },
+    {
+        "question": "Kandor is the former capital city of what fictional planet?",
+        "correctAnswer": "Krypton",
+        "answer1": "Arrakis",
+        "answer2": "Krypton",
+        "answer3": "Coruscant",
+        "answer4": "Tatooine"
+    },
+    {
+        "question": "Ford produced the Model T in only what color after 1913?",
+        "correctAnswer": "Black",
+        "answer1": "Black",
+        "answer2": "Grey",
+        "answer3": "Blue",
+        "answer4": "White"
+    },
+    {
+        "question": "What did Wednesday Addams call her headless doll on \"The Addams Family\"?",
+        "correctAnswer": "Marie Antoinette",
+        "answer1": "Joan of Arc",
+        "answer2": "Marie Antoinette",
+        "answer3": "Mother Mary",
+        "answer4": "Anne Frank"
+    },
+    {
+        "question": "Who played the leading female part in the 1954 film \"A Star Is Born\"?",
+        "correctAnswer": "Judy Garland",
+        "answer1": "Barbra Streisand ",
+        "answer2": "Kathleen Crowley",
+        "answer3": "Judy Garland",
+        "answer4": "Janet Gaynor"
+    },
+    {
+        "question": "What is the more common name for grape sugar?",
+        "correctAnswer": "Glucose",
+        "answer1": "Glucose",
+        "answer2": "Sugar cane",
+        "answer3": "Fructose",
+        "answer4": "Sucrose"
+    },
+    {
+        "question": "How many of the Seven Summits are over 20,000 feet high?",
+        "correctAnswer": "3",
+        "answer1": "0",
+        "answer2": "1",
+        "answer3": "2",
+        "answer4": "3"
+    },
+    {
+        "question": "Tiffany and Co. has a registered trademark on its signature shade of what color?",
+        "correctAnswer": "Blue",
+        "answer1": "Green",
+        "answer2": "Silver",
+        "answer3": "Gold",
+        "answer4": "Blue"
+    },
+    {
+        "question": "In 2006, David Bowie was awarded a Grammy award for what?",
+        "correctAnswer": "Lifetime Achievement",
+        "answer1": "Artist of the Century",
+        "answer2": "Lifetime Achievement",
+        "answer3": "Worldwide Icon",
+        "answer4": "Songwriter of the Century"
+    },
+    {
+        "question": "What is the capital of Kuwait?",
+        "correctAnswer": "Kuwait City",
+        "answer1": "Kuwait City",
+        "answer2": "Doha",
+        "answer3": "Manama",
+        "answer4": "Muscat"
+    },
+    {
+        "question": "Where are the Whitsunday Islands located?",
+        "correctAnswer": "Australia",
+        "answer1": "Philippines",
+        "answer2": "Australia",
+        "answer3": "Indonesia",
+        "answer4": "New Zealand"
+    },
+    {
+        "question": "Who opened the first \"cinema\" in Paris in 1895?",
+        "correctAnswer": "The Lumiere Brothers",
+        "answer1": "The Skladanowsky Brothers",
+        "answer2": "The Lumiere Brothers",
+        "answer3": "Georges Méliès",
+        "answer4": "Robert W. Paul"
+    },
+    {
+        "question": "What trademarked name for in­line skates was also its first successful brand name?",
+        "correctAnswer": "Rollerblades",
+        "answer1": "Rollerblades",
+        "answer2": "Rollerskates",
+        "answer3": "Rollies",
+        "answer4": "Rollers"
+    },
+    {
+        "question": "What was Marilyn Monroe’s natural hair color?",
+        "correctAnswer": "Red",
+        "answer1": "Blonde",
+        "answer2": "Brown",
+        "answer3": "Black",
+        "answer4": "Red"
+    },
+    {
+        "question": "How many weeks before Christmas does the 2003 film \"Love Actually\" begin?",
+        "correctAnswer": "Five",
+        "answer1": "Two",
+        "answer2": "Three",
+        "answer3": "Seven",
+        "answer4": "Five"
+    },
+    {
+        "question": "What was Lyndon B. Johnson's middle name?",
+        "correctAnswer": "Baines",
+        "answer1": "Baines",
+        "answer2": "Brandon",
+        "answer3": "Barron",
+        "answer4": "Barry"
+    },
+    {
+        "question": "How many of the seven dwarfs had mustaches?",
+        "correctAnswer": "None",
+        "answer1": "None",
+        "answer2": "One",
+        "answer3": "Two",
+        "answer4": "Three"
+    },
+    {
+        "question": "Hippopotomonstrosesquipedaliophobia is the fear of what?",
+        "correctAnswer": "Long words",
+        "answer1": "Air bubbles",
+        "answer2": "Hippos",
+        "answer3": "Long words",
+        "answer4": "Magic spells"
+    },
+    {
+        "question": "In \"Spirited Away\", Yubabas giant baby Boh gets turned into what?",
+        "correctAnswer": "Mouse",
+        "answer1": "Sheep",
+        "answer2": "Mouse",
+        "answer3": "Rock",
+        "answer4": "Swan"
+    },
+    {
+        "question": "What used to be called the apple of love or love apple ?",
+        "correctAnswer": "Tomato",
+        "answer1": "Orange",
+        "answer2": "Pomegranate",
+        "answer3": "Tomato",
+        "answer4": "Child"
+    },
+    {
+        "question": "Golda Meir was the leader of what country?",
+        "correctAnswer": "Israel",
+        "answer1": "Israel",
+        "answer2": "Armenia",
+        "answer3": "Turkey",
+        "answer4": "Georgia"
+    },
+    {
+        "question": "In which game might you \"peg out\"?",
+        "correctAnswer": "Cribbage",
+        "answer1": "Poker",
+        "answer2": "Cribbage",
+        "answer3": "Mahjong",
+        "answer4": "FreeCell"
+    },
+    {
+        "question": "In what 1863 short story does Philip Nolan renounce his US citizenship?",
+        "correctAnswer": "The Man Without a Country",
+        "answer1": "All the Colors of Goodbye",
+        "answer2": "Names\/Nombres",
+        "answer3": "The Man Without a Country",
+        "answer4": "Dead Men’s Path"
+    },
+    {
+        "question": "Who was the first woman to serve on the U.S. Supreme Court?",
+        "correctAnswer": "Sandra Day O'Connor",
+        "answer1": "Ruth Bader Ginsburg",
+        "answer2": "Sandra Day O'Connor",
+        "answer3": "Sonya Sotomayor",
+        "answer4": "Elena Kagan"
+    },
+    {
+        "question": "What is a group of crows called?",
+        "correctAnswer": "A murder",
+        "answer1": "A frock",
+        "answer2": "A gang",
+        "answer3": "A murder",
+        "answer4": "A squad"
+    },
+    {
+        "question": "Which artist is known as the \"Father of Impressionism\"?",
+        "correctAnswer": "Camille Pissarro",
+        "answer1": "Clade Monet",
+        "answer2": "Camille Pissarro",
+        "answer3": "Pierre-Auguste Renoir",
+        "answer4": "Edgar Degas"
+    },
+    {
+        "question": "What caused the Tacoma Narrows Bridge to collapse in 1940?",
+        "correctAnswer": "Wind",
+        "answer1": "Rain",
+        "answer2": "Bombing",
+        "answer3": "Weight",
+        "answer4": "Wind"
+    },
+    {
+        "question": "Where in the body are the adenoids?",
+        "correctAnswer": "Nose",
+        "answer1": "Throat",
+        "answer2": "Ear",
+        "answer3": "Nose",
+        "answer4": "Liver"
+    },
+    {
+        "question": "In which decade was Louise Brown, the first test tube baby born?",
+        "correctAnswer": "1970s",
+        "answer1": "1990s",
+        "answer2": "2000s",
+        "answer3": "1950s",
+        "answer4": "1970s"
+    },
+    {
+        "question": "Who wrote the novel Oryx and Crake?",
+        "correctAnswer": "Margaret Atwood",
+        "answer1": "Eve Babitz",
+        "answer2": "Joan Diddion",
+        "answer3": "Margaret Atwood",
+        "answer4": "Sylvia Plath"
+    },
+    {
+        "question": "What sea does Slovenia have water access to?",
+        "correctAnswer": "Adriatic sea",
+        "answer1": "Black sea",
+        "answer2": "Adriatic sea",
+        "answer3": "Baltic sea",
+        "answer4": "Red sea"
+    },
+    {
+        "question": "What US city is known as the \"City of Brotherly Love\"?",
+        "correctAnswer": "Philadelphia",
+        "answer1": "Phoenix",
+        "answer2": "Portland",
+        "answer3": "Miami",
+        "answer4": "Philadelphia"
+    },
+    {
+        "question": "What country borders Sierra Leone to the north?",
+        "correctAnswer": "Guinea",
+        "answer1": "Guinea",
+        "answer2": "Ivory Coast",
+        "answer3": "Mali",
+        "answer4": "Chad"
+    },
+    {
+        "question": "What inert gas gets trapped in the blood when a diver gets \"the bends\"?",
+        "correctAnswer": "Nitrogen",
+        "answer1": "Oxygen",
+        "answer2": "Nitrogen",
+        "answer3": "Lithium",
+        "answer4": "Carbondioxide"
+    },
+    {
+        "question": "What was the name of the dictator of Haiti, who was also known as Papa Doc?",
+        "correctAnswer": "Francois Duvalier",
+        "answer1": "Antonio Thrasybule Kebreau",
+        "answer2": "Franck Sylvain",
+        "answer3": "Francois Duvalier",
+        "answer4": "Henri Namphy"
+    },
+    {
+        "question": "When Dwayne Wade briefly left the Miami Heat starting in 2016, which NBA team did he sign with?",
+        "correctAnswer": "Chicago Bulls",
+        "answer1": "Los Angeles Lakers",
+        "answer2": "Chicago Bulls",
+        "answer3": "Brooklyn Nets",
+        "answer4": "Golden State Warriors"
+    },
+    {
+        "question": "What comic strip did Scott Adams create while working for Pacific Bell?",
+        "correctAnswer": "Dilbert",
+        "answer1": "Dilbert",
+        "answer2": "Garfield",
+        "answer3": "Peanuts",
+        "answer4": "The Far Side"
+    },
+    {
+        "question": "What daytime soap opera takes place in the fictional town of Salem?",
+        "correctAnswer": "Days of our Lives",
+        "answer1": "General Hospital",
+        "answer2": "Days of our Lives",
+        "answer3": "Dallas",
+        "answer4": "All My Children"
+    },
+    {
+        "question": "What is the name of the cloud-riding, glasses-wearing koopa in the Super Mario Bros. series?",
+        "correctAnswer": "Lakitu",
+        "answer1": "Lakitu",
+        "answer2": "Kamek",
+        "answer3": "Bootler",
+        "answer4": "Dimentio"
+    },
+    {
+        "question": "Who wrote the 1952 novel \"The Bridge over the River Kwai\"?",
+        "correctAnswer": "Pierre Boulle",
+        "answer1": "Arthur P. Jacobs",
+        "answer2": "Pierre Boulle",
+        "answer3": "Paul Dehn",
+        "answer4": "Michael Wilson"
+    },
+    {
+        "question": "What was Toula's wedding present from her parents in the movie \"My Big Fat Greek Wedding\"?",
+        "correctAnswer": "A house",
+        "answer1": "A car",
+        "answer2": "A boat",
+        "answer3": "Nothing",
+        "answer4": "A house"
+    },
+    {
+        "question": "What chapel do Cardinals congregate in to elect a new Pope?",
+        "correctAnswer": "Sistine Chapel",
+        "answer1": "Papal Chapel",
+        "answer2": "Sistine Chapel",
+        "answer3": "Niccoline Chapel",
+        "answer4": "Redemptoris Mater Chapel"
+    },
+    {
+        "question": "Which state is home to the oceanside city Myrtle Beach?",
+        "correctAnswer": "South Carolina",
+        "answer1": "Florida",
+        "answer2": "California",
+        "answer3": "Portland",
+        "answer4": "South Carolina"
+    },
+    {
+        "question": "How does Jack die in the movie \"The Shining\"?",
+        "correctAnswer": "He freezes",
+        "answer1": "He gets shot",
+        "answer2": "He falls off a cliff",
+        "answer3": "He freezes",
+        "answer4": "He drowns"
+    },
+    {
+        "question": "Entomologists study what?",
+        "correctAnswer": "Insects",
+        "answer1": "Bones",
+        "answer2": "Maps",
+        "answer3": "Nerves",
+        "answer4": "Insects"
+    },
+    {
+        "question": "Tercel is the name for the male of which animal?",
+        "correctAnswer": "Hawk",
+        "answer1": "Panda",
+        "answer2": "Hawk",
+        "answer3": "Camel",
+        "answer4": "Cat"
+    },
+    {
+        "question": "What constant is equivalent to 96,485 coulombs per mole of electrons?",
+        "correctAnswer": "Faraday",
+        "answer1": "Hartz",
+        "answer2": "Maxwell",
+        "answer3": "Faraday",
+        "answer4": "Ampere"
+    }
+]

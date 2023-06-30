@@ -1,0 +1,83 @@
+[
+  {
+    "question": "Which British monarch was known as \"the wisest fool in Christendom\"?",
+    "answer1": "James I",
+    "answer2": "Charles I",
+    "answer3": "Edward I",
+    "answer4": "Henry I",
+    "correctAnswer": "James I"
+  },
+  {
+    "question": "Oberon is the satellite of which planet?",
+    "answer1": "Uranus",
+    "answer2": "Neptune",
+    "answer3": "Mercury",
+    "answer4": "Mars",
+    "correctAnswer": "Uranus"
+  },
+  {
+    "question": "In 1912, former US President Theodore Roosevelt was a candidate for which political party?",
+    "answer1": "Bull Moose",
+    "answer2": "Bull Dog",
+    "answer3": "Bull Frog",
+    "answer4": "Bull Bear",
+    "correctAnswer": "Bull Moose"
+  },
+  {
+    "question": "Tomas Masaryk was the first president of which country?",
+    "answer1": "Czechoslovakia",
+    "answer2": "Poland",
+    "answer3": "Yugoslavia",
+    "answer4": "Hungary",
+    "correctAnswer": "Czechoslovakia"
+  },
+  {
+    "question": "If you planted the seeds of 'Quercus robur', what would grow?",
+    "answer1": "Trees",
+    "answer2": "Flowers",
+    "answer3": "Vegetables",
+    "answer4": "Grain",
+    "correctAnswer": "Trees"
+  },
+  {
+    "question": "A number one followed by one hundred zeros is known by what name?",
+    "answer1": "Googol",
+    "answer2": "Megtron",
+    "answer3": "Gigabit",
+    "answer4": "Nanomole",
+    "correctAnswer": "Googol"
+  },
+  {
+    "question": "Which scientific unit is named after an Italian nobleman?",
+    "answer1": "Volt",
+    "answer2": "Pascal",
+    "answer3": "Hertz",
+    "answer4": "Ohm",
+    "correctAnswer": "Volt"
+  },
+  {
+    "question": "What was the occupation of the composer Borodin?",
+    "answer1": "Chemist",
+    "answer2": "Lawyer",
+    "answer3": "Naval officer",
+    "answer4": "Chef",
+    "correctAnswer": "Chemist"
+  },
+  {
+    "question": "In the history of motor sport, which of these iconic races was held first?",
+    "answer1": "Isle of Man TT",
+    "answer2": "Indy 500",
+    "answer3": "Le Mans 24 Hours",
+    "answer4": "Monaco Grand Prix",
+    "correctAnswer": "Isle of Man TT"
+  },
+  {
+    "question": "Which boxer was famous for striking the gong in the introduction to J. Arthur Rank films?",
+    "answer1": "Bombardier Billy Wells",
+    "answer2": "Freddie Mills",
+    "answer3": "Terry Spinks",
+    "answer4": "Don Cockell",
+    "correctAnswer": "Bombardier Billy Wells"
+  }
+]
+

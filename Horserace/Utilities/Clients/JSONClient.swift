@@ -37,4 +37,18 @@ struct JSONClient {
             }
         }
     }
+    
+    func fetch<T: Codable>(string: String, completion: @escaping  (Result<T, Error>) -> ()) {
+        
+        if let url = Bundle.main.url(forResource: string, withExtension: "json") {
+            do {
+                let data = try Data(contentsOf: url)
+                let decoder = JSONDecoder()
+                let jsonData = try decoder.decode(T.self, from: data)
+                completion(.success(jsonData))
+            } catch let error{
+                completion(.failure(error))
+            }
+        }
+    }
 }

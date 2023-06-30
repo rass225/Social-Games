@@ -1,0 +1,962 @@
+[
+    {
+        "question": "In what year was the first iPhone released?",
+        "correctAnswer": "2007",
+        "answer1": "2007",
+        "answer2": "2008",
+        "answer3": "2006",
+        "answer4": "2009"
+    },
+    {
+        "question": "Which of these names is not in the title of a Shakespeare play?",
+        "correctAnswer": "Tale of the Two Cities",
+        "answer1": "Othello",
+        "answer2": "The Merchant of Venice",
+        "answer3": "Tale of the Two Cities",
+        "answer4": "The Tempest"
+    },
+    {
+        "question": "What's the original name of New York City?",
+        "correctAnswer": "New Amsterdam",
+        "answer1": "New Amsterdam",
+        "answer2": "New Manchester",
+        "answer3": "New London",
+        "answer4": "New Cardiff"
+    },
+    {
+        "question": "In which decade did Yuri Gagarin become the first man to orbit the Earth?",
+        "correctAnswer": "1960s",
+        "answer1": "1950s",
+        "answer2": "1960s",
+        "answer3": "1940s",
+        "answer4": "1970s"
+    },
+    {
+        "question": "Which country gifted the Statue of Liberty to the US?",
+        "correctAnswer": "France",
+        "answer1": "France",
+        "answer2": "Gemany",
+        "answer3": "The United Kingdom",
+        "answer4": "Canada"
+    },
+    {
+        "question": "In which California city does the movie ''Ladybird'' takes place?",
+        "correctAnswer": "Sacramento",
+        "answer1": "San Francisco",
+        "answer2": "Sacramento",
+        "answer3": "San Diego",
+        "answer4": "Oakland"
+    },
+    {
+        "question": "Which vegetable is known to help you see in the dark?",
+        "correctAnswer": "Carrot",
+        "answer1": "Potato",
+        "answer2": "Cabbage",
+        "answer3": "Carrot",
+        "answer4": "Rhubarb"
+    },
+    {
+        "question": "In the movie Good Will Hunting, what collehe does Skylar attend?",
+        "correctAnswer": "Harvard",
+        "answer1": "Harvard",
+        "answer2": "Yale ",
+        "answer3": "Colombia",
+        "answer4": "Stanford"
+    },
+    {
+        "question": "Who was the winner of the first season of American Idol?",
+        "correctAnswer": "Kelly Clarkson",
+        "answer1": "Jennifer Hudson",
+        "answer2": "Kelly Clarkson",
+        "answer3": "Katy Perry",
+        "answer4": "Leona Lewis"
+    },
+    {
+        "question": "What is the name of Shakespeare's shortest tragedy?",
+        "correctAnswer": "Macbeth",
+        "answer1": "Hamlet",
+        "answer2": "Othello",
+        "answer3": "King Lear",
+        "answer4": "Macbeth"
+    },
+    {
+        "question": "What year did the Titanic sink?",
+        "correctAnswer": "1912",
+        "answer1": "1905",
+        "answer2": "1912",
+        "answer3": "1925",
+        "answer4": "1918"
+    },
+    {
+        "question": "How many cells does the human body contain?",
+        "correctAnswer": "100 trillion",
+        "answer1": "10 million",
+        "answer2": "100 billion",
+        "answer3": "100 trillion",
+        "answer4": "10 quintillion"
+    },
+    {
+        "question": "What direction is physically impossible for pigs to look?",
+        "correctAnswer": "Up",
+        "answer1": "Up",
+        "answer2": "Down",
+        "answer3": "To the left",
+        "answer4": "To the right"
+    },
+    {
+        "question": "What is the only word in the English dictionary that doesn't have another word that rhymes with it?",
+        "correctAnswer": "Orange",
+        "answer1": "Purple",
+        "answer2": "Orange",
+        "answer3": "Wolf",
+        "answer4": "Opus"
+    },
+    {
+        "question": "What fruit do humans share 50% of their DNA with?",
+        "correctAnswer": "Banana",
+        "answer1": "Apple",
+        "answer2": "Pear",
+        "answer3": "Banana",
+        "answer4": "Orange"
+    },
+    {
+        "question": "Where did french fries originate from?",
+        "correctAnswer": "Belgium",
+        "answer1": "France",
+        "answer2": "Belgium",
+        "answer3": "The United Kingdom",
+        "answer4": "The United States"
+    },
+    {
+        "question": "When was the first world cup played?",
+        "correctAnswer": "1930",
+        "answer1": "1951",
+        "answer2": "1920",
+        "answer3": "1930",
+        "answer4": "1912"
+    },
+    {
+        "question": "What is the most popular Christmas movie of all time?",
+        "correctAnswer": "Home alone",
+        "answer1": "How the Grinch stole christmas",
+        "answer2": "Polar express",
+        "answer3": "It's a wonderful life",
+        "answer4": "Home alone"
+    },
+    {
+        "question": "What type of fish is Nemo?",
+        "correctAnswer": "Clownfish ",
+        "answer1": "Surgeonfish",
+        "answer2": "Mandarinfish",
+        "answer3": "Clownfish",
+        "answer4": "Angelfish"
+    },
+    {
+        "question": "What is a group of lions called?",
+        "correctAnswer": "A pride",
+        "answer1": "A heard",
+        "answer2": "A pack",
+        "answer3": "A pride",
+        "answer4": "A group"
+    },
+    {
+        "question": "What could make Harry Potter invisible?",
+        "correctAnswer": "Invisibility cloack",
+        "answer1": "Wand",
+        "answer2": "Spell",
+        "answer3": "Invisibility cloak",
+        "answer4": "A bracelet"
+    },
+    {
+        "question": "What was the last name of the flying pioneers Orville and Wilbur?",
+        "correctAnswer": "Wright",
+        "answer1": "Wright",
+        "answer2": "Hammond",
+        "answer3": "Thompson",
+        "answer4": "Watts"
+    },
+    {
+        "question": "Who invented the telephone?",
+        "correctAnswer": "Alexander Graham Bell",
+        "answer1": "Thomas Edison",
+        "answer2": "Johannes Gutenberg",
+        "answer3": "Alexander Graham Bell",
+        "answer4": "Samuel Morse"
+    },
+    {
+        "question": "How many holes are there in a full round of golf?",
+        "correctAnswer": "18",
+        "answer1": "9",
+        "answer2": "12",
+        "answer3": "18",
+        "answer4": "22"
+    },
+    {
+        "question": "What is the highest score possible in 10 pin bowling?",
+        "correctAnswer": "300",
+        "answer1": "250",
+        "answer2": "225",
+        "answer3": "300",
+        "answer4": "450"
+    },
+    {
+        "question": "A shuttlecock used in what sports?",
+        "correctAnswer": "Badminton",
+        "answer1": "Badminton",
+        "answer2": "Tennis",
+        "answer3": "Hockey",
+        "answer4": "Baseball"
+    },
+    {
+        "question": "What NFL quarter back has been in the most super bowls?",
+        "correctAnswer": "Tom Brady",
+        "answer1": "Joe Montana",
+        "answer2": "Peyton Manning",
+        "answer3": "Tom Brady",
+        "answer4": "Dan Marino"
+    },
+    {
+        "question": "What is the name of the bear in The Jungle Book?",
+        "correctAnswer": "Balboo",
+        "answer1": "Balboo",
+        "answer2": "Kaa",
+        "answer3": "Louie",
+        "answer4": "Akela"
+    },
+    {
+        "question": "What Scottish poet’s works inspired the book titles Of Mice and Men and Catcher in the Rye?",
+        "correctAnswer": "Robert Burns",
+        "answer1": "Walter Scott",
+        "answer2": "Thomas Campbell",
+        "answer3": "Robert Burns",
+        "answer4": "Edwin Morgan"
+    },
+    {
+        "question": "Among land animals, what species has the largest eyes?",
+        "correctAnswer": "Ostrich",
+        "answer1": "Ostrich",
+        "answer2": "Elephant",
+        "answer3": "Camel",
+        "answer4": "Giraffe"
+    },
+    {
+        "question": "Who wrote Around the World in 80 Days?",
+        "correctAnswer": "Jules Verne",
+        "answer1": "Jonathan Swift",
+        "answer2": "Lewis Carroll",
+        "answer3": "Jules Verne",
+        "answer4": "Martin Woodside"
+    },
+    {
+        "question": "The ancient Chinese concept of harmonious design, which was created to introduce a balance between humans and their environment, is called what?",
+        "correctAnswer": "Feng shui",
+        "answer1": "Yin and Yang",
+        "answer2": "Feng shui",
+        "answer3": "Jiao zi",
+        "answer4": "Zong guo jie"
+    },
+    {
+        "question": "How has the Statue of Liberty changed since it was built?",
+        "correctAnswer": "It changed color",
+        "answer1": "It changed color",
+        "answer2": "Some parts are missing",
+        "answer3": "It has tilted 30 degrees",
+        "answer4": "It has not changed"
+    },
+    {
+        "question": "Which bird has the largest wingspan of any living bird?",
+        "correctAnswer": "The wandering albatross",
+        "answer1": "The happy eagle",
+        "answer2": "Cassowary",
+        "answer3": "The wandering albatross",
+        "answer4": "Dalmatian pelican"
+    },
+    {
+        "question": "To celebrate its 30th birthday (in 2010), Google placed a playable version of what arcade game on its homepage?",
+        "correctAnswer": "Pac-man",
+        "answer1": "Donkey kong",
+        "answer2": "Space invaders",
+        "answer3": "Asteroids",
+        "answer4": "Pac-man"
+    },
+    {
+        "question": "Released in 1989, the album “Bleach” was the debut studio album by what rock band?",
+        "correctAnswer": "Nirvana",
+        "answer1": "Nirvana",
+        "answer2": "Pearl Jam",
+        "answer3": "Green Day",
+        "answer4": "Weezer"
+    },
+    {
+        "question": "Which planet has moons that are nearly all named after Shakespearean characters?",
+        "correctAnswer": "Uranus",
+        "answer1": "Neptune",
+        "answer2": "Saturn",
+        "answer3": "Jupiter",
+        "answer4": "Uranus"
+    },
+    {
+        "question": "In the human body, what is the hallux?",
+        "correctAnswer": "Big toe",
+        "answer1": "Big toe",
+        "answer2": "Bone in the earlobe",
+        "answer3": "Part of the lung",
+        "answer4": "Middle finger"
+    },
+    {
+        "question": "What is the only country that displays the Bible on its national flag?",
+        "correctAnswer": "Dominican Republic",
+        "answer1": "Paraguay",
+        "answer2": "Dominican Republic",
+        "answer3": "Nicaragua",
+        "answer4": "Guatemala"
+    },
+    {
+        "question": "In Olympic archery, what is the distance between the target from the archer?",
+        "correctAnswer": "70 meters",
+        "answer1": "70 meters",
+        "answer2": "50 meters",
+        "answer3": "60 meters",
+        "answer4": "80 meters"
+    },
+    {
+        "question": "In the game of pool, what is the standard color for the one ball?",
+        "correctAnswer": "Yellow",
+        "answer1": "Orange",
+        "answer2": "Red",
+        "answer3": "Yellow",
+        "answer4": "Purple"
+    },
+    {
+        "question": "In what country would you find geoglyphs known as the Nasca Lines?",
+        "correctAnswer": "Peru",
+        "answer1": "Chile",
+        "answer2": "Peru",
+        "answer3": "India",
+        "answer4": "Australia"
+    },
+    {
+        "question": "Which Christian missionary allegedly banished all the snakes from Ireland?",
+        "correctAnswer": "St Patrick",
+        "answer1": "St Patrick",
+        "answer2": "St James",
+        "answer3": "St Peter",
+        "answer4": "St John"
+    },
+    {
+        "question": "Who directed the 2018 superhero film, Black Panther?",
+        "correctAnswer": "Ryan Coogler",
+        "answer1": "Ava DuVernay",
+        "answer2": "Ryan Coogler",
+        "answer3": "Barry Jenkins",
+        "answer4": "Spike Lee"
+    },
+    {
+        "question": "The Moho is an extinct genus of birds that were endemic to which island archipelago?",
+        "correctAnswer": "Hawaiian islands",
+        "answer1": "Maluku islands",
+        "answer2": "Tierra del Fuego",
+        "answer3": "Hawaiian islands",
+        "answer4": "Galápagos Islands"
+    },
+    {
+        "question": "In \"Frosty the Snowman,\" what action causes Frosty to come to life?",
+        "correctAnswer": "Placing a hat on its head",
+        "answer1": "Adding a carrot nose",
+        "answer2": "Placing a hat on its head",
+        "answer3": "Adding coal buttons on it",
+        "answer4": "Building it on christmas eve"
+    },
+    {
+        "question": "What layer of the Earth's atmosphere makes radio communications possible?",
+        "correctAnswer": "Ionosphere",
+        "answer1": "Ionosphere",
+        "answer2": "Polasphere",
+        "answer3": "Cryosphere",
+        "answer4": "Megasphere"
+    },
+    {
+        "question": "What board game was invented by Charles B. Darrow during the Great Depression?",
+        "correctAnswer": "Monopoly",
+        "answer1": "Risk",
+        "answer2": "Clue",
+        "answer3": "Labirynth",
+        "answer4": "Monopoly"
+    },
+    {
+        "question": "In addition to President Lincoln, whom else was targeted for assassination by John Wilkes Booth and is co-conspirators?",
+        "correctAnswer": "All of the above",
+        "answer1": "Ulysses S Grant,",
+        "answer2": "Andrew Johnson",
+        "answer3": "William Seward",
+        "answer4": "All of the above"
+    },
+    {
+        "question": "Which element of the periodic table is named after the moon?",
+        "correctAnswer": "Selenium",
+        "answer1": "Randon",
+        "answer2": "Hafnium",
+        "answer3": "Selenium",
+        "answer4": "Lutetium"
+    },
+    {
+        "question": "What was Daniel's last name in 1984 film \"The Karate Kid\"?",
+        "correctAnswer": "LaRusso",
+        "answer1": "Diaz",
+        "answer2": "LaRusso",
+        "answer3": "Svenson",
+        "answer4": "Marshall"
+    },
+    {
+        "question": "What Shakespeare play inspired the title of Aldous Huxley's \"Brave New World\"?",
+        "correctAnswer": "The Tempest",
+        "answer1": "Othello",
+        "answer2": "The Tempest",
+        "answer3": "King Lear",
+        "answer4": "The Merchant of Venice"
+    },
+    {
+        "question": "A \"Tiny Tim\" is a variety of what fruit?",
+        "correctAnswer": "Tomato",
+        "answer1": "Carrot",
+        "answer2": "Tomato",
+        "answer3": "Potato",
+        "answer4": "Bell Pepper"
+    },
+    {
+        "question": "What movie franchise action figures did Kenner start producing in the 1970s that led to its success and the popularization of the 3.75 inch action figure?",
+        "correctAnswer": "Star wars",
+        "answer1": "Alien",
+        "answer2": "Star trek",
+        "answer3": "Star wars",
+        "answer4": "Indiana Jones"
+    },
+    {
+        "question": "What is the hobby of a \"twitcher\"?",
+        "correctAnswer": "Bird watching",
+        "answer1": "Video game streaming",
+        "answer2": "Bird watching",
+        "answer3": "Boardgame playing",
+        "answer4": "Music producing"
+    },
+    {
+        "question": "Bathmophobia is the fear of what?",
+        "correctAnswer": "Stairs",
+        "answer1": "Bathtubs",
+        "answer2": "Bathrooms",
+        "answer3": "Stairs",
+        "answer4": "Basements"
+    },
+    {
+        "question": "What British Lord outlawed Christmas and, by extension, Santa, in 1647?",
+        "correctAnswer": "Oliver Cromwell",
+        "answer1": "Thomas Cromwell",
+        "answer2": "Oliver Cromwell",
+        "answer3": "John Pym",
+        "answer4": "John Milton"
+    },
+    {
+        "question": "Who played the role of Sue Ann Nivens on \"The Mary Tyler Moore Show\"?",
+        "correctAnswer": "Betty White",
+        "answer1": "Bea Arthur",
+        "answer2": "Estelle Getty",
+        "answer3": "Betty White",
+        "answer4": "Rue McClanahan"
+    },
+    {
+        "question": "What US state is the setting for \"The Cleveland Show\"?",
+        "correctAnswer": "Virginia",
+        "answer1": "Maryland",
+        "answer2": "Virginia",
+        "answer3": "New Jersey",
+        "answer4": "Philadelphia"
+    },
+    {
+        "question": "What organisation was given the only Nobel peace prize awarded during World War I?",
+        "correctAnswer": "Red Cross",
+        "answer1": "Seeds of peace",
+        "answer2": "U.S institute of peace",
+        "answer3": "Jewish voice for peace",
+        "answer4": "Red Cross"
+    },
+    {
+        "question": "Which US state is nicknamed the \"Land of Enchantment\"?",
+        "correctAnswer": "New Mexico",
+        "answer1": "Nevada",
+        "answer2": "New Mexico",
+        "answer3": "New York",
+        "answer4": "California"
+    },
+    {
+        "question": "What rock star is credited as a co-writer and backing singer for David Bowie's \"Fame\"?",
+        "correctAnswer": "John Lennon",
+        "answer1": "Paul McCartney",
+        "answer2": "John Lennon",
+        "answer3": "Prince",
+        "answer4": "Mick Jagger"
+    },
+    {
+        "question": "What city is signified by the \"D\" stamped on some US coins?",
+        "correctAnswer": "Denver",
+        "answer1": "Detroit",
+        "answer2": "Dallas",
+        "answer3": "Durham",
+        "answer4": "Denver"
+    },
+    {
+        "question": "In which European city would you find the Rijksmuseum?",
+        "correctAnswer": "Amsterdam",
+        "answer1": "Rotterdam",
+        "answer2": "Amsterdam",
+        "answer3": "Antwerp",
+        "answer4": "Brussels"
+    },
+    {
+        "question": "Which holiday replaced Dominion Day in Canada?",
+        "correctAnswer": "Canada Day",
+        "answer1": "Syrup Day",
+        "answer2": "Maple Day",
+        "answer3": "Canada Day",
+        "answer4": "Snowfall Day"
+    },
+    {
+        "question": "What is another name for a quaver?",
+        "correctAnswer": "An eight note",
+        "answer1": "Damaged tissue",
+        "answer2": "Shiver with fear",
+        "answer3": "Dopamine shortage",
+        "answer4": "An eight note"
+    },
+    {
+        "question": "Which song was featured in the 1991 film \"Robin Hood: Prince of Thieves\" and held the number one spot in the UK singles chart for 16 weeks?",
+        "correctAnswer": "Everything I do I do it for you",
+        "answer1": "In your arms",
+        "answer2": "You give love a bad name",
+        "answer3": "Emotions",
+        "answer4": "Everything I do I do for you"
+    },
+    {
+        "question": "In what decade was Montreal Canadien great Guy Lafleur born?",
+        "correctAnswer": "1950s",
+        "answer1": "1950s",
+        "answer2": "1960s",
+        "answer3": "1940s",
+        "answer4": "1930s"
+    },
+    {
+        "question": "How many joules make one calorie?",
+        "correctAnswer": "4.184",
+        "answer1": "6.783",
+        "answer2": "4.184",
+        "answer3": "3.077",
+        "answer4": "8.902"
+    },
+    {
+        "question": "What kind of plant produces bananas?",
+        "correctAnswer": "Herbs",
+        "answer1": "Herbs",
+        "answer2": "Trees",
+        "answer3": "Bushes",
+        "answer4": "Shurbs"
+    },
+    {
+        "question": "Where is the opening scene of the movie \"Love Actually\" shot?",
+        "correctAnswer": "An airport",
+        "answer1": "At an opera",
+        "answer2": "An airport",
+        "answer3": "A ski lodge",
+        "answer4": "A holiday party"
+    },
+    {
+        "question": "What was the first movie by Pixar to receive a rating higher than G in the United States?",
+        "correctAnswer": "The Incredibles",
+        "answer1": "Cars",
+        "answer2": "Toy Story 3",
+        "answer3": "The Incredibles",
+        "answer4": "Inside Out"
+    },
+    {
+        "question": "Who were the Amazons?",
+        "correctAnswer": "Warrior women",
+        "answer1": "Warrior women",
+        "answer2": "Tribes who live in the Amazon rainforest",
+        "answer3": "Amazon employees",
+        "answer4": "Group of historical researchers"
+    },
+    {
+        "question": "How many puppies did Missis Pongo give birth to in the book \"The Hundred and One Dalmatians\"?",
+        "correctAnswer": "15",
+        "answer1": "101",
+        "answer2": "99",
+        "answer3": "37",
+        "answer4": "15"
+    },
+    {
+        "question": "What actress was Tom Cruise's first wife?",
+        "correctAnswer": "Mimi Rogers",
+        "answer1": "Katie Holmes",
+        "answer2": "Nicole Kidman",
+        "answer3": "Mimi Rogers",
+        "answer4": "Hayley Atwell"
+    },
+    {
+        "question": "What organization was formed at the Bretton Woods Conference in 1944?",
+        "correctAnswer": "IMF",
+        "answer1": "NATO",
+        "answer2": "United Nations",
+        "answer3": "UNICEF",
+        "answer4": "IMF"
+    },
+    {
+        "question": "Where is Europe's most powerful waterfall?",
+        "correctAnswer": "Iceland",
+        "answer1": "Norway",
+        "answer2": "Sweden",
+        "answer3": "Iceland",
+        "answer4": "Ireland"
+    },
+    {
+        "question": "What type of muscle bends a joint in the body?",
+        "correctAnswer": "Flexor",
+        "answer1": "Flexor",
+        "answer2": "Cardiac",
+        "answer3": "Smooth",
+        "answer4": "Skeletal"
+    },
+    {
+        "question": "What 2001 thriller starred Halle Berry, John Travolta, and Hugh Jackman?",
+        "correctAnswer": "Swordfish",
+        "answer1": "Pulp Fiction",
+        "answer2": "Swordfish",
+        "answer3": "Catwoman",
+        "answer4": "Wolverine"
+    },
+    {
+        "question": "What TV show's theme song was entitled \"Where Everybody Knows Your Name\"?",
+        "correctAnswer": "Cheers",
+        "answer1": "Cheers",
+        "answer2": "Friends",
+        "answer3": "Seinfeld",
+        "answer4": "How I met your mother"
+    },
+    {
+        "question": "What does mass multipled by velocity give you?",
+        "correctAnswer": "Momentum",
+        "answer1": "Gravity",
+        "answer2": "Momentum",
+        "answer3": "Volume",
+        "answer4": "Density"
+    },
+    {
+        "question": "In what year did Margaret Thatcher assume office as Prime Minister of the United Kingdom?",
+        "correctAnswer": "1979",
+        "answer1": "1975",
+        "answer2": "1982",
+        "answer3": "1979",
+        "answer4": "1988"
+    },
+    {
+        "question": "Who is the archenemy of Spider-Man?",
+        "correctAnswer": "No one specific",
+        "answer1": "Dr. Ock",
+        "answer2": "Venom",
+        "answer3": "Green Gobling",
+        "answer4": "No one specific"
+    },
+    {
+        "question": "What popular toy brand did McDonald’s start offering as a prize with their Happy Meal in 1983?",
+        "correctAnswer": "Hot Wheels",
+        "answer1": "Nerf",
+        "answer2": "Barbie",
+        "answer3": "Hot Wheels",
+        "answer4": "Lego"
+    },
+    {
+        "question": "What phrase first appeared on the American 2 cent coinin 1864?",
+        "correctAnswer": "In god we trust",
+        "answer1": "In god we trust",
+        "answer2": "For all debts, public or private",
+        "answer3": "This note is a leagal tender",
+        "answer4": "Federal reserve note"
+    },
+    {
+        "question": "Which BTS member said their favorite hair color was red?",
+        "correctAnswer": "V",
+        "answer1": "Jungkook",
+        "answer2": "V",
+        "answer3": "Suga",
+        "answer4": "J-Hope"
+    },
+    {
+        "question": "What actor played the role of Ichabod Crane in the 1999 movie \"Sleepy Hollow\"?",
+        "correctAnswer": "Johnny Depp",
+        "answer1": "Johnny Depp",
+        "answer2": "Leonardo DiCaprio",
+        "answer3": "Rob Lowe",
+        "answer4": "Brad Pitt"
+    },
+    {
+        "question": "What does the ozone layer protect the Earth against?",
+        "correctAnswer": "Ultraviolet light",
+        "answer1": "Gamma rays",
+        "answer2": "Ultraviolet light",
+        "answer3": "Microwave radiation",
+        "answer4": "X-rays"
+    },
+    {
+        "question": "How many days in a week were there in ancient Roman times?",
+        "correctAnswer": "Eight",
+        "answer1": "Seven",
+        "answer2": "Six",
+        "answer3": "Five",
+        "answer4": "Eight"
+    },
+    {
+        "question": "In the 1998 movie \"You've Got Mail\", Joe and Kelly are in what business?",
+        "correctAnswer": "Book retelling",
+        "answer1": "Postage",
+        "answer2": "Clothing",
+        "answer3": "Technology",
+        "answer4": "Book retelling"
+    },
+    {
+        "question": "What month is the Earth closest to the sun?",
+        "correctAnswer": "January",
+        "answer1": "January",
+        "answer2": "February",
+        "answer3": "August ",
+        "answer4": "November"
+    },
+    {
+        "question": "Who said, \"Only the dead have seen the end of war.\"?",
+        "correctAnswer": "Plato",
+        "answer1": "Francis Bacon",
+        "answer2": "Plato",
+        "answer3": "Jean-Jacques Rousseau",
+        "answer4": "Friedrich Nietzsche"
+    },
+    {
+        "question": "What is the capital of the US state of Delaware?",
+        "correctAnswer": "Dover",
+        "answer1": "Dover",
+        "answer2": "Little Rock",
+        "answer3": "Providence",
+        "answer4": "Montpelier"
+    },
+    {
+        "question": "How many Oscars did the 1997 movie \"Titanic\" win?",
+        "correctAnswer": "11",
+        "answer1": "9",
+        "answer2": "8",
+        "answer3": "3",
+        "answer4": "11"
+    },
+    {
+        "question": "What species holds the Guinness World Record for heaviest insect?",
+        "correctAnswer": "Goliath beetle",
+        "answer1": "Titan Beetle",
+        "answer2": "Goliath beetle",
+        "answer3": "Atlas moth",
+        "answer4": "Dragonfly"
+    },
+    {
+        "question": "In what period of the Mesozoic era did dinosaurs first appear?",
+        "correctAnswer": "Triassic",
+        "answer1": "Jurassic",
+        "answer2": "Cretaceous",
+        "answer3": "Triassic",
+        "answer4": "Permian"
+    },
+    {
+        "question": "Anne Hathaway was married to what famous English poet?",
+        "correctAnswer": "William Shakespeare",
+        "answer1": "Adam Shulman ",
+        "answer2": "Charles Dickens",
+        "answer3": "William Shakespeare",
+        "answer4": "William Wordsworth"
+    },
+    {
+        "question": "Tangier is a coastal town in which Arab country?",
+        "correctAnswer": "Morocco",
+        "answer1": "Morocco",
+        "answer2": "Algeria",
+        "answer3": "Egypt",
+        "answer4": "Tunesia"
+    },
+    {
+        "question": "Besides the Sun, what is the closest star to Earth?",
+        "correctAnswer": "Proxima Centauri",
+        "answer1": "Alpha Centauri A",
+        "answer2": "Proxima Centauri",
+        "answer3": "Barnard's Star",
+        "answer4": "Sirius"
+    },
+    {
+        "question": "Authorities in which country released gas into a theater, killing 116 hostages in 2002?",
+        "correctAnswer": "Russia",
+        "answer1": "China",
+        "answer2": "Russia",
+        "answer3": "Iran",
+        "answer4": "Saudi Arabia"
+    },
+    {
+        "question": "What year was Queen Elizabeth II born?",
+        "correctAnswer": "1926",
+        "answer1": "1926",
+        "answer2": "1931",
+        "answer3": "1942",
+        "answer4": "1915"
+    },
+    {
+        "question": "What are Persian apples known as today?",
+        "correctAnswer": "Peaches",
+        "answer1": "Mandarines",
+        "answer2": "Peaches",
+        "answer3": "Apricots",
+        "answer4": "Mangos"
+    },
+    {
+        "question": "What country is not a permanent members of the United Nations Security Council?",
+        "correctAnswer": "Germany",
+        "answer1": "China",
+        "answer2": "Russia",
+        "answer3": "Germany",
+        "answer4": "France"
+    },
+    {
+        "question": "Which country do the Shetland Islands belong to?",
+        "correctAnswer": "United Kingdom",
+        "answer1": "Denmark",
+        "answer2": "The United States",
+        "answer3": "Norway",
+        "answer4": "United Kingdom"
+    },
+    {
+        "question": "U2's David Evans is better known by which nickname?",
+        "correctAnswer": "The Edge",
+        "answer1": "The One",
+        "answer2": "The Wild",
+        "answer3": "The Star",
+        "answer4": "The Edge"
+    },
+    {
+        "question": "What was Eleanor Roosevelt’s maiden name?",
+        "correctAnswer": "Roosevelt",
+        "answer1": "Garfield",
+        "answer2": "Roosevelt",
+        "answer3": "Madison",
+        "answer4": "McGriffin"
+    },
+    {
+        "question": "How many years was Robinson Crusoe shipwrecked on his island before being rescued?",
+        "correctAnswer": "28",
+        "answer1": "16",
+        "answer2": "7",
+        "answer3": "35",
+        "answer4": "28"
+    },
+    {
+        "question": "How many feet do snails have?",
+        "correctAnswer": "1",
+        "answer1": "0",
+        "answer2": "1",
+        "answer3": "2",
+        "answer4": "4"
+    },
+    {
+        "question": "What is the name of the NFL's all-star exhibition game?",
+        "correctAnswer": "Pro Bowl",
+        "answer1": "Super Bowl",
+        "answer2": "Legends Cup",
+        "answer3": "Pro Bowl",
+        "answer4": "Legagy Games"
+    },
+    {
+        "question": "What famous chemist died in 1934 from a blood disease contracted by the effects of radiation exposure?",
+        "correctAnswer": "Marie Curie",
+        "answer1": "John Dalton",
+        "answer2": "Marie Curie",
+        "answer3": "Dmitri Mendeleev",
+        "answer4": "Linus Pauling"
+    },
+    {
+        "question": "Hg is the symbol for what element?",
+        "correctAnswer": "Mercury",
+        "answer1": "Mercury",
+        "answer2": "Hassium",
+        "answer3": "Bismuth",
+        "answer4": "Bohrium"
+    },
+    {
+        "question": "Archie Moore is typically associated with which sport?",
+        "correctAnswer": "Boxing",
+        "answer1": "Basketball",
+        "answer2": "Baseball",
+        "answer3": "Boxing",
+        "answer4": "Wrestling"
+    },
+    {
+        "question": "What pop star posed naked and pregnant on the August 2006 cover of Harper's Bazaar?",
+        "correctAnswer": "Britney Spears",
+        "answer1": "Beyonce",
+        "answer2": "Britney Spears",
+        "answer3": "Alicia Keyes",
+        "answer4": "Christina Aguilera"
+    },
+    {
+        "question": "How many eggs does a queen bee lay per day?",
+        "correctAnswer": "2000",
+        "answer1": "100",
+        "answer2": "500",
+        "answer3": "2000",
+        "answer4": "1000"
+    },
+    {
+        "question": "Which country gave us the dish Cullen Skink?",
+        "correctAnswer": "Scotland",
+        "answer1": "Ireland",
+        "answer2": "Scotland",
+        "answer3": "Norway",
+        "answer4": "Denmark"
+    },
+    {
+        "question": "In what US state would you find Fort Shafter?",
+        "correctAnswer": "Hawaii",
+        "answer1": "Hawaii",
+        "answer2": "California",
+        "answer3": "Texas",
+        "answer4": "Florida"
+    },
+    {
+        "question": "What year was US President Ronald Reagan born?",
+        "correctAnswer": "1911",
+        "answer1": "1922",
+        "answer2": "1911",
+        "answer3": "1932",
+        "answer4": "1907"
+    },
+    {
+        "question": "What is an Anhinga?",
+        "correctAnswer": "A bird",
+        "answer1": "A deer",
+        "answer2": "A fish",
+        "answer3": "A bird",
+        "answer4": "An ant"
+    },
+    {
+        "question": "In which state is Walla Walla County located?",
+        "correctAnswer": "Washington",
+        "answer1": "Washington",
+        "answer2": "Hawaii",
+        "answer3": "Florida",
+        "answer4": "Arkansas"
+    },
+    {
+        "question": "The Galapagos Islands are part of which country?",
+        "correctAnswer": "Ecuador",
+        "answer1": "Brazil",
+        "answer2": "Argentina",
+        "answer3": "Ecador",
+        "answer4": "Colombia"
+    }
+]

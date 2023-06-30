@@ -1,0 +1,642 @@
+[
+    {
+        "question": "In the UK, the abbreviation NHS stands for National what Service?",
+        "correctAnswer": "Health",
+        "answer1": "Honour",
+        "answer2": "Health",
+        "answer3": "Humanity",
+        "answer4": "Household"
+    },
+    {
+        "question": "Construction of which of these famous landmarks was completed first?",
+        "correctAnswer": "Big Ben clock tower",
+        "answer1": "Eiffel tower",
+        "answer2": "Empire state building",
+        "answer3": "Big Ben clock tower",
+        "answer4": "Royal Albert hall"
+    },
+    {
+        "question": "What does the word loquacious mean?",
+        "correctAnswer": "Chatty",
+        "answer1": "Shy",
+        "answer2": "Beautiful",
+        "answer3": "Chatty",
+        "answer4": "Wide"
+    },
+    {
+        "question": "What percentage of the Earth's population lives in the Northern Hemisphere?",
+        "correctAnswer": "0.9",
+        "answer1": "0.6",
+        "answer2": "0.9",
+        "answer3": "0.45",
+        "answer4": "0.75"
+    },
+    {
+        "question": "France shares its longest border with which country?",
+        "correctAnswer": "Brazil",
+        "answer1": "Germany",
+        "answer2": "Argentina",
+        "answer3": "Brazil",
+        "answer4": "Spain"
+    },
+    {
+        "question": "What does the Al in Al Capone's name stand for?",
+        "correctAnswer": "Alphonse",
+        "answer1": "Alvin",
+        "answer2": "Alfred",
+        "answer3": "Allan",
+        "answer4": "Alphonse"
+    },
+    {
+        "question": "What letter of the alphabet do IATA airport codes for Canada begin with?",
+        "correctAnswer": "Y",
+        "answer1": "answer3",
+        "answer2": "L",
+        "answer3": "Y",
+        "answer4": "N"
+    },
+    {
+        "question": "How many labours did Hercules perform to free himself from bondage?",
+        "correctAnswer": "12",
+        "answer1": "10",
+        "answer2": "9",
+        "answer3": "12",
+        "answer4": "18"
+    },
+    {
+        "question": "In May 2020, which TV show broke the record for longest-running live-action comedy series when it was renewed for a 15th season?",
+        "correctAnswer": "It's always sunny in Philadelphia",
+        "answer1": "Big bang theory",
+        "answer2": "Modern family",
+        "answer3": "Brooklyn nine-nine",
+        "answer4": "It's always in Philadelphia"
+    },
+    {
+        "question": "How many tournaments make up a Grand Slam in golf?",
+        "correctAnswer": "4",
+        "answer1": "3",
+        "answer2": "4",
+        "answer3": "5",
+        "answer4": "6"
+    },
+    {
+        "question": "American Hamilton Smith patented what in 1858?",
+        "correctAnswer": "A washing machine",
+        "answer1": "A washing machine",
+        "answer2": "A film camera",
+        "answer3": "A typewriter",
+        "answer4": "A gas stove"
+    },
+    {
+        "question": "What does a cyanometer measure?",
+        "correctAnswer": "Blueness of the sky",
+        "answer1": "Size of a rain drop",
+        "answer2": "Blueness of the sky",
+        "answer3": "Speed of animals",
+        "answer4": "Loudness of wings"
+    },
+    {
+        "question": "How many electors make up the Electoral College in the U.S.?",
+        "correctAnswer": "538",
+        "answer1": "646",
+        "answer2": "538",
+        "answer3": "312",
+        "answer4": "297"
+    },
+    {
+        "question": "Where did the tradition of pumpkin carving originate?",
+        "correctAnswer": "Ireland",
+        "answer1": "The United States",
+        "answer2": "Ireland",
+        "answer3": "England",
+        "answer4": "Australia"
+    },
+    {
+        "question": "Who's the only character is \"Peter and the Wolf\" represented by a brass instrument?",
+        "correctAnswer": "The wolf",
+        "answer1": "The duck",
+        "answer2": "The grandpa",
+        "answer3": "The bird",
+        "answer4": "The wolf"
+    },
+    {
+        "question": "Which tennis player became the first to win more than one singles tournament in the Olympics?",
+        "correctAnswer": "Andy Murray",
+        "answer1": "Andy Murray",
+        "answer2": "John McEnroe",
+        "answer3": "Pete Sampras",
+        "answer4": "Jimmy Connors"
+    },
+    {
+        "question": "Nashville, Tennessee is widely considered the birthplace of which dish?",
+        "correctAnswer": "Hot chicken",
+        "answer1": "Chicken nuggets",
+        "answer2": "Hot chicken",
+        "answer3": "BBQ wings",
+        "answer4": "BBQ sauce"
+    },
+    {
+        "question": "At what age does a filly become a mare in thoroughbred horse racing?",
+        "correctAnswer": "4",
+        "answer1": "2",
+        "answer2": "5",
+        "answer3": "4",
+        "answer4": "8"
+    },
+    {
+        "question": "The bulk of the wine industry's corks come from what country?",
+        "correctAnswer": "Portugal",
+        "answer1": "France",
+        "answer2": "Spain",
+        "answer3": "Italy",
+        "answer4": "Portugal"
+    },
+    {
+        "question": "Where was Budweiser first brewed?",
+        "correctAnswer": "St Louis",
+        "answer1": "Louisiana",
+        "answer2": "Austin",
+        "answer3": "St Louis",
+        "answer4": "Dallas"
+    },
+    {
+        "question": "Who was the first woman to win the Pulitzer Prize?",
+        "correctAnswer": "Edith Wharton",
+        "answer1": "Willa Cather",
+        "answer2": "Edith Wharton",
+        "answer3": "Harper Lee",
+        "answer4": "Alice Walker"
+    },
+    {
+        "question": "How long did the world's shortest war last?",
+        "correctAnswer": "38 minutes",
+        "answer1": "17 days",
+        "answer2": "5 hours",
+        "answer3": "38 minutes",
+        "answer4": "3 days"
+    },
+    {
+        "question": "What fruit will bounce like a ball when it's ripe?",
+        "correctAnswer": "Cranberries",
+        "answer1": "Cranberries",
+        "answer2": "Oranges",
+        "answer3": "Gooseberries",
+        "answer4": "Pears"
+    },
+    {
+        "question": "How long will the footprints on the moon be there?",
+        "correctAnswer": "100 million years",
+        "answer1": "17 days",
+        "answer2": "100 years",
+        "answer3": "3000 years",
+        "answer4": "48 days"
+    },
+    {
+        "question": "How many eyes do caterpillars have?",
+        "correctAnswer": "12",
+        "answer1": "8",
+        "answer2": "4",
+        "answer3": "16",
+        "answer4": "12"
+    },
+    {
+        "question": "What is the craziest flavor of ice cream sold in Japan?",
+        "correctAnswer": "Eel",
+        "answer1": "Worm",
+        "answer2": "Eel",
+        "answer3": "Moose",
+        "answer4": "Wasabi"
+    },
+    {
+        "question": "What is the capital city of Paraguay?",
+        "correctAnswer": "Asuncion",
+        "answer1": "Asuncion",
+        "answer2": "Paramaribo",
+        "answer3": "Caracas",
+        "answer4": "Quito"
+    },
+    {
+        "question": "What is the family name of the ruling dynasty of Monaco?",
+        "correctAnswer": "Grimaldi",
+        "answer1": "Verde",
+        "answer2": "Grimaldi",
+        "answer3": "Sava",
+        "answer4": "Incanti"
+    },
+    {
+        "question": "In which branch of the arts is Katherine Dunham famous?",
+        "correctAnswer": "Ballet",
+        "answer1": "Opera",
+        "answer2": "Sculpture",
+        "answer3": "Film",
+        "answer4": "Ballet"
+    },
+    {
+        "question": " Hamilton Kindley Field international airport is in which country?",
+        "correctAnswer": "Bermuda",
+        "answer1": "Bermuda",
+        "answer2": "Jamaica",
+        "answer3": "Guatemala",
+        "answer4": "Dominican Republic"
+    },
+    {
+        "question": "Emetophobia is the fear of?",
+        "correctAnswer": "Vomit",
+        "answer1": "Heights",
+        "answer2": "Darkness",
+        "answer3": "Vomit",
+        "answer4": "Fire"
+    },
+    {
+        "question": "John Wesley founded what Christian denomination in 1738?",
+        "correctAnswer": "Methodism",
+        "answer1": "Adventism",
+        "answer2": "Methodism",
+        "answer3": "Anabaptism",
+        "answer4": "Restorationism"
+    },
+    {
+        "question": "In 2018, a bag of 27 what were discovered by a Fisherman in Siberia?",
+        "correctAnswer": "Human hands",
+        "answer1": "Human hands",
+        "answer2": "Deer heads",
+        "answer3": "Bags of cocaine",
+        "answer4": "Dead sharks"
+    },
+    {
+        "question": "The 12-foot tall flightless bird of New Zealand that became extinct 500 years ago was called what?",
+        "correctAnswer": "Moa",
+        "answer1": "Heath hen",
+        "answer2": "Moa",
+        "answer3": "Great auk",
+        "answer4": "Great toothed diver"
+    },
+    {
+        "question": "What is the only king in a deck of cards without a mustache?",
+        "correctAnswer": "King of hearts",
+        "answer1": "King of diamonds",
+        "answer2": "King of spades",
+        "answer3": "King of hearts",
+        "answer4": "King of clubs"
+    },
+    {
+        "question": "America’s first multimillionaire, John Jacob Astor, made his fortune in what trade?",
+        "correctAnswer": "Fur trade",
+        "answer1": "Salt trade",
+        "answer2": "Spice trade",
+        "answer3": "Gold trade",
+        "answer4": "Fur trade"
+    },
+    {
+        "question": "Where in the world was Richard Nixon when he delivered his infamous “I am not a crook” speech?",
+        "correctAnswer": "Disney world",
+        "answer1": "Top of the empire state building",
+        "answer2": "In the house of commons",
+        "answer3": "Disney world",
+        "answer4": "Legoland"
+    },
+    {
+        "question": "What igneous rock has a density less than water?",
+        "correctAnswer": "Pumice",
+        "answer1": "Pumice",
+        "answer2": "Bauxite",
+        "answer3": "Hematite",
+        "answer4": "Agate"
+    },
+    {
+        "question": "Dendrophobia is the fear of what?",
+        "correctAnswer": "Trees",
+        "answer1": "Mountains",
+        "answer2": "Cars",
+        "answer3": "Trees",
+        "answer4": "Sand"
+    },
+    {
+        "question": " Florence Nightingale aided the sick and wounded during what war?",
+        "correctAnswer": "The Crimean war",
+        "answer1": "The Crimean war",
+        "answer2": "Anglo-Persian war",
+        "answer3": "Apache war",
+        "answer4": "Franco-Tahitian war"
+    },
+    {
+        "question": "Ancient Romans boiled vinegar and what to make an energy drink?",
+        "correctAnswer": "Goat poop",
+        "answer1": "Pig pee",
+        "answer2": "Goat poop",
+        "answer3": "Human vomit",
+        "answer4": "Horse spit"
+    },
+    {
+        "question": "Where are dolphin’s nipples located?",
+        "correctAnswer": "Anus",
+        "answer1": "Roof of the mouth",
+        "answer2": "Under the tail ",
+        "answer3": "Anus",
+        "answer4": "Under the stomach"
+    },
+    {
+        "question": "What year was the Intel Pentium processor introduced?",
+        "correctAnswer": "1993",
+        "answer1": "1988",
+        "answer2": "1993",
+        "answer3": "1997",
+        "answer4": "1985"
+    },
+    {
+        "question": "Who was UK Labour cabinet minister and social reformer Frank Pakenham better known as?",
+        "correctAnswer": "Lord Longford",
+        "answer1": "Lord Whitmore",
+        "answer2": "Lord Harrison",
+        "answer3": "Lord Longford",
+        "answer4": "Lord Whitehall"
+    },
+    {
+        "question": "What breed was the dog in the 1960s TV show \"Please Don't Eat the Daisies\"?",
+        "correctAnswer": "Sheepdog",
+        "answer1": "German shepard",
+        "answer2": "Sheepdog",
+        "answer3": "Golden retreiver",
+        "answer4": "American foxhound"
+    },
+    {
+        "question": "Who was the dictator of Uganda from 1971 to 1979?",
+        "correctAnswer": "Idi Aman",
+        "answer1": "Yusuf Kironde",
+        "answer2": "Godfrey Lukongwa Binaisa",
+        "answer3": "Idi Aman",
+        "answer4": "Paul Muwanga"
+    },
+    {
+        "question": "Which rebellious leader of the Catuvellauni tribe was caught and taken to Rome in AD 50, then pardoned by Emperor Claudius?",
+        "correctAnswer": "Caractacus",
+        "answer1": "Cunobeline",
+        "answer2": "Caractacus",
+        "answer3": "Epaticcus",
+        "answer4": "Togodumnus"
+    },
+    {
+        "question": "What does the abbreviation CSS stand for?",
+        "correctAnswer": "Cascading Style Sheets",
+        "answer1": "Computer Sighting System",
+        "answer2": "Catalina Sky Survey",
+        "answer3": "Cascading Style Sheets",
+        "answer4": "Commander's Support Staff"
+    },
+    {
+        "question": "Who was Truman Capote's research assistant for his book \"In Cold Blood\"?",
+        "correctAnswer": "Harper Lee",
+        "answer1": "Stephen King",
+        "answer2": "Robert Mulligan",
+        "answer3": "Harper Lee",
+        "answer4": "J. D. Salinger"
+    },
+    {
+        "question": "What William Faulkner novel presented its plot from four different points of view?",
+        "correctAnswer": "The sound and the fury",
+        "answer1": "A rose for Emily",
+        "answer2": "Barn burning",
+        "answer3": "As I lay dying",
+        "answer4": "The sound and the fury"
+    },
+    {
+        "question": "When was Gatorade first introduced?",
+        "correctAnswer": "1965",
+        "answer1": "1982",
+        "answer2": "1976",
+        "answer3": "1965",
+        "answer4": "1990"
+    },
+    {
+        "question": "The Niagara Falls name is derived from an Iroquois word meaning what?",
+        "correctAnswer": "Thunder",
+        "answer1": "Thunder",
+        "answer2": "Lightning",
+        "answer3": "Waterfall",
+        "answer4": "Fog"
+    },
+    {
+        "question": "What was John Grisham's first number one bestseller?",
+        "correctAnswer": "The firm",
+        "answer1": "A time to kill",
+        "answer2": "The firm",
+        "answer3": "The judge's list",
+        "answer4": "The client"
+    },
+    {
+        "question": "How many children did Lucy and Desi have?",
+        "correctAnswer": "2",
+        "answer1": "1",
+        "answer2": "0",
+        "answer3": "2",
+        "answer4": "3"
+    },
+    {
+        "question": "Who was the first female American in space?",
+        "correctAnswer": "Sally Ride",
+        "answer1": "Sally Ride",
+        "answer2": "Mae Jemison",
+        "answer3": "Peggy Whitson",
+        "answer4": "Jessica Meir"
+    },
+    {
+        "question": "What author created the character of James Qwilleran?",
+        "correctAnswer": "Lilian Jackson Braun",
+        "answer1": "Ruth Rendell",
+        "answer2": "Gina Spadafori",
+        "answer3": "Lilian Jackson Braun",
+        "answer4": "Jean Colin"
+    },
+    {
+        "question": "What part of the brain controls hunger?",
+        "correctAnswer": "Hypothalamus",
+        "answer1": "Putamen",
+        "answer2": "Hypothalamus",
+        "answer3": "Thalamus",
+        "answer4": "Amygdala"
+    },
+    {
+        "question": "If you had pogonophobia what would you be afraid of?",
+        "correctAnswer": "Beards",
+        "answer1": "Puppets",
+        "answer2": "Pimples",
+        "answer3": "Beards",
+        "answer4": "Balloons"
+    },
+    {
+        "question": "How many planets align during the eclipse in the movie \"Lara Croft: Tomb Raider\"?",
+        "correctAnswer": "Nine",
+        "answer1": "Nine",
+        "answer2": "Six",
+        "answer3": "Twelve",
+        "answer4": "Seven"
+    },
+    {
+        "question": "Which Major League hitter drove in the most runs in a single season between 1980-89?",
+        "correctAnswer": "Don Mattingly",
+        "answer1": "Babe Ruth",
+        "answer2": "Don Mattingly",
+        "answer3": "Barry Bonds",
+        "answer4": "Greg Maddux"
+    },
+    {
+        "question": "What 1996 Olympic event had two US squads playing each other for the gold medal?",
+        "correctAnswer": "Beach volleyball",
+        "answer1": "Beach volleyball",
+        "answer2": "Field hockey",
+        "answer3": "Mud rugby",
+        "answer4": "Paintball"
+    },
+    {
+        "question": "What was the title of Eddie Murphy's first movie?",
+        "correctAnswer": "48 Hrs",
+        "answer1": "Best Defence",
+        "answer2": "48 Hrs",
+        "answer3": "Trading Places",
+        "answer4": "Beverly Hills Cop"
+    },
+    {
+        "question": "Who added \"under God\" to the Pledge of Allegiance?",
+        "correctAnswer": "Dwight D. Eisenhower",
+        "answer1": "Richard Nixon",
+        "answer2": "Harry S. Truman",
+        "answer3": "Franklin D. Roosevelt",
+        "answer4": "Dwight D. Eisenhower"
+    },
+    {
+        "question": "What was Liu Bang, founder of the Han Dynasty, posthumously known as?",
+        "correctAnswer": "Emperor Gaozu of Han",
+        "answer1": "Emperor Yuan of Han",
+        "answer2": "Emperor Gaozu of Han",
+        "answer3": "Emperor Cheng of Han",
+        "answer4": "Emperor Ai of Han"
+    },
+    {
+        "question": "What technology company submitted a patent for a vibrating tattoo?",
+        "correctAnswer": "Nokia",
+        "answer1": "Nokia",
+        "answer2": "Phillips",
+        "answer3": "Sony",
+        "answer4": "Dell"
+    },
+    {
+        "question": "Katherine Johnson’s skill in what field led to NASA’s first moon voyage?",
+        "correctAnswer": "Mathematics",
+        "answer1": "Biology",
+        "answer2": "Chemistry",
+        "answer3": "Physics",
+        "answer4": "Mathematics"
+    },
+    {
+        "question": "Which poet used humor to push against strict Victorian cultural mores?",
+        "correctAnswer": "Edward Lear",
+        "answer1": "Matthew Arnold",
+        "answer2": "Edward Lear",
+        "answer3": "Thomas Hardy",
+        "answer4": "Gerard Manley Hopkins"
+    },
+    {
+        "question": "Which rock and roll pioneer passed away on March 18, 2017, at the age of 90?",
+        "correctAnswer": "Chuck Berry",
+        "answer1": "Brian Wilson",
+        "answer2": "Ray Manzarek",
+        "answer3": "Chuck Berry",
+        "answer4": "Roger McGuinn"
+    },
+    {
+        "question": "Which island was home to the Lighthouse of Alexandria?",
+        "correctAnswer": "Pharos, Egypt",
+        "answer1": "Zakynthos, Greece",
+        "answer2": "Gozo",
+        "answer3": "Pharos, Egypt",
+        "answer4": "Naxos, Greece"
+    },
+    {
+        "question": "American mass murderer Ronald DeFeo Jr. was the inspiration behind what novel and series of films?",
+        "correctAnswer": "The Amityville Horror",
+        "answer1": "Zodiac",
+        "answer2": "July 22th",
+        "answer3": "No Man of God",
+        "answer4": "The Amityville Horror"
+    },
+    {
+        "question": "In medical terminology, the \"voice box\" is known as what?",
+        "correctAnswer": "Larynx",
+        "answer1": "Ocular",
+        "answer2": "Larynx",
+        "answer3": "Glossal",
+        "answer4": "Pharynx"
+    },
+    {
+        "question": "What famous entertainer's tombstone reads, \"Everybody Loves Somebody Sometime\"?",
+        "correctAnswer": "Dean Martin",
+        "answer1": "Frank Sinatra",
+        "answer2": "Ricci Martin",
+        "answer3": "Dean Martin",
+        "answer4": "Sammy Davis Jr."
+    },
+    {
+        "question": "The national currency of Panama is named after which Pacific explorer?",
+        "correctAnswer": "Balboa",
+        "answer1": "Byron",
+        "answer2": "Pizarro",
+        "answer3": "Balboa",
+        "answer4": "Coronado"
+    },
+    {
+        "question": "Which band does Jim Kerr front?",
+        "correctAnswer": "Simple Minds",
+        "answer1": "Simple Minds",
+        "answer2": "Tears for Fears",
+        "answer3": "Duran Duran",
+        "answer4": "U2"
+    },
+    {
+        "question": "How many carbon atoms are there in an aspirin molecule?",
+        "correctAnswer": "9",
+        "answer1": "7",
+        "answer2": "12",
+        "answer3": "9",
+        "answer4": "16"
+    },
+    {
+        "question": "What is the name of Jack Nicholson's character in the film, \"Chinatown\"?",
+        "correctAnswer": "J.J \"Jake\" Gittes",
+        "answer1": "Melvin ''Mel'' Udall",
+        "answer2": "J.J \"Jake\" Gittes",
+        "answer3": "Frank ''Franky'' Costello",
+        "answer4": "Harold ''Harry'' Sanborn"
+    },
+    {
+        "question": "What type of snake is a Sidewinder?",
+        "correctAnswer": "Rattlesnake",
+        "answer1": "Copperhead",
+        "answer2": "Viper",
+        "answer3": "Rattlesnake",
+        "answer4": "Kingsnake"
+    },
+    {
+        "question": "Which bird is the national bird of India?",
+        "correctAnswer": "Indian Peacock",
+        "answer1": "Shikra",
+        "answer2": "Indian Peacock",
+        "answer3": "Common Myna",
+        "answer4": "Kingfisher"
+    },
+    {
+        "question": "What is the Bicycle brand famous for making?",
+        "correctAnswer": "Playing cards",
+        "answer1": "Playing cards",
+        "answer2": "Wrist watches",
+        "answer3": "Boardgames",
+        "answer4": "Cycling gear"
+    },
+    {
+        "question": "Who first proposed the heliocentric model of the solar system?",
+        "correctAnswer": "Aristarcus",
+        "answer1": "Plato",
+        "answer2": "Hipparchus",
+        "answer3": "Aristarcus",
+        "answer4": "Eratosthenes"
+    }
+]

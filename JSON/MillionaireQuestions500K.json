@@ -1,0 +1,154 @@
+[
+  {
+    "question": "Who was the first man to travel into space twice?",
+    "answer1": "Gus Grissom",
+    "answer2": "Yuri Gagarin",
+    "answer3": "Michal Collins",
+    "answer4": "Vladimir Titov",
+    "correctAnswer": "Gus Grissom"
+  },
+  {
+    "question": "Which of these is a butterfly, not a moth?",
+    "answer1": "Speckled Wood",
+    "answer2": "Burnished Brass",
+    "answer3": "Red Underwing",
+    "answer4": "Mother Shipton",
+    "correctAnswer": "Speckled Wood"
+  },
+  {
+    "question": "Which king was married to Eleanor of Aquitaine?",
+    "answer1": "Henry II",
+    "answer2": "Richard I",
+    "answer3": "James III",
+    "answer4": "Edward II",
+    "correctAnswer": "Henry II"
+  },
+  {
+    "question": "On February 22, 1989, what group won the first Grammy award for Best Hard Rock/Metal Performance?",
+    "answer1": "Jethro Tull",
+    "answer2": "AC/DC",
+    "answer3": "Metallica",
+    "answer4": "Living Color",
+    "correctAnswer": "Jethro Tull"
+  },
+  {
+    "question": "Which of the following pieces of currency was the first to use the motto \"In God We Trust\"?",
+    "answer1": "Two-cent piece",
+    "answer2": "Nickel",
+    "answer3": "One dollar bill",
+    "answer4": "Five dollar bill",
+    "correctAnswer": "Two-cent piece"
+  },
+  {
+    "question": "Playwright Anton Chekhov graduated from the University of Moscow with a degree in what?",
+    "answer1": "Medicine",
+    "answer2": "Law",
+    "answer3": "Philosophy",
+    "answer4": "Economics",
+    "correctAnswer": "Medicine"
+  },
+  {
+    "question": "Before the American colonies switched to the Gregorian calendar, on what date did their new year start?",
+    "answer1": "25.Mar",
+    "answer2": "01.Jul",
+    "answer3": "24.Dec",
+    "answer4": "31.Oct",
+    "correctAnswer": "25.Mar"
+  },
+  {
+    "question": "In the U.S., the Sony Walkman personal cassette player was originally marketed in 1979 under what name?",
+    "answer1": "Soundabout",
+    "answer2": "Listener",
+    "answer3": "Eardrummer",
+    "answer4": "Music Box",
+    "correctAnswer": "Soundabout"
+  },
+  {
+    "question": "Who is the only winner of the Nobel Peace Prize to decline the prize?",
+    "answer1": "Le Duc Tho",
+    "answer2": "Andrei Sakharov",
+    "answer3": "Aung San Suu Kyi",
+    "answer4": "Albert Schweitzer",
+    "correctAnswer": "Le Duc Tho"
+  },
+  {
+    "question": "People who have a marked physical reaction to beautiful art are said to suffer from what syndrome?",
+    "answer1": "Stendhal's Syndrome",
+    "answer2": "Beckett's Syndrome",
+    "answer3": "Proust Syndrome",
+    "answer4": "Jerusalem Syndrome",
+    "correctAnswer": "Stendhal's Syndrome"
+  },
+  {
+    "question": "Who is the only Nobel laureate to win an Academy Award?",
+    "answer1": "George Bernard Shaw",
+    "answer2": "Jean-Paul Sartre",
+    "answer3": "Toni Morrison",
+    "answer4": "John Steinback",
+    "correctAnswer": "George Bernard Shaw"
+  },
+  {
+    "question": "Famous pediatrician and author Dr. Benjamin Spock won an Olympic gold medal in what sport?",
+    "answer1": "Rowing",
+    "answer2": "Swimming",
+    "answer3": "Sailing",
+    "answer4": "Fencing",
+    "correctAnswer": "Rowing"
+  },
+  {
+    "question": "During WWII, U.S. soldiers used the first commercial aerosol cans to hold what?",
+    "answer1": "Insecticide",
+    "answer2": "Antiseptic",
+    "answer3": "Cleaning fluid",
+    "answer4": "Shaving cream",
+    "correctAnswer": "Insecticide"
+  },
+  {
+    "question": "Who did artist Grant Wood use as the model for the farmer in his classic painting \"American Gothic\"?",
+    "answer1": "His dentist",
+    "answer2": "Local sheriff",
+    "answer3": "His butcher",
+    "answer4": "Traveling salesman",
+    "correctAnswer": "His dentist"
+  },
+  {
+    "question": "Khrushchev's famous 1960 \"shoe-banging\" outburst at the U.N. was in response to a delegate from what nation?",
+    "answer1": "The Philippines",
+    "answer2": "Australia",
+    "answer3": "The Netherlands",
+    "answer4": "Turkey",
+    "correctAnswer": "The Philippines"
+  },
+  {
+    "question": "What great thinker's death is attributed to a chill he caught while stuffing a chicken with snow for an experiment on refrigeration?",
+    "answer1": "Francis Bacon",
+    "answer2": "Pythagoras",
+    "answer3": "Archimedes",
+    "answer4": "Isaac Newton",
+    "correctAnswer": "Francis Bacon"
+  },
+  {
+    "question": "A rare example of a word that rhymes with \"orange,\" the Blorenge is a what?",
+    "answer1": "Mountain in Wales",
+    "answer2": "Forest in Scotland",
+    "answer3": "River in Ireland",
+    "answer4": "Desert in Australia",
+    "correctAnswer": "Mountain in Wales"
+  },
+  {
+    "question": "In addition to his career as an astrologer and \"prophet,\" Nostradamus published a 1555 treatise that included a section on what?",
+    "answer1": "Making jams and jellies",
+    "answer2": "Digging graves",
+    "answer3": "Cheating at card games",
+    "answer4": "Training parrots to talk",
+    "correctAnswer": "Making jams and jellies"
+  },
+  {
+    "question": "When scientists tested it with an electroencephalogram, which of these food items produced readings similar to a human brain?",
+    "answer1": "Lime Jell-O",
+    "answer2": "Wint-O-Green Life Saver",
+    "answer3": "SPAM",
+    "answer4": "Jet-Puffed Marshmallow",
+    "correctAnswer": "Lime Jell-O"
+  }
+]

@@ -1,0 +1,816 @@
+[
+    {
+        "question": "Which airport is the opening scene of Love Actually set in?",
+        "correctAnswer": "Heathrow",
+        "answer1": "Gatwick",
+        "answer2": "LAX",
+        "answer3": "O'Hare",
+        "answer4": "Heathrow"
+    },
+    {
+        "question": "Which country spans 11 time zones?",
+        "correctAnswer": "Russia",
+        "answer1": "The United States",
+        "answer2": "China",
+        "answer3": "Canada",
+        "answer4": "Russia"
+    },
+    {
+        "question": "Hamilton is the capital of which British Overseas Territory?",
+        "correctAnswer": "Bermuda",
+        "answer1": "Bermuda",
+        "answer2": "New Zealand",
+        "answer3": "Australia",
+        "answer4": "Cayman Islands"
+    },
+    {
+        "question": "In what city would you find Tiergarten?",
+        "correctAnswer": "Berlin",
+        "answer1": "Amsterdam",
+        "answer2": "Vienna",
+        "answer3": "Berlin",
+        "answer4": "Zurich"
+    },
+    {
+        "question": "What are there 270 of in the average human baby but only 206 in an adult?",
+        "correctAnswer": "Bones",
+        "answer1": "Nerves",
+        "answer2": "Muscles",
+        "answer3": "Bones",
+        "answer4": "Facial wrinkles"
+    },
+    {
+        "question": "What was the first country to put a woman in space?",
+        "correctAnswer": "The Soviet Union",
+        "answer1": "The United States",
+        "answer2": "The Soviet Union",
+        "answer3": "The United Kingdom",
+        "answer4": "India"
+    },
+    {
+        "question": "What is the lowest numbers on a roulette table?",
+        "correctAnswer": "00",
+        "answer1": "00",
+        "answer2": "0",
+        "answer3": "1",
+        "answer4": "2"
+    },
+    {
+        "question": "In which country is Cusco located?",
+        "correctAnswer": "Peru",
+        "answer1": "Chile",
+        "answer2": "Peru",
+        "answer3": "Argentina",
+        "answer4": "Cuba"
+    },
+    {
+        "question": "What number is represented by \"C\" in Roman numerals?",
+        "correctAnswer": "100",
+        "answer1": "5",
+        "answer2": "10",
+        "answer3": "100",
+        "answer4": "1000"
+    },
+    {
+        "question": "What is the least populous country in Africa?",
+        "correctAnswer": "Seychelles",
+        "answer1": "Mauritius",
+        "answer2": "Comoros",
+        "answer3": "Cape Verde",
+        "answer4": "Seychelles"
+    },
+    {
+        "question": "What does \"quid pro quo\" mean in English?",
+        "correctAnswer": "Something for something",
+        "answer1": "Seize the day",
+        "answer2": "I think, therefore I am",
+        "answer3": "Something for something",
+        "answer4": "To the person"
+    },
+    {
+        "question": "An astronomical unit is the standard measurement taken from the Earth to where?",
+        "correctAnswer": "The Sun",
+        "answer1": "The Moon",
+        "answer2": "The Sun",
+        "answer3": "Mars",
+        "answer4": "Pluto"
+    },
+    {
+        "question": "Pedophobia is the fear of what?",
+        "correctAnswer": "Children",
+        "answer1": "Pedophiles",
+        "answer2": "Children",
+        "answer3": "Parents",
+        "answer4": "Police"
+    },
+    {
+        "question": "What is the rarest blood type",
+        "correctAnswer": "AB-negative",
+        "answer1": "O-negative",
+        "answer2": "AB-positive",
+        "answer3": "AB-negative",
+        "answer4": "B-positive"
+    },
+    {
+        "question (100)": "In the movie Good Will Hunting, what collehe does Skylar attend?",
+        "correctAnswer": "Harvard",
+        "answer1": "Harvard",
+        "answer2": "Yale ",
+        "answer3": "Colombia",
+        "answer4": "Stanford",
+        "question": "Which US state is known as the ''Sunflower state''?",
+        "correctAnswer": "Kansas",
+        "answer1": "Kansas",
+        "answer2": "Oklahoma",
+        "answer3": "Texas",
+        "answer4": "California"
+    },
+    {
+        "question": "What color were carrots originally?",
+        "correctAnswer": "Purple",
+        "answer1": "Orange",
+        "answer2": "Brown",
+        "answer3": "Yellow",
+        "answer4": "Purple"
+    },
+    {
+        "question": "Where is a shrimp's heart?",
+        "correctAnswer": "In its head",
+        "answer1": "In its tail",
+        "answer2": "In its head",
+        "answer3": "Behind its eye",
+        "answer4": "In its stomach"
+    },
+    {
+        "question": "What body part does a fox use to communicate?",
+        "correctAnswer": "Tail",
+        "answer1": "Nose",
+        "answer2": "Whiskers",
+        "answer3": "Tail",
+        "answer4": "Paws"
+    },
+    {
+        "question": "How many times greater is a dog's hearing than a human's?",
+        "correctAnswer": "10 times",
+        "answer1": "2 times",
+        "answer2": "It is not",
+        "answer3": "5 times",
+        "answer4": "10 times"
+    },
+    {
+        "question": "What US state has the highest concentration of shopping malls?",
+        "correctAnswer": "New Jersey",
+        "answer1": "New Jersey",
+        "answer2": "Texas",
+        "answer3": "California",
+        "answer4": "Indiana"
+    },
+    {
+        "question": "What part of our body contains traces of gold?",
+        "correctAnswer": "Hair",
+        "answer1": "Bones",
+        "answer2": "Blood",
+        "answer3": "Hair",
+        "answer4": "Muscles"
+    },
+    {
+        "question": "In which country K2 mountain present?",
+        "correctAnswer": "Pakistan",
+        "answer1": "Pakistan",
+        "answer2": "Nepal",
+        "answer3": "China",
+        "answer4": "India"
+    },
+    {
+        "question": "A “crepuscular” animal becomes active at what time?",
+        "correctAnswer": "Dusk",
+        "answer1": "Dawn",
+        "answer2": "Afternoon",
+        "answer3": "Morning",
+        "answer4": "Dusk"
+    },
+    {
+        "question": "Atropos, Lachesis, and Clotho are the Three what of Greek mythology?",
+        "correctAnswer": "Fates",
+        "answer1": "Angels",
+        "answer2": "Prophets",
+        "answer3": "Fates",
+        "answer4": "Signs of death"
+    },
+    {
+        "question": "Who was the only British Pope ever?",
+        "correctAnswer": "Adrian IV",
+        "answer1": "Gregory I",
+        "answer2": "Adrian IV",
+        "answer3": "Paul III",
+        "answer4": "Leo X"
+    },
+    {
+        "question": "Humphrey Bogart won his only Oscar for what motion picture?",
+        "correctAnswer": "The African Queen",
+        "answer1": "The Maltese Falcon",
+        "answer2": "Sabrina",
+        "answer3": "The African Queen",
+        "answer4": "Casablanca"
+    },
+    {
+        "question": "What was the bloodiest battle of the American Civil War?",
+        "correctAnswer": "Gettysburg",
+        "answer1": "Gettysburg",
+        "answer2": "Vicksburg",
+        "answer3": "Sumter",
+        "answer4": "Antietam"
+    },
+    {
+        "question": "What famous actress once tried to hire a hitman to kill her?",
+        "correctAnswer": "Angeline Jolie",
+        "answer1": "Tilda Swinton",
+        "answer2": "Angelina Jolie",
+        "answer3": "Lindsey Lohan",
+        "answer4": "Megan Fox"
+    },
+    {
+        "question": "Which creatures produce gossamer?",
+        "correctAnswer": "Spiders",
+        "answer1": "Spiders",
+        "answer2": "Bees",
+        "answer3": "Ants",
+        "answer4": "Crickets"
+    },
+    {
+        "question": "The highest denomination bill ever printed in the United States was $100,000. Who was on the bill?",
+        "correctAnswer": "Woodrow Wilson",
+        "answer1": "Salmon P. Chase",
+        "answer2": "Alexander Hamilton",
+        "answer3": "Woodrow Wilson",
+        "answer4": "William McKinley"
+    },
+    {
+        "question": "What was the name of the pig leader in George Orwell’s Animal Farm?",
+        "correctAnswer": "Napoleon",
+        "answer1": "Snowball",
+        "answer2": "Napoleon",
+        "answer3": "Old Major",
+        "answer4": "Boxer"
+    },
+    {
+        "question": "What does the “E” stand for in the name of the American restaurant chain Chuck E. Cheese?",
+        "correctAnswer": "Entertainment",
+        "answer1": "Establishment",
+        "answer2": "Eric",
+        "answer3": "Entertainment",
+        "answer4": "Everywhere"
+    },
+    {
+        "question": "What bird can remember bad memories for up to 5 years?",
+        "correctAnswer": "Kiwi",
+        "answer1": "Ostrich",
+        "answer2": "Kiwi",
+        "answer3": "Hummingbird",
+        "answer4": "Crow"
+    },
+    {
+        "question": "How many vaginas do kangaroos have?",
+        "correctAnswer": "3",
+        "answer1": "1",
+        "answer2": "2",
+        "answer3": "3",
+        "answer4": "4"
+    },
+    {
+        "question": "Who was the first performer at the Woodstock festival in 1969?",
+        "correctAnswer": "Richie Havens",
+        "answer1": "Tim Hardin",
+        "answer2": "Richie Havens",
+        "answer3": "Joan Baez",
+        "answer4": "Sweetwater"
+    },
+    {
+        "question": "The penny-farthing was a popular type of what?",
+        "correctAnswer": "Bicycle",
+        "answer1": "Coin purse",
+        "answer2": "Couch set",
+        "answer3": "Bicycle",
+        "answer4": "Bed frame"
+    },
+    {
+        "question": "What island state was formerly known by the name Formosa?",
+        "correctAnswer": "Taiwan",
+        "answer1": "Sri Lanka",
+        "answer2": "Taiwan",
+        "answer3": "Barbados",
+        "answer4": "Haiti"
+    },
+    {
+        "question": "Which country offered Einstein the presidency?",
+        "correctAnswer": "Israel",
+        "answer1": "Albania",
+        "answer2": "Austria",
+        "answer3": "Israel",
+        "answer4": "Georgia"
+    },
+    {
+        "question": "The cities of Xai-Xai, Panda, and Beira are in what country?",
+        "correctAnswer": "Mozabique",
+        "answer1": "Mozambique",
+        "answer2": "China",
+        "answer3": "Chad",
+        "answer4": "Vietnam"
+    },
+    {
+        "question": "What nationality was musician and composer James Last?",
+        "correctAnswer": "German",
+        "answer1": "British",
+        "answer2": "Irish",
+        "answer3": "German",
+        "answer4": "Swedish"
+    },
+    {
+        "question": "What year was the film \"The Fly\", starring Jeff Goldblum, released in theaters?",
+        "correctAnswer": "1986",
+        "answer1": "1991",
+        "answer2": "1982",
+        "answer3": "1980",
+        "answer4": "1986"
+    },
+    {
+        "question": "Which animal was part of the Gloria Vanderbilt jeans logo?",
+        "correctAnswer": "Swan",
+        "answer1": "Tiger",
+        "answer2": "Horse",
+        "answer3": "Swan",
+        "answer4": "Lizard"
+    },
+    {
+        "question": "What color were the first taxis in America?",
+        "correctAnswer": "Green and red",
+        "answer1": "Yellow and black",
+        "answer2": "Green and red",
+        "answer3": "Blue and black",
+        "answer4": "Red and white"
+    },
+    {
+        "question": "Which U.S. president was the first to leave the country while in office?",
+        "correctAnswer": "Theodore Roosevelt",
+        "answer1": "Woodrow Wilson",
+        "answer2": "William McKinley",
+        "answer3": "James A. Garfield",
+        "answer4": "Theodore Roosevelt"
+    },
+    {
+        "question": "What sort of meat is used in the dish \"Guard of Honour\"?",
+        "correctAnswer": "Lamb",
+        "answer1": "Lamb",
+        "answer2": "Beef",
+        "answer3": "Pork",
+        "answer4": "Duck"
+    },
+    {
+        "question": "Who did the Austrian army attack in the Battle of Karánsebes?",
+        "correctAnswer": "Itself",
+        "answer1": "Germany",
+        "answer2": "Itself",
+        "answer3": "Poland",
+        "answer4": "The Netherlands"
+    },
+    {
+        "question": "What US state is also known as the Volunteer State?",
+        "correctAnswer": "Tennessee",
+        "answer1": "Texas",
+        "answer2": "Oklahoma",
+        "answer3": "Tennessee",
+        "answer4": "California"
+    },
+    {
+        "question": "A \"Tiny Tim\" is a variety of what fruit?",
+        "correctAnswer": "Snoopy",
+        "answer1": "Charlie Brown",
+        "answer2": "Snoopy",
+        "answer3": "Popeye",
+        "answer4": "Flash Gordon"
+    },
+    {
+        "question": "Who hit .202 with three homers while playing outfield for the Birmingham Barons in 1994?",
+        "correctAnswer": "Michael Jordan",
+        "answer1": "Karl Malone",
+        "answer2": "Charles Barkley",
+        "answer3": "Michael Jordan",
+        "answer4": "David Robinson"
+    },
+    {
+        "question": "What bird is Britain's VTOL \"jump jet\" named for?",
+        "correctAnswer": "Harrier hawk",
+        "answer1": "Red kite",
+        "answer2": "Osprey",
+        "answer3": "Merlin",
+        "answer4": "Harrier hawk"
+    },
+    {
+        "question": "The Egyptian plover is a bird best known for its symbiotic relationship with what host animal?",
+        "correctAnswer": "Crocodile",
+        "answer1": "Crocodile",
+        "answer2": "Camel",
+        "answer3": "Cat",
+        "answer4": "Snake"
+    },
+    {
+        "question": "Which US President was known as \"the peanut president\"?",
+        "correctAnswer": "Jimmy Carter",
+        "answer1": "George H. Bush",
+        "answer2": "Lyndon B. Johnson",
+        "answer3": "Jimmy Carter",
+        "answer4": "Gerald Ford"
+    },
+    {
+        "question": "What 1950's rock pioneer was portrayed by Lou Diamond Phillips in a 1987 film?",
+        "correctAnswer": "Ritchie Valens",
+        "answer1": "Buddy Holly",
+        "answer2": "Ritchie Valens",
+        "answer3": "Elvis Presley",
+        "answer4": "Gene Vincent"
+    },
+    {
+        "question": "Which scientist is credited with being the first one to isolate DNA material in 1869?",
+        "correctAnswer": "Friedrich Miescher",
+        "answer1": "Francis Crick",
+        "answer2": "Maurice Wilkins",
+        "answer3": "Oswald Avery",
+        "answer4": "Friedrich Miescher"
+    },
+    {
+        "question": "What Jewish custom was adopted by Southern Americans for the New Year?",
+        "correctAnswer": "Eating black-eyed peas",
+        "answer1": "Lighting 101 candles",
+        "answer2": "Melting tin to read fortunes",
+        "answer3": "Eating black-eyed peas",
+        "answer4": "Drinking mulled wine"
+    },
+    {
+        "question": "Which Beatles song is partially in French?",
+        "correctAnswer": "Michelle",
+        "answer1": "Eleanor Rigby",
+        "answer2": "Hey Jude",
+        "answer3": "All my loving",
+        "answer4": "Michelle"
+    },
+    {
+        "question": "Mead is made primarily from what?",
+        "correctAnswer": "Honey",
+        "answer1": "Mashrooms",
+        "answer2": "Sugarcane",
+        "answer3": "Honey",
+        "answer4": "Apple juice"
+    },
+    {
+        "question": "What year did Cambodia declare its independence from France?",
+        "correctAnswer": "1953",
+        "answer1": "1962",
+        "answer2": "1975",
+        "answer3": "1949",
+        "answer4": "1953"
+    },
+    {
+        "question": "At what popular Seattle market did Starbucks open its first store in 1971?",
+        "correctAnswer": "Pike place",
+        "answer1": "Oxbow ",
+        "answer2": "Pike place",
+        "answer3": "Chattanooga",
+        "answer4": "West side"
+    },
+    {
+        "question": "What is the traditional gift for a 40th wedding anniversary?",
+        "correctAnswer": "Ruby",
+        "answer1": "Diamond",
+        "answer2": "Gold",
+        "answer3": "Ruby",
+        "answer4": "Emerald"
+    },
+    {
+        "question": "How did the Snickers bar get its name?",
+        "correctAnswer": "After a horse",
+        "answer1": "After village in England",
+        "answer2": "After a summer festival",
+        "answer3": "After toy company",
+        "answer4": "After a horse"
+    },
+    {
+        "question": "Who directed the film \"The Silence of the Lambs\"?",
+        "correctAnswer": "Johnathan Demme",
+        "answer1": "Ridley Scott",
+        "answer2": "Stephen Spielberg",
+        "answer3": "Johnathan Demme",
+        "answer4": "David Lynch"
+    },
+    {
+        "question": "What is the full name of writer H. G. Wells?",
+        "correctAnswer": "Herbert George Wells",
+        "answer1": "Harry Gilbert Wells",
+        "answer2": "Herbert George Wells",
+        "answer3": "Henry Griffin Wells",
+        "answer4": "Holden Gregory Wells"
+    },
+    {
+        "question": "What is the Roman name of the Greek god Hermes?",
+        "correctAnswer": "Mercury",
+        "answer1": "Pluto",
+        "answer2": "Mars",
+        "answer3": "Mercury",
+        "answer4": "Saturn"
+    },
+    {
+        "question": "In which German city did Joseph Stalin, Winston Churchill and President Franklin D Roosevelt meet in 1945?",
+        "correctAnswer": "Potsdam",
+        "answer1": "Munich",
+        "answer2": "Cologne",
+        "answer3": "Düsseldorf",
+        "answer4": "Potsdam"
+    },
+    {
+        "question": "What sporting event is also called \"birling\"?",
+        "correctAnswer": "Log rolling",
+        "answer1": "Log rolling",
+        "answer2": "Bowling",
+        "answer3": "Pool",
+        "answer4": "Wife carring"
+    },
+    {
+        "question": "What sporting legend is nicknamed \"The Great One\"?",
+        "correctAnswer": "Wayne Gretzky",
+        "answer1": "Lebron James",
+        "answer2": "Michael Jordan",
+        "answer3": "Wayne Gretzky",
+        "answer4": "Tom Brady"
+    },
+    {
+        "question": "What is the common name for CH3COOH?",
+        "correctAnswer": "Acetic acid",
+        "answer1": "Deoxyribonucleic acid",
+        "answer2": "Ribonucleic acid",
+        "answer3": "Phospholipids",
+        "answer4": "Acetic acid"
+    },
+    {
+        "question": "Which city has been awarded the most total Michelin stars as of 2020?",
+        "correctAnswer": "Tokyo",
+        "answer1": "Tokyo",
+        "answer2": "New York",
+        "answer3": "Paris",
+        "answer4": "Singapore"
+    },
+    {
+        "question": "What is the scientific name of the \"western lowland gorilla\"?",
+        "correctAnswer": "Gorilla gorilla gorilla",
+        "answer1": "Pan troglodytes",
+        "answer2": "Gorilla gorilla gorilla",
+        "answer3": "Pongo pygmaeus",
+        "answer4": "Macaca"
+    },
+    {
+        "question": "Nelis, Seckel, Forelle and Bosc varieties of what?",
+        "correctAnswer": "Pears",
+        "answer1": "Pears",
+        "answer2": "Apples",
+        "answer3": "Peaches",
+        "answer4": "Mangos"
+    },
+    {
+        "question": "When did the Panama Canal open?",
+        "correctAnswer": "1914",
+        "answer1": "1892",
+        "answer2": "1914",
+        "answer3": "1922",
+        "answer4": "1905"
+    },
+    {
+        "question": "The Winter Olympics Games were first held in which country?",
+        "correctAnswer": "France",
+        "answer1": "France",
+        "answer2": "Sweden",
+        "answer3": "Italy",
+        "answer4": "Germany"
+    },
+    {
+        "question": "Which war was ended by the \"Peace of Westphalia\"?",
+        "correctAnswer": "Thirty Year's War",
+        "answer1": "World War I",
+        "answer2": "Seven Year's War",
+        "answer3": "Thirty Year's War",
+        "answer4": "War of the Oranges"
+    },
+    {
+        "question": "How many engines are on a B-52 bomber?",
+        "correctAnswer": "Eight",
+        "answer1": "Eight",
+        "answer2": "Five",
+        "answer3": "Four",
+        "answer4": "Ten"
+    },
+    {
+        "question": "Mt. Elbrus, the tallest peak in Europe, is located where?",
+        "correctAnswer": "Russia",
+        "answer1": "Austria",
+        "answer2": "Germany",
+        "answer3": "Russia",
+        "answer4": "France"
+    },
+    {
+        "question": "What was the sequel to \"Little Women\"?",
+        "correctAnswer": "Good Wives",
+        "answer1": "Jo's Boys",
+        "answer2": "Little Boys",
+        "answer3": "Under the Lilacs",
+        "answer4": "Good Wives"
+    },
+    {
+        "question": "The popular tourist destination, Amalfi, is located in which Italian region?",
+        "correctAnswer": "Campania",
+        "answer1": "Campania",
+        "answer2": "Umbria",
+        "answer3": "Marche",
+        "answer4": "Piemonte"
+    },
+    {
+        "question": "What city was the first American college located in?",
+        "correctAnswer": "Cambridge",
+        "answer1": "Philadelphia",
+        "answer2": "New Heaven",
+        "answer3": "Cambridge",
+        "answer4": "Hamilton"
+    },
+    {
+        "question": "What did France give to Vassar College at the end of World War I?",
+        "correctAnswer": "A tank",
+        "answer1": "A tank",
+        "answer2": "A plane",
+        "answer3": "A collection of uniforms",
+        "answer4": "A helicopter"
+    },
+    {
+        "question": "What author created Utopia?",
+        "correctAnswer": "Thomas More",
+        "answer1": "Aldous Huxley",
+        "answer2": "Thomas More",
+        "answer3": "John Locke",
+        "answer4": "Francis Bacon"
+    },
+    {
+        "question": "Who was awarded the Nobel Peace Prize in 1973?",
+        "correctAnswer": "Henry Kissinger",
+        "answer1": "Henry Kissinger",
+        "answer2": "René Cassin",
+        "answer3": "Norman Borlaug ",
+        "answer4": "Chancellor Willy Brandt "
+    },
+    {
+        "question": "Badlands National Park is located in which U.S. state?",
+        "correctAnswer": "South Dakota",
+        "answer1": "North Dakota",
+        "answer2": "Montana",
+        "answer3": "Virginia",
+        "answer4": "South Dakota"
+    },
+    {
+        "question": "What Egyptian pharaoh was known as \"The Boy King\"?",
+        "correctAnswer": "Tutankhamen",
+        "answer1": "Khufu",
+        "answer2": "Djoser",
+        "answer3": "Tutankhamen",
+        "answer4": "Ramses II"
+    },
+    {
+        "question": "What was the first full feature film directed by George Lucas?",
+        "correctAnswer": "THX 1138",
+        "answer1": "Star Wars",
+        "answer2": "THX 1138",
+        "answer3": "American Graffiti",
+        "answer4": "Kagemusha"
+    },
+    {
+        "question": "Which epic film was based on a novel by Lew Wallace?",
+        "correctAnswer": "Ben Hur",
+        "answer1": "Ben Hur",
+        "answer2": "Spartacus",
+        "answer3": "Once Upon a Time in The West",
+        "answer4": "The Longest Day"
+    },
+    {
+        "question": "Shu was an Egyptian God of what?",
+        "correctAnswer": "Air",
+        "answer1": "Water",
+        "answer2": "Fire",
+        "answer3": "Sun",
+        "answer4": "Air"
+    },
+    {
+        "question": "What country was formerly known as Abyssinia?",
+        "correctAnswer": "Ethiopia",
+        "answer1": "Ghana",
+        "answer2": "Mali",
+        "answer3": "Chad",
+        "answer4": "Ethiopia"
+    },
+    {
+        "question": "What screen legend made his final appearance in the movie \"The Harder They Fall\"?",
+        "correctAnswer": "Humphrey Bogart",
+        "answer1": "Marlon Brando",
+        "answer2": "Paul Newman",
+        "answer3": "Humphrey Bogart",
+        "answer4": "Cary Grant"
+    },
+    {
+        "question": "Which cartoon character was created by Max Fleischer in the 1930's?",
+        "correctAnswer": "Betty Boop",
+        "answer1": "Scrappy",
+        "answer2": "Betty Boop",
+        "answer3": "Pop Eye",
+        "answer4": "Cat Tom"
+    },
+    {
+        "question": "Who was the first king of Norway?",
+        "correctAnswer": "Harald Fairhair",
+        "answer1": "Harald Fairhair",
+        "answer2": "Eric Bloodaxe",
+        "answer3": "Haakon the Good",
+        "answer4": "Harald Greycloak"
+    },
+    {
+        "question": "Wild Turkey is what kind of alcohol?",
+        "correctAnswer": "Bourbon",
+        "answer1": "Scotch",
+        "answer2": "Bourbon",
+        "answer3": "Gin",
+        "answer4": "Vodka"
+    },
+    {
+        "question": "What would a tailor measure in lignes?",
+        "correctAnswer": "Buttons",
+        "answer1": "Shoe laces",
+        "answer2": "Shirt sleeves",
+        "answer3": "Button",
+        "answer4": "Wrists"
+    },
+    {
+        "question": "What horror movie was based on the novel \"Ratman's Notebooks\"?",
+        "correctAnswer": "Willard",
+        "answer1": "Black Christmas",
+        "answer2": "Willard",
+        "answer3": "Of Unknow Origin",
+        "answer4": "Final Destination"
+    },
+    {
+        "question": "In which country did the Mambo dance originate?",
+        "correctAnswer": "Cuba",
+        "answer1": "Argentina",
+        "answer2": "Jamaica",
+        "answer3": "Cuba",
+        "answer4": "Costa Rica"
+    },
+    {
+        "question": "Who created the original Star Trek series?",
+        "correctAnswer": "Gene Roddenberry",
+        "answer1": "Alex Kurtzman,",
+        "answer2": "Gene Roddenberry",
+        "answer3": "Hal Sutherland",
+        "answer4": "Rick Berman"
+    },
+    {
+        "question": "If you are at Chicago's Comiskey Park, what sport would you be watching?",
+        "correctAnswer": "Baseball",
+        "answer1": "Baseball",
+        "answer2": "Basketball",
+        "answer3": "Football",
+        "answer4": "Ice Hockey"
+    },
+    {
+        "question": "Jenny and Linn Berggren are singers with which 1990's group?",
+        "correctAnswer": "Ace of Base",
+        "answer1": "TLC",
+        "answer2": "Spice Girls",
+        "answer3": "Ace of Base",
+        "answer4": "All Saints"
+    },
+    {
+        "question": "What was the last letter added to the English alphabet?",
+        "correctAnswer": "J",
+        "answer1": "Y",
+        "answer2": "Q",
+        "answer3": "W",
+        "answer4": "J"
+    },
+    {
+        "question": "What is television chef Rachael Ray's signature phrase?",
+        "correctAnswer": "Yum-O",
+        "answer1": "Yummy-O",
+        "answer2": "Food O'Clock",
+        "answer3": "Yum-O",
+        "answer4": "Tummy Slappin'"
+    },
+    {
+        "question": "What was the name of Juliet's cousin killed by Benvolio in \"Romeo and Juliet\"?",
+        "correctAnswer": "Tybalt",
+        "answer1": "Mercutio",
+        "answer2": "Tybalt",
+        "answer3": "Benvolio",
+        "answer4": "Gregory"
+    }
+]

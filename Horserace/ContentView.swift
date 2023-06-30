@@ -29,7 +29,7 @@ struct ContentView: View {
                             GameButton2(.whosMostLikely, willPulse: true)
                             GameButton2(.trivia, willPulse: true)
                             GameButton2(.millionaire, willPulse: true)
-                                .isGameDisabled($showingAlert)
+//                                .isGameDisabled($showingAlert)
                         }
                         .padding([.horizontal, .bottom], spacing)
                     }
